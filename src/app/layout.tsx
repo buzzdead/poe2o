@@ -21,6 +21,9 @@ export default function RootLayout({
         <GemsProvider>
           <Header />
         {children}
+        <footer className="mt-16 text-center text-muted-foreground">
+        <p>© 2024 Path of Exile 2 - Unofficial Fan Site</p>
+      </footer>
         </GemsProvider>
       </body>
     </html>

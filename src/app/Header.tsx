@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SparklesCore } from "../components/ui/sparkles";
 import React from "react";
+import { NavigationMenuDemo } from "./NavigationMenu";
 
 interface Props {
   title?: string;
@@ -16,6 +17,7 @@ const Header = ({
   const isMainPage = true;
   return (
     <div className="container mx-auto px-4 pt-8">
+     <NavigationMenuDemo />
       <header className="text-center mb-12">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary">
           {title}
