@@ -22,7 +22,7 @@ export default function Home() {
         </header>
 
         <section className="grid md:grid-cols-2 gap-8">
-          <Link href={"/gems"} target="/gems" className="block group">
+          <Link href={"/gems"} className="block group">
             <Card className="h-full border-muted/20 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all hover:shadow-lg hover:shadow-blue-500/10 flex flex-col">
               <CardHeader className="space-y-4">
                 <div className="size-12 rounded-lg bg-blue-500/10 flex items-center justify-center">
@@ -47,7 +47,7 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link target={"/classes"} href="/classes" className="block group">
+          <Link href="/classes" className="block group">
             <Card className="h-full border-muted/20 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all hover:shadow-lg hover:shadow-cyan-500/10 flex flex-col">
               <CardHeader className="space-y-4">
                 <div className="size-12 rounded-lg bg-cyan-500/10 flex items-center justify-center">
@@ -88,8 +88,7 @@ export default function Home() {
             available.
           </p>
           <Link
-            href={"7beta"}
-            target="/beta"
+            href={"/beta"}
             className="inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
           >
             View Beta Info
