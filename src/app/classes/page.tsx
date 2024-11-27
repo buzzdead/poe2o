@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 type Char = { name: string; image: string; info: string };
 const classes: Char[] = [
@@ -66,8 +67,10 @@ const Classes = () => {
                   onClick={() => setSelectedClass(classItem)}
                 >
                   <CardContent className="flex aspect-square items-center justify-center p-6 relative">
-                    <img
+                    <Image
                       src={classItem.image}
+                      layout="fill"
+                      objectFit="cover"
                       alt={classItem.name}
                       className="absolute inset-0 w-full h-full object-cover select-none"
                     />
