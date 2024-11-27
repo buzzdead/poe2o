@@ -1,6 +1,11 @@
-import Link from "next/link"
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
-import { Sparkles, Sword, TestTube, ArrowRight } from 'lucide-react'
+import Link from "next/link";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
+import { Sparkles, Sword, TestTube, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -11,7 +16,8 @@ export default function Home() {
             Explore the Path of Exile 2 Experience
           </h1>
           <p className="text-muted-foreground/90 max-w-2xl mx-auto text-lg">
-            Discover the latest skill gems, character classes, and beta updates all in one place.
+            Discover the latest skill gems, character classes, and beta updates
+            all in one place.
           </p>
         </header>
 
@@ -28,7 +34,10 @@ export default function Home() {
               </CardHeader>
               <CardContent className="flex-1 flex flex-col">
                 <p className="text-muted-foreground/80 mb-6 flex-1 leading-relaxed">
-                  The new skill gem system in Path of Exile 2 offers a wealth of customization and build opportunities. Explore the latest gems, their unique effects, and how they can be combined to create powerful character builds.
+                  The new skill gem system in Path of Exile 2 offers a wealth of
+                  customization and build opportunities. Explore the latest
+                  gems, their unique effects, and how they can be combined to
+                  create powerful character builds.
                 </p>
                 <div className="flex items-center text-blue-400 font-semibold">
                   Discover Gems
@@ -50,7 +59,11 @@ export default function Home() {
               </CardHeader>
               <CardContent className="flex-1 flex flex-col">
                 <p className="text-muted-foreground/80 mb-6 flex-1 leading-relaxed">
-                  The upcoming Path of Exile 2 expansion introduces several new and unique character classes, each with their own playstyle, abilities, and specialties. Learn about the diverse class options and find the one that best fits your preferred gameplay approach.
+                  The upcoming Path of Exile 2 expansion introduces several new
+                  and unique character classes, each with their own playstyle,
+                  abilities, and specialties. Learn about the diverse class
+                  options and find the one that best fits your preferred
+                  gameplay approach.
                 </p>
                 <div className="flex items-center text-cyan-400 font-semibold">
                   View Classes
@@ -69,14 +82,21 @@ export default function Home() {
             Upcoming Beta Information
           </h2>
           <p className="text-muted-foreground/80 max-w-2xl mx-auto text-lg leading-relaxed">
-            Stay tuned for the latest updates on the Path of Exile 2 beta release. We'll be sharing news, release dates, and details on how you can participate in the testing phase as soon as they become available.
+            Stay tuned for the latest updates on the Path of Exile 2 beta
+            release. We will be sharing news, release dates, and details on how
+            you can participate in the testing phase as soon as they become
+            available.
           </p>
-          <Link href={"7beta"} target="/beta" className="inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+          <Link
+            href={"7beta"}
+            target="/beta"
+            className="inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+          >
             View Beta Info
             <ArrowRight className="ml-2 size-5" />
           </Link>
         </section>
       </main>
     </div>
-  )
+  );
 }

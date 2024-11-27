@@ -1,6 +1,6 @@
 "use client"
 
-import React, { createContext, useState, ReactNode, useMemo, useContext, useEffect, useLayoutEffect } from "react";
+import React, { createContext, useState, ReactNode, useMemo, useContext, useEffect } from "react";
 import { Gem } from "./GemCard";
 import skillGems from "../data/skillGems2.json";
 import supportGems from "../data/supportGems2.json";
