@@ -1,0 +1,4069 @@
+[
+  {
+    "name": "Ancestral Warrior Totem\n\n\nAttack",
+    "properties": [
+      "Totem, AoE, Physical, Duration, Meta",
+      "Level: 13",
+      "Cost: 54 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 119 Str",
+      "Requires:   One Hand Mace, Two Hand Mace"
+    ],
+    "description": "Raises a Totem that uses socketed Mace skills.",
+    "explicit_mods": [
+      "Totem duration is 8 seconds",
+      "Limit 1 Totem",
+      "Totem base attack time is 1 second",
+      "Totem uses its own weapon, dealing 59 to 89 Base Physical Damage"
+    ],
+    "tags": [
+      "One Hand Mace",
+      "Two Hand Mace",
+      "AoE",
+      "Duration",
+      "Meta",
+      "Physical",
+      "Totem"
+    ]
+  },
+  {
+    "name": "Arc\n\n\nSpell",
+    "properties": [
+      "Chaining, Lightning",
+      "Level: 10",
+      "Cost: 35 Mana",
+      "Cast Time: 0.90 sec",
+      "Critical Strike Chance: 9.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 64 Int"
+    ],
+    "description": "An arc of lightning stretches from the caster to a targeted enemy and Chains on to other nearby enemies.",
+    "explicit_mods": [
+      "Deals 14 to 81 Lightning Damage",
+      "Base Chaining range is 3.5 metres",
+      "Chains 2 Times",
+      "15% chance to Shock Enemies",
+      "50% more Damage for each remaining Chain"
+    ],
+    "tags": [
+      "Lightning",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Arctic Armour\n\n\nBuff",
+    "properties": [
+      "Spell, Persistent, Cold",
+      "Level: 4",
+      "Reservation: 30 Spirit",
+      "Critical Strike Chance: 11.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Int"
+    ],
+    "description": "Conjures an icy barrier that gains stages over time. While the barrier has stages, Melee Attacks that hit you will remove a stage to cause a burst of ice that deals Cold Spell damage to the attacker.",
+    "explicit_mods": [
+      "Deals 18 to 28 Cold Damage per Stage",
+      "Gains a Stage every 1.42 seconds, up to a maximum of 3 Stages"
+    ],
+    "tags": [
+      "Spell",
+      "Persistent",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Armour Breaker\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, AoE",
+      "Level: 12",
+      "Cost: 20 Mana",
+      "Attack Speed: 80% of base",
+      "Attack Damage: 86%"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 96 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Attack with a forceful blow, knocking enemies back and weakening their armour.",
+    "explicit_mods": [
+      "Knocks Enemies Back on Hit",
+      "+2 to Melee Strike Range",
+      "Hits Break 1562 Armour"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "One Hand Mace",
+      "AoE",
+      "Strike",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Armour Piercing Rounds\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Physical",
+      "Level: 5",
+      "Cost: 15 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Load your Crossbow with a clip of bolts that can be fired rapidly and Break enemy Armour. Using this skill again reloads the clip.",
+    "explicit_mods": [
+      "Attack Speed: 425% of base",
+      "Attack Damage: 28%",
+      "Hits Break 7 Armour",
+      "Knocks Back Enemies",
+      "Can fire 14 Bolts before reloading"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Crossbow",
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Ball Lightning\n\n\nSpell",
+    "properties": [
+      "AoE, Projectile, Lightning",
+      "Level: 13",
+      "Cost: 46 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 9.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 119 Int"
+    ],
+    "description": "Fires a slow-moving Projectile that repeatedly shoots bolts of Lightning at nearby enemies.",
+    "explicit_mods": [
+      "Deals 2 to 30 Lightning Damage",
+      "Hits enemies in range every 0.2 seconds",
+      "Base radius is 1.8 metres",
+      "700% more chance to Shock enemies"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Barrage\n\n\nSpell",
+    "properties": [
+      "Duration",
+      "Level: 5",
+      "Cost: 16 Mana",
+      "Cooldown Time: 2.00 sec",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Dex",
+      "Requires:   Bow"
+    ],
+    "description": "Ready a volley of arrows, Empowerinig your next Bow Attack to repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats.",
+    "explicit_mods": [
+      "Buff Empowers your next Bow Attack to Repeat an Additional time, plus an additional time per Frenzy Charge consumed",
+      "1440% of repeated Skill's Attack time is added to this skill's cooldown, to a maximum of 30 seconds",
+      "Maximum buff duration is 5 seconds"
+    ],
+    "tags": [
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Barrier Invocation\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Int"
+    ],
+    "description": "Casting the skill once activates it, causing it to gain Energy when your Energy Shield is damaged by Hits. Casting again once sufficient Energy is gathered will consume the Energy to trigger socketed Spells.",
+    "explicit_mods": [
+      "When Hit, gain 1 Energy for each 5 Energy Shield lost to Damage Taken",
+      "Maximum Energy is 500"
+    ],
+    "tags": [
+      "Trigger",
+      "Persistent",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Bind Spectre\n\n\nMinion",
+    "properties": [
+      "Spell",
+      "Level: 8",
+      "Cast Time: 3.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 33, 55 Int"
+    ],
+    "description": "Captures the spirit of a defeated monster, allowing you to summon it as a Minion.",
+    "explicit_mods": [],
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Blasphemy\n\n\nSpell",
+    "properties": [
+      "Buff, Persistent, AoE, Aura",
+      "Cost Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int"
+    ],
+    "description": "Combines all socketed Curse skills into a vile Aura, applying their effects to all nearby enemies.",
+    "explicit_mods": [
+      "Socketed Curse Skills apply in an Aura around you",
+      "Reserves 30 Spirit per socketed Curse"
+    ],
+    "tags": [
+      "Aura",
+      "AoE",
+      "Cost Time: Instant",
+      "Persistent",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Blazing Lance\n\n\nAttack",
+    "properties": [
+      "Projectile, Fire",
+      "Level: 13",
+      "Cost: 76 Mana",
+      "Attack Speed: 30%",
+      "Attack Damage: 277%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 119 Str",
+      "Requires:   Spear"
+    ],
+    "description": null,
+    "explicit_mods": [
+      "Projectiles Pierce all Targets",
+      "Deals 158 Base Fire Damage per second",
+      "Converts 50% of Physical Damage to Fire Damage",
+      "Base radius is 0.8 metres",
+      "Base secondary radius is 2.4 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "Spear"
+    ]
+  },
+  {
+    "name": "Bone Cage\n\n\nSpell",
+    "properties": [
+      "Duration, AoE, Physical, Nova",
+      "Level: 2",
+      "Cost: 12 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 13.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 3"
+    ],
+    "description": "Raises a ring of bone spikes around you. The spikes explode when an enemy touches them, damaging and Pinning bearby enemies.",
+    "explicit_mods": [
+      "Causes 15 to 22 Physical Damage",
+      "Hits are Pinning",
+      "Pins enemies as though dealing 50% more Damage",
+      "Cage radius is 1.8 metres",
+      "Explosion radius is 1 meter",
+      "Cage duration is 1.6 seconds"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Bone Offering\n\n\nMinion",
+    "properties": [
+      "Spell, Buff, Duration, AoE, Physical",
+      "Level: 11",
+      "Cost: 67 Mana",
+      "Critical Strike Chance: 8.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, Int 95"
+    ],
+    "description": "Impales a Skeleton on a bone spike to shield your Minions while the spike remains. The shield absorbs all damage from the next Hit each Minion takes, then explodes. The bone spike itself a Minion, and shields itself if it dies, shields on your other Minions disappear.",
+    "explicit_mods": [
+      "Limit 1 Bone Offering Spike",
+      "Spike duration is 5 seconds"
+    ],
+    "tags": [
+      "AoE",
+      "Duration",
+      "Spell",
+      "Physical",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Boneshatter\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Strike",
+      "Level: 1",
+      "Cost: 10 Mana",
+      "Attack Speed: 60% of base",
+      "Attack Damage: 50%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Attacks enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area.",
+    "explicit_mods": [
+      "+2 to Melee Strike Range",
+      "Does not cause Stun buildup"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "One Hand Mace",
+      "AoE",
+      "Strike",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Bonestorm\n\n\nSpell",
+    "properties": [
+      "Channelling, Projectile, Physical, AoE",
+      "Level: 5",
+      "Cost: 10.8 Mana per second",
+      "Cast Time: 0.75 sec",
+      "Critical Strike Chance: 15.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, Int 34"
+    ],
+    "description": "Channel to conjure a swarm of bone spikes in the air, then release to fire them at enemies. Shrapnel lodges in enemies hit, causing Attacks against them to  deal additional damage. Consumes your Power Charges to cause the spikes to cause much larger explosions.",
+    "explicit_mods": [
+      "Deals 16 to 25 Physical Damage",
+      "Debuff enemies take 16 to 25 additional Physical damage from next Attack",
+      "Debuff duration is 10 seconds"
+    ],
+    "tags": [
+      "Projectile",
+      "Physical",
+      "AoE",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Bow Shot\n\n\nAttack",
+    "properties": [
+      "Projectile",
+      "Level: 6",
+      "Attack Damage: 153%"
+    ],
+    "requirements": [
+      "Requires:  Level 18",
+      "Requires:   Bow"
+    ],
+    "description": "Fire an arrow with your Bow.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Cast on Critical\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Reservation: 100 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, 73 Dex, 73 Int"
+    ],
+    "description": "While active, gains Energy when you Critically Hit enemies and triggers socketed spells on reaching maximum Energy.",
+    "explicit_mods": [
+      "Gains 10 Energy when you deal a Critical Strike with a Skill",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Trigger",
+      "Persistent",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Freeze\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Level: 14",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, 133 Int"
+    ],
+    "description": "While active, gains Energy when you Freeze enemies and triggers socketed spells on reaching maximum Energy",
+    "explicit_mods": [
+      "26% increased Energy Generated",
+      "Gain 100 Energy when you Freeze an Enemy with a Hit from a Skill, once per Skill use",
+      "Trigger all Socketed Spells and lose all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Trigger",
+      "Persistent",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Ignite\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Level: 14",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, Int 133"
+    ],
+    "description": "While active, gains Energy when you Ignite enemies and triggers socketed spells on reaching maximum Energy.",
+    "explicit_mods": [
+      "26% increased Energy Generated",
+      "Gains 20 Energy when you Ignite an Enemy with a Hit from a Skill, once per Skill use",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Trigger",
+      "Persistent",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Melee Kill\n\n\nTrigger",
+    "properties": [
+      "Meta, Spell",
+      "Level: 1 (Max)",
+      "Reservation: 50 Spirit",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "While active, gains energy when you kill enemies with melee attacks and triggers socketed spells on reaching maximum energy.",
+    "explicit_mods": [
+      "Gains 30 Energy when you Kill an Enemy with a Melee Hit",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells",
+      "Socketed Skills deal 50% more Damage"
+    ],
+    "tags": [
+      "Spell",
+      "Cast Time: Instant",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Melee Stun\n\n\nMeta",
+    "properties": [
+      "Spell",
+      "Level: 1 (Max)",
+      "Reservation: 50 Spirit",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: Instant"
+    ],
+    "requirements": [],
+    "description": "Cast on Melee Stun gains energy when you stun enemies with melee attacks. On reaching maximum energy, trigger all socketed spells.",
+    "explicit_mods": [
+      "Gains 10 Energy per Enemy Power when you Heavily Stun an Enemy with a Melee Hit",
+      "Gains 2 Energy per Enemy Power when you Stun an Enemy with a Melee Hit",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Spell",
+      "Cast Time: Instant"
+    ]
+  },
+  {
+    "name": "Cast on Minion Death\n\n\nSpell",
+    "properties": [
+      "Minion, Buff, Persistent, Trigger, Meta",
+      "Level: 4",
+      "Reservation: 30 Spirit",
+      "Cast Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Int"
+    ],
+    "description": "While active, gains Energy when one of your Minions dies, and triggers socketed Spells upon reaching maximum Energy. Cannot socket Spells which create Minions.",
+    "explicit_mods": [
+      "Gains Energy when your Minions die, based on the defensive power of the Minion",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Cast Time: Instant",
+      "Trigger",
+      "Buff",
+      "Meta",
+      "Persistent",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Cast on Shock\n\n\nMeta",
+    "properties": [
+      "Spell",
+      "Reservation: 100 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Grants a buff that causes you to gain energy when you shock enemies and trigger socketed spells on reaching maximum energy.",
+    "explicit_mods": [
+      "Gain 20 Energy when you Shock an Enemy with a Hit from a Skill, once per Skill use",
+      "10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells",
+      "Trigger all Socketed Spells and lose all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Cast while Channelling\n\n\nTrigger",
+    "properties": [
+      "Meta, Spell",
+      "Level: 1 (Max)",
+      "Reservation: 100 Spirit",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: Instant"
+    ],
+    "requirements": [],
+    "description": "Cast while Channelling gains energy while you channel. On reaching maximum energy, Trigger all socketed spells.",
+    "explicit_mods": [
+      "Gains 60 Energy per second while you are Channelling",
+      "Loses 25 Energy per second while you are not Channelling",
+      "Loses all Energy when Reservation becomes inactive",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Spell",
+      "Cast Time: Instant",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Charged Staff\n\n\nSpell",
+    "properties": [
+      "Duration, Buff, Attack, AoE, Melee",
+      "Level: 6",
+      "Cost: 17 Mana",
+      "Cast Time: 0.75 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 20 Dex, 20 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Consume all Power Charges to infuse your Quarterstaff with electricity for a duration, adding Lightning damage and a Lightning shockwave to your Quarterstaff Attacks. Reusing the skill while the buff is active grants additional duration and damage up to a cap.",
+    "explicit_mods": [],
+    "tags": [
+      "AoE",
+      "Duration",
+      "Quarterstaff",
+      "Melee",
+      "Attack",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Cold Snap\n\n\nSpell",
+    "properties": [
+      "AoE, Cold",
+      "Level: 5",
+      "Cost: 15 Mana",
+      "Cast Time: 0.40 sec",
+      "Critical Strike Chance: 13.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Int"
+    ],
+    "description": "Shatters a Frozen enemy dealing a large amount of Cold Damage in a small area. Can be used on a Frostbolt to detonate it causing Cold Snap to trigger on all Frozen enemies near it.",
+    "explicit_mods": [
+      "Deals 84 to 126 Cold Damage",
+      "Base explosion radius is 0.7 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Combat Frenzy\n\n\nBuff",
+    "properties": [
+      "Persistent",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Dex"
+    ],
+    "description": "While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds.",
+    "explicit_mods": [
+      "Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every 6.3 seconds"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Comet\n\n\nSpell",
+    "properties": [
+      "AoE, Cold",
+      "Level: 9",
+      "Cost: 92 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 13.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 64 Int"
+    ],
+    "description": "Pull a massive icy chunk from the air, dealing high damage at the targeted location. Targeting close up will cause you to float back as you cast.",
+    "explicit_mods": [
+      "Deals 127 to 191 Cold Damage",
+      "+1 second to Total Cast Time",
+      "Hits are Freezing",
+      "Base Radius is 2.8 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Contagion\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Chaos",
+      "Level: 2",
+      "Cost: 11 Mana",
+      "Cast Time: 1.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 3"
+    ],
+    "description": "Afflicts a single enemy with a debuff that deals Chaos damage over time. If the enemy dies while affected by Contagion, it and all other Chaos damage over time debuffs spread to nearby enemies and refresh their durations. Reanimating or detonating a corpse affected by Contagion will cause the minion or explosion to spread Contagion on hit.",
+    "explicit_mods": [
+      "Deals 1.8 base Chaos Damage per second",
+      "Spell damage modifiers also apply to debuff Damage over Time",
+      "Increasing damage by 100% for each debuff transmitted, up to a maximum of 300%",
+      "Debuff lasts for 5 seconds",
+      "The Infection radius is 1.7 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Chaos",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Dark Effigy\n\n\nSpell",
+    "properties": [
+      "AoE, Totem, Chaos, Duration, Projectile",
+      "Level: 6",
+      "Cast Time: 1.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 21, Int 38"
+    ],
+    "description": "Raises a Totem that bombards enemies afflicated by Chaos damage over time Debuffs.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Totem"
+    ]
+  },
+  {
+    "name": "Defiance Banner\n\n\nBuff",
+    "properties": [
+      "Persistent, AoE, Duration",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 34 Str, 34 Dex"
+    ],
+    "description": "While active, killing enemies with Attacks or standing near a unique enemy generates Valour. Using this Skill consumes its Valour to place an inspiring Banner with an Aura that grants you and nearby Allies Armour, Evasion and movement speed while the Banner lasts. The Banner cannot gain Valour while placed, and you cannot place a Banner while you already have a Banner placed.",
+    "explicit_mods": [
+      "Attack kills generates Valour equal to the Enemy's Power",
+      "Gains 1 Valour per second while a Unique enemy is in your Presence",
+      "5% more Aura effect per Valour",
+      "Banner Aura radius is 3 metres",
+      "Banner duration is 6.35 seconds, or until you leave the Aura",
+      "Aura grants 12% more Armour and Evasion",
+      "Aura grants 8% increased movement speed"
+    ],
+    "tags": [
+      "Duration",
+      "AoE",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Despair\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Chaos, Curse",
+      "Level: 9",
+      "Cost: 89 Mana",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 31, Int 72"
+    ],
+    "description": "Curses all targets in an area after a short delay, lowering their Chaos resistance.",
+    "explicit_mods": [
+      "Cursed enemies have -32% to Chaos Resistance",
+      "Curse radius is 1.8 metres",
+      "Curse duration is 6.6 seconds"
+    ],
+    "tags": [
+      "Curse",
+      "AoE",
+      "Chaos",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Detonate Dead\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Physical",
+      "Level: 7",
+      "Cost: 22 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 8.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, Int 52"
+    ],
+    "description": "Causes a Corpse to violently explode, damaging surrounding enemies.",
+    "explicit_mods": [
+      "Deals 28 to 43 Fire Damage",
+      "Deals Physical Damage equal to 20% of Corpse's maximum Life",
+      "Explosion radius is 2.6 metres"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Detonating Arrow\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Channelling, Detonator",
+      "Level: 9",
+      "Cost: 19.9 Mana per second",
+      "Attack Speed: 40% of base",
+      "Attack Damage: 55%"
+    ],
+    "requirements": [
+      "Requires:  Level 31, Dex 72,  Bow"
+    ],
+    "description": "Channel to build up power before firing off a burning arrow. The arrow will detonate on impact at maximum charge, causing an explosion in an area around it.",
+    "explicit_mods": [
+      "Gain 120% of Damage as Extra Fire Damage per Stage",
+      "Maximum 4 Stages"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Channelling",
+      "Bow",
+      "Detonator"
+    ]
+  },
+  {
+    "name": "Discipline\n\n\nBuff",
+    "properties": [
+      "Persistent, Aura",
+      "Level: 19"
+    ],
+    "requirements": [
+      "Requires:  Level 84, 58 Str, 149 Int"
+    ],
+    "description": "Emits an Aura that grants Allies in your Presence Energy Shield based on your Mana. The Aura does not affect you.",
+    "explicit_mods": [
+      "Allies add 38% of your Maximum Mana to their Total Maximum Energy Shield"
+    ],
+    "tags": [
+      "Aura",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Earthquake\n\n\nAttack",
+    "properties": [
+      "AoE, Duration, Slam, Melee",
+      "Level: 2",
+      "Cost: 10 Mana",
+      "Attack Speed: 75% of base",
+      "Attack Damage: 66%"
+    ],
+    "requirements": [
+      "Requires:  Level 3, 9 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Smashes the ground, dealing damage in an area and leaving behind Jagged Ground that slows enemies. The Jagged Ground erupts in a powerful Aftershock after a short duration. Attacking again before the eruption will not create another area of Jagged Ground.",
+    "explicit_mods": [
+      "Jagged Ground you create has 100% increased Effect",
+      "Jagged Ground duration is 3 seconds",
+      "Impact radius is 1.8 metres",
+      "Jagged Ground radius is 2.2 metres"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "Melee",
+      "AoE",
+      "One Hand Mace",
+      "Duration",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Earthshatter\n\n\nAttack",
+    "properties": [
+      "AoE, Slam, Duration, Melee",
+      "Level: 5",
+      "Cost: 13 Mana",
+      "Attack Speed: 80% of base",
+      "Attack Damage: 85%"
+    ],
+    "requirements": [
+      "Requires:  Level 13, 34 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Slam the ground, sending out a fissure that deals area damage to enemies it passes under and thrusts a spike from the ground when it ends. Warcries or other Slam Attacks performed near the spike will cause it to shatter damaging surrounding enemies.",
+    "explicit_mods": [
+      "Maximum 5 Spikes",
+      "Spike duration is 6 seconds",
+      "Deals Damage along the fissure's Path and in a 1 metre radius around the emerging spike"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "Melee",
+      "AoE",
+      "One Hand Mace",
+      "Duration",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Electrocuting Arrow\n\n\nAttack",
+    "properties": [
+      "Projectile, Lightning, Duration, Bow",
+      "Level: 6",
+      "Cost: 19 Mana",
+      "Attack Speed: 50% of base",
+      "Attack Damage: 153%"
+    ],
+    "requirements": [
+      "Requires:  Level 21, Dex 38,  Bow"
+    ],
+    "description": "Leap foward into the air and fire downard. Hitting an enemy will attach an Electrocuting Rod to them, causing all incoming Lightning damage to apply Electrocution. This rod is removed when the enemy is next Electrocuted.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "Lightning",
+      "Duration",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Elemental Invocation\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Lightning, Cold, Fire, Meta",
+      "Level: 7",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Dex, 30 Int"
+    ],
+    "description": "While active, this Invocation gains Energy when you Freeze, Shock or Ignite an enemy. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy.",
+    "explicit_mods": [
+      "12% increased Energy Generated",
+      "Gains 125 Energy when you Freeze an Enemy",
+      "Gains 25 Energy when you Ignite an Enemy",
+      "Gains 25 Energy when you Shock an Enemy",
+      "Maximum Energy is 500",
+      "Socketed Spells consume 10 Energy per 0.11 seconds of base cast time when Triggered"
+    ],
+    "tags": [
+      "Fire",
+      "Lightning",
+      "Trigger",
+      "Meta",
+      "Persistent",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ember Fusillade\n\n\nSpell",
+    "properties": [
+      "AoE, Projectile, Fire, Duration",
+      "Level: 5",
+      "Cost: 6 Mana",
+      "Cast Time: 0.40 sec",
+      "Critical Strike Chance: 7.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Int"
+    ],
+    "description": "Conjures a blazing Ember that hovers above you. After a short duration, the Ember launches at an enemy, dealing Fire damage in an area on impact. Recasting this spell resets the duration for all active Embers. Multiple Embers fired in the same Fusillade will attempt to target different enemies.",
+    "explicit_mods": [
+      "Deals 18 to 27 Fire Damage",
+      "Embers deal 4% more damage for each previous Ember fired in sequence",
+      "Hover duration is 1.3 seconds",
+      "Can accumulate up to 10 Embers"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Enfeeble\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Curse",
+      "Level: 3",
+      "Cost: 51 Mana",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 16 Int"
+    ],
+    "description": "Curses all enemies in an area after a short duration, causing them to deal less damage.",
+    "explicit_mods": [
+      "Curse duration is 8.4 seconds",
+      "Curse radius is 2 metres",
+      "Cursed Normal, Magic or Rare enemies deal 21% less damage",
+      "Cursed Unique enemies deal 16% less damage"
+    ],
+    "tags": [
+      "Curse",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Escape Shot\n\n\nAttack",
+    "properties": [
+      "Cold, AoE, Projectile, Bow",
+      "Level: 1",
+      "Cost: 11 Mana",
+      "Attack Damage: 40%"
+    ],
+    "requirements": [
+      "Requires:  Level 1,  Bow"
+    ],
+    "description": "Leap backwards and fire an arrow which can Chill or Freeze enemies around the location you escaped from.",
+    "explicit_mods": [
+      "Converts 100% of Physical Damage to Cold Damage",
+      "+0.7 seconds to Attack Time",
+      "Base impact radius is 1.8 metres",
+      "700% more Freeze Buildup"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Essence Drain\n\n\nSpell",
+    "properties": [
+      "Projectile, Duration, Chaos, AoE",
+      "Level: 3",
+      "Cost: 10 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 7.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 6, Int 18"
+    ],
+    "description": "Fires a Projectile that applies a Chaos damage over time debuff when it hits.",
+    "explicit_mods": [
+      "Causes 9 to 16 Chaos damage"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Chaos",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Explosive Grenade\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Duration",
+      "Level: 5",
+      "Cost: 18 Mana",
+      "Cooldown Time: 3.00 sec (3 uses)",
+      "Attack Speed: 75% of base",
+      "Attack Damage: 285%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Fire a bouncing grenade that unleashes a devastating blast when its fuse expires.",
+    "explicit_mods": [
+      "Converts 20% of Physical Damage to Fire Damage",
+      "Fuse duration is 2.5 seconds",
+      "Explosion radius is 1.9 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "Crossbow",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Explosive Shot\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Fire, Detonator",
+      "Level: 7",
+      "Cost: 17 Mana",
+      "Attack Speed: 70% of base"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Str, 30 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with flaming bolts that explode on impact. The explosion will detonate any grenades in its area of effect.",
+    "explicit_mods": [
+      "Converts 30% of Physical Damage to Fire Damage",
+      "Knocks Back Enemies"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Crossbow",
+      "Attack",
+      "Detonator"
+    ]
+  },
+  {
+    "name": "Eye of Winter\n\n\nSpell",
+    "properties": [
+      "Projectile, Cold",
+      "Level: 13",
+      "Cost: 76 Mana",
+      "Cast Time: 1.10 sec",
+      "Critical Strike Chance: 12.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 119 Int"
+    ],
+    "description": "Fires a single Eye Projectile which does not hit enemies. The Eye constantly releases damaging shard Projectiles in a spiral as it flies, plus an extra burst of shards at the end of its flight. If the Eye passes over an Elemental Ground Effect, it will take on that effect, applying it to nearby enemies and causing shards to deal more damage of the corresponding type.",
+    "explicit_mods": [
+      "Deals 16 to 24 Cold Damage",
+      "Base duration is 4 seconds",
+      "Fires 8 Shard Projectiles in a Spiral when Projectile ends",
+      "Modifiers to number of Projectiles only apply to the final Spiral",
+      "Inflicts Critical Weakness on Hit"
+    ],
+    "tags": [
+      "Projectile",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Falling Thunder\n\n\nAttack",
+    "properties": [
+      "AoE, Slam, Projectile, Lightning",
+      "Level: 2",
+      "Cost: 6 Mana",
+      "Attack Speed: 60% of base",
+      "Attack Damage: 147%"
+    ],
+    "requirements": [
+      "Requires:  Level 3",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Infuse a staff with electrical energies, then slam the ground to deal damage in a large area in front of you. Consumes any Power Charges you have to fire lightning projectiles fowards from the impact.",
+    "explicit_mods": [
+      "Convers 60% of Physical Damage to Lightning Damage",
+      "25% more Damage per Power Charge Consumed",
+      "Cone Length is 4 metres",
+      "100% more Damage if a Power Charge was Consumed",
+      "Projectiles Pierce all Targets",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "10% chance to Shock enemies",
+      "100% more Damage if a Power Charge was Consumed",
+      "Fires 3 Projectiles per Power Charge"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Lightning",
+      "Quarterstaff",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Ferocious Roar\n\n\nMeta",
+    "properties": [
+      "AoE, Shapeshift, Bear",
+      "Level: 12",
+      "Cost: 14 Mana",
+      "Use Time: 1.33 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 51 Str, 51 Int"
+    ],
+    "description": "Shapeshift into a bear and trigger Warcry skills.",
+    "explicit_mods": [
+      "+0.6 seconds to Total Use Time if not already a Bear",
+      "Triggers Socketed Warcry Skills",
+      "Socketed Skills deal 63% increased Damage",
+      "Socketed Skills have 50% increased Area of Effect",
+      "Attacks Exerted by Socketed Skills deal 64% increased Damage"
+    ],
+    "tags": [
+      "Shapeshift",
+      "AoE",
+      "Bear"
+    ]
+  },
+  {
+    "name": "Fireball\n\n\nSpell",
+    "properties": [
+      "Projectile, AoE, Fire",
+      "Level: 6",
+      "Cost: 20 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 7%"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 38 Int"
+    ],
+    "description": "Launches a large ball of Fire which explodes, firing a nova of smaller firebolts outwards on impact.",
+    "explicit_mods": [
+      "Deals 35 to 55 Fire Damage"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Firestorm\n\n\nSpell",
+    "properties": [
+      "AoE, Sustained, Fire, Duration",
+      "Level: 11",
+      "Cost: 55 Mana",
+      "Cast Time: 1.40 sec",
+      "Critical Strike Chance: 7%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 95 Int"
+    ],
+    "description": "Rains flaming bolts over the targeted area.",
+    "explicit_mods": [
+      "Deals 26 to 39 Fire Damage",
+      "Impact radius is 1 metre",
+      "Storm radius is 2.8 metres",
+      "Storm duration is 6 seconds",
+      "One impact every 0.10 seconds",
+      "Limit 1 Firestorm"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Sustained",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flame Wall\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Fire",
+      "Level: 1",
+      "Cost: 14 Mana",
+      "Cast Time: 1.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Create a wall of Fire for a duration, which deals Burning damage to everything in its area. Each enemy that enters the wall also receives a secondary Burning debuff which presists for a short duration after leaving the wall. Any Projectiles fired through the wall by you and allies deal added fire damage and apply the wall's secondary debuff on hit.",
+    "explicit_mods": [
+      "Deals 1.2 Base Fire Damage per second",
+      "Secondary Debuff deal 4.1 Base Fire Damage per second",
+      "Base Duration is 4.50 seconds",
+      "Projectiles which pass through the wall deal 3 to 5 Added Fire Damage"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flameblast\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Channelling, Nova",
+      "Level: 7",
+      "Cost: 17.17 Mana per second",
+      "Cast Time: 0.25 sec",
+      "Critical Strike Chance: 8.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "Channels to build destructive energy around you or a targeted Solar Orb. Releasing the energy causes a devastating explosion that is larger and more intense the longer you Cannelled for.",
+    "explicit_mods": [
+      "Deals 11 to 17 Fire Damage",
+      "200% more Damage per stage",
+      "10 maximum Stages",
+      "Base Radius is 0.4 metres per Stage"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Nova",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Flammability\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Duration, Curse",
+      "Level: 7",
+      "Cost: 74 Mana",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "Curses all targets in an area after a short delay, lowering theif Fire resistance.",
+    "explicit_mods": [
+      "Curse radius is 1.7 metres",
+      "Cursed enemies have -32% to Fire Resistance",
+      "Curse duration is 6.4 seconds"
+    ],
+    "tags": [
+      "Curse",
+      "Fire",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flash Grenade\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Duration",
+      "Level: 5",
+      "Cost: 15 Mana",
+      "Cooldown Time: 4.00 sec",
+      "Attack Speed: 75% of base",
+      "Attack Damage: 142%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Fire a bouncing grenade that unleashes a Blinding, Stunning explosion when its fuse expires. This explosion can Blind both Allies and Enemies.",
+    "explicit_mods": [
+      "Blind Enemies",
+      "1000% more Stun buildup",
+      "Fuse Duration is 0.85 seconds",
+      "Explosion radius is 2.6 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "Crossbow",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flicker Strike\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, AoE, Movement",
+      "Level: 13",
+      "Cost: 50 Mana",
+      "Attack Speed: 50% of base",
+      "Attack Damage: 177%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 66 Dex, 66 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Teleport to a enemy and strike them. Consumes Power Charges to perform additional teleporting strikes on nearby enemies.",
+    "explicit_mods": [
+      "Teleports and Strikes 3 additional times per Power Charge, with 285% more Attack Speed",
+      "You cannot gain Power Charges while using this Skill"
+    ],
+    "tags": [
+      "AoE",
+      "Movement",
+      "Strike",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Fragmentation Rounds\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Physical",
+      "Level: 5",
+      "Cost: 7 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Load your Crossbow with Piercing bolts that fire in a burst. Bolts that hit a Frozen enemy or Ice Crystal consume the Freeze or shatter the Crystal and cause an explsion of shrapnel.",
+    "explicit_mods": [
+      "Attack Damage: 50%",
+      "Consumes Freeze on enemies to deal 300% more Damage",
+      "Multiple Bolts from one burst can hit the same target",
+      "Bolts Pierce 2 Targets",
+      "Fires 10 Bolts per Burst"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Crossbow",
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Freezing Mark\n\n\nSpell",
+    "properties": [
+      "Attack, AoE, Mark, Cold, Duration, Nova",
+      "Level: 7",
+      "Cost: 53 Mana",
+      "Cast Time: 0.50 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Dex, 30 Int"
+    ],
+    "description": "Marks a target, making them more susceptible to being Frozen. When the Marked target dies, a Cold nova erupts from their corpse. Thihs nova does not use your Weapon Damage, and instead uses its own base Attack Damage.",
+    "explicit_mods": [
+      "Limit 1 Marked Target",
+      "Mark duration is 8 seconds",
+      "Hits against Marked enemy cause 28% more Freeze buildup"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Duration",
+      "Mark",
+      "Attack",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frost Bomb\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Cold, Orb",
+      "Level: 9",
+      "Cost: 54 Mana",
+      "Cooldown Time: 3.50 sec",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 13.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 64 Int"
+    ],
+    "description": "Creates a Crystal that pulses with cold for a duration. Each pulse applies a debuff to nearby enemies for a secondary duration which reduces life and energy shield regeneration rate, and also inflicts Cold Exposure. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it.",
+    "explicit_mods": [
+      "Deals 33 to 50 Cold Damage",
+      "4% more Damage with Hits per 0.1 seconds Duration",
+      "Base duration is 3.00 seconds",
+      "Base secondary duration is 5.00 seconds",
+      "5% chance for Hits to be Freezing",
+      "Base radius is 2 metres",
+      "Debuff applies 75% reduced Life Regeneration rate",
+      "Cold Exposure applies -15% to Cold Resistance",
+      "Debuff applies 75% reduced Energy Shield Regeneration rate"
+    ],
+    "tags": [
+      "Orb",
+      "AoE",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frost Wall\n\n\nSpell",
+    "properties": [
+      "Duration, Cold, AoE",
+      "Level: 6",
+      "Cost: 20 Mana",
+      "Cooldown Time: 3.00 sec (3 uses)",
+      "Cast Time: 0.80 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 38 Int"
+    ],
+    "description": "Creates a wall of Ice Crystals which holds back enemies. The Crystals explode if suffiently damaged, or if pushed hard enough, dealing damage nearby enemies.",
+    "explicit_mods": [
+      "Deals 21 to 32 Cold Damage",
+      "Base Duration is 8.00 seconds",
+      "Ice Crystal length is 3.5 metres",
+      "Ice Crystal have 334 maximum Life"
+    ],
+    "tags": [
+      "AoE",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frostbolt\n\n\nSpell",
+    "properties": [
+      "Projectile, Cold, Duration, AoE",
+      "Level: 2",
+      "Cost: 11 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 12.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 3"
+    ],
+    "description": "Fires a slow moving Piercing Projectile that leaves a wake of Chilled Ground, deals Cold damage and explodes on colliding with terrain.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frozen Locus\n\n\nAttack",
+    "properties": [
+      "AoE, Duration, Cold, Melee",
+      "Level: 1",
+      "Cost: 13 Mana",
+      "Attack Speed: 70% of base",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Leap backward and strike the ground with your staff to call forth an Ice Crystal, which creates Chilled Ground around it and can be damaged by you and enemies. If the Crystal is destroyed it an icy explosion that deals Attack damage but does not use your weapon's damage.",
+    "explicit_mods": [
+      "Ice Crystal duration is 6 seconds",
+      "Ice Crystal has 43 maximum Life",
+      "Chilled Ground radius is 3 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Duration",
+      "Quarterstaff",
+      "Melee",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Furious Slam\n\n\nAttack",
+    "properties": [
+      "AoE, Slam, Shapeshift, Bear",
+      "Level: 12",
+      "Cost: 10 Mana",
+      "Attack Time: 1.65 sec",
+      "Attack Damage: 274%"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 51 Str, 51 Int"
+    ],
+    "description": "Shapeshift into a bear and slam the ground with great force, causing a stunning shockwave that deals damage in a large area around you.",
+    "explicit_mods": [
+      "50 to 75 Added Attack Physical Damage",
+      "+0.6 seconds to Total Attack Time if not already a Bear",
+      "Base radius is 3.5 metres",
+      "Hits Stun Enemies as though dealing 300% more Damage"
+    ],
+    "tags": [
+      "Shapeshift",
+      "Slam",
+      "AoE",
+      "Bear"
+    ]
+  },
+  {
+    "name": "Galvanic Shards\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Lightning, Chaining",
+      "Level: 6",
+      "Cost: 15 Mana",
+      "Attack Speed: 50% of base"
+    ],
+    "requirements": [
+      "Requires:  Level 18, 25 Str, 25 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with a clip of charged bolts that fire in bursts, releasing Chaining Lightning beams when they Hit enemies. Using this skill again reloads the clips.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Lightning",
+      "Chaining",
+      "Crossbow",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Gas Arrow\n\n\nAttack",
+    "properties": [
+      "Projectile, Duration, AoE, Bow",
+      "Level: 7",
+      "Cost: 18 Mana",
+      "Attack Damage: 134%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, Dex 52,  Bow"
+    ],
+    "description": "Fire a noxious arrow at the ground, creating a cloud of flammable poisonous gas at the end of its flight. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosive.",
+    "explicit_mods": [
+      "Impact radius is 1.8 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Glacial Bolt\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Cold",
+      "Level: 7",
+      "Cost: 15 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Str, 30 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with icy bolts that create two walls of Ice Crystals on impact.",
+    "explicit_mods": [
+      "Converts 60% of Physical Damage to Cold Damage",
+      "Knocks Back Enemies",
+      "100% more Freeze Buildup"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Crossbow",
+      "Attack",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Glacial Cascade\n\n\nAttack",
+    "properties": [
+      "AoE, Cold, Melee",
+      "Level: 4",
+      "Cost: 17 Mana",
+      "Attack Speed: 75%",
+      "Attack Damage: 46%"
+    ],
+    "requirements": [
+      "Requires:  Level 12, 14 Dex, 14 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Sweep a Quarterstaff upwards, releasing a thin wave of frost which deals damage in a series of small bursts. The final burst of the wave then surges out futther with a large spike of ice. Any Frozen enemies hit by the final burst also take another, more powerful hit.",
+    "explicit_mods": [
+      "Converts 60% of Physical Damage to Cold Damage",
+      "Burst radius is 0.5 metres",
+      "Wave length is 4.8 metres",
+      "Causes 8 Bursts"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Quarterstaff",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Grim Feast\n\n\nBuff",
+    "properties": [
+      "Minion, Persistent",
+      "Level: 7",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "Feeds on corpses to bolster your Energy Shield. While active, enemies and Minions that die in your Presence will drop Grim Remnants. Picking up a Grim Remnant grants you Energy Shield, and can Overflow your Energy Shield up to double its normal maximum.",
+    "explicit_mods": [
+      "Grim Remnants recover 24 Energy Shield"
+    ],
+    "tags": [
+      "Persistent",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Hammer of the Gods\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Slam, Duration",
+      "Level: 11",
+      "Cost: 46 Mana",
+      "Cooldown Time: 24.00 sec",
+      "Attack Speed: 50% of base",
+      "Attack Damage: 1307%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 95 Str",
+      "Requires:   Once Hand Mace, Two Hand Mace"
+    ],
+    "description": "Entreats the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target.",
+    "explicit_mods": [
+      "Base duration is 2.5 seconds",
+      "Base radius is 2.4 metres",
+      "Can't be Evaded"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Once Hand Mace",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Hand of Chayula\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Strike, Chaos, Meta",
+      "Level: 9",
+      "Cost: 29 Mana",
+      "Attack Speed: 90% of base",
+      "Attack Damage: 122%"
+    ],
+    "requirements": [
+      "Requires:  Level 31, 40 Int, 40 Int",
+      "Requires:   Unarmed, Quarterstaff"
+    ],
+    "description": "Dash to an enemy and Strike them with an unarmed Attack, applying socketed Curses and Marks with increased effect. This skill always Strikes with your bare fist, even if you have a Quarterstaff equipped.",
+    "explicit_mods": [
+      "29 to 55 Added Chaos Damage",
+      "Can't be Evaded",
+      "+9% to Critical Strike Chance",
+      "24% increased Effect of Socketed Cursed",
+      "24% increased Effect of Socketed Marks"
+    ],
+    "tags": [
+      "AoE",
+      "Unarmed",
+      "Strike",
+      "Meta",
+      "Chaos",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Herald of Ash\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Herald, Duration",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 31 Str"
+    ],
+    "description": "While active, enemies you sufficiently overkill with attacks will cause an explosion that Ignites nearby enemies based on the overkill damage dealt.",
+    "explicit_mods": [
+      "Base duration is 4.00 seconds",
+      "Base radius is 1 metre",
+      "Base Burning Damage is 30.5% of Overkill Damage",
+      "Burn surrounding Enemies if Overkill Damage is at least 20% of Enemy's Maximum Life",
+      "Buff causes Attacks to gain 15% of Damage as Extra Fire Damage"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Duration",
+      "Cast Time: Instant",
+      "Herald"
+    ]
+  },
+  {
+    "name": "Herald of Ice\n\n\nBuff",
+    "properties": [
+      "AoE, Attack, Herald, Persistent, Melee, Bow",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 17 Str, 17 Int"
+    ],
+    "description": "While active, Shattering an enemy will cause an icy explosion that deals Attack damage to surrounding enemies.",
+    "explicit_mods": [],
+    "tags": [
+      "AoE",
+      "Bow",
+      "Herald",
+      "Melee",
+      "Attack",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Herald of Plague\n\n\nBuff",
+    "properties": [
+      "Persistent, Chaos, Herald",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Dex"
+    ],
+    "description": "While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them.",
+    "explicit_mods": [
+      "Spreads the most Damaging Poison on enemies you kill in a 1.6 metre radius",
+      "17% chance to Hinder enemies on spreading Poison to them"
+    ],
+    "tags": [
+      "Chaos",
+      "Persistent",
+      "Herald"
+    ]
+  },
+  {
+    "name": "Herald of Thunder\n\n\nBuff",
+    "properties": [
+      "AoE, Lightning, Persistent, Melee, Bow",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 31 Dex"
+    ],
+    "description": "While active, killing Shocked enemies with Attack damage, will cause subsequent Attack hits to release lightning bolts which deals Attack damage to all surrounding enemies.",
+    "explicit_mods": [
+      "Cannot inflict Shock",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "Base radius is 3.2 metres",
+      "Lightning Bolts strike the targets of your next 5 Attack Hits after Killing a Shocked Enemy with Attack Damage",
+      "Buff grants 1 to 10 added Attack Lightning Damage"
+    ],
+    "tags": [
+      "AoE",
+      "Lightning",
+      "Bow",
+      "Melee",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Hexblast\n\n\nSpell",
+    "properties": [
+      "AoE, Chaos",
+      "Level: 11",
+      "Cost: 65 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 7.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, Int 95"
+    ],
+    "description": "Detonates Curses on enemies in an area, causing explosions of Chaos damage but removing the curse.",
+    "explicit_mods": [
+      "Deals 101 to 188 Chaos Damage",
+      "Maximum 9 Explosions",
+      "Base explosion radius is 1.6 metres",
+      "Base wave radius is 2.8 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "High Velocity Rounds\n\n\nAmmunition",
+    "properties": [
+      "Attack, Projectile, Physical",
+      "Level: 5",
+      "Cost: 10 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Load your Crossbow with Piercing bolts that can consume Fully Broken Armour on enemies to deal extra damage.",
+    "explicit_mods": [
+      "Attack Damage: 249%",
+      "Knocks Back Enemies",
+      "Consumes Fully Broken Armour on enemies to deal 150% more Damage",
+      "Bolts Pierce 6 Targets"
+    ],
+    "tags": [
+      "Projectile",
+      "Crossbow",
+      "Attack",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Ice Nova\n\n\nSpell",
+    "properties": [
+      "AoE, Cold, Nova",
+      "Level: 1",
+      "Cost: 11 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 12.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "A nova of ice expands from you, Knocking Back enemies based on how close they are to you. Casting Ice Nova targeting near a Frostbolt Projectile will cause it to originate from the Frostbolt instead of you, and cause more Freeze buildup.",
+    "explicit_mods": [
+      "Deals 4 to 6 Cold Damage",
+      "Knocks Enemies Back on Hit",
+      "100% more Effect of Chill",
+      "Base radius is 3.2 metres"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Shards\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Cold",
+      "Level: 5",
+      "Cost: 18"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with a clip of icy bolts that rapidly fire at the ground, leaving a shard of ice at impact location unless the bolt hits an enemy. The ice shards shatter when enemies step on them, dealing damage to nearby enemies. Using this skill again reloads the clip.",
+    "explicit_mods": [
+      "Converts 60% of Physical Damage to Cold Damage",
+      "Knocks Back Enemies",
+      "Can fire 12 Bolts before reloading",
+      "Cannot Freeze"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Crossbow",
+      "Attack",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Shot\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Cold",
+      "Level: 9",
+      "Cost: 15 Mana",
+      "Attack Speed: 90% of base",
+      "Attack Damage: 137%"
+    ],
+    "requirements": [
+      "Requires:  Level 31, Dex 72,  Bow"
+    ],
+    "description": "Fire an icy arrow that sprays a cone of ice shards when it hits a target. Hitting a Frozen enemy will Consume the Freeze to deal significantly more damage and break off larger shards that fly further.",
+    "explicit_mods": [
+      "Converts 40% of Physical Damage to Cold Damage",
+      "200% more Effect of Chill",
+      "Consumes Freeze on enemies to deal 350% more Damage",
+      "Cannot inflict Freeze"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Spear\n\n\nAttack",
+    "properties": [
+      "Projectile, AoE, Cold",
+      "Level: 4",
+      "Cost: 10 Mana",
+      "Attack Speed: 45% of base",
+      "Attack Damage: 313%"
+    ],
+    "requirements": [
+      "Requires:  Level 9, 14 Dex, 14 Int",
+      "Requires:   Spear"
+    ],
+    "description": "Throw an icy copy of your spear that deals cold damage. After a short distance it arms, massively boosting its damage. When the spear breaks against an enemy it deals damage in a cone shaped area behind them.",
+    "explicit_mods": [
+      "Converts 70% of Physical Damage to Cold Damage",
+      "Base radius is 2.5 metres",
+      "Deals 80% more Damage",
+      "Converts 70% of Physical Damage to Cold Damage",
+      "20% chance for Hits to be Freezing",
+      "Base radius is 2.5 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Spear",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Strike\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, AoE, Cold",
+      "Level: 3",
+      "Cost: 8 Mana",
+      "Attack Speed: 140% of base",
+      "Attack Damage: 79%"
+    ],
+    "requirements": [
+      "Requires:  Level 6",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Perform a fast icy strike. Using this Attack three times in quick succession causes a final strike that is slower and more powerful.",
+    "explicit_mods": [
+      "Converts 80% of Physical Damage to Cold Damage"
+    ],
+    "tags": [
+      "AoE",
+      "Strike",
+      "Quarterstaff",
+      "Melee",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Impale\n\n\nAttack",
+    "properties": [
+      "AoE, Movement, Travel, Melee, Strike",
+      "Level: 6",
+      "Cost: 13 Mana",
+      "Attack Speed: 70% of base",
+      "Attack Damage: 128%"
+    ],
+    "requirements": [
+      "Requires:  Level 15, 39 Dex",
+      "Requires:   Spear"
+    ],
+    "description": "Jump back from a target, dealing melee damage and attempting to immobilise them. Cannot be performed without targeting an enemy.",
+    "explicit_mods": [
+      "100% chance for Hits to be Immobilising",
+      "+5 to Melee Strike Range",
+      "Immobilises Enemies as Though dealing 200% more Damage"
+    ],
+    "tags": [
+      "AoE",
+      "Movement",
+      "Spear",
+      "Strike",
+      "Melee",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Incendiary Shot\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Fire",
+      "Level: 5",
+      "Cost: 18"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with flaming bolts that fire in a burst, damaging and Igniting enemies on hit and in a small cone behind the target.",
+    "explicit_mods": [
+      "Attack Damage: 19%",
+      "Hits always Ignite",
+      "Converts 80% of Physical Damage to Fire Damage",
+      "Knocks Back Enemies",
+      "Multiple Bolts from one burst can hit the same target",
+      "Bolts shatter on impact, dealing Damage in a 1.4 metre cone",
+      "Fires 10 Bolts per burst"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Crossbow",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Infernal Cry\n\n\nWarcry",
+    "properties": [
+      "AoE, Trigger, Fire, Duration",
+      "Level: 3",
+      "Cost: 16 Mana",
+      "Cooldown Time: 8.00 sec",
+      "Use Time: 0.80 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 16 Str"
+    ],
+    "description": "Performs a warcry, taunting nearby enemies to attack the use and Empower subsequent Attacks. Consumes all Endurance Charges to Empower additional attacks. Enemies in the warcry's area are destabilised and will Combust on death.",
+    "explicit_mods": [
+      "4% increased Warcry Speed",
+      "Empowers the next Melee Attack you perform, plus an additional Attack per Endurance Charge consumed",
+      "Warcry radius is 4 metres",
+      "Empowered Attacks gain 25% of Damage as Fire Damage per 5 power of enemies in range, up to 100%"
+    ],
+    "tags": [
+      "Fire",
+      "AoE",
+      "Trigger",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Killing Palm\n\n\nAttack",
+    "properties": [
+      "AoE, Physical, Melee, Strike",
+      "Level: 7",
+      "Cost: 12 Mana",
+      "Attack Speed: 90% of base",
+      "Attack Damage: 147%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Dex, 30 Int",
+      "Requires:   Unarmed, Quarterstaff"
+    ],
+    "description": "Dash to an enemy and strike them with an unarmed Attack, Culling enemies if their life is low enough. Each enemy killed by this strike grants a Power Charge. Enemies around you that can be Culled will be highlighted. This skill is always performed Unarmed, even if you have a Quarterstaff equipped.",
+    "explicit_mods": [
+      "24 to 36 Added Attack Physical Damage",
+      "Culling Strike",
+      "Can't be Evaded",
+      "+7% to Critical Strike Chance"
+    ],
+    "tags": [
+      "AoE",
+      "Unarmed",
+      "Strike",
+      "Physical",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Leap Slam\n\n\nAttack",
+    "properties": [
+      "AoE, Movement, Travel, Slam, Melee",
+      "Level: 12",
+      "Cost: 31 Mana",
+      "Attack Damage: 188%"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 96 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Jump into the air, damaging and knocking back enemies with your mace where you lang. Enemies you would land on are pushed out of the way.",
+    "explicit_mods": [
+      "+0.65 seconds to Attack Time",
+      "+0.35 seconds based on distance travelled",
+      "Base impact radius is 2.5 metres",
+      "25% more stun buildup",
+      "500% more Stun buildup against",
+      "Enemies with fully Broken Armour",
+      "Ends Fully Broken Armour on Enemies after Hitting"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "Melee",
+      "AoE",
+      "One Hand Mace",
+      "Movement",
+      "Slam",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Lightning Arrow\n\n\nAttack",
+    "properties": [
+      "Aoe, Projectile, Lightning, Bow",
+      "Level: 1",
+      "Cost: 5 Mana",
+      "Attack Speed: 90% of base",
+      "Attack Damage: 70%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Bow"
+    ],
+    "description": "Fire a charged arrow at the target. On hitting an enemy or wall, the arrow will fire beams at nearby enemies, Chaining from them.",
+    "explicit_mods": [
+      "Converts 40% of Physical Damage to Lightning Damage",
+      "Hits up to 2 additional enemies near the target"
+    ],
+    "tags": [
+      "Projectile",
+      "Lightning",
+      "Bow",
+      "Aoe"
+    ]
+  },
+  {
+    "name": "Lightning Bolt",
+    "properties": [
+      "Level: 12",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [],
+    "description": "Call down a shocking bolt of lightning to strike an enemy.",
+    "explicit_mods": [
+      "50% chance to Shock enemies",
+      "Radius is 0.5 metres",
+      "9 to 172 Lightning Damage"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Lightning Conduit\n\n\nSpell",
+    "properties": [
+      "AoE, Lightning",
+      "Level: 7",
+      "Cost: 58 Mana",
+      "Cast Time: 1.00 sec",
+      "Critical Strike Chance: 10%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 46 Int"
+    ],
+    "description": "Calls down lightning to strike all enemies in a cone in front of you. Deals significantly more damage to Shocked enemies but removes Shock from them.",
+    "explicit_mods": [],
+    "tags": [
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lightning Rod\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Duration, Bow",
+      "Level: 2",
+      "Cost: 4 Mana",
+      "Attack Speed: 120% of base",
+      "Attack Damage: 28%"
+    ],
+    "requirements": [
+      "Requires:  Level 3",
+      "Requires:   Bow"
+    ],
+    "description": "Fire an arrow that drops from above, creating a lightning burst. The arrow remains in the ground, and any chaining lightning beams can chain to it. When chained to, the arrows release another lightning burst.",
+    "explicit_mods": [
+      "Arrow remains for 12.00 seconds",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "Base burst radius is 2 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Lightning Storm\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Lightning",
+      "Level: 12",
+      "Cost: 44 Mana",
+      "Cast Time: 0.90 sec",
+      "Critical Strike Chance: 9.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 96 Int"
+    ],
+    "description": "Creates a lightning storm for a duration, which repeatedly strikes enemies in its area with shocking bolts.",
+    "explicit_mods": [
+      "Deal 1 to 19 Lightning Damage",
+      "Base duration is 10.00 seconds",
+      "25% chance to Shock enemies",
+      "Base radius is 1.8 metres",
+      "Shocks Enemies as though dealing 400% more Damage",
+      "Hits one target every 0.05 seconds",
+      "Can Hit each enemy only once every 0.40 seconds",
+      "Maximum 1 Lightning Storm at a time"
+    ],
+    "tags": [
+      "AoE",
+      "Lightning",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Lightning Warp\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Movement, Lightning, Travel",
+      "Level: 4",
+      "Cast Time: 0.50 sec",
+      "Critical Strike Chance: 13.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 9, 21 Int"
+    ],
+    "description": "Targets an enemy and teleports to them after a duration if they can be culled. Enemies around you that can be culled will be highlighted. When the teleport accurs the target is culled and explodes dealing Lightning Damage and creating Shocked Ground. Casting chain will queue up multiple teleportations to occur in sequence.",
+    "explicit_mods": [
+      "Deals 4 to 75 Lightning Damage",
+      "Base Explosion radius is 4 metres",
+      "Shocked Ground lasts 10.00 seconds"
+    ],
+    "tags": [
+      "AoE",
+      "Lightning",
+      "Movement",
+      "Duration",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Lingering Illusion\n\n\nBuff",
+    "properties": [
+      "Persistent, Duration",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 15 Dex, Int 15"
+    ],
+    "description": "Creates a short-lived illusion copy yourself whenever you dodge roll. The copy can distract enemies, and copies that are destroyed by an enemy will grant you a Power Charge.",
+    "explicit_mods": [
+      "Base duration is 0.6 seconds",
+      "Illusions have 20% of your maximum Life"
+    ],
+    "tags": [
+      "Duration",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Magma Barrier\n\n\nAttack",
+    "properties": [
+      "Buff, Persistent, AoE, Trigger, Fire, Duration",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int",
+      "Requires:   Shield"
+    ],
+    "description": "When you raise your Shield it is infused with magma for a short time. Blocking during this time will spray magma at the attacker and grant you an Endurance Charge.",
+    "explicit_mods": [
+      "Raising your shield infuses it with magma for 0.5 seconds",
+      "Cannot perform a magma-infused block for 0.75 seconds after magma dissipates"
+    ],
+    "tags": [
+      "Shield",
+      "Fire",
+      "AoE",
+      "Duration",
+      "Trigger",
+      "Persistent",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Malice\n\n\nBuff",
+    "properties": [
+      "Persistent, Aura, Duration, Critical",
+      "Level: 18"
+    ],
+    "requirements": [
+      "Requires:  Level 83, 57 Str, 147 Int"
+    ],
+    "description": "Emits an Aura that continously inflicts Critical Weakness on enemies in your Presence.",
+    "explicit_mods": [
+      "Critical Weakness duration is 4 seconds",
+      "Applies Critical Weakness to enemies every 0.66 seconds"
+    ],
+    "tags": [
+      "Duration",
+      "Aura",
+      "Critical",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Mana Remnants\n\n\nBuff",
+    "properties": [
+      "Persistent, Lightning",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int"
+    ],
+    "description": "Conjures surging lightning that causes Shocked Enemies you or your Minions kill to leave behind a Mana Remnant. Picking up a Mana Remnant grants you Mana, and can overcharge your Mana up to double its normal maximum.",
+    "explicit_mods": [
+      "Each Remnant grants 9 Mana"
+    ],
+    "tags": [
+      "Lightning",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Mana Tempest\n\n\nSpell",
+    "properties": [
+      "Buff, Lightning, AoE",
+      "Level: 10",
+      "Cost: 1% Mana per second",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: 0.60 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 24, 64 Int"
+    ],
+    "description": "Create an arcane storm around you. The storm empowers your spells with lightning damage, while making lightning spell projectiles and beams able to hit more targets. The storm will drain your mana while you remain in it, and any spells you cast add to the mana drain. Leaving the storm will cause it to dissipate shortly after.",
+    "explicit_mods": [
+      "Base radius is 2.6 metres",
+      "This Skill's Cooldown does not recover during its effect",
+      "This Skill's Area of Effect cannot be modified",
+      "Buff causes Beams from Lightning Spells that Cost Mana to also Chain to +2 targets when Chaining, but not Chain further from those targets",
+      "Buff causes Projectiles from Lightning Spells that Cost Mana to Fork",
+      "30% of Mana Spent on Lightning Spells while in the storm is added to this Skill's Mana Cost per Second",
+      "Buff causes Spells to gain 58% of Damage as Extra Lightning Damage"
+    ],
+    "tags": [
+      "AoE",
+      "Lightning",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Maul\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, Shapeshift, Bear",
+      "Level: 3",
+      "Cost: 3 Mana",
+      "Attack Time: 1.00 sec",
+      "Attack Damage: 165%"
+    ],
+    "requirements": [
+      "Requires:  Level 6"
+    ],
+    "description": "Shapeshift into a bear and swipe with your claws.",
+    "explicit_mods": [
+      "8 to 11 Added Attack Physical Damage",
+      "+0.6 seconds to Total Attack Time if not already a Bear",
+      "+9 to Melee Strike Range",
+      "+7% to Critical Strike Chance",
+      "25% chance to cause Bleeding"
+    ],
+    "tags": [
+      "Shapeshift",
+      "Melee",
+      "Strike",
+      "Bear"
+    ]
+  },
+  {
+    "name": "Oil Grenade\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile",
+      "Level: 14",
+      "Cost: 41 Mana",
+      "Cooldown Time: 4.00 sec (3 uses)",
+      "Attack Speed: 150% of base",
+      "Attack Damage: 75%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, 63 Str, 63 Dex"
+    ],
+    "description": "Fire a bouncing grenade that releases a pool of oil and covers nearby enemies in oil after a delay. The oil can be ignited by Burning or Fire Areas.",
+    "explicit_mods": [
+      "Base Duration is 1.60 seconds",
+      "Base secondary duration is 5.00 seconds",
+      "Base radius is 2.4 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Orb of Storms\n\n\nSpell",
+    "properties": [
+      "Lightning, AoE, Chaining, Orb",
+      "Level: 5",
+      "Cost: 23 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 10.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Int"
+    ],
+    "description": "Creates an Orb of electricity that fires Chaining Lightning bolts at nearby enemies",
+    "explicit_mods": [
+      "Deals 5 to 15 Lightning Damage",
+      "Chains 3 Times",
+      "Fires a bolt every 3.3 seconds, and when you use a Lightning Skill near the Orb",
+      "Orb disappears after 14 bolts",
+      "Orb radius is 2.8 metres",
+      "Orb duration is 10 seconds",
+      "Limit 1 Orb of Storms"
+    ],
+    "tags": [
+      "Orb",
+      "AoE",
+      "Lightning",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Pain Offering\n\n\nMinion",
+    "properties": [
+      "Spell, Buff, Duration, Aura",
+      "Level: 6",
+      "Cost: 10 Mana",
+      "Cast Time: 0.60 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 38 Int"
+    ],
+    "description": "Impales a Skeleton on a bone spike to empower nearby Minions into a frenzy as long as the spike remains, causing them to use skills more quickly. The bone spike is itself a Minion. If it dies, the effect ends immediately.",
+    "explicit_mods": [
+      "Limit 1 Pain Offering Spike",
+      "Aura radius is 6 metres",
+      "Spike duration is 5 seconds",
+      "Aura grants Minions 30% increased Attack and Cast Speed",
+      "Aura grants Minions 38% more Damage"
+    ],
+    "tags": [
+      "Spell",
+      "Aura",
+      "Buff",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Perfect Strike\n\n\nAttack",
+    "properties": [
+      "Channelling, Physical, Fire, Duration, Melee",
+      "Level: 3",
+      "Cost: 10.52 Mana per second",
+      "Attack Speed: 120% of base",
+      "Attack Damage: 121%"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 17 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Charge up your weapon while channelling. Releasing the moment you fully charge will release a wave of fire.",
+    "explicit_mods": [
+      "Converts 40% of Physical Damage to Fire Damage",
+      "While Dual wielding, both weapons hit with 30% less damage"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "Fire",
+      "One Hand Mace",
+      "Duration",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Permafrost Bolts\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Cold",
+      "Level: 4",
+      "Cost: 6 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 15 Str, 15 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with icy bolts that fire in a burst, damaging enemies on hit and in a small cone behind the target. They icy coating on the bolts makes them extremely potent at Freezing enemies.",
+    "explicit_mods": [
+      "Attack Damage: 17%",
+      "Converts 80% of Physical Damage to Cold Damage",
+      "Knocks Back Enemies",
+      "300% more Freeze Buildup",
+      "Multiple Bolts from one burst can hit the same target",
+      "Bolts shatter on impact, dealing Damage in a 1.6 metre cone",
+      "Fires 10 Bolts per burst"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Crossbow",
+      "Attack",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Plague Bearer\n\n\nBuff",
+    "properties": [
+      "Persistent, AoE, Physical, Chaos, Nova",
+      "Level: 6",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 18, 43 Dex"
+    ],
+    "description": "Stores all Poison Damage you deal. Using the Plague Nova skill unleashes the stored Poison.",
+    "explicit_mods": [
+      "Stores 6% of Expected Poison Damage",
+      "Stores up to 240 Poison Damage"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Physical",
+      "Chaos",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Poisonburst Arrow\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Chaos, Duration",
+      "Level: 1",
+      "Cost: 5 Mana",
+      "Attack Damage: 55%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Bow"
+    ],
+    "description": "Fire an arrow that poisons enemies hit. When it lands, it creates a burst of poison, affecting all enemies around the arrow.",
+    "explicit_mods": [
+      "Poison inflicted by this Skill is affected by Modifiers to Skill Effect Duration"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Bow",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Power Offering\n\n\nMinion",
+    "properties": [
+      "Spell, Buff, Duration",
+      "Level: 13",
+      "Cost: 103 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 52, Int 119"
+    ],
+    "description": "Impales a Skeleton on a bone spike, extracting a Power Charge over a short duration. The bone spike is itself a Minion. If it dies, the extraction is interrupted and you will not gain a Power Charge.",
+    "explicit_mods": [
+      "Limit 10 Power Offering Spikes"
+    ],
+    "tags": [
+      "Spell",
+      "Buff",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Profane Ritual\n\n\nSpell",
+    "properties": [
+      "Chaos, Duration, AoE",
+      "Level: 7",
+      "Cost: 14 Mana",
+      "Cast Time: 1.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, Int 52"
+    ],
+    "description": "Marks a Corpse with a profane rune, dealing Chaos damage over time to nearby enemies. When the ritual is complete the Corpse is consumed and you gain a Power Charge.",
+    "explicit_mods": [
+      "Deals 59.2 base Chaos Damage per second",
+      "Limit 5 active rituals",
+      "Ritual radius is 1.8 metres",
+      "Ritual duration is 2 seconds"
+    ],
+    "tags": [
+      "Duration",
+      "AoE",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Puncture\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, Movement, Travel, Physical, AoE",
+      "Level: 6",
+      "Cost: 13 Mana",
+      "Attack Speed: 85% of base",
+      "Attack Damage: 153%"
+    ],
+    "requirements": [
+      "Requires:  Level 15, 39 Dex",
+      "Requires:   Spear"
+    ],
+    "description": "Lunge towards a target, dealing melee damage. This attack is more powerful when used at a distance.",
+    "explicit_mods": [
+      "Knocks Enemies Back on Hit",
+      "Deals up to 200% more Damage, based on the distance travelled",
+      "Causes Bleeding",
+      "Hits Stun Enemies as though dealing 50% more Damage"
+    ],
+    "tags": [
+      "AoE",
+      "Movement",
+      "Spear",
+      "Strike",
+      "Physical",
+      "Melee",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Raging Spirits\n\n\nBuff",
+    "properties": [
+      "Minion, Fire Duration, Persistent",
+      "Level: 5",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 16, Int 31"
+    ],
+    "description": "Reserves Spirit. While active, your Fire Spells will also summon Raging Spirits, which are short-lived flaming skulls that rush at nearby enemies and rapidly Attack them. Enemies will not directly engage these Minions, and can pass through them.",
+    "explicit_mods": [
+      "Minions from this skill convert 70% of Physical Damage to Fire Damage",
+      "Base duration is 4 seconds",
+      "Limit 10 Summoned Raging Spirits",
+      "Fire Area Spells summon a Spirit per 1.5 metres of radius",
+      "Projectiles from Fire Spells summon a Spirit on hit",
+      "Maximum 5 Spirits summoned per Spell cast"
+    ],
+    "tags": [
+      "Persistent",
+      "Fire Duration",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Rain of Arrows\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Bow",
+      "Level: 14",
+      "Cost: 32 Mana",
+      "Attack Speed: 80% of base",
+      "Attack Damage: 163%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, Dex 81",
+      "Requires:   Bow"
+    ],
+    "description": "Fire arrows into the air, causing them to rain from above. Consumes your Frenzy Charges to fire more arrows.",
+    "explicit_mods": [
+      "Fires 53 Arrows",
+      "Base radius is 3.6 metres",
+      "Base secondary radius is 0.7 metres",
+      "Fires 100% more Arrows if a Frenzy Charge was consumed",
+      "Fires 50% more Arrows per Frenzy Charge consumed"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Raise Shield\n\n\nChannelling",
+    "properties": [
+      "",
+      "Attack Time: 1.00 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Shield"
+    ],
+    "description": "Raise your shield to Block all incoming blockable hits. Blocking too much damage while your shield raised may stagger you.",
+    "explicit_mods": [],
+    "tags": [
+      "",
+      "Shield"
+    ]
+  },
+  {
+    "name": "Raise Zombie\n\n\nMinion",
+    "properties": [
+      "Spell, Duration",
+      "Level: 4",
+      "Cost: 20 Mana",
+      "Cast Time: 0.60 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 12, Int 25"
+    ],
+    "description": "Consumes a Corpse or Power Charge to create a Zombie. Zombies created from Power Charges are Empowered.",
+    "explicit_mods": [
+      "Limit 10 Raised Zombies",
+      "Zombie Duration is 20 seconds",
+      "Empowered Zombies take 30% less damage",
+      "Empowered Zombies deal 100% more Damage with Hits",
+      "Empowered Zombies have 25% more Movement Speed"
+    ],
+    "tags": [
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Rampage",
+    "properties": [
+      "Level: 12",
+      "Cost: 46 Mana",
+      "Attack Time: 1.06 sec"
+    ],
+    "requirements": [],
+    "description": "Shapeshift into a bear and rampage forward, slamming the ground as you run. The initial roar generates rage, then consumes rage until you run out.",
+    "explicit_mods": [
+      "40% more Stun threshold while using this Skill",
+      "Radius is 2.2 metres",
+      "Minimum Channelling Time is 1.30 seconds",
+      "183 to 286 Physical Damage"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Rapid Assault\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, AoE",
+      "Level: 6",
+      "Cost: 11 Mana",
+      "Attack Speed: 45% of base",
+      "Attack Damage: 96%"
+    ],
+    "requirements": [
+      "Requires:  Level 15, 39 Dex",
+      "Requires:   Spear"
+    ],
+    "description": "Performs a series of fast stabs.",
+    "explicit_mods": [
+      "+6 to Melee Strike Range"
+    ],
+    "tags": [
+      "Melee",
+      "Strike",
+      "AoE",
+      "Spear"
+    ]
+  },
+  {
+    "name": "Rapid Shot\n\n\nAmmunition",
+    "properties": [
+      "Attack, Projectile, Fire",
+      "Level: 5",
+      "Cost: 46 Mana",
+      "Attack Speed: 50% of base"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 20 Str, 20 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with a large clip of heavily modified bolts that cause Heat to build up on your crossbow, before unleashing a stream of flaming bolts that gain Fire Damage based on your Heat. Heat also grants bonus damage to Grenades you fire, but dissipates rapidly when not building up. Using this skill again reloads the clip.",
+    "explicit_mods": [
+      "Attack Speed: 550% of base",
+      "Attack Damage: 14%",
+      "Converts 60% of Physical Damage to Fire Damage",
+      "Knocks Back Enemies",
+      "Can fire 70 Bolts before reloading",
+      "Maximum 11 Heat",
+      "1 to 2 Added Fire Damage per Heat",
+      "Requires 7 Heat to fire Bolts",
+      "Grenades consume all Heat to deal 2 to 2 added Fire Damage per Heat"
+    ],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "Attack",
+      "Crossbow"
+    ]
+  },
+  {
+    "name": "Resonating Shield\n\n\nAttack",
+    "properties": [
+      "AoE, Sustained, Physical, Channelling",
+      "Level: 6",
+      "Cost: 11.25 Mana per second",
+      "Attack Time: 0.80 sec",
+      "Attack Damage: 38%"
+    ],
+    "requirements": [
+      "Requires:  Level 21, Level 38",
+      "Requires:   Shield"
+    ],
+    "description": "Repeatedly strike your Shield with your weapon causing damaging shockwaves in an area around you. Enemies hit by the shockwave lose Armour for a duration. While using Resonating Shield your Shield is raised and you will Block all incoming Blockable hits.",
+    "explicit_mods": [
+      "Hits Break 59 Armour",
+      "19 to 29 Base Off Hand Physical Damage",
+      "2 to 4 Added Physical Damage per 15 Armour on Shield",
+      "Shockwave radius is 1.8 metres"
+    ],
+    "tags": [
+      "Shield",
+      "AoE",
+      "Sustained",
+      "Channelling",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Rolling Magma\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Projectile, Chaining",
+      "Level: 3",
+      "Cost: 12 Mana",
+      "Cast Time: 0.70 sec",
+      "Critical Strike Chance: 7.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 18 Int"
+    ],
+    "description": "Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times. The number of bounces is refreshed when passing through a Flame Wall.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Rolling Slam\n\n\nAttack",
+    "properties": [
+      "Slam, AoE, Melee",
+      "Level: 12",
+      "Cost: 48 Mana",
+      "Attack Damage: 188%"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 96 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Slam the ground to Stun enemies and knock them away, then continue forward and perform a devastating second Slam.",
+    "explicit_mods": [
+      "+1.5 seconds to Attack Time",
+      "Base radius is 1.4 metres",
+      "Base secondary radius is 1.8 metres",
+      "20% increased Stun Duration on enemies",
+      "Hits Stun Enemies as though dealing 100% more Damage",
+      "Second Slam Attack Damage: 276%"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "One Hand Mace",
+      "AoE",
+      "Melee",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Sandstorm Swipe\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Duration",
+      "Level: 4",
+      "Cost: 7 Mana"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Dex"
+    ],
+    "description": "[DNT] Blade Storm but with spears :O",
+    "explicit_mods": [
+      "Base Duration is 3 seconds"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Scavenged Plating\n\n\nBuff",
+    "properties": [
+      "Persistent, Physical, Duration",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Str"
+    ],
+    "description": "Uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you a stack of Scavenged Plating for a duration, and you gain Armour and Thorns per stack.",
+    "explicit_mods": [
+      "Scavenged Plating duration is 8 seconds",
+      "3% more Armour per Scavenged Plating",
+      "Maximum 10 Scavenged Plating",
+      "4 to 6 Thorns per Scavenged Plating"
+    ],
+    "tags": [
+      "Duration",
+      "Physical",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Seismic Cry\n\n\nWarcry",
+    "properties": [
+      "AoE, Duration",
+      "Level: 12",
+      "Cost: 27 Mana",
+      "Cooldown Time: 8.00 sec",
+      "Cast Time: 0.80 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 96 Str"
+    ],
+    "description": "Performs a warcry, Taunting and Knocking back nearby enemies. If a Heavy Stunned enemy is hit, your next slam does an additional Aftershock.",
+    "explicit_mods": [
+      "Deals 23 to 35 Physical Damage",
+      "Knocks Enemies Back on Hit",
+      "22% increased Warcry Speed",
+      "Base radius is 4 metres",
+      "200% increased Knockback Distance",
+      "400% more Stun buildup",
+      "Hits ignore Enemy Monster Physical Damage Reduction",
+      "Exerts the next 1 Melee Slam Attacks you perform",
+      "Exerts additional attack per Endurance Charge"
+    ],
+    "tags": [
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Shattering Palm\n\n\nAttack",
+    "properties": [
+      "AoE, Cold, Melee, Strike",
+      "Level: 11",
+      "Cost: 19 Mana",
+      "Attack Speed: 90% of base",
+      "Attack Damage: 70%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 52 Dex, 52 Int",
+      "Requires:   Unarmed, Quarterstaff"
+    ],
+    "description": "Dash to an enemy and strike them with an Unarmed Attack, attaching a chunk of ice to their body. When that enemy takes enough damage from Hits or dies, the ice explodes, dealing high Cold damage in an area around them. This skill is always performed Unarmed, even if you have a Quarterstaff equipped.",
+    "explicit_mods": [
+      "45 to 68 Added Cold Damage",
+      "Can't be Evaded",
+      "+9 to Critical Hit Chance",
+      "Attaches Shards to enemies within a 3.8 metre radius"
+    ],
+    "tags": [
+      "AoE",
+      "Unarmed",
+      "Strike",
+      "Quarterstaff",
+      "Melee",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Shield Charge\n\n\nAttack",
+    "properties": [
+      "AoE, Movement, Travel, Physical, Channelling, Melee",
+      "Level: 4",
+      "Cost: 12.93 Mana per second",
+      "Cooldown Time: 3.0 sec",
+      "Attack Time: 0.50 sec",
+      "Critical Strike Chance: 5.00%",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Str",
+      "Requires:   Shield"
+    ],
+    "description": "Channel to charge in the target direction. You will crash into enemies on you path, stopping your charge and dealing damage to enemies in the area, and extra damage to the enemies you collided with. While charging, your Shield is raised and you will Block all incoming Blockable hits.",
+    "explicit_mods": [
+      "10 to 15 Base Off Hand Physical Damage",
+      "2 to 3 Added Physical Damage per 15 Armour on Shield",
+      "Base impact radius is 2.4 metres"
+    ],
+    "tags": [
+      "Shield",
+      "AoE",
+      "Movement",
+      "Channelling",
+      "Physical",
+      "Melee",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Shield Wall\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Physical, Duration",
+      "Level: 9",
+      "Cost: 41 Mana",
+      "Attack Time: 1.25 sec",
+      "Critical Strike Chance: 5.00%",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 31, 72 Str",
+      "Requires:   Shield"
+    ],
+    "description": "Ram your Shield into ground, throwing up a wall of earth on either side and losing your Shield for the duration of the skill. Enemies can attack the walls and your Slams will instantly destroy them. Each wall segment explodes when destroyed, damaging enemies around it.",
+    "explicit_mods": [
+      "29 to 43 Base Off Hand Physical Damage",
+      "Base duration is 6 seconds",
+      "2 to 4 Added Physical Damage per 15 Armour on Shield",
+      "Base radius is 2.5 metres",
+      "Wall sections have 832 maximum Life"
+    ],
+    "tags": [
+      "Shield",
+      "AoE",
+      "Duration",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Shockwave Totem\n\n\nAttack",
+    "properties": [
+      "Totem, Melee, Slam, Physical, Duration, Nova",
+      "Level: 2",
+      "Cost: 28 Mana",
+      "Cast Time: 0.60 sec",
+      "Critical Strike Chance: 5.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 3"
+    ],
+    "description": "Raises a Totem that Slams the ground around it, repeatedly damaging nearby enemies. Earthquake's Jagged Ground erupts when in this Slam.",
+    "explicit_mods": [
+      "Totem lasts 12 seconds",
+      "Limit 1 Totem",
+      "Totem base attack time is 3 seconds",
+      "Totem deals 5 to 8 base Physical Damage"
+    ],
+    "tags": [
+      "Melee",
+      "Nova",
+      "Duration",
+      "Physical",
+      "Slam",
+      "Totem"
+    ]
+  },
+  {
+    "name": "Siphoning Strike\n\n\nAttack",
+    "properties": [
+      "AoE, Lightning, Melee, Strike",
+      "Level: 3",
+      "Cost: 7 Mana",
+      "Attack Damage: 145%"
+    ],
+    "requirements": [
+      "Requires:  Level 6",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Dash to a target and Strike them with your Quarterstaff. If the target is Shocked, comsumes the Shock to release a Lightning shockwave around the target and grant you a Power Charge.",
+    "explicit_mods": [],
+    "tags": [
+      "AoE",
+      "Lightning",
+      "Strike",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Skeletal Arsonist\n\n\nMinion",
+    "properties": [
+      "Persistent, Detonator",
+      "Level: 5",
+      "Reservation: 37 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Int"
+    ],
+    "description": "Summons bomb throwing, Reviving Skeletal Arsonists that can detonate other Minions on command.",
+    "explicit_mods": [
+      "Deals 20 to 30 Fire Damage",
+      "Deals additional Fire Damage equal to 15% of Minion's maximum Life",
+      "Explosion radius is 2 metres"
+    ],
+    "tags": [
+      "Persistent",
+      "Detonator"
+    ]
+  },
+  {
+    "name": "Skeletal Brute\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 8",
+      "Reservation: 46 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 33, Int 55"
+    ],
+    "description": "Summons hard hitting, Reviving Skeletal Brutes that can Stun Primed enemies.",
+    "explicit_mods": [],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Skeletal Cleric\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 13",
+      "Reservation: 14 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 52, Int 119"
+    ],
+    "description": "Summons Reviving Skeletal Clerics that heal other minions and revive fallen Skeletons.",
+    "explicit_mods": [
+      "Minions from this skill have +12% to all Elemental Resistances"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Skeletal Frost Mage\n\n\nMinion",
+    "properties": [
+      "Persistent, Cold",
+      "Level: 5",
+      "Reservation: 49 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 14, 34 Int"
+    ],
+    "description": "Summons Reviving Skeletal Frost Mages that can Freeze themselves on command to slow nearby enemies.",
+    "explicit_mods": [
+      "Deals 28 to 43 Cold Damage",
+      "100% more Effect of Chill",
+      "Explosion radius is 2.6 metres"
+    ],
+    "tags": [
+      "Persistent",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Skeletal Reaver\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 7",
+      "Reservation: 28 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 27, Int 46"
+    ],
+    "description": "Summons aggressive, Reviving Skeletal Reavers that can enrage on command.",
+    "explicit_mods": [
+      "Lose 1% of Life per second",
+      "20% more Life loss each second",
+      "Gain 2 rage on Hit"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Skeletal Sniper\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 1",
+      "Reservation: 90 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Summons long ranged, Reviving Skeletal Snipers that can fire a gas arrow on command.",
+    "explicit_mods": [
+      "Impact radius is 1.4 metres"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Skeletal Storm Mage\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 11",
+      "Reservation: 42 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 95 Int"
+    ],
+    "description": "Summons Reviving Skeletal Storm Mages that can call down a lightning storm on dead Skeletons on command.",
+    "explicit_mods": [
+      "Deals 74 to 418 Lightning Damage",
+      "Boltexplosion radius is 1.8 metres",
+      "Shocked Ground radius is 1.8 metres",
+      "Shocked Ground duration is 6 seconds"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Skeletal Warrior\n\n\nMinion",
+    "properties": [
+      "Persistent",
+      "Level: 6",
+      "Reservation: 20 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 38 Str"
+    ],
+    "description": "Summons Reviving Skeletal Warriors.",
+    "explicit_mods": [
+      "+7% to all Elemental Resistances"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Snipe\n\n\nAttack",
+    "properties": [
+      "Projectile, Channelling, Physical, Bow",
+      "Level: 3",
+      "Cost: 8.88 Mana per second",
+      "Attack Speed: 140% of base",
+      "Attack Damage: 121%"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 16 Dex",
+      "Requires:   Bow"
+    ],
+    "description": "Channel to charge up your bow before releasing a powerful shot. Releasing the moment you fully charge causes the arrow to explode on impact for a guaranteed critical Hit.",
+    "explicit_mods": [
+      "200% increased Critical Damage Bonus"
+    ],
+    "tags": [
+      "Projectile",
+      "Physical",
+      "Bow",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Sniper's Mark\n\n\nSpell",
+    "properties": [
+      "Mark, Duration",
+      "Level: 7",
+      "Cost: 53 Mana",
+      "Cooldown Time: 6.00 sec",
+      "Cast Time: 0.50 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Dex"
+    ],
+    "description": "Marks a target. The next Critical Hit the target receives consumes the Mark to deal extra damage and grant you a Frenzy Charge.",
+    "explicit_mods": [
+      "Maximum Mark duration is 8 seconds",
+      "Next Critical Hit against Marked Enemy has +38% to Critical Damage Bonus"
+    ],
+    "tags": [
+      "Mark",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Solar Orb\n\n\nSpell",
+    "properties": [
+      "Fire, AoE, Orb, Duration",
+      "Level: 2",
+      "Cost: 23 Mana",
+      "Cast Time: 0.80 sec",
+      "Critical Strike Chance: 7.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 3"
+    ],
+    "description": "Creates a stationary fiery Orb that periodically releases an explosion dealing Fire Damage. Casting this skill again will replace the previous Orb. Enemies that are very close to the Orb will take Burning damage.",
+    "explicit_mods": [
+      "Deals 4 to 5 Fire Damage",
+      "Deal 4.5 Base Fire Damage per second",
+      "Pulses every 1.40 seconds",
+      "Base duration is 10.00 seconds",
+      "Base explosion radius is 2.5 metres"
+    ],
+    "tags": [
+      "Orb",
+      "Fire",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Spark\n\n\nSpell",
+    "properties": [
+      "Projectile, Duration, Lightning",
+      "Level: 1",
+      "Cost: 6 Mana",
+      "Cast Time: 0.70 sec",
+      "Critical Strike Chance: 9.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Launches a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire.",
+    "explicit_mods": [
+      "Deals 1 to 8 Lightning Damage",
+      "Fires 5 Projectiles",
+      "Projectile Duration is 2 seconds"
+    ],
+    "tags": [
+      "Projectile",
+      "Lightning",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Spearfield\n\n\nAttack",
+    "properties": [
+      "Aoe, Physical, Melee",
+      "Level: 6",
+      "Cost: 20 Mana",
+      "Attack Speed: 70% of base",
+      "Attack Damage: 20%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Spear"
+    ],
+    "description": "Stab the ground causing multiple spears to burstot of the ground in front of you in a large area. The spears remain for a duration, or explode when enemies touch them.",
+    "explicit_mods": [
+      "Base Duration is 5.00 seconds",
+      "Creates 1 Spear per 0.1 metres of Radius",
+      "Base radius is 5.5 metres",
+      "Base explosion radius is 0.5 metres",
+      "Maim on Hit",
+      "35% increased Effect of Maim",
+      "Maximum of 70 Spears at a time"
+    ],
+    "tags": [
+      "Melee",
+      "Physical",
+      "Spear",
+      "Aoe"
+    ]
+  },
+  {
+    "name": "Staggering Palm\n\n\nAttack",
+    "properties": [
+      "Physical, Melee, Strike, Projectile",
+      "Level: 2",
+      "Cost: 6 Mana",
+      "Attack Speed: 65% of base",
+      "Attack Damage: 66%"
+    ],
+    "requirements": [
+      "Requires:  Level 3",
+      "Requires:   Unarmed, Quarterstaff"
+    ],
+    "description": "Dash to an enemy and strike them with an unarmed Attack. Heavy Stunning an enemy grants you a Buff that causes your Quarterstaff and Unarmed Attacks to also fire Projectiles for a short duration. This skill is always performed Unarmed even if you have a Quarterstaff equipped.",
+    "explicit_mods": [
+      "12 to 18 added Attack Physical Damage",
+      "Can't be evaded",
+      "+7% to Critical Strike Chance",
+      "Buff duration is 6 seconds"
+    ],
+    "tags": [
+      "Projectile",
+      "Unarmed",
+      "Strike",
+      "Physical",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Stampede\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Slam, Duration, Channeling, Travel",
+      "Level: 11",
+      "Cost: 44 Mana",
+      "Attack Damage: 161%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 95 Str",
+      "Requires:   One Hand Mace, Two Hand Mace"
+    ],
+    "description": "Charges forward, cracking the earth and leaving a patch of Jagged Ground with every footstep. At the end of your charge, a massive leaping Slam damages enemies and causes all patches of Jagged Ground to erupt in Aftershocks.",
+    "explicit_mods": [
+      "Base impact radius is 3.2 metres",
+      "Warcries can Empower this attack as though it was not Channelled"
+    ],
+    "tags": [
+      "One Hand Mace",
+      "Two Hand Mace",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Channeling",
+      "Melee",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Storm Spear\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Lightning",
+      "Level: 4",
+      "Cost: 10 Mana",
+      "Attack Speed: 70% of base",
+      "Attack Damage: 158%"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Dex",
+      "Requires:   Spear"
+    ],
+    "description": "Throw a single copy of your spear. When it hits an enemy it bursts, firing bolts of lightning at multiple other enemies within a large area around it.",
+    "explicit_mods": [
+      "Converts 60% of Physical Damage to Lightning Damage",
+      "Fires 6 Projectiles",
+      "Base radius is 5 metres",
+      "Spear cannot Split, Pierce, Fork, Chain or Return",
+      "Modifiers to the number of Projectiles fired instead apply to the maximum number of Lightning Bolts fired"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Lightning",
+      "Spear"
+    ]
+  },
+  {
+    "name": "Stormblast Bolts\n\n\nAmmunition",
+    "properties": [
+      "Attack, AoE, Projectile, Lightning",
+      "Level: 9",
+      "Cost: 24 Mana",
+      "Attack Speed: 50% of base"
+    ],
+    "requirements": [
+      "Requires:  Level 33, 40 Str, 40 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Loads your Crossbow with charged bolts that land around the target location and explode if hit by a Detonator Skill. Using this skill again reloads the clip.",
+    "explicit_mods": [
+      "Attack Damage: 36%",
+      "Converts 60% of Physical Damage to Lightning Damage",
+      "Can fire 3 bolts before reloading",
+      "Impact radius is 0.8 metres",
+      "Charged Bolt duration is 8 seconds",
+      "Fires 3 Bolts"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Lightning",
+      "Crossbow",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Stormcaller Arrow\n\n\nAttack",
+    "properties": [
+      "Projectile, Duration, AoE, Bow",
+      "Level: 1",
+      "Cost: 6 Mana",
+      "Attack Speed: 80% of base",
+      "Attack Damage: 35%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Requires:   Bow"
+    ],
+    "description": "Fire an arrow that embeds where it lands. After a delay, the arrow will call down a lightning strike with a high Shock chance.",
+    "explicit_mods": [
+      "Converts 20% of Physical Damage to Lightning Damage"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Summon Rhoa Mount\n\n\nSpell",
+    "properties": [
+      "Minion",
+      "Level: 1",
+      "Reservation: 50 Spirit",
+      "Cast Time: 1.0 sec"
+    ],
+    "requirements": [],
+    "description": "[DNT] Like a horse, but a bird. Apparently.",
+    "explicit_mods": [],
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "name": "Summon Wolf\n\n\nSpell",
+    "properties": [
+      "Minion",
+      "Level: 12",
+      "Cost: 48 Mana",
+      "Reservation: 50 Spirit",
+      "Cast Time: 0.65 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 42, 51 Str, 51 Int"
+    ],
+    "description": "Summons a wolf minion. Wolves howl when they first emerge, making critical hits more likely against nearby enemies.",
+    "explicit_mods": [],
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "name": "Sunder\n\n\nAttack",
+    "properties": [
+      "AoE, Slam, Melee",
+      "Level: 9",
+      "Cost: 40 Mana",
+      "Attack Damage: 237%"
+    ],
+    "requirements": [
+      "Requires:  Level 31, 72 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Slams the ground, creating a wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies.",
+    "explicit_mods": [
+      "+1.4 seconds to Attack Time",
+      "+0.2 metres to wave length for each wave in the Sequence",
+      "100% increased Critical Damage Bonus",
+      "While Dual Wielding, both weapons hit with 30% less damage",
+      "Consumes Fully Broken Armour on enemies to guarentee a Critical Hit",
+      "Wave length is 0.9 metres",
+      "Wave causes Shockwaves from up to 5 Enemies in each Area",
+      "Base secondary radius is 1.2 metres"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "One Hand Mace",
+      "AoE",
+      "Melee",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Supercharged Slam\n\n\nAttack",
+    "properties": [
+      "AoE, Channelling, Slam, Melee",
+      "Level: 11",
+      "Cost: 27.22 Mana per second",
+      "Attack Time: 1.00 sec",
+      "Attack Damage: 111%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 95 Str",
+      "Requires:   Two Hand Mace"
+    ],
+    "description": "Channel to charge up a heavy swing, drawing earth from the ground to enlarge your mace. Release to Slam the ground, dealing damage in an area around the impact, followed by Aftershocks dealing damage in a large area.",
+    "explicit_mods": [
+      "Base impact radius is 1.6 metres",
+      "Warcries can Empower this Attacks as though it was not Channelled",
+      "100% more Damage with Hits for each stage",
+      "Maximum 3 Stages",
+      "Channelling ends 1 second after reaching maximum Stages",
+      "Releases 1 Aftershock per Stage",
+      "Base radius is 2.8 metres",
+      "+5 to Radius per stage per previous Aftershock",
+      "100% more Damage with Hits for each stage"
+    ],
+    "tags": [
+      "Two Hand Mace",
+      "Melee",
+      "AoE",
+      "Channelling",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Tempest Bell\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Duration, Nova",
+      "Level: 3",
+      "Cost: 18 Mana",
+      "Cooldown Time: 0.50 sec",
+      "Attack Speed: 120% of base",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 6, 10 Dex, 10 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Build Combo by successfully Striking Enemies with any skill. After building five stacks of Combo, create a Bell that can be Hit by your sklls, creating a damaging shockwave. Elemental Ailments applied to the Bell cause its shockwaves to deal extra damage of the corresponding type.",
+    "explicit_mods": [
+      "Requires 4 Combo to use",
+      "Limit 1 Bell",
+      "Lose Combo if you generate no Combo for 8 seconds",
+      "Base Duration is 6 seconds",
+      "Bell is destroyed after 12 Hits"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Duration",
+      "Quarterstaff",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Tempest Flurry\n\n\nAttack",
+    "properties": [
+      "Melee, Strike",
+      "Level: 4",
+      "Cost: 9 Mana",
+      "Attack Speed: 140% of base",
+      "Attack Damage: 79%"
+    ],
+    "requirements": [
+      "Requires:  Level 12, 14 Dex, 14 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Perform a series of aggressive strikes, ending with a powerful Shocking blow.",
+    "explicit_mods": [
+      "Converts 60% of Physical Damage to Lightning Damage",
+      "+4 to Melee Strike Range"
+    ],
+    "tags": [
+      "Melee",
+      "Strike",
+      "Quarterstaff"
+    ]
+  },
+  {
+    "name": "Temporal Chains\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Curse",
+      "Level: 11",
+      "Cost: 47 Mana",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 54, 65 Int"
+    ],
+    "description": "Curses all enemies in an area, lowering their Action Speed and making other effects on them expire more slowly.",
+    "explicit_mods": [
+      "Curse radius is 1.9 metres",
+      "Curse duration is 6.8 seconds",
+      "effects on Cursed enemies expire 25% slower",
+      "Cursed enemies are Slowed by 34%"
+    ],
+    "tags": [
+      "Curse",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Tornado Shot\n\n\nAttack",
+    "properties": [
+      "AoE, Physical, Duration",
+      "Level: 11",
+      "Cost: 42 Mana",
+      "Attack Speed: 120% of base",
+      "Attack Damage: 101%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, Dex 95",
+      "Requires:   Bow"
+    ],
+    "description": "Fire a skyward shot that whips up a Tornado where it lands, dealing Physical damage over time and Hindering enemies standing in it. Attack Projectiles you fire at the Tornado are sucked into, causing the Tornado to spit out a nova of matching Projectiles.",
+    "explicit_mods": [
+      "Impact radius is 1 metre"
+    ],
+    "tags": [
+      "AoE",
+      "Physical",
+      "Duration",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Tornado",
+    "properties": [
+      "Cost: 61 Mana",
+      "Cast Time: 0.61 sec"
+    ],
+    "requirements": [],
+    "description": "Creates a Tornado that chases enemies for a duration, while hindering and repeatedly damaging enemies around it.",
+    "explicit_mods": [
+      "Duration is 7.20 seconds",
+      "Enemies in range are Hinderer",
+      "Maximum 1 Tornado",
+      "Radius is 3 metres"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Toxic Growth\n\n\nAttack",
+    "properties": [
+      "Projectile, AoE, Duration, Bow",
+      "Level: 4",
+      "Cost: 12 Mana",
+      "Attack Damage: 66%"
+    ],
+    "requirements": [
+      "Requires:  Level 9, 21 Dex",
+      "Requires:   Bow"
+    ],
+    "description": "Leap into the air and fire a volley of arrows which cause toxic pustules to sprout from the ground on impact. The pustules explode after a delay and can be Poisoned, causing them to explode faster and more violently.",
+    "explicit_mods": [
+      "Pustules explode after 6.00 seconds",
+      "+0.7 seconds to Attack Time",
+      "Fires 8 Projectiles",
+      "Base explosion radius is 0.8 metres",
+      "Stored poison adds up to 1 metre to base explosion radius",
+      "Stored poison grants up to 100% more explosion Damage"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Unearth\n\n\nSpell",
+    "properties": [
+      "Minion, AoE, Physical, Duration",
+      "Level: 1",
+      "Cost: 10 Mana",
+      "Cast Time: 0.95 sec",
+      "Critical Strike Chance: 15.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Raises spikes of bone from earth in front of you, damaging enemies. The bones of Corpses in the area are ripped out and reassembled into short lived bone construct Minions that fight for you.",
+    "explicit_mods": [
+      "Deals 4 to 6 Physical Damage",
+      "Limit 8 Bone Constructs",
+      "Bone Construct duration is 12 seconds",
+      "Cone length is 6 metres"
+    ],
+    "tags": [
+      "AoE",
+      "Physical",
+      "Duration",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Vaulting Impact\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Slam",
+      "Level: 7",
+      "Cost: 25 Mana",
+      "Attack Damage: 213%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Dex, Int 30",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Leaps forward and Slams the ground, sending out a Stunning shockwave that is especially potent against Dazed enemies.",
+    "explicit_mods": [
+      "1 seconds to Attack Time",
+      "30% more Stun buildup",
+      "Consume Daze on Enemies to cause 300% more Stun buildup",
+      "Impact radius is 2.4 metres"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Slam",
+      "Quarterstaff"
+    ]
+  },
+  {
+    "name": "Vine Arrow\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Duration, Bow",
+      "Level: 2",
+      "Cost: 6 Mana",
+      "Attack Damage: 77%"
+    ],
+    "requirements": [
+      "Requires:  Level 3",
+      "Requires:   Bow"
+    ],
+    "description": "Fire an arrow into the air that lands after a short delay, causing a plant to spring up at the impact location. The plant sprouts vines that latch onto nearby enemies, Slowing their movement speed and dealing Chaos damage over time.",
+    "explicit_mods": [
+      "Base impact radius is 0.8 metres"
+    ],
+    "tags": [
+      "Projectile",
+      "AoE",
+      "Bow",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Volcanic Fissure\n\n\nAttack",
+    "properties": [
+      "AoE, Slam, Duration, Melee",
+      "Level: 7",
+      "Cost: 11 Mana",
+      "Attack Speed: 80% of base",
+      "Attack Damage: 98%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 46 Str",
+      "Requires:   Two Hand Mace, One Hand Mace"
+    ],
+    "description": "Slam the ground, creating a winding fissure that deals area damage while travelling outwards then persists fro a duration. Slamming a fissure with a different Slam skill will cause it and all connected fissures to trigger Aftershocks.",
+    "explicit_mods": [],
+    "tags": [
+      "Two Hand Mace",
+      "Melee",
+      "AoE",
+      "One Hand Mace",
+      "Duration",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Volcano",
+    "properties": [
+      "Level: 12",
+      "Cost: 80 Mana per second",
+      "Cast Time: 0.41 sec"
+    ],
+    "requirements": [],
+    "description": "Create a volcano that fires projectiles around it. Channelling the skill causes it to fire more projectiles and deal more damage when it first erupts. Any Slam near the volcano causes it to erupt, firing projectiles.",
+    "explicit_mods": [
+      "Penetrates 20% Fire Resistance",
+      "Fires Projectiles every 0.50 seconds",
+      "87 to 132 Fire Damage",
+      "Duration is 12.00 seconds",
+      "Channelling ends when reaching 4 Stages",
+      "Fires 1 Projectile",
+      "Secondary radius is 3 metres",
+      "Radius is 1.2 metres",
+      "25% chance to Ignite enemies",
+      "Maximum 1 Volcano",
+      "Minimum Channelling Time is 0.50 seconds"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Voltaic Mark\n\n\nSpell",
+    "properties": [
+      "Attack, AoE, Mark, Lightning, Duration, Nova",
+      "Level: 7",
+      "Cost: 53 Mana",
+      "Cast Time: 0.50 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Dex"
+    ],
+    "description": "Marks a target, making them more susceptible to being Shocked. W the Marked target dies, a Lightning nove erupts from their corpse. nova does not use your Weapon Damage, and instead uses its own Attack Damage.",
+    "explicit_mods": [
+      "Mark duration is 8 seconds",
+      "Hits against Marked enemy have 50% increased chance to Shock",
+      "Shock inflicted on Marked enemy has 30% increased effect"
+    ],
+    "tags": [
+      "Nova",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Mark",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Vulnerability\n\n\nSpell",
+    "properties": [
+      "AoE, Duration, Curse, Physical",
+      "Level: 7",
+      "Cost: 74 Mana",
+      "Cast Time: 0.70 sec"
+    ],
+    "requirements": [
+      "Requires:  Level 22, Int 52"
+    ],
+    "description": "Curses all targets in an area after a short delay, reducing their Armour.",
+    "explicit_mods": [
+      "Curse radius is 1.7 metres",
+      "Curse duration is 6.4 seconds",
+      "Cursed Enemies lose 191 Armour"
+    ],
+    "tags": [
+      "Curse",
+      "AoE",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Wave of Frost\n\n\nAttack",
+    "properties": [
+      "AoE, Cold, Melee",
+      "Level: 6",
+      "Cost: 19 Mana",
+      "Attack Speed: 55% of base",
+      "Attack Damage: 77%"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 20 Dex, 20 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Flip backwards while sending a freezing wave of ice to damage an area in front of you.",
+    "explicit_mods": [
+      "Converts 80% of Physical Damage to Cold Damage",
+      "Hits are Freezing",
+      "Hits Freeze as though dealing 350% more Damage",
+      "Base radius is 6 metres"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Quarterstaff",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Whirling Assault\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Strike",
+      "Level: 11",
+      "Cost: 59 Mana",
+      "Attack Damage: 80%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, 52 Dex, 52 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Advance while hitting enemies around you with a series of spinning strikes.",
+    "explicit_mods": [
+      "+1.4 seconds to Total Attack Time"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Strike",
+      "Quarterstaff"
+    ]
+  },
+  {
+    "name": "Whirling Slash\n\n\nAttack",
+    "properties": [
+      "AoE, Melee, Strike",
+      "Level: 6",
+      "Cost: 7 Mana",
+      "Attack Speed: 70% of base",
+      "Attack Damage: 128%"
+    ],
+    "requirements": [
+      "Requires:  Level 27, 64 Int",
+      "Requires:   Spear"
+    ],
+    "description": "Perform a circular slash that kicks up a spinning storm of wind and dust around you, slowing enemies and blinding them in its area of effect. LEaving the area unleashes the swirling storm, causing it to deal damage.",
+    "explicit_mods": [
+      "Using this Attack again in the storm adds 1 Stage to the storm",
+      "Base Radius is 2.2 metres",
+      "80% reduced Blind Effect",
+      "Using this Attack again in the storm adds 1 Stage to the storm",
+      "Maximum 3 Stages",
+      "Damage from releading Storm has +4 to radius per Stage",
+      "Deals 30% less Damage when released",
+      "Deals 150% more Damage per Stage when released",
+      "Enemies iniside the storm have 30% reduced Movement Speed",
+      "Storm gains +3 to radius per Stage"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Spear",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Wind Blast\n\n\nAttack",
+    "properties": [
+      "Melee, Strike, AoE",
+      "Level: 6",
+      "Cost: 10 Mana",
+      "Attack Speed: 75% of base",
+      "Attack Damage: 115%"
+    ],
+    "requirements": [
+      "Requires:  Level 21, 20 Dex, 20 Int",
+      "Requires:   Quarterstaff"
+    ],
+    "description": "Strike enemies at range by generating a gust of wind as you swing. Enemies will be Knocked Back based on how close they are to you.",
+    "explicit_mods": [
+      "Knocks Enemies Back on Hit",
+      "+42 to Melee Strike Range",
+      "150% more Stun buildup"
+    ],
+    "tags": [
+      "Melee",
+      "Strike",
+      "AoE",
+      "Quarterstaff"
+    ]
+  },
+  {
+    "name": "Withering Presence\n\n\nBuff",
+    "properties": [
+      "Persistent, Chaos",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "While active, periodically Withers enemies in your Presence",
+    "explicit_mods": [
+      "Withered duration is 4 seconds",
+      "Withers enemies in your Presence every 2.55 seconds"
+    ],
+    "tags": [
+      "Chaos",
+      "Persistent"
+    ]
+  }
+]

@@ -1,0 +1,519 @@
+[
+  {
+    "name": "Arctic Armour\n\n\nBuff",
+    "properties": [
+      "Spell, Persistent, Cold",
+      "Level: 4",
+      "Reservation: 30 Spirit",
+      "Critical Strike Chance: 11.00%"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Int"
+    ],
+    "description": "Conjures an icy barrier that gains stages over time. While the barrier has stages, Melee Attacks that hit you will remove a stage to cause a burst of ice that deals Cold Spell damage to the attacker.",
+    "explicit_mods": [
+      "Deals 18 to 28 Cold Damage per Stage",
+      "Gains a Stage every 1.42 seconds, up to a maximum of 3 Stages"
+    ],
+    "tags": [
+      "Persistent",
+      "Spell",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Grim Feast\n\n\nBuff",
+    "properties": [
+      "Minion, Persistent",
+      "Level: 7",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "Feeds on corpses to bolster your Energy Shield. While active, enemies and Minions that die in your Presence will drop Grim Remnants. Picking up a Grim Remnant grants you Energy Shield, and can Overflow your Energy Shield up to double its normal maximum.",
+    "explicit_mods": [
+      "Grim Remnants recover 24 Energy Shield"
+    ],
+    "tags": [
+      "Persistent",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Herald of Ash\n\n\nSpell",
+    "properties": [
+      "AoE, Fire, Herald, Duration",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Cooldown Time: 1.00 sec",
+      "Cast Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 31 Str"
+    ],
+    "description": "While active, enemies you sufficiently overkill with attacks will cause an explosion that Ignites nearby enemies based on the overkill damage dealt.",
+    "explicit_mods": [
+      "Base duration is 4.00 seconds",
+      "Base radius is 1 metre",
+      "Base Burning Damage is 30.5% of Overkill Damage",
+      "Burn surrounding Enemies if Overkill Damage is at least 20% of Enemy's Maximum Life",
+      "Buff causes Attacks to gain 15% of Damage as Extra Fire Damage"
+    ],
+    "tags": [
+      "Duration",
+      "Fire",
+      "Herald",
+      "AoE",
+      "Cast Time: Instant"
+    ]
+  },
+  {
+    "name": "Herald of Ice\n\n\nBuff",
+    "properties": [
+      "AoE, Attack, Herald, Persistent, Melee, Bow",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 17 Str, 17 Int"
+    ],
+    "description": "While active, Shattering an enemy will cause an icy explosion that deals Attack damage to surrounding enemies.",
+    "explicit_mods": [],
+    "tags": [
+      "Persistent",
+      "Bow",
+      "Herald",
+      "Attack",
+      "AoE",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Herald of Thunder\n\n\nBuff",
+    "properties": [
+      "AoE, Lightning, Persistent, Melee, Bow",
+      "Level: 5",
+      "Reservation: 30 Spirit",
+      "Attack Damage: 100%"
+    ],
+    "requirements": [
+      "Requires:  Level 16, 31 Dex"
+    ],
+    "description": "While active, killing Shocked enemies with Attack damage, will cause subsequent Attack hits to release lightning bolts which deals Attack damage to all surrounding enemies.",
+    "explicit_mods": [
+      "Cannot inflict Shock",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "Base radius is 3.2 metres",
+      "Lightning Bolts strike the targets of your next 5 Attack Hits after Killing a Shocked Enemy with Attack Damage",
+      "Buff grants 1 to 10 added Attack Lightning Damage"
+    ],
+    "tags": [
+      "Persistent",
+      "Bow",
+      "Lightning",
+      "AoE",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Mana Remnants\n\n\nBuff",
+    "properties": [
+      "Persistent, Lightning",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int"
+    ],
+    "description": "Conjures surging lightning that causes Shocked Enemies you or your Minions kill to leave behind a Mana Remnant. Picking up a Mana Remnant grants you Mana, and can overcharge your Mana up to double its normal maximum.",
+    "explicit_mods": [
+      "Each Remnant grants 9 Mana"
+    ],
+    "tags": [
+      "Persistent",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Magma Barrier\n\n\nAttack",
+    "properties": [
+      "Buff, Persistent, AoE, Trigger, Fire, Duration",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int",
+      "Requires:   Shield"
+    ],
+    "description": "When you raise your Shield it is infused with magma for a short time. Blocking during this time will spray magma at the attacker and grant you an Endurance Charge.",
+    "explicit_mods": [
+      "Raising your shield infuses it with magma for 0.5 seconds",
+      "Cannot perform a magma-infused block for 0.75 seconds after magma dissipates"
+    ],
+    "tags": [
+      "Persistent",
+      "Shield",
+      "Duration",
+      "Fire",
+      "Buff",
+      "AoE",
+      "Trigger"
+    ]
+  },
+  {
+    "name": "Plague Bearer\n\n\nBuff",
+    "properties": [
+      "Persistent, AoE, Physical, Chaos, Nova",
+      "Level: 6",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 18, 43 Dex"
+    ],
+    "description": "Stores all Poison Damage you deal. Using the Plague Nova skill unleashes the stored Poison.",
+    "explicit_mods": [
+      "Stores 6% of Expected Poison Damage",
+      "Stores up to 240 Poison Damage"
+    ],
+    "tags": [
+      "Persistent",
+      "Physical",
+      "AoE",
+      "Chaos",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Raging Spirits\n\n\nBuff",
+    "properties": [
+      "Minion, Fire Duration, Persistent",
+      "Level: 5",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 16, Int 31"
+    ],
+    "description": "Reserves Spirit. While active, your Fire Spells will also summon Raging Spirits, which are short-lived flaming skulls that rush at nearby enemies and rapidly Attack them. Enemies will not directly engage these Minions, and can pass through them.",
+    "explicit_mods": [
+      "Minions from this skill convert 70% of Physical Damage to Fire Damage",
+      "Base duration is 4 seconds",
+      "Limit 10 Summoned Raging Spirits",
+      "Fire Area Spells summon a Spirit per 1.5 metres of radius",
+      "Projectiles from Fire Spells summon a Spirit on hit",
+      "Maximum 5 Spirits summoned per Spell cast"
+    ],
+    "tags": [
+      "Persistent",
+      "Minion",
+      "Fire Duration"
+    ]
+  },
+  {
+    "name": "Scavenged Plating\n\n\nBuff",
+    "properties": [
+      "Persistent, Physical, Duration",
+      "Level: 4",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Str"
+    ],
+    "description": "Uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you a stack of Scavenged Plating for a duration, and you gain Armour and Thorns per stack.",
+    "explicit_mods": [
+      "Scavenged Plating duration is 8 seconds",
+      "3% more Armour per Scavenged Plating",
+      "Maximum 10 Scavenged Plating",
+      "4 to 6 Thorns per Scavenged Plating"
+    ],
+    "tags": [
+      "Duration",
+      "Persistent",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Withering Presence\n\n\nBuff",
+    "properties": [
+      "Persistent, Chaos",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 52 Int"
+    ],
+    "description": "While active, periodically Withers enemies in your Presence",
+    "explicit_mods": [
+      "Withered duration is 4 seconds",
+      "Withers enemies in your Presence every 2.55 seconds"
+    ],
+    "tags": [
+      "Persistent",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Blasphemy\n\n\nSpell",
+    "properties": [
+      "Buff, Persistent, AoE, Aura",
+      "Cost Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 26 Int"
+    ],
+    "description": "Combines all socketed Curse skills into a vile Aura, applying their effects to all nearby enemies.",
+    "explicit_mods": [
+      "Socketed Curse Skills apply in an Aura around you",
+      "Reserves 30 Spirit per socketed Curse"
+    ],
+    "tags": [
+      "Persistent",
+      "Aura",
+      "Buff",
+      "Cost Time: Instant",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Barrier Invocation\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Int"
+    ],
+    "description": "Casting the skill once activates it, causing it to gain Energy when your Energy Shield is damaged by Hits. Casting again once sufficient Energy is gathered will consume the Energy to trigger socketed Spells.",
+    "explicit_mods": [
+      "When Hit, gain 1 Energy for each 5 Energy Shield lost to Damage Taken",
+      "Maximum Energy is 500"
+    ],
+    "tags": [
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Shock\n\n\nMeta",
+    "properties": [
+      "Spell",
+      "Reservation: 100 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Grants a buff that causes you to gain energy when you shock enemies and trigger socketed spells on reaching maximum energy.",
+    "explicit_mods": [
+      "Gain 20 Energy when you Shock an Enemy with a Hit from a Skill, once per Skill use",
+      "10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells",
+      "Trigger all Socketed Spells and lose all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Cast on Freeze\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Level: 14",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, 133 Int"
+    ],
+    "description": "While active, gains Energy when you Freeze enemies and triggers socketed spells on reaching maximum Energy",
+    "explicit_mods": [
+      "26% increased Energy Generated",
+      "Gain 100 Energy when you Freeze an Enemy with a Hit from a Skill, once per Skill use",
+      "Trigger all Socketed Spells and lose all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Ignite\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Level: 14",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, Int 133"
+    ],
+    "description": "While active, gains Energy when you Ignite enemies and triggers socketed spells on reaching maximum Energy.",
+    "explicit_mods": [
+      "26% increased Energy Generated",
+      "Gains 20 Energy when you Ignite an Enemy with a Hit from a Skill, once per Skill use",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy",
+      "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
+    ],
+    "tags": [
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ]
+  },
+  {
+    "name": "Cast on Minion Death\n\n\nSpell",
+    "properties": [
+      "Minion, Buff, Persistent, Trigger, Meta",
+      "Level: 4",
+      "Reservation: 30 Spirit",
+      "Cast Time: Instant"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 25 Int"
+    ],
+    "description": "While active, gains Energy when one of your Minions dies, and triggers socketed Spells upon reaching maximum Energy. Cannot socket Spells which create Minions.",
+    "explicit_mods": [
+      "Gains Energy when your Minions die, based on the defensive power of the Minion",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Persistent",
+      "Minion",
+      "Buff",
+      "Meta",
+      "Trigger",
+      "Cast Time: Instant"
+    ]
+  },
+  {
+    "name": "Combat Frenzy\n\n\nBuff",
+    "properties": [
+      "Persistent",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Dex"
+    ],
+    "description": "While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds.",
+    "explicit_mods": [
+      "Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every 6.3 seconds"
+    ],
+    "tags": [
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Defiance Banner\n\n\nBuff",
+    "properties": [
+      "Persistent, AoE, Duration",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 34 Str, 34 Dex"
+    ],
+    "description": "While active, killing enemies with Attacks or standing near a unique enemy generates Valour. Using this Skill consumes its Valour to place an inspiring Banner with an Aura that grants you and nearby Allies Armour, Evasion and movement speed while the Banner lasts. The Banner cannot gain Valour while placed, and you cannot place a Banner while you already have a Banner placed.",
+    "explicit_mods": [
+      "Attack kills generates Valour equal to the Enemy's Power",
+      "Gains 1 Valour per second while a Unique enemy is in your Presence",
+      "5% more Aura effect per Valour",
+      "Banner Aura radius is 3 metres",
+      "Banner duration is 6.35 seconds, or until you leave the Aura",
+      "Aura grants 12% more Armour and Evasion",
+      "Aura grants 8% increased movement speed"
+    ],
+    "tags": [
+      "AoE",
+      "Persistent",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Elemental Invocation\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Lightning, Cold, Fire, Meta",
+      "Level: 7",
+      "Reservation: 60 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Dex, 30 Int"
+    ],
+    "description": "While active, this Invocation gains Energy when you Freeze, Shock or Ignite an enemy. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy.",
+    "explicit_mods": [
+      "12% increased Energy Generated",
+      "Gains 125 Energy when you Freeze an Enemy",
+      "Gains 25 Energy when you Ignite an Enemy",
+      "Gains 25 Energy when you Shock an Enemy",
+      "Maximum Energy is 500",
+      "Socketed Spells consume 10 Energy per 0.11 seconds of base cast time when Triggered"
+    ],
+    "tags": [
+      "Persistent",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Meta",
+      "Trigger"
+    ]
+  },
+  {
+    "name": "Herald of Plague\n\n\nBuff",
+    "properties": [
+      "Persistent, Chaos, Herald",
+      "Level: 8",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 26, 61 Dex"
+    ],
+    "description": "While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them.",
+    "explicit_mods": [
+      "Spreads the most Damaging Poison on enemies you kill in a 1.6 metre radius",
+      "17% chance to Hinder enemies on spreading Poison to them"
+    ],
+    "tags": [
+      "Persistent",
+      "Chaos",
+      "Herald"
+    ]
+  },
+  {
+    "name": "Lingering Illusion\n\n\nBuff",
+    "properties": [
+      "Persistent, Duration",
+      "Reservation: 30 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 10, 15 Dex, Int 15"
+    ],
+    "description": "Creates a short-lived illusion copy yourself whenever you dodge roll. The copy can distract enemies, and copies that are destroyed by an enemy will grant you a Power Charge.",
+    "explicit_mods": [
+      "Base duration is 0.6 seconds",
+      "Illusions have 20% of your maximum Life"
+    ],
+    "tags": [
+      "Duration",
+      "Persistent"
+    ]
+  },
+  {
+    "name": "Cast on Critical\n\n\nBuff",
+    "properties": [
+      "Persistent, Trigger, Meta",
+      "Reservation: 100 Spirit"
+    ],
+    "requirements": [
+      "Requires:  Level 58, 73 Dex, 73 Int"
+    ],
+    "description": "While active, gains Energy when you Critically Hit enemies and triggers socketed spells on reaching maximum Energy.",
+    "explicit_mods": [
+      "Gains 10 Energy when you deal a Critical Strike with a Skill",
+      "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
+    ],
+    "tags": [
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ]
+  }
+]

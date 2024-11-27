@@ -1,0 +1,2245 @@
+[
+  {
+    "name": "Added Chaos Damage\n\n\nSupport",
+    "properties": [
+      "Chaos",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Attacks, causing them to gain Chaos Damage but deal Damage of other types.",
+    "explicit_mods": [
+      "Supported Attacks gain 25% of Damage as Extra Chaos Damage",
+      "Supported Skills deal 50% less non-Chaos Damage"
+    ],
+    "tags": [
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Added Cold Damage\n\n\nSupport",
+    "properties": [
+      "Cold"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Attacks, causing them to gain Cold Damage but deal less Fire and Lightning Damage.",
+    "explicit_mods": [
+      "Supported Attacks gain 25% of Damage as Cold Damage",
+      "Supported Skills deal 50% less Fire and Lightning Damage"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Added Fire Damage\n\n\nSupport",
+    "properties": [
+      "Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Attacks, causing them to gain Fire Damage but deal less Cold and Lightning Damage.",
+    "explicit_mods": [
+      "Supported Attacks gain 25% of Damage as Extra Fire Damage",
+      "Supported Skills deal 50% less Cold and Lightning Damage"
+    ],
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Added Lightning Damage\n\n\nSupport",
+    "properties": [
+      "Lightning"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Attacks, causing them to gain Lightning Damage but deal less Cold and Fire Damage.",
+    "explicit_mods": [
+      "Supported Attacks gain 25% of Damage as Extra Lightning Damage",
+      "Supported Skills deal 50% less Fire and Cold Damage"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Additional Accuracy\n\n\nSupport",
+    "properties": [
+      "Attack",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports attack skills.",
+    "explicit_mods": [
+      "Supported Skills have 20% more Accuracy Rating"
+    ],
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "name": "Ambush\n\n\nSupport",
+    "properties": [
+      "Critical"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill that Hits enemies, making it more likely to Critical Hit enemies on full life.",
+    "explicit_mods": [],
+    "tags": [
+      "Critical"
+    ]
+  },
+  {
+    "name": "Ammo Conservation\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "[DNT] Chance to Not Consume Ammo support",
+    "explicit_mods": [
+      "40% chance for Crossbow Attacks to not consume a bolt"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Arcane Surge\n\n\nSupport",
+    "properties": [
+      "Spell, Duration",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Spells you cast yourself, tracking the mana you spend to cast them. Spending enough mana grants a burst of Mana Regeneration and Cast Speed.",
+    "explicit_mods": [
+      "Gain Arcane Surge after Spending a total of 100% of your Maximum Mana on Supported Skills",
+      "Arcane Surge lasts 8 seconds"
+    ],
+    "tags": [
+      "Duration",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Area of Effect\n\n\nSupport",
+    "properties": [
+      "AoE",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill with an area of effect, making it larger.",
+    "explicit_mods": [
+      "Supported Skills have 40% more Area of Effect"
+    ],
+    "tags": [
+      "AoE"
+    ]
+  },
+  {
+    "name": "Armour Explosion\n\n\nSupport",
+    "properties": [
+      "Attack, AoE, Melee"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports Attacks, causing them to trigger a fiery explosion when they Fully Break an ememy's Armour.",
+    "explicit_mods": [
+      "Attack Damage: 100%",
+      "Converts 100% of Physical Damage to Fire Damage",
+      "Explosion radius is 1.4 metres",
+      "Triggers when a Supported Skill Fully Breaks an enemy's Armour"
+    ],
+    "tags": [
+      "Melee",
+      "AoE",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Behead\n\n\nSupport",
+    "properties": [
+      "Melee, Attack, Strike"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports Strike skills, causing them to steal modifiers from Rare monsters they kill.",
+    "explicit_mods": [],
+    "tags": [
+      "Strike",
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Biting Cold\n\n\nSupport",
+    "properties": [
+      "Cold"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that hits or chills enemies, causing cold exposure to chilled and frozen enemies.",
+    "explicit_mods": [
+      "Supported Skills apply Cold Exposure to enemies they Chill, applying -10% to Cold Resistance",
+      "Supported Skills apply Cold Exposure to enemies they Freeze, applying -10% to Cold Resistance"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Bleed Chance\n\n\nSupport",
+    "properties": [
+      "Attack, Physical",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any attack skill, giving it a chance to inflict bleeding.",
+    "explicit_mods": [
+      "Supported Attacks have 60% chance to Bleeding"
+    ],
+    "tags": [
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Blind\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, causing them to Blind on Hit.",
+    "explicit_mods": [
+      "Supported Skills have 15% chance to Blind enemies on hit"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Break Endurance\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, granting you an Endurance Charge when a Hit Fully Breaks an enemy's Armour.",
+    "explicit_mods": [
+      "Gain an Endurance Charge when Supported Skills fully break enemy Armour"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Brutality\n\n\nSupport",
+    "properties": [
+      "Physical",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that deals damage, boosting its Physical damage at the expense of all other damage types.",
+    "explicit_mods": [
+      "Supported Skills deal 35% more Physical Damage",
+      "Supported Skills deal no Chaos Damage",
+      "Supported Skills deal no Elemental Damage"
+    ],
+    "tags": [
+      "Physical"
+    ]
+  },
+  {
+    "name": "Bursting Plague\n\n\nSupport",
+    "properties": [
+      "AoE, Trigger, Physical, Chaos",
+      "Cost Multiplier: 140%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills that can Poison enemies, causing Poisoned enemies to gain Plague over time and explode in a Plague Burst on death. Cannot support the skills of Minions.",
+    "explicit_mods": [
+      "Poison from Supported Skills also adds 200% of Damage per Second to Enemy as Plague, up to a maximum of 10% of Enemy's maximum Life"
+    ],
+    "tags": [
+      "Physical",
+      "Trigger",
+      "Chaos",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Chain\n\n\nSupport",
+    "properties": [
+      "Chaining, Projectile"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills and any other skills that Chain, causing them to chain additional times.",
+    "explicit_mods": [
+      "Supported Skills Chain +1 times",
+      "Supported Skills Chain 100% more times",
+      "Supported Skills deal 50% less Damage with Hits"
+    ],
+    "tags": [
+      "Projectile",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Clarity\n\n\nSupport",
+    "properties": [
+      "Buff, Persistent",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Persistent Buff Skills, causing you to gain increased Mana Regeneration while the Skill is active.",
+    "explicit_mods": [
+      "20% increased Mana Regeneration Rate while a Supported Skill is active"
+    ],
+    "tags": [
+      "Persistent",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Close Combat\n\n\nSupport",
+    "properties": [
+      "Attack",
+      "Cost Multiplier: 140%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Attacks, causing them to deal more damage to enemies based on how close they are to you.",
+    "explicit_mods": [
+      "Supported Skills deal 25% more Attack Damage to enemies within 1 metre of you, scaling down to no bonus at 3.5 metres or further"
+    ],
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "name": "Cold Penetration\n\n\nSupport",
+    "properties": [
+      "Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that hits enemies, making those hits penetrate enemy cold resistance.",
+    "explicit_mods": [
+      "Supported Skills Penetrate 30% Cold Resistance"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Combo Finisher\n\n\nSupport",
+    "properties": [
+      "Attack, Strike"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal massively more damage. Cannot support skills which already Combo.",
+    "explicit_mods": [
+      "Supported Skills lose Combo if you generate no Combo for 8 seconds",
+      "Supported Skills deal 50% more Damage",
+      "Supported Skills requires 5 Combo to use"
+    ],
+    "tags": [
+      "Strike",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Concentrated Effect\n\n\nSupport",
+    "properties": [
+      "AoE"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill with an area of effect, causing that area to be smaller but any area damage it deals to be higher.",
+    "explicit_mods": [
+      "Supported Skills deal 40% more Area Damage",
+      "Supported Skills have 50% less Area of Effect"
+    ],
+    "tags": [
+      "AoE"
+    ]
+  },
+  {
+    "name": "Conduction\n\n\nSupport",
+    "properties": [
+      "Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that hits enemies, making it more likely to Shock.",
+    "explicit_mods": [
+      "Supported Skills have 100% more chance to Shock"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Controlled Destruction\n\n\nSupport",
+    "properties": [
+      "Critical, Spell"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Spells that Hit enemies, boosting their damage but preventing them from dealing Critical Hits",
+    "explicit_mods": [
+      "Supported Skills deal 40% more Spell Damage with Hits",
+      "Supported Skills cannot deal Critical Hits"
+    ],
+    "tags": [
+      "Critical",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Corpse Conservation\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports skills that consume Corpses, giving them a chance to take effect without destroying the Corpse.",
+    "explicit_mods": [],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Corrosion\n\n\nSupport",
+    "properties": [
+      "Chaos, Physical"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, causing Poison it applies to also Break enemy Armour. Cannot support skills that Consume Fully Broken Armour.",
+    "explicit_mods": [
+      "Poison applied by supported Skills also breaks Armour equal to 80% of Poison Damage dealt"
+    ],
+    "tags": [
+      "Physical",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Corrupting Cry\n\n\nSupport",
+    "properties": [
+      "Warcry, Physical, Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Warcries, causing them to inflict Corrupted Blood on enemies in their area of effect.",
+    "explicit_mods": [
+      "Supported Warcries have 30% less Area of Effect",
+      "Corrupted Blood deals 10% of your Strength as Physical Damage per second",
+      "Corrupted Blood duration is 5 seconds",
+      "Supported Warcries iniflict Corrupted Blood"
+    ],
+    "tags": [
+      "Physical",
+      "Duration",
+      "Warcry"
+    ]
+  },
+  {
+    "name": "Coursing Current\n\n\nSupport",
+    "properties": [
+      "AoE, Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, giving it a chance to also Shock nearby enemies when you Shock an enemy.",
+    "explicit_mods": [
+      "Shocking Hits from supported Skills have a 50% chance to also Shock enemies in a 2.5 metre radius"
+    ],
+    "tags": [
+      "Lightning",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Critical Damage\n\n\nSupport",
+    "properties": [
+      "Critical"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to deal more damage with Critical Hits but less with non-Critical Hits.",
+    "explicit_mods": [
+      "Supported Skills have 50% increased Critical Damage Bonus",
+      "Supported Skills deal 20% less Damage with Hits"
+    ],
+    "tags": [
+      "Critical"
+    ]
+  },
+  {
+    "name": "Culling Strike\n\n\nSupport",
+    "properties": [
+      "Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Attack Skills, causing them to Cull Rare and Unique Enemies on Hit.",
+    "explicit_mods": [
+      "Supported Skills have Culling Strike against Rare or Unique Enemies"
+    ],
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "name": "Decaying Hex\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 150%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Curse skills, Cursed enemies' bodies decay, taking Chaos damage over time.",
+    "explicit_mods": [
+      "Supported Skills inflict Decay, dealing 30% of Intelligence as Chaos damage per second for 8 seconds"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Deep Freeze\n\n\nSupport",
+    "properties": [
+      "Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that hits enemies, causing freeze it inflicts to last longer.",
+    "explicit_mods": [
+      "Supported Skills have 50% increased Freeze Duration on Enemies"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Devastate\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, causing them to apply Brokwn Armour to enemies when causing a Heavy Stun to enemies.",
+    "explicit_mods": [
+      "Supported Skills Fully Break Armour when inflicting a Heavy Stun"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Double Barrel\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Crossbow Ammunition Skills, causing them to load an extra bolt at the cost of reload speed.",
+    "explicit_mods": [
+      "Supported Skills have 30% less Reload Speed",
+      "Supported Skills load an additional bolt"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Elemental Army\n\n\nSupport",
+    "properties": [
+      "Minion"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills which create Minions, bolstering the Elemental Resistances of those Minions.",
+    "explicit_mods": [
+      "Minions from Supported Skills have +25% to all Elemental Resistances"
+    ],
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "name": "Elemental Focus\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to deal more Elemental Damage but be unable to inflict Elemental Ailments.",
+    "explicit_mods": [
+      "Supported Skills deal 25% more Elemental Damage",
+      "Supported Skills cannot inflict Elemental Ailments"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Empowered Damage\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports skills that can Empower skills other than themselves, causing skills they Empower to deal more damage.",
+    "explicit_mods": [
+      "Skills Empowered by Supported Skills deal 20% more Damage"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Encumbrance\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill, causing inflicted Slows to be more powerful.",
+    "explicit_mods": [
+      "Supported Skills have 30% increased Effect of Slowing Debuffs against Enemies"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Enduring Life\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports skills that Hits enemies, causing enemies they kill to grant more Life Flask charges.",
+    "explicit_mods": [],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Enduring Mana\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Skills that Hit enemies, causing enemies they kill to grant more Mana Flask charges.",
+    "explicit_mods": [
+      "Enemies killed by Hits from Supported Skills grant 25% more Mana Flask Charges"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Enduring Stuns\n\n\nSupport",
+    "properties": [
+      "Melee, Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports melee attack skills",
+    "explicit_mods": [
+      "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+    ],
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Energy Barries\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that you can use, causing Energy Shield recharge to begin immediately if you are Stunned while using it.",
+    "explicit_mods": [
+      "Energy Shield Recharge begins immediately and is not interrupted by Damage for 3.00 seconds when Stunned while using Supported Skills"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Enervation\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that hits enemies, causing you to regenerate mana on shocking an enemy. Cannot support skills which create minions, or skills used by totems or traps.",
+    "explicit_mods": [
+      "Regenerate 2 Mana per second for 4 seconds when a Supported Skill Shocks an enemy"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Enraged Warcry\n\n\nSupport",
+    "properties": [
+      "Warcry"
+    ],
+    "requirements": [],
+    "description": null,
+    "explicit_mods": [
+      "Supported Warcries consume up to 10 Rage, causing Attacks exerted by them to deal 30% more damage"
+    ],
+    "tags": [
+      "Warcry"
+    ]
+  },
+  {
+    "name": "Essence Harvest\n\n\nSupport",
+    "properties": [
+      "Minion"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": null,
+    "explicit_mods": [
+      "Recover 50 Mana when a Minion from Supported Skills dies"
+    ],
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "name": "Eternal Flame\n\n\nSupport",
+    "properties": [
+      "Fire",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, causing its Ignites to be inflicted less often but last longer.",
+    "explicit_mods": [
+      "Supported Skills have 100% increased Ignite Duration on Enemies",
+      "Supported Skills have 25% less chance to Ignite"
+    ],
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Execute\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to deal more damage against enemies on Low Life.",
+    "explicit_mods": [
+      "Supported Skills deal 40% more damage with Hits against Enemies that are on Low Life"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Exploit Weakness\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 130%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, causing them to deal more Damage against enemies with Broken Armour. Cannot support skills that Consume Broken Armour.",
+    "explicit_mods": [
+      "Supported Skills Consume Enemy Fully Broken Armour to deal 50% more Damage"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Extended Combo\n\n\nSupport",
+    "properties": [
+      "Attack, Melee, Strike"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession.",
+    "explicit_mods": [
+      "Final Strike of Supported Skills can be performed twice in succession"
+    ],
+    "tags": [
+      "Strike",
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Far Reach\n\n\nSupport",
+    "properties": [
+      "Melee, Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports melee attack skills, making them more accurate at range.",
+    "explicit_mods": [
+      "Supported Skills have 80% reduced penalty to Accuracy Rating at range"
+    ],
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Faster Attacks\n\n\nSupport",
+    "properties": [
+      "Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Attacks, causing them to Attack faster.",
+    "explicit_mods": [
+      "Supported Skills have 25% more Attack Speed"
+    ],
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "name": "Faster Casting\n\n\nSupport",
+    "properties": [
+      "Spell"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Spells, causing them to cast faster but deal less damage.",
+    "explicit_mods": [
+      "Supported Skills have 20% more Cast Speed",
+      "Supported Skills deal 10% less Damage"
+    ],
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Faster Projectiles\n\n\nSupport",
+    "properties": [
+      "Projectile",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 5",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills, making those projectiles travel faster.",
+    "explicit_mods": [
+      "Supported Skills have 40% increased Projectile Speed"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Feeding Frenzy\n\n\nSupport",
+    "properties": [
+      "Minion, Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills which create Minions, making them aggressive.",
+    "explicit_mods": [
+      "Minions from Supported Skills are Aggressive"
+    ],
+    "tags": [
+      "Duration",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Fiery Death\n\n\nSupport",
+    "properties": [
+      "Spell, Fire",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing explosions on killing Ignited enemies.",
+    "explicit_mods": [
+      "Killing Blows from Supported Skills against Ignited",
+      "Enemies have 60% chance to cause the enemy to explode"
+    ],
+    "tags": [
+      "Fire",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Fire Penetration\n\n\nSupport",
+    "properties": [
+      "Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that hits enemies, making those hits penetrate enemy fire resistance.",
+    "explicit_mods": [
+      "Supported Skills Penetrate 20% Fire Resistance"
+    ],
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Fist of War\n\n\nSupport",
+    "properties": [
+      "Attack, Melee, Slam",
+      "Cost Multiplier: 140%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports slam you use yourself, providing a powerful Ancestral Boost every few seconds.",
+    "explicit_mods": [
+      "Attacks with Supported Skill are Ancestrally Boosted, no more than once every 6 seconds"
+    ],
+    "tags": [
+      "Slam",
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Focused Curse\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 150%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Curse skills, causing them to Curse enemies more quickly after being cast.",
+    "explicit_mods": [
+      "Curse zones from Supported",
+      "Skills erupt after 30% reduced delay"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Fork\n\n\nSupport",
+    "properties": [
+      "Projectile",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills, making their projectiles fork.",
+    "explicit_mods": [
+      "Projectiles from Supported Skills Fork",
+      "Projectiles from Supported Skills deal 50% less Damage after Forking"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Fortress\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills that create walls in a line, causing them to be created in a circle instead.",
+    "explicit_mods": [
+      "Walls from supported Skills are created in a Circle instead"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Fragility\n\n\nSupport",
+    "properties": [
+      "Cold"
+    ],
+    "requirements": [
+      "Requires:  Level 24",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that hits enemies, causing enemies to become brittle instead of frozen.",
+    "explicit_mods": [
+      "Hits from supported Skills that would Freeze enemies inflict Brittle instead",
+      "Enemies made Brittle this way are unaffected by Freeze and Chill"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frost Nexus\n\n\nSupport",
+    "properties": [
+      "AoE, Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing them to create patches of Chilled Ground around Frozen enemies.",
+    "explicit_mods": [
+      "Supported Skills create Chilled Ground for 4 seconds when they Freeze an Enemy"
+    ],
+    "tags": [
+      "Cold",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Frostfire\n\n\nSupport",
+    "properties": [
+      "Cold, Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to Consume freeze on Igniting a Frozen enemy to boost the effect of the Ignite.",
+    "explicit_mods": [
+      "Supported Skills have 100% more effect of Ignite against Frozen enemies",
+      "Supported Skills cannot inflict Freeze",
+      "Supported Skills consume Freeze from Enemies they Ignite"
+    ],
+    "tags": [
+      "Fire",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frozen Vortex\n\n\nSupport",
+    "properties": [
+      "AoE, Duration, Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to create a chilling vortex on Shattering an enemy.",
+    "explicit_mods": [
+      "Supported Skills create a Vortex on Shattering an enemy",
+      "Vortex deals 30% of Overkill Damage per second",
+      "Vortex Chills Enemies",
+      "Vortex lasts 3.00 seconds"
+    ],
+    "tags": [
+      "Cold",
+      "Duration",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Glaciation\n\n\nSupport",
+    "properties": [
+      "Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, making it more effective at Freezing Chilled enemies.",
+    "explicit_mods": [
+      "Supported Skills cause 50% more Freeze Buildup"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Hex Bloom\n\n\nSupport",
+    "properties": [
+      "AoE",
+      "Cost Multiplier: 130%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Curses, spreading their effects when a Cursed enemy dies.",
+    "explicit_mods": [
+      "Curses from Supported Skills spread to enemies within 3 metres when a Cursed enemy dies"
+    ],
+    "tags": [
+      "AoE"
+    ]
+  },
+  {
+    "name": "Hourglass\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any damaging skill that you use yourself, causing it to deal significantly more damage but gain a long cooldown.",
+    "explicit_mods": [
+      "Supported Skills deal 50% more Damage",
+      "Supported Skills have +8 seconds to Cooldown"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Hypothermia\n\n\nSupport",
+    "properties": [
+      "Cold",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, making it more effective at Freezing Chilled enemies.",
+    "explicit_mods": [
+      "Supported Skills have +25% more Freeze buildup against Chilled Enemies"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Bite\n\n\nSupport",
+    "properties": [
+      "Cold"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Attacks you use yourself. Freezing an enemy with supported skills infuses all of your Attacks with Cold damage for a short time.",
+    "explicit_mods": [
+      "Attacks gain 20% of Damage as extra Cold Damage for 5 seconds on Freezing an enemy with Supported Skills"
+    ],
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ignite Proliferation\n\n\nSupport",
+    "properties": [
+      "AoE, Fire",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, spreading Ignites it inflicts to nearby enemies.",
+    "explicit_mods": [
+      "Ignites caused by Supported Skills spread to other Enemies within 1.4 metres"
+    ],
+    "tags": [
+      "Fire",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Ignition\n\n\nSupport",
+    "properties": [
+      "Fire",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that Hits enemies, making it more likely to Ignite.",
+    "explicit_mods": [
+      "Supported Skills have 100% more chance to Ignite"
+    ],
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Impact Shockwave\n\n\nSupport",
+    "properties": [
+      "Melee, Attack, Strike",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 10",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Melee Strike skills, causing them to create a shockwave that damages enemies around the target.",
+    "explicit_mods": [
+      "Supported Skills create an Aftershock when they Stun an Enemy, dealing the same damage to enemies within 1 metre"
+    ],
+    "tags": [
+      "Strike",
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Increase Limit\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills which can have a limited number of effects active at once, increasing that limit at the cost of their duration.",
+    "explicit_mods": [
+      "Supported Skills have +1 to Limit",
+      "Supported Skills have 50% less Skill Effect Duration"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Increased Armour Break\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill, causing Armour Break it inflicts to be stronger.",
+    "explicit_mods": [
+      "Supported Skills break 80% more Armour"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Inevitable Critical\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports skills that hit enemies, giving them extra critical strike chance when not dealing critical hits. Cannot support skills wihch create minions, or skills used by totems or traps.",
+    "explicit_mods": [
+      "Supported Skills gain 40% increased Critical Strike Chance Each second, up to 200%. This Critical Strike Chance is lost whenever a skill supported by Inevitable Critical Critically Strikes."
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Innervate\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports Attacks you use yourself. Killing a Shocked an enemy with supported skills infuses all of your Attacks with Lightning damage for 1 short time.",
+    "explicit_mods": [
+      "Attacks gain 20% of Damage as extra Lightning Damage for 5 seconds on killing a Shocked enemy with Supported Skills"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Iron Grip\n\n\nSupport",
+    "properties": [
+      "Projectile",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports Projectile Attacks, causing Strength to increase their Projectile damage.",
+    "explicit_mods": [],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Jagged Ground\n\n\nSupport",
+    "properties": [
+      "Duration"
+    ],
+    "requirements": [],
+    "description": "Supports slam skills, causing them to create patches of jagged ground.",
+    "explicit_mods": [
+      "Jagged Ground created by Supported Skills has 20% more Area of Effect",
+      "Jagged Ground lasts 3 seconds",
+      "Supported Skills create Jagged Ground when they deal Damage in an Area",
+      "Enemies on Jagged Ground created by Supported Skills have 30% less Movement Speed"
+    ],
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "name": "Knockback\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to Knock Back enemies.",
+    "explicit_mods": [],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Last Gasp\n\n\nSupport",
+    "properties": [
+      "Minion, Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills that create Minions, causing those Minions to fighting on for a short duration before dying when they are fatally wound.",
+    "explicit_mods": [
+      "Minions from Supported Skills die 4 seconds after their Life is reduced to 0"
+    ],
+    "tags": [
+      "Duration",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Lasting Shock\n\n\nSupport",
+    "properties": [
+      "Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies or inflicts Shock, causing its Shocks to be inflicted less often but last longer.",
+    "explicit_mods": [
+      "Supported Skills have 100% increased Shock Duration on Enemies",
+      "Supported Skills have 25% less chance to Shock"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Less Duration\n\n\nSupport",
+    "properties": [
+      "Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that has a duration, making that duration shorter.",
+    "explicit_mods": [
+      "Supported Skills have 30% less Skill Effect Duration"
+    ],
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "name": "Life Drain\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, causing you to recover Life when it Culls an enemy.",
+    "explicit_mods": [
+      "Recover 4% of Life when Supported Skills Cull an Enemy"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Life Leech\n\n\nSupport",
+    "properties": [
+      "Attack, Physical",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Attacks, causing their Physical damage to Leech Life.",
+    "explicit_mods": [
+      "Leech 3% of Physical Attack Damage from Supported Skills as Life"
+    ],
+    "tags": [
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Lifetap\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skila, turning a portion of its Mana cost into a Life cost.",
+    "explicit_mods": [
+      "Skills Cost Life instead of 100% of Mana Cost"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Lightning Penetration\n\n\nSupport",
+    "properties": [
+      "Lightning"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that hits enemies, making those hits penetrate enemy lightning resistance.",
+    "explicit_mods": [
+      "Supported Skills Penetrate 20% Lightning Resistance"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lockdown\n\n\nSupport",
+    "properties": [
+      "Physical",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, causing any Pin buildup it inflicts to be stronger the closer the enemy is to you.",
+    "explicit_mods": [
+      "Supported Skills have up to 120% more Pin Buildup against nearby enemies"
+    ],
+    "tags": [
+      "Physical"
+    ]
+  },
+  {
+    "name": "Maim\n\n\nSupport",
+    "properties": [
+      "Attack, Physical"
+    ],
+    "requirements": [],
+    "description": "Supports attack skills causing them to maim enemies.",
+    "explicit_mods": [
+      "Supported attacks have 100% chance to Maim on Hit"
+    ],
+    "tags": [
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Mana Flare\n\n\nSupport",
+    "properties": [
+      "Critical, Spell, Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing it to trigger a Mana Flare on Critical Hit. The Mana Flare consumes your mana to deal Fire damage. Cannot support the skills of Minions.",
+    "explicit_mods": [
+      "Supported Skills trigger Mana Flare on Critical Hit"
+    ],
+    "tags": [
+      "Fire",
+      "Critical",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Mana Leech\n\n\nSupport",
+    "properties": [
+      "Attack, Physical"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports attacks, causing their Physical damage to Leech Mana.",
+    "explicit_mods": [
+      "Leech 2% of Physical Attack Damage as Mana"
+    ],
+    "tags": [
+      "Physical",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Meat Shield\n\n\nSupport",
+    "properties": [
+      "Minion"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills which create Minions, making them defensive and giving them a chance to taunt enemies.",
+    "explicit_mods": [
+      "Minions from Supported Skills have 10% chance to Taunt on Hit",
+      "Minions from Supported Skills are Defensive"
+    ],
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "name": "Minion Instability\n\n\nSupport",
+    "properties": [
+      "Minion, Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills which create Minions, causing them to violently explode when reduced to Low Life.",
+    "explicit_mods": [
+      "Minions from Supported Skills explode when reduced to Low Life, dealing 7% of their Life as Fire Damage to surrounding Enemies"
+    ],
+    "tags": [
+      "Fire",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Minion Pact\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports damaging skills you use yourself, drain the life from one of your Minions on use in order to boost the skill's damage. Only takes effect if you have a Minion with enough life to drain the full amount.",
+    "explicit_mods": [
+      "Supported Skills remove 100% of your maximum Life from a nearby Minion on use to deal 40% more damage"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "More Duration\n\n\nSupport",
+    "properties": [
+      "Duration",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that has a duration, making that duration longer.",
+    "explicit_mods": [
+      "Supported Skills have 40% more Skill Effect Duration"
+    ],
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "name": "Multiple Poison\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, allowing it to inflict an extra Poison an enemies but shortening the duration of those Poisons.",
+    "explicit_mods": [
+      "Supported Skills can Poison enemies an additional time",
+      "Supported Skills have 30% less Poison Duration"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Multiple Projectiles\n\n\nSupport",
+    "properties": [
+      "Projectile"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills, making them fire extra Projectiles. Also lowers Attack and Cast speed of supported skills, as well as lessening their damage.",
+    "explicit_mods": [
+      "Supported Skills deal 20% less Projectile Damage",
+      "Supported Skills fire 2 additional Projectiles",
+      "Supported Skills have 20% less Attack and Cast Speed"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Multiple Trap\n\n\nSupport",
+    "properties": [
+      "Trap"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports trap skills, making them throw extra traps in a line.",
+    "explicit_mods": [
+      "Supported Skills throw up to 2 additional Traps",
+      "Supported Skills deal 75% less Damage",
+      "Supported Skills can have up to 3 additional Traps placed at a time"
+    ],
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "name": "Neural Overload\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill that hit enemies. Nearby enemies are marked when they are Primed for Electrocution, and hitting a marked enemy with a supported skill will Electrocute them.",
+    "explicit_mods": [
+      "Supported Skills Electrocute Primed enemies on Hit"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Overcharge\n\n\nSupport",
+    "properties": [
+      "Lightning"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, making its Shocks more effective but last for a shorter duration.",
+    "explicit_mods": [
+      "50% increased Effect of Shocks from Supported Skills",
+      "Supported Skills have 50% less Shock Duration on Enemies"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Overpower\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skill that hits enemies, causing it to build up Stun more quickly.",
+    "explicit_mods": [
+      "Hits with Supported Skills cause 80% more Stun buildup"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Perpetual Charge\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 130%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills that consume Power, Frenzy or Endurance Charges on use, giving them a chance not to remove each Charge while still gaining the benefits of consuming them.",
+    "explicit_mods": [
+      "Supported Skills have 35% chance to not remove Charges but still count as consuming them"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Pierce\n\n\nSupport",
+    "properties": [
+      "Projectile"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills, making those projectiles pierce through enemies hit.",
+    "explicit_mods": [
+      "Projectiles from Supported Skills Pierce an Enemy",
+      "Projectiles from Supported Skills deal 30% less Damage if they've Pierced an enemy"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Pin\n\n\nSupport",
+    "properties": [
+      "Physical"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, allowing its Physical damage to Pin enemies bit making it unable to Stun.",
+    "explicit_mods": [
+      "Supported Skills do not cause Stun buildup",
+      "Physical Damage from Supported Skill is Pinning"
+    ],
+    "tags": [
+      "Physical"
+    ]
+  },
+  {
+    "name": "Poison Chance\n\n\nSupport",
+    "properties": [
+      "Chaos",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that hits enemies, giving it a chance to poison enemies.",
+    "explicit_mods": [
+      "Supported Skills have 60% chance to Poison on Hit"
+    ],
+    "tags": [
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Pulverise\n\n\nSupport",
+    "properties": [
+      "Melee, Attack",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports melee attack skills, making them slower but more powerful.",
+    "explicit_mods": [
+      "Supported Skills have 20% increased Area of Effect",
+      "Supported Skills have 15% less Attack Speed",
+      "Supported Skills deal 20% more Melee Area Damage"
+    ],
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Rage\n\n\nSupport",
+    "properties": [
+      "Melee, Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Melee Attacks, causing them to grant Rage on Hit.",
+    "explicit_mods": [
+      "Gain 3 Rage on Melee Hit"
+    ],
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Reduced Cooldown\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 110%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills with cooldowns, increasing the rate at which those cooldowns recover.",
+    "explicit_mods": [
+      "Supported Skills have 30% increased cooldown recover rate"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Ruthless\n\n\nSupport",
+    "properties": [
+      "Melee, Attack"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports melee strikes, causing repeated uses to be more effective at Stunning enemies.",
+    "explicit_mods": [
+      "Every fifth use of this Attack causes 500% more Stun buildup"
+    ],
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "name": "Searing Flame\n\n\nSupport",
+    "properties": [
+      "Fire"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill that Hits enemies, causing inflicted Ignites to deal more damage but its Hits to deal less damage.",
+    "explicit_mods": [],
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Second Wind\n\n\nSupport",
+    "properties": [
+      "",
+      "Cost Multiplier: 150%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills with cooldowns, giving them extra uses of that cooldown.\r\nCannot support triggered skills.",
+    "explicit_mods": [
+      "Supported Skills have 50% less Cooldown Recovery Rate",
+      "Supported Skills have twice as many Cooldown Uses"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Shock Chance\n\n\nSupport",
+    "properties": [
+      "Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [],
+    "description": "Supports any skill that hits enemies, giving it a chance to shock enemies.",
+    "explicit_mods": [
+      "Supported Skills have 20% chance to Shock"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Shock Proliferation\n\n\nSupport",
+    "properties": [
+      "AoE, Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, giving it a chance to also Shock nearby enemies when you Shock an enemy.",
+    "explicit_mods": [
+      "Shocking Hits from supported Skills have a 50% chance to also Shock enemies in a 2.5 metre radius"
+    ],
+    "tags": [
+      "Lightning",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Shock Siphon\n\n\nSupport",
+    "properties": [
+      "Lightning",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports any skill that Hits enemies, causing you to recover Energy Shield on killing a Shocked enemy.",
+    "explicit_mods": [
+      "Recover 2% of Energy Shield when a Supported Skill deals a Killing Blow to a Shocked Enemy"
+    ],
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Slower Projectiles\n\n\nSupport",
+    "properties": [
+      "Projectile"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports projectile skills, making those projectiles travel more slowly.",
+    "explicit_mods": [
+      "Supported Skills have 20% less Projectile Speed"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Soul Drain\n\n\nSupport",
+    "properties": [
+      ""
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that Hits enemies, causing you to recover Mana when it Culls an enemy.",
+    "explicit_mods": [
+      "Recover 5% of Mana when Supported Skills Cull an Enemy"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Spell Echo\n\n\nSupport",
+    "properties": [
+      "Spell, AoE",
+      "Cost Multiplier: 150%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Spells that affect an area around you or a target location. Supported Spells echo, causing their effects to happen again after a short delay. Cannot support Channelling skills or Remote skills.",
+    "explicit_mods": [
+      "Supported Spells Echo once",
+      "Supported Skills have 30% less Cast Speed",
+      "Echoes from supported Spells have 30% more Area of Effect"
+    ],
+    "tags": [
+      "AoE",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Stormfire\n\n\nSupport",
+    "properties": [
+      "Fire, Lightning"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports  any skill that Hits enemies, prolonging Shocks they inflict on Ignited enemies.",
+    "explicit_mods": [],
+    "tags": [
+      "Fire",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Swift Affliction\n\n\nSupport",
+    "properties": [
+      "Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports any skill that deals damage, causing it to deal more damage over time but have a shorter duration.",
+    "explicit_mods": [
+      "Supported Skills deal 35% more non-Ailment Damage over Time",
+      "20% less Duration of Supported Skills and Damaging Ailments they inflict"
+    ],
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "name": "Unbreakable\n\n\nSupport",
+    "properties": [
+      "",
+      "Tier: 1"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports any skills, making you harder to stun while using it.",
+    "explicit_mods": [
+      "200% more Stun Threshold while using Supported Skills"
+    ],
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "name": "Unleash\n\n\nSupport",
+    "properties": [
+      "Spell",
+      "Cost Multiplier: 150%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports Spells you cast yourself, making their effect reoccur when cast. Cannot support Channelling skills.",
+    "explicit_mods": [
+      "Supported Spells gain a Seal every 200% of cast time, to a maximum of 2 Seals",
+      "Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost",
+      "Supported Skills deal 50% less Damage when Reoccurring"
+    ],
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Vitality\n\n\nSupport",
+    "properties": [
+      "Buff, Persistent",
+      "Cost Multiplier: 120%"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Str"
+    ],
+    "description": "Supports Persistent Buff Skills, causing you to gain increased Life Regeneration while the Skill is active.",
+    "explicit_mods": [
+      "Regenerate 1.5% of Life per second while a Supported Skill is active"
+    ],
+    "tags": [
+      "Persistent",
+      "Buff"
+    ]
+  },
+  {
+    "name": "Volley\n\n\nSupport",
+    "properties": [
+      "Projectile",
+      "Tier: 1"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Dex"
+    ],
+    "description": "Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects.",
+    "explicit_mods": [
+      "Supported Skills fire 2 additional Projectiles",
+      "Supported Skills also fire Projectiles from up to 4 points on each side of you",
+      "Supported Skills deal 20% less Projectile Damage"
+    ],
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Wind Wave\n\n\nSupport",
+    "properties": [
+      "AoE, Trigger"
+    ],
+    "requirements": [
+      "Requires:  Level 1"
+    ],
+    "description": "Supports any skill that you can use, triggering a blast of wind that Knocks Back enemies if you are Stunned while using it.",
+    "explicit_mods": [],
+    "tags": [
+      "Trigger",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Withering Touch\n\n\nSupport",
+    "properties": [
+      "Chaos, Duration"
+    ],
+    "requirements": [
+      "Requires:  Level 1",
+      "Support Reqirements: +5 Int"
+    ],
+    "description": "Supports skills, giving them a chance to Wither enemies on Hit.",
+    "explicit_mods": [
+      "Withered last 4 seconds",
+      "Supported Skills deal 30% less Damage",
+      "Supported Skills have 25% chance to inflict Withered on Hit with Chaos Damage"
+    ],
+    "tags": [
+      "Duration",
+      "Chaos"
+    ]
+  }
+]
