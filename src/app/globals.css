@@ -21,7 +21,7 @@
     
     --muted: 217 30% 15%;
     --muted-foreground: 215 20% 65%;
-    --accent: 21 90% 48%;
+    --accent: 200 90% 28%;
     --accent-fire: 21 90% 48%;
     --accent-cold: 201 90% 48%;
     --accent-lightning: 48 90% 48%;
@@ -85,7 +85,7 @@ h1, h2, h3, h4 {
 /* Element-specific skill effects */
 .skill-effect-fire {
   @apply bg-gradient-to-r from-[hsl(var(--accent-fire))] to-[hsl(var(--accent-fire))/60%] bg-clip-text;
-  text-shadow: 0 0 15px hsl(var(--accent-fire) / 0.8);
+  text-shadow: 0 0 15px hsl(var(--accent-fire) / 0.6);
 }
 
 .skill-effect-cold {

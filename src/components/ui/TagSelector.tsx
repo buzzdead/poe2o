@@ -15,12 +15,12 @@ const TagSelector = ({ tags, selectedTags, onSelectTag, onRemoveTag }: Props) =>
 
   return (
     <div>
-      <div className="flex flex-wrap mb-0.5">
+      <div className="flex flex-wrap mb-0">
        
       </div>
       <Popover open={isOpen} onOpenChange={setIsOpen}>
         <PopoverTrigger asChild>
-          <button className="btn btn-primary text-emerald-400 font-bold text-sm hover:bg-emerald-900 p-2 rounded-md">Tag filter</button>
+          <button className="btn btn-primary text-emerald-400 font-bold text-sm hover:bg-emerald-900/80 p-2 rounded-md">Tag filter</button>
         </PopoverTrigger>
         {selectedTags.map((tag: string) => (
           <Badge

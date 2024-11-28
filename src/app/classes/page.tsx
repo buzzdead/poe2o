@@ -81,8 +81,6 @@ const Classes = () => {
       // Explicitly return the item as ClassesWithAscendancy if you're confident about its shape
       return item as ClassesWithAscendancy;
     });
-    console.log(mappedAscendancies[0])
-    console.log("asdf")
     // Set the state with the mapped data
     setClassAscendancies(mappedAscendancies);
   }, []);
@@ -104,17 +102,17 @@ const Classes = () => {
             className="bg-secondary/5 border border-primary/10 hover:border-primary/20 transition-colors"
           >
             <CardContent className="p-6">
-            <h4 className="text-2xl font-semibold mb-4 text-accent-cold skill-effect-fire">
+            <h4 className="text-2xl font-semibold mb-4 text-accent-fire skill-effect-fire">
               {ascendancy.name}
             </h4>
             <ul className="space-y-4">
               {ascendancy.nodes.map((skill) => (
                 <li key={skill.name} className="list-none skill-effect">
-                  <span className="font-medium text-lg text-accent-lightning underline-offset-2 underline">
+                  <span className="font-medium text-lg text-accent-lightning/80 underline-offset-2 underline">
                     {skill.name}
                   </span>
                   {skill.effect && (
-                    <p className="text-sm font-bold text-accent-cold/50 mt-2 skill-effect-cold">
+                    <p className="text-sm font-bold text-accent-cold mt-2 skill-effect-cold">
                       {skill.effect}
                     </p>
                   )}

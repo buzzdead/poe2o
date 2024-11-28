@@ -1,71 +1,47 @@
-"use client"
-
-import * as React from "react"
-import Link from "next/link"
-
-import { cn } from "@/lib/utils"
+"use client";
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
+} from "@/components/ui/navigation-menu";
+
+// Navigation Items Configuration
+const navItems = [
+  { label: "Home", href: "/" },
+  { label: "Gems", href: "/gems" },
+  { label: "Classes", href: "/classes" },
+];
 
 export function NavigationMenuDemo() {
+  const pathname = usePathname();
+
   return (
     <div className="justify-center align-middle w-full flex mb-4">
-    <NavigationMenu>
-      <NavigationMenuList>
-      <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/gems" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Gems
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/classes" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Classes
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+      <NavigationMenu>
+        <NavigationMenuList>
+          {navItems.map((item) => (
+            <NavigationMenuItem key={item.href}>
+              <NavigationMenuLink asChild>
+                <Link
+                  href={item.href}
+                  className={cn(
+                    navigationMenuTriggerStyle(),
+                    pathname === item.href && "bg-accent text-accent-foreground"
+                  )}
+                >
+                  {item.label}
+                </Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+          ))}
+        </NavigationMenuList>
+      </NavigationMenu>
     </div>
-  )
+  );
 }
-
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  )
-})
-ListItem.displayName = "ListItem"
