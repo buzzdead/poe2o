@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -10,8 +10,25 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import classAscendancy from "../data/classAscendancy.json";
+
 
 type Char = { name: string; image: string; info: string };
+type Skill = {
+    name: string;
+    effect: string;
+    prerequisite?: string;
+    modifier?: string;
+  };
+  
+  type Ascendancy = {
+    name: string;
+    nodes: Skill[];
+  };
+  type ClassesWithAscendancy = {
+    name: string
+    ascendancies: Ascendancy[]
+  }
 const classes: Char[] = [
   {
     name: "Druid",
@@ -28,7 +45,11 @@ const classes: Char[] = [
     image: "/mercenary.webp",
     info: "Combining crossbow skills with explosive grenades, the Mercenary is a tactical and versatile fighter. Specializing in ranged combat with elemental effects and grenade combos, this class offers diverse options for players who enjoy a more complex, strategic playstyle with lots of tools at their disposal.",
   },
-  { name: "Monk", image: "/monk.webp", info: "The Monk is a mobile warrior who balances agile melee combat with powerful elemental abilities. Known for quick strikes with a staff and explosive magical attacks, this class rewards players who enjoy fast, combo-based combat and intricate skill management." },
+  {
+    name: "Monk",
+    image: "/monk.webp",
+    info: "The Monk is a mobile warrior who balances agile melee combat with powerful elemental abilities. Known for quick strikes with a staff and explosive magical attacks, this class rewards players who enjoy fast, combo-based combat and intricate skill management.",
+  },
   {
     name: "Ranger",
     image: "/ranger.webp",
@@ -53,11 +74,68 @@ const classes: Char[] = [
 
 const Classes = () => {
   const [selectedClass, setSelectedClass] = useState<Char>(classes[0]);
-
+  const [classAscendancies, setClassAscendancies] = useState<ClassesWithAscendancy[]>([])
+  useEffect(() => {
+    // Map over the classAscendancy data to ensure it matches the ClassesWithAscendancy type
+    const mappedAscendancies: ClassesWithAscendancy[] = classAscendancy.classes.map((item) => {
+      // Explicitly return the item as ClassesWithAscendancy if you're confident about its shape
+      return item as ClassesWithAscendancy;
+    });
+    console.log(mappedAscendancies[0])
+    console.log("asdf")
+    // Set the state with the mapped data
+    setClassAscendancies(mappedAscendancies);
+  }, []);
+  
+  const renderClassAsc = () => {
+    const classData = classAscendancies.find(
+      (e) => e.name?.trim() === selectedClass.name?.trim()
+    );
+  
+    if (!classData) {
+      return <p>No ascendancy data available for this class.</p>;
+    }
+  
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {classData.ascendancies.map((ascendancy) => (
+          <Card 
+            key={ascendancy.name} 
+            className="bg-secondary/5 border border-primary/10 hover:border-primary/20 transition-colors"
+          >
+            <CardContent className="p-6">
+            <h4 className="text-2xl font-semibold mb-4 text-accent-cold skill-effect-fire">
+              {ascendancy.name}
+            </h4>
+            <ul className="space-y-4">
+              {ascendancy.nodes.map((skill) => (
+                <li key={skill.name} className="list-none skill-effect">
+                  <span className="font-medium text-lg text-accent-lightning underline-offset-2 underline">
+                    {skill.name}
+                  </span>
+                  {skill.effect && (
+                    <p className="text-sm font-bold text-accent-cold/50 mt-2 skill-effect-cold">
+                      {skill.effect}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    );
+  };
   return (
     <div className="w-full max-w-4xl mx-auto p-2">
-        <div className="text-3xl font-extrabold font-sans bg-clip-text text-blue-800 text-center pb-6" >Character classes</div>
-      <Carousel opts={{ dragFree: true, dragThreshold: 20 }} className="w-full mb-8">
+      <div className="text-3xl font-extrabold font-sans bg-clip-text text-blue-800 text-center pb-6">
+        Character classes
+      </div>
+      <Carousel
+        opts={{ dragFree: true, dragThreshold: 20 }}
+        className="w-full mb-8"
+      >
         <CarouselContent>
           {classes.map((classItem, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
@@ -74,7 +152,8 @@ const Classes = () => {
                       alt={classItem.name}
                       className="absolute inset-0 w-full h-full object-cover select-none"
                     />
-                    <h3 className={`text-lg font-semibold absolute bottom-1 left-1 text-white bg-black/50 px-2 py-2 rounded select-none ${classItem.name === selectedClass.name && "text-blue-600"}`}>
+                    <h3
+                      className={`text-lg font-semibold absolute bottom-1 left-1  bg-black/50 px-2 py-2 rounded select-none ${classItem.name === selectedClass.name ? "text-blue-600" : "text-white"}`}>
                       {classItem.name}
                     </h3>
                   </CardContent>
@@ -88,12 +167,13 @@ const Classes = () => {
       </Carousel>
 
       {selectedClass && (
-        <Card className="border-muted/50 bg-card/20 backdrop-blur-sm">
+        <Card className="border-none bg-gradient-to-b from-background/80 to-background/40 backdrop-blur-sm shadow-2xl">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-4 text-blue-300">
               {selectedClass.name}
             </h2>
-            <p className="text-card-foreground">{selectedClass.info}</p>
+            <p className="text-card-foreground mb-4">{selectedClass.info}</p>
+            <h1>{renderClassAsc()}</h1>
           </CardContent>
         </Card>
       )}
