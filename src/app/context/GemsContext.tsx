@@ -2,9 +2,9 @@
 
 import React, { createContext, useState, ReactNode, useMemo, useContext, useEffect } from "react";
 import { Gem } from "./GemCard";
-import skillGems from "../data/skillGems2.json";
-import supportGems from "../data/supportGems2.json";
-import spiritGems from "../data/spiritGems2.json";
+import skillGems from "../data/skillGems.json";
+import supportGems from "../data/supportGems.json";
+import spiritGems from "../data/spiritGems.json";
 
 interface GemsContextType {
   page: number;
