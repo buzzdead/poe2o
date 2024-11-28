@@ -19,7 +19,7 @@ const Header = ({
     <div className="container mx-auto px-4 pt-8">
      <NavigationMenuDemo />
       <header className="text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
           {title}
           <span className="block md:text-2xl text-blue-400 mt-2 tracking-[4px]">
             {subtitle}
