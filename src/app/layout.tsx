@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from "@/components/ui/toaster"
 import "./globals.css";
 import { GemsProvider } from "./context/GemsContext";
 import Header from "./Header";
@@ -25,6 +26,7 @@ export default function RootLayout({
         <p>© 2024 Path of Exile 2 - Unofficial Fan Site</p>
       </footer>
         </GemsProvider>
+        <Toaster />
       </body>
     </html>
   );

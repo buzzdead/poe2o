@@ -11,6 +11,9 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import classAscendancy from "../data/classAscendancy.json";
+import { Brain } from "lucide-react";
+import { useToast } from "../../hooks/use-toast";
+import { ToastAction } from "@radix-ui/react-toast";
 
 
 type Char = { name: string; image: string; info: string };
@@ -74,6 +77,7 @@ const classes: Char[] = [
 
 const Classes = () => {
   const [selectedClass, setSelectedClass] = useState<Char>(classes[0]);
+  const { toast } = useToast()
   const [classAscendancies, setClassAscendancies] = useState<ClassesWithAscendancy[]>([])
   useEffect(() => {
     // Map over the classAscendancy data to ensure it matches the ClassesWithAscendancy type
@@ -102,9 +106,18 @@ const Classes = () => {
             className="bg-secondary/5 border border-primary/10 hover:border-primary/20 transition-colors"
           >
             <CardContent className="p-6">
+              <div className="pb-4 flex flex-row justify-between">
             <h4 className="text-2xl font-semibold mb-4 text-accent-fire skill-effect-fire">
               {ascendancy.name}
             </h4>
+            <Brain className="text-blue-400 cursor-pointer hover:text-blue-300 hover:animate-shake transition-all duration-50" onClick={() => toast({
+          title: classData.name,
+          description: ascendancy.name,
+          action: <ToastAction altText="Try again">Go to character {"->"}</ToastAction>
+        })}/>
+
+
+            </div>
             <ul className="space-y-4">
               {ascendancy.nodes.map((skill) => (
                 <li key={skill.name} className="list-none skill-effect">

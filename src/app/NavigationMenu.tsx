@@ -16,6 +16,7 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "Gems", href: "/gems" },
   { label: "Classes", href: "/classes" },
+  { label: "Early access", href: "/earlyaccess"}
 ];
 
 export function NavigationMenuDemo() {

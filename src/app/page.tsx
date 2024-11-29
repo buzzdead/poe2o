@@ -1,11 +1,5 @@
-import Link from "next/link";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../components/ui/card";
-import { Sparkles, Sword, TestTube, ArrowRight } from "lucide-react";
+import { Sparkles, Sword, TestTube } from "lucide-react";
+import CustomCard from "../components/ui/CustomCard";
 
 export default function Home() {
   return (
@@ -22,78 +16,32 @@ export default function Home() {
         </header>
 
         <section className="grid md:grid-cols-2 gap-8">
-          <Link href={"/gems"} className="block group">
-            <Card className="h-full border-muted/20 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all hover:shadow-lg hover:shadow-blue-500/10 flex flex-col">
-              <CardHeader className="space-y-4">
-                <div className="size-12 rounded-lg bg-blue-500/10 flex items-center justify-center">
-                  <Sparkles className="size-6 text-blue-500" />
-                </div>
-                <CardTitle className="text-2xl group-hover:text-blue-400 transition-colors">
-                  Skill Gems Overview
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="flex-1 flex flex-col">
-                <p className="text-muted-foreground/80 mb-6 flex-1 leading-relaxed">
-                  The new skill gem system in Path of Exile 2 offers a wealth of
-                  customization and build opportunities. Explore the latest
-                  gems, their unique effects, and how they can be combined to
-                  create powerful character builds.
-                </p>
-                <div className="flex items-center text-blue-400 font-semibold">
-                  Discover Gems
-                  <ArrowRight className="ml-2 size-4 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </CardContent>
-            </Card>
-          </Link>
+          <CustomCard
+            href="/gems"
+            theme="blue"
+            icon={Sparkles}
+            title="Skill Gems Overview"
+            description="The new skill gem system in Path of Exile 2 offers a wealth of customization and build opportunities."
+            linkText="Discover Gems"
+          />
 
-          <Link href="/classes" className="block group">
-            <Card className="h-full border-muted/20 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all hover:shadow-lg hover:shadow-cyan-500/10 flex flex-col">
-              <CardHeader className="space-y-4">
-                <div className="size-12 rounded-lg bg-cyan-500/10 flex items-center justify-center">
-                  <Sword className="size-6 text-cyan-500" />
-                </div>
-                <CardTitle className="text-2xl group-hover:text-cyan-400 transition-colors">
-                  Character Classes
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="flex-1 flex flex-col">
-                <p className="text-muted-foreground/80 mb-6 flex-1 leading-relaxed">
-                  The upcoming Path of Exile 2 expansion introduces several new
-                  and unique character classes, each with their own playstyle,
-                  abilities, and specialties. Learn about the diverse class
-                  options and find the one that best fits your preferred
-                  gameplay approach.
-                </p>
-                <div className="flex items-center text-cyan-400 font-semibold">
-                  View Classes
-                  <ArrowRight className="ml-2 size-4 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </CardContent>
-            </Card>
-          </Link>
-        </section>
+          <CustomCard
+            href="/classes"
+            icon={Sword}
+            theme="blue"
+            title="Character Classes"
+            description="The upcoming Path of Exile 2 expansion introduces several new and unique character classes, each with their own playstyle, abilities, and specialties. Learn about the diverse class options and find the one that best fits your preferred gameplay approach."
+            linkText="View Classes"
+          />
 
-        <section className="mt-16 text-center space-y-8 bg-gradient-to-b from-background/50 to-background/30 rounded-2xl p-8 border border-muted/20">
-          <div className="size-16 rounded-full bg-purple-500/10 flex items-center justify-center mx-auto">
-            <TestTube className="size-8 text-purple-500" />
-          </div>
-          <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-            Upcoming Beta Information
-          </h2>
-          <p className="text-muted-foreground/80 max-w-2xl mx-auto text-lg leading-relaxed">
-            Stay tuned for the latest updates on the Path of Exile 2 beta
-            release. We will be sharing news, release dates, and details on how
-            you can participate in the testing phase as soon as they become
-            available.
-          </p>
-          <Link
-            href={"/beta"}
-            className="inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-          >
-            View Beta Info
-            <ArrowRight className="ml-2 size-5" />
-          </Link>
+          <CustomCard
+            href="/earlyaccess"
+            theme="purple"
+            icon={TestTube}
+            title="Upcoming Information"
+            description="Stay tuned for the latest updates on the Path of Exile 2 early access release. We will be sharing news, release dates, and details."
+            fullWidth
+          />
         </section>
       </main>
     </div>
