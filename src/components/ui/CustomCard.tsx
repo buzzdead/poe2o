@@ -23,7 +23,6 @@ export default function CustomCard({
   title,
   description,
   linkText,
-  buttonText,
   fullWidth,
 }: Props) {
   const themes = {
@@ -41,7 +40,7 @@ export default function CustomCard({
     },
   };
 
-  const { iconColor, bgColor, shadowColor, buttonColor } = themes[theme];
+  const { iconColor, bgColor, shadowColor } = themes[theme];
 
   return (
     <Link

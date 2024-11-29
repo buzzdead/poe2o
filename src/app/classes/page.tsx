@@ -113,7 +113,7 @@ const Classes = () => {
             <Brain className="text-blue-400 cursor-pointer hover:text-blue-300 hover:animate-shake transition-all duration-50" onClick={() => toast({
           title: classData.name,
           description: ascendancy.name,
-          action: <ToastAction altText="Try again">Go to character {"->"}</ToastAction>
+          action: <ToastAction altText="Try again" className="text-accent-cold">Go to character</ToastAction>
         })}/>
 
 
