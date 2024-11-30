@@ -1,14 +1,8 @@
 // useNodeSearch.ts
 import { useState, useEffect } from "react";
 import filterNodesData from "./data/filter_nodes.json"; // Load the filtered nodes
-
-interface Node {
-  id: string;
-  name: string;
-  x: number;
-  y: number;
-  stats: any[];
-}
+import React from "react";
+import { Input } from "../components/ui/input";
 
 export const useNodeSearch = () => {
   const [filterNodes, setFilterNodes] = useState<string[]>([]); // Store the filtered nodes
@@ -43,12 +37,6 @@ export const useNodeSearch = () => {
     handleSearchChange,
   };
 };
-
-
-
-// SearchInput.tsx
-import React from "react";
-import { Input } from "../components/ui/input";
 
 interface SearchInputProps {
   searchQuery: string;
