@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { SearchInput, useNodeSearch } from "../NodeHighlighter";
 import { useState } from "react";
-import nodes from "../data/merged_nodes2.json";
+import nodes from "../data/merged_nodes.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
 
 export const SkillTreeNodeParent = () => {
