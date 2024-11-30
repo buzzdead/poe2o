@@ -2,12 +2,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import nodes from "./data/merged_nodes2.json";
+import { SearchInput, useNodeSearch } from "./NodeHighlighter";
 
 const SkillTreeMain = () => {
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
 
   // Tooltip close
   const closeTooltip = () => setTooltip(null);
+  const { handleSearchChange, searchQuery, filterNodes } = useNodeSearch()
 
   const IMAGE_WIDTH = 2750; // Python script's processed image width
   const IMAGE_HEIGHT = 2864; // Python script's processed image height
@@ -54,6 +56,7 @@ const SkillTreeMain = () => {
   return (
     <div className="relative w-full h-full overflow-hidden">
       {/* Background Image */}
+      <SearchInput searchQuery={searchQuery} handleSearchChange={handleSearchChange}/>
       <Image
         src="/skill-tree2.png" // Ensure this is the same file used in Python
         alt="Skill Tree"
@@ -66,7 +69,7 @@ const SkillTreeMain = () => {
       {nodes.keystones.map((node) => {
   const nodeStyle = node.stats.length > 0
     ? {
-        border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
+        border: filterNodes.includes(node.name) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
         background: 'rgba(22, 163, 74, 0.15)',
         boxShadow: `
           0 0 0 1px rgba(22, 163, 74, 0.2),
@@ -78,11 +81,12 @@ const SkillTreeMain = () => {
         border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
         background: 'transparent',
       };
+      const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
 
   return (
     <div
       key={node.id}
-      className="absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125"
+      className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
       style={{
         left: `${node.x * 100}%`,
         top: `${node.y * 100}%`,
@@ -99,7 +103,7 @@ const SkillTreeMain = () => {
       {nodes.notables.map((node) => {
         const nodeStyle = node.stats.length > 0
         ? {
-            border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
+            border: filterNodes.includes(node.name) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
             background: 'rgba(22, 163, 74, 0.15)',
             boxShadow: `
               0 0 0 1px rgba(22, 163, 74, 0.2),
@@ -111,10 +115,11 @@ const SkillTreeMain = () => {
             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
             background: 'transparent',
           };
+          const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full bg-transparent border-2`}
+            className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
@@ -132,24 +137,25 @@ const SkillTreeMain = () => {
       })}
 
       {nodes.small.map((node) => {
-         const nodeStyle = node.stats.length > 0
-         ? {
-             border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
-             background: 'rgba(22, 163, 74, 0.15)',
-             boxShadow: `
-               0 0 0 1px rgba(22, 163, 74, 0.2),
-               0 0 10px 2px rgba(22, 163, 74, 0.3),
-               inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
-             `,
-           }
-         : {
-             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
-             background: 'transparent',
-           };
+        const nodeStyle = node.stats.length > 0
+        ? {
+            border: filterNodes.includes(node.name) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
+            background: 'rgba(22, 163, 74, 0.15)',
+            boxShadow: `
+              0 0 0 1px rgba(22, 163, 74, 0.2),
+              0 0 10px 2px rgba(22, 163, 74, 0.3),
+              inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
+            `,
+          }
+        : {
+            border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
+            background: 'transparent',
+          };
+          const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full bg-transparent border-2`}
+            className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
