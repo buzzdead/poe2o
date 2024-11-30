@@ -1,0 +1,2165 @@
+{
+    "nodes": [
+        {
+            "id": "K1",
+            "x": 0.5589090909090909,
+            "y": 0.12255586592178772,
+            "name": "Whispers of Doom",
+            "stats": [
+                "You can apply an additional Curse",
+                "Double Activation Delay of Curses"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K2",
+            "x": 0.3781818181818182,
+            "y": 0.15048882681564246,
+            "name": "Necromantic Talisman",
+            "stats": [
+                "All bonuses from an Equipped Amulet apply to your Minions instead of you"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K3",
+            "x": 0.6345454545454545,
+            "y": 0.15118715083798884,
+            "name": "Eldritch Battery",
+            "stats": [
+                "Converts all Energy Shield to Mana"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K4",
+            "x": 0.752,
+            "y": 0.19099162011173185,
+            "name": "Chaos Inoculation",
+            "stats": [
+                "Maximum Life becomes 1, Immune to Chaos Damage"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K5",
+            "x": 0.6694545454545454,
+            "y": 0.1965782122905028,
+            "name": "Conduit",
+            "stats": [
+                "If you would gain a Charge, Allies in your Presence gain that Charge instead"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K6",
+            "x": 0.20981818181818182,
+            "y": 0.20216480446927373,
+            "name": "Ancestral Bond",
+            "stats": [
+                "Unlimited number of Summoned Totems",
+                "Totems reserve 100 Spirit each"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K7",
+            "x": 0.30436363636363634,
+            "y": 0.2028631284916201,
+            "name": "Mind Over Matter",
+            "stats": [
+                "All Damage is taken from Mana before Life",
+                "50% less Mana Recovery Rate"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K8",
+            "x": 0.1549090909090909,
+            "y": 0.29783519553072624,
+            "name": "Zealot's Oath",
+            "stats": [
+                "Excess Life Recovery from Regeneration is applied to Energy Shield",
+                "Energy Shield does not Recharge"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K9",
+            "x": 0.7421818181818182,
+            "y": 0.316340782122905,
+            "name": "Resonance",
+            "stats": [
+                "Gain Power Charges instead of Frenzy Charges",
+                "Gain Frenzy Charges instead of Endurance Charges",
+                "Gain Endurance Charges instead of Power Charges"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K10",
+            "x": 0.808,
+            "y": 0.32227653631284914,
+            "name": "Eternal Youth",
+            "stats": [
+                "Life Recharges instead of Energy Shield",
+                "Life Recovery from Flasks applies to Energy Shield instead"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K11",
+            "x": 0.08072727272727273,
+            "y": 0.4137569832402235,
+            "name": "Pain Attunement",
+            "stats": [
+                "30% less Critical Damage Bonus when on Full Life",
+                "30% more Critical Damage Bonus when on Low Life"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K12",
+            "x": 0.8283636363636364,
+            "y": 0.5135251396648045,
+            "name": "Heartstopper",
+            "stats": [
+                "Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
+                "Take 50% more Damage over Time if you've haven't started taking Damage over Time in the past second"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K13",
+            "x": 0.1050909090909091,
+            "y": 0.5146648044692738,
+            "name": "Bloodmagic",
+            "stats": [
+                "Removes all Mana",
+                "Skills Cost Life instead of Mana"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K14",
+            "x": 0.9134545454545454,
+            "y": 0.5356145251396648,
+            "name": "Acrobatics",
+            "stats": [
+                "Can Evade all Hits",
+                "50% less Evasion Rating"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K15",
+            "x": 0.20036363636363635,
+            "y": 0.5869413407821229,
+            "name": "Resolute Technique",
+            "stats": [
+                "Your Hits can\u00c2\u00b4t be Evaded",
+                "Never deal Critical Hits"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K16",
+            "x": 0.10072727272727272,
+            "y": 0.6445530726256983,
+            "name": "Avatar of Fire",
+            "stats": [
+                "75% of Damage Converted to Fire Damage",
+                "Deal no Non-Fire Damage"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K17",
+            "x": 0.6472727272727272,
+            "y": 0.7189245810055865,
+            "name": "Oasis",
+            "stats": [
+                "Cannot use Charms",
+                "30% more Recovery from Flasks"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K18",
+            "x": 0.7130909090909091,
+            "y": 0.7433659217877095,
+            "name": "Elemental Equilibrium",
+            "stats": [
+                "Hits that deal Fire Damage remove Fire Exposure and inflict Lightning Exposure",
+                "Hits that deal Cold Damage remove Cold Exposure and inflict Fire Exposure",
+                "Hits that deal Lightning Damage remove Lightning Exposure and inflict Cold Exposure"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K19",
+            "x": 0.32727272727272727,
+            "y": 0.7751396648044693,
+            "name": "Unwavering Stance",
+            "stats": [
+                "Your Stun Threshold is doubled",
+                "Cannot Dodge Roll"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K20",
+            "x": 0.18072727272727274,
+            "y": 0.778282122905028,
+            "name": "Giant's Blood",
+            "stats": [
+                "You Can wield Two-Handed Axes, Maces and Swords in one hand",
+                "Double Attribute requirements of weapons"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K21",
+            "x": 0.5996363636363636,
+            "y": 0.7838687150837989,
+            "name": "Glancing Blows",
+            "stats": [
+                "Block Chance is doubled",
+                "You take 50% of Damage from Blocked Hits"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K22",
+            "x": 0.4087272727272727,
+            "y": 0.8247206703910615,
+            "name": "Vaal Pact",
+            "stats": [
+                "Life Leech is Instant",
+                "Cannot use Life Flasks"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K23",
+            "x": 0.4581818181818182,
+            "y": 0.922486033519553,
+            "name": "Iron Reflexes",
+            "stats": [
+                "Converts all Evasion Rating to Armour"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "K24",
+            "x": 0.3452727272727273,
+            "y": 0.7851396648044693,
+            "name": "Bulwark",
+            "stats": [
+                "Dodge Roll cannot Avoid Damage",
+                "Take 30% less Damage from Hits while Dodge Rolling"
+            ],
+            "category": "keystone"
+        },
+        {
+            "id": "N1",
+            "x": 0.5490909090909091,
+            "y": 0.04189944134078212,
+            "name": "Pure Power",
+            "stats": [
+                "2% increased Lightning Damage per 10 Intelligence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N3",
+            "x": 0.3330909090909091,
+            "y": 0.06599162011173185,
+            "name": "Lord of Horrors",
+            "stats": [
+                "Minions have 12% reduced Reservation"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N5",
+            "x": 0.5112727272727273,
+            "y": 0.06773743016759777,
+            "name": "Endless Blizzard",
+            "stats": [
+                "+1 to Level of all Cold Skills"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N12",
+            "x": 0.6163636363636363,
+            "y": 0.0914804469273743,
+            "name": "Patient Barrier",
+            "stats": [
+                "60% increased maximum Energy Shield",
+                "20% slower start of Energy Shield Recharge"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N15",
+            "x": 0.4,
+            "y": 0.09951117318435754,
+            "name": "Enhanced Barrier",
+            "stats": [
+                "25% increased maximum Energy Shield",
+                "+1% to all maximum Elemental Resistances"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N17",
+            "x": 0.3229090909090909,
+            "y": 0.10474860335195531,
+            "name": "Right Hand of Darkness",
+            "stats": [
+                "Minions have 20% increased Area of Effect",
+                "Minions have 10% chance to inflict Withered on Hit"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N18",
+            "x": 0.3461818181818182,
+            "y": 0.10579608938547486,
+            "name": "Left Hand of Darkness",
+            "stats": [
+                "Minions have 20% additional Physical Damage Reduction",
+                "Minions have +23% to Chaos Resistance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N21",
+            "x": 0.6167272727272727,
+            "y": 0.125,
+            "name": "Arcane Intensity",
+            "stats": [
+                "3% increased Spell Damage per 100 maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N22",
+            "x": 0.5185454545454545,
+            "y": 0.12639664804469275,
+            "name": "Refocus",
+            "stats": [
+                "30% increased Energy Shield Recharge Rate",
+                "10% chance for Energy Shield Recharge to start when you use a Skill"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N24",
+            "x": 0.7676363636363637,
+            "y": 0.13128491620111732,
+            "name": "Energise",
+            "stats": [
+                "35% chance for Trigger skills to refund half of Energy Spent"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N25",
+            "x": 0.40945454545454546,
+            "y": 0.1337290502793296,
+            "name": "Eldritch Will",
+            "stats": [
+                "3% increased maximum Life, Mana and Energy Shield",
+                "Gain 20% of maximum Energy Shield as additional Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N26",
+            "x": 0.6050909090909091,
+            "y": 0.13442737430167598,
+            "name": "Raw Mana",
+            "stats": [
+                "18% increased maximum Mana",
+                "10% increased Mana Cost of Skills"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N32",
+            "x": 0.6683636363636364,
+            "y": 0.1452513966480447,
+            "name": "Convalescence",
+            "stats": [
+                "15% reduced Energy Shield Recharge Rate",
+                "40% faster start of Energy Shield Recharge"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N45",
+            "x": 0.521090909090909,
+            "y": 0.16864525139664804,
+            "name": "Climate Change",
+            "stats": [
+                "20% increased Freeze Buildup",
+                "Gain 25% of Cold Damage as Extra Fire Damage against Frozen Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N58",
+            "x": 0.34,
+            "y": 0.19134078212290503,
+            "name": "Dependable Ward",
+            "stats": [
+                "25% increased Energy Shield Recharge Rate",
+                "25% faster start of Energy Shield Recharge"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N60",
+            "x": 0.6567272727272727,
+            "y": 0.19727653631284917,
+            "name": "Ice Walls",
+            "stats": [
+                "200% increased Ice Crystal Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N81",
+            "x": 0.26654545454545453,
+            "y": 0.2342877094972067,
+            "name": "Calibration",
+            "stats": [
+                "30% increased maximum Energy Shield",
+                "5% increased maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N83",
+            "x": 0.42872727272727273,
+            "y": 0.2360335195530726,
+            "name": "Hallowed",
+            "stats": [
+                "20% increased Stun and Block Recovery",
+                "Gain 20% of maximum Energy Shield as additional Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N99",
+            "x": 0.43672727272727274,
+            "y": 0.25,
+            "name": "Heavy Buffer",
+            "stats": [
+                "40% increased maximum Energy Shield",
+                "10% reduced maximum Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N104",
+            "x": 0.6101818181818182,
+            "y": 0.25593575418994413,
+            "name": "Psychic Fragmentation",
+            "stats": [
+                "24% chance for Spell Skills to fire 2 additional Projectiles"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N105",
+            "x": 0.6767272727272727,
+            "y": 0.2569832402234637,
+            "name": "Inner Faith",
+            "stats": [
+                "20% increased Evasion Rating",
+                "20% increased maximum Energy Shield",
+                "25% reduced Effect of Curses on you"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N117",
+            "x": 0.8058181818181818,
+            "y": 0.27967877094972066,
+            "name": "Spectral Ward",
+            "stats": [
+                "+1 to Maximum Energy Shield per 12 Evasion Rating on Equipped Body Armour"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N118",
+            "x": 0.6061818181818182,
+            "y": 0.28002793296089384,
+            "name": "Self Mortification",
+            "stats": [
+                "Gain 20% of maximum Energy Shield as additional Stun Threshold",
+                "20% increased Stun Threshold while on full Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N121",
+            "x": 0.3458181818181818,
+            "y": 0.2884078212290503,
+            "name": "Restless Dead",
+            "stats": [
+                "Minions Revive 25% faster"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N127",
+            "x": 0.768,
+            "y": 0.29399441340782123,
+            "name": "Spaghettification",
+            "stats": [
+                "3% increased Movement Speed",
+                "29% increased Chaos Damage",
+                "-13% to Chaos Resistance",
+                "23% reduced Light Radius",
+                "7% increased attributes"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N131",
+            "x": 0.8483636363636363,
+            "y": 0.2950418994413408,
+            "name": "Slippery Ice",
+            "stats": [
+                "25% reduced Effect of Chill on you",
+                "Unaffected by Chill during Dodge Roll"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N136",
+            "x": 0.08509090909090909,
+            "y": 0.30272346368715086,
+            "name": "Adamant Recovery",
+            "stats": [
+                "Increases and Reductions to Armour also apply to Energy Shield Recharge Rate at 40% of their value"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N137",
+            "x": 0.10181818181818182,
+            "y": 0.30272346368715086,
+            "name": "Ancient Aegis",
+            "stats": [
+                "Recover Energy Shield equal to 1% of Armour when you Block"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N142",
+            "x": 0.4741818181818182,
+            "y": 0.31110335195530725,
+            "name": "Breath of Fire",
+            "stats": [
+                "Damage Penetrates 15% Fire Resistance",
+                "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N147",
+            "x": 0.07672727272727273,
+            "y": 0.3166899441340782,
+            "name": "Core of the Guardian",
+            "stats": [
+                "100% increased Defences from Equipped Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N155",
+            "x": 0.2581818181818182,
+            "y": 0.3344972067039106,
+            "name": "Heart Tissue",
+            "stats": [
+                "6% of Damage taken Recouped as Life",
+                "Regenerate 0.8% of Life per second if you have been Hit Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N158",
+            "x": 0.14654545454545453,
+            "y": 0.33833798882681565,
+            "name": "Thickened Arteries",
+            "stats": [
+                "5% reduced Movement Speed",
+                "Regenerate 2% of Life per second while stationary"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N164",
+            "x": 0.19018181818181817,
+            "y": 0.3481145251396648,
+            "name": "Guttural Roar",
+            "stats": [
+                "30% increased Warcry Speed",
+                "Warcry Skills have 30% increased Area of Effect"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N165",
+            "x": 0.4516363636363636,
+            "y": 0.348463687150838,
+            "name": "Essence Infusion",
+            "stats": [
+                "40% increased Energy Shield Recharge Rate",
+                "+10 to Intelligence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N168",
+            "x": 0.16472727272727272,
+            "y": 0.3547486033519553,
+            "name": "Deafening Cries",
+            "stats": [
+                "25% increased Warcry Cooldown Recovery Rate",
+                "8% increased Damage for each time you've Warcried Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N171",
+            "x": 0.5603636363636364,
+            "y": 0.35579608938547486,
+            "name": "Melding",
+            "stats": [
+                "40% increased maximum Energy Shield",
+                "10% reduced maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N174",
+            "x": 0.5141818181818182,
+            "y": 0.35614525139664804,
+            "name": "Dampening Shield",
+            "stats": [
+                "28% increased maximum Energy Shield",
+                "Gain 12% of maximum Energy Shield as additional Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N175",
+            "x": 0.5276363636363637,
+            "y": 0.35614525139664804,
+            "name": "Rapid Recharge",
+            "stats": [
+                "25% increased Energy Shield Recharge Rate",
+                "25% faster start of Energy Shield Recharge"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N179",
+            "x": 0.521090909090909,
+            "y": 0.36277932960893855,
+            "name": "Mana Blessing",
+            "stats": [
+                "+20 to maximum Mana",
+                "6% increased maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N183",
+            "x": 0.8338181818181818,
+            "y": 0.36696927374301674,
+            "name": "Wild Storm",
+            "stats": [
+                "15% more Maximum Lightning Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N186",
+            "x": 0.3996363636363636,
+            "y": 0.37011173184357543,
+            "name": "Spiral into Depression",
+            "stats": [
+                "3% increased Movement Speed",
+                "25% increased Armour",
+                "25% increased maximum Energy Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N187",
+            "x": 0.4109090909090909,
+            "y": 0.37011173184357543,
+            "name": "Spiral into Mania",
+            "stats": [
+                "10% increased Cast Speed",
+                "+7% to Chaos Resistance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N193",
+            "x": 0.06763636363636363,
+            "y": 0.3791899441340782,
+            "name": "Rattling Ball",
+            "stats": [
+                "25% increased Damage with Flails"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N194",
+            "x": 0.4047272727272727,
+            "y": 0.3791899441340782,
+            "name": "Spiral into Insanity",
+            "stats": [
+                "29% increased Chaos Damage",
+                "10% increased Global Defences"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N195",
+            "x": 0.6116363636363636,
+            "y": 0.38023743016759776,
+            "name": "Briny Carapace",
+            "stats": [
+                "60% increased Stun Threshold for each time you've been Stunned Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N203",
+            "x": 0.07563636363636364,
+            "y": 0.3865223463687151,
+            "name": "Spiked Whip",
+            "stats": [
+                "25% increased Damage with Flails"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N204",
+            "x": 0.2469090909090909,
+            "y": 0.3886173184357542,
+            "name": "Reinforced Barrier",
+            "stats": [
+                "20% increased maximum Energy Shield",
+                "Defend with 120% of Armour while not on Low Energy Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N205",
+            "x": 0.06472727272727273,
+            "y": 0.3893156424581006,
+            "name": "Morning Star",
+            "stats": [
+                "30% increased Critical Hit Chance with Flails",
+                "20% increased Critical Damage Bonus with Flails"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N210",
+            "x": 0.13090909090909092,
+            "y": 0.3959497206703911,
+            "name": "Fleshcrafting",
+            "stats": [
+                "Minions gain 15% of their Maximum Life as Extra Maximum Energy Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N212",
+            "x": 0.23236363636363636,
+            "y": 0.4001396648044693,
+            "name": "Covering Ward",
+            "stats": [
+                "25% increased Energy Shield Recharge Rate",
+                "10% chance for Energy Shield Recharge to start when you Block"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N225",
+            "x": 0.3669090909090909,
+            "y": 0.42946927374301674,
+            "name": "Bolstering Presence",
+            "stats": [
+                "20% increased effect of Auras from your Skills"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N227",
+            "x": 0.11709090909090909,
+            "y": 0.4312150837988827,
+            "name": "Immolation",
+            "stats": [
+                "25% increased Effect of Ignite",
+                "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N235",
+            "x": 0.3185454545454545,
+            "y": 0.4395949720670391,
+            "name": "Resolution",
+            "stats": [
+                "10% increased Global Defences",
+                "25% increased Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N246",
+            "x": 0.051272727272727275,
+            "y": 0.44972067039106145,
+            "name": "Primal Growth",
+            "stats": [
+                "20% increased Area of Effect if you've Killed Recently",
+                "10% increased Area of Effect for Attacks"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N247",
+            "x": 0.2821818181818182,
+            "y": 0.45251396648044695,
+            "name": "Supportive Ancestors",
+            "stats": [
+                "25% increased Damage while you have a Totem",
+                "Totems have 2% increased Cast Speed per Summoned Totem",
+                "Totems have 2% increased Attack Speed per Summoned Totem"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N248",
+            "x": 0.21163636363636365,
+            "y": 0.4553072625698324,
+            "name": "Cold Nature",
+            "stats": [
+                "25% increased Cold Damage",
+                "25% increased Chill Duration on Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N255",
+            "x": 0.11963636363636364,
+            "y": 0.4622905027932961,
+            "name": "Projectile Bulwark",
+            "stats": [
+                "30% increased Armour",
+                "Defend with 120% of Armour against Projectile Attacks"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N260",
+            "x": 0.20909090909090908,
+            "y": 0.4682262569832402,
+            "name": "Sigil of Fire",
+            "stats": [
+                "30% increased Damage with Hits against Ignited Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N262",
+            "x": 0.051272727272727275,
+            "y": 0.4713687150837989,
+            "name": "In Your Face",
+            "stats": [
+                "40% increased Melee Damage with Hits at Close Range"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N277",
+            "x": 0.6581818181818182,
+            "y": 0.4856843575418994,
+            "name": "Siphon",
+            "stats": [
+                "Recover 2% of Mana on Kill",
+                "25% increased amount of Mana Leeched"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N281",
+            "x": 0.32145454545454544,
+            "y": 0.4898743016759777,
+            "name": "Defensive Reflexes",
+            "stats": [
+                "12% increased Chance to Block",
+                "2 Mana gained when you Block"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N282",
+            "x": 0.8665454545454545,
+            "y": 0.49022346368715086,
+            "name": "Manifold Method",
+            "stats": [
+                "50% increased amount of Mana Leeched",
+                "30% increased chance to inflict Ailments against Rare or Unique Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N284",
+            "x": 0.9436363636363636,
+            "y": 0.49441340782122906,
+            "name": "One with the Storm",
+            "stats": [
+                "Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N290",
+            "x": 0.8490909090909091,
+            "y": 0.5171089385474861,
+            "name": "Heartstopper",
+            "stats": [
+                "Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
+                "Take 50% more Damage over Time if you haven't started taking Damage over Time in the past second"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N291",
+            "x": 0.2843636363636364,
+            "y": 0.5174581005586593,
+            "name": "Stand Ground",
+            "stats": [
+                "Regenerate 2% of Life per second while affected by any Damaging Ailment",
+                "Regenerate 2% of Life per second while stationary"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N301",
+            "x": 0.12,
+            "y": 0.5303770949720671,
+            "name": "Prism Guard",
+            "stats": [
+                "+1% to all maximum Elemental Resistances",
+                "+5% to all Elemental Resistances"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N302",
+            "x": 0.7796363636363637,
+            "y": 0.5331703910614525,
+            "name": "Low Tolerance",
+            "stats": [
+                "60% increased Effect of Poison against Enemies that are not Poisoned"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N308",
+            "x": 0.35163636363636364,
+            "y": 0.5443435754189944,
+            "name": "Smash",
+            "stats": [
+                "20% increased Melee Damage",
+                "40% increased Melee Damage against Heavy Stunned ennemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N310",
+            "x": 0.2421818181818182,
+            "y": 0.547486033519553,
+            "name": "Impact Force",
+            "stats": [
+                "20% increased Stun Buildup",
+                "25% increased Attack Area Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N312",
+            "x": 0.38872727272727275,
+            "y": 0.5478351955307262,
+            "name": "Brutal",
+            "stats": [
+                "10% increased Stun Buildup",
+                "10% increased Melee Damage",
+                "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N314",
+            "x": 0.18872727272727272,
+            "y": 0.5506284916201117,
+            "name": "Shattering Blow",
+            "stats": [
+                "Break 50% of Armour on Heavy Stunning an Enemy"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N317",
+            "x": 0.7709090909090909,
+            "y": 0.5558659217877095,
+            "name": "Falcon Technique",
+            "stats": [
+                "1% increased Attack Speed per 15 Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N319",
+            "x": 0.2989090909090909,
+            "y": 0.5579608938547486,
+            "name": "Bolstering Yell",
+            "stats": [
+                "Empowered Attacks deal 30% increased Damage",
+                "Warcry Skills have 30% increased Area of Effect"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N321",
+            "x": 0.20363636363636364,
+            "y": 0.5586592178770949,
+            "name": "Flip the Script",
+            "stats": [
+                "Recover 50% of Life when you Heavy Stun a Rare of Unique Enemy"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N326",
+            "x": 0.2989090909090909,
+            "y": 0.5684357541899442,
+            "name": "Admonisher",
+            "stats": [
+                "25% increased Warcry Speed",
+                "25% increased Warcry Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N327",
+            "x": 0.35854545454545456,
+            "y": 0.5687849162011173,
+            "name": "Reverberating Impact",
+            "stats": [
+                "Break 25% increased Armour",
+                "16% increased Area of Effect for Attacks"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N329",
+            "x": 0.3836363636363636,
+            "y": 0.5694832402234636,
+            "name": "Sturdy Metal",
+            "stats": [
+                "80% increased Armour from Equipped Body Armour"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N337",
+            "x": 0.40545454545454546,
+            "y": 0.575768156424581,
+            "name": "Recentless",
+            "stats": [
+                "15% increased Armour",
+                "Regenerate 1% of life per second",
+                "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N342",
+            "x": 0.16145454545454546,
+            "y": 0.5837988826815642,
+            "name": "Hunker Down",
+            "stats": [
+                "Recover 20 Life when you Block",
+                "80% less Knockback Distance for Blocked Hits"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N343",
+            "x": 0.31018181818181817,
+            "y": 0.5848463687150838,
+            "name": "Aftershocks",
+            "stats": [
+                "40% increased Aftershock Area of Effect"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N346",
+            "x": 0.37163636363636365,
+            "y": 0.590782122905028,
+            "name": "Defender's Resolve",
+            "stats": [
+                "12% increased Chance to Block",
+                "Stagger empties 50% faster while your Shield is lowered"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N352",
+            "x": 0.7509090909090909,
+            "y": 0.596717877094972,
+            "name": "Stacking Toxins",
+            "stats": [
+                "Can Poison enemies an additional time",
+                "20% reduced Effect of Poison"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N353",
+            "x": 0.2858181818181818,
+            "y": 0.5970670391061452,
+            "name": "Impair",
+            "stats": [
+                "25% increased Damage with One Handed Weapons",
+                "Attacks have 10% chance to Maim on Hit"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N355",
+            "x": 0.17927272727272728,
+            "y": 0.6005586592178771,
+            "name": "Guts",
+            "stats": [
+                "Recovery 5% of Life for each Endurance Charge consumed",
+                "+1 to Maximum Endurance Charges"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N358",
+            "x": 0.30618181818181817,
+            "y": 0.6016061452513967,
+            "name": "Reaving",
+            "stats": [
+                "8% increased Attack Speed with One Handed Weapons",
+                "+15 to Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N361",
+            "x": 0.4850909090909091,
+            "y": 0.6085893854748603,
+            "name": "Battle-hardened",
+            "stats": [
+                "Hits against you have 20% reduced Critical Damage Bonus",
+                "20% increased Armour and Evasion Rating",
+                "+5 to Strength and Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N362",
+            "x": 0.5181818181818182,
+            "y": 0.6085893854748603,
+            "name": "Remorseless",
+            "stats": [
+                "15% increased Projectile Damage",
+                "30% increased Stun Buildup against enemies within 2 metres",
+                "+5 Strength and Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N367",
+            "x": 0.16290909090909092,
+            "y": 0.6162709497206704,
+            "name": "Honourless",
+            "stats": [
+                "25% increased Armour if you've Hit an Enemy with a Melee Attack Recently",
+                "50% increased Melee Damage against Immobilised Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N368",
+            "x": 0.5014545454545455,
+            "y": 0.6169692737430168,
+            "name": "Feel No Pain",
+            "stats": [
+                "20% increased Armour and Evasion Rating",
+                "20% increased Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N371",
+            "x": 0.19745454545454547,
+            "y": 0.6211592178770949,
+            "name": "Unbending",
+            "stats": [
+                "3% increased Maximum Life",
+                "30% increased Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N372",
+            "x": 0.33090909090909093,
+            "y": 0.6218575418994413,
+            "name": "Polished Iron",
+            "stats": [
+                "25% increased Armour",
+                "50% of Base Armour from Equipment also added to Stun Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N375",
+            "x": 0.2429090909090909,
+            "y": 0.6239525139664804,
+            "name": "Unforgiving",
+            "stats": [
+                "+4 to Maximum Rage",
+                "Inherent Rage Loss starts 1 second later"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N377",
+            "x": 0.172,
+            "y": 0.625,
+            "name": "Breaking Blows",
+            "stats": [
+                "30% increased Stun Buildup",
+                "15% increased Area of Effect if you have Stunned an Enemy Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N386",
+            "x": 0.564,
+            "y": 0.6358240223463687,
+            "name": "Unerring Impact",
+            "stats": [
+                "10% increased Accuracy Rating with One Handed Melee Weapons",
+                "10% increased Accuracy Rating with Two Handed Melee Weapons",
+                "+2 to Melee Strike Range"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N387",
+            "x": 0.33090909090909093,
+            "y": 0.6379189944134078,
+            "name": "Blade Catcher",
+            "stats": [
+                "Defend with 200% of Armour against Critical Hits",
+                "+15 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N390",
+            "x": 0.19854545454545455,
+            "y": 0.6389664804469274,
+            "name": "Cacophony",
+            "stats": [
+                "5% chance to deal Double Damage if you've Warcried in the past 8 seconds",
+                "40% increased Damage with Warcry"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N391",
+            "x": 0.28,
+            "y": 0.6403631284916201,
+            "name": "Singular Purpose",
+            "stats": [
+                "5% reduced Attack Speed",
+                "20% increased Stun Buildup",
+                "40% increased Damage with Two Handed Weapons"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N392",
+            "x": 0.3050909090909091,
+            "y": 0.6403631284916201,
+            "name": "Shockwaves",
+            "stats": [
+                "30% increased Area of Effect if you've Stunned an enemy with a Two Handed Melee Weapon Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N395",
+            "x": 0.5567272727272727,
+            "y": 0.6435055865921788,
+            "name": "Heavy Weaponry",
+            "stats": [
+                "15% increased Melee Damage",
+                "15% increased Stun Buildup with Melee Damage",
+                "+15 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N396",
+            "x": 0.47709090909090907,
+            "y": 0.6438547486033519,
+            "name": "Exposed Wounds",
+            "stats": [
+                "32% increased chance to inflict Ailments",
+                "Break 30% increased Armour on enemies affected by Ailments"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N397",
+            "x": 0.49418181818181817,
+            "y": 0.6438547486033519,
+            "name": "Hard to Kill",
+            "stats": [
+                "40% increased Flask Life Recovery rate",
+                "Regenerate 1.5% of Life per second"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N398",
+            "x": 0.5083636363636364,
+            "y": 0.6438547486033519,
+            "name": "Volatile Catalyst",
+            "stats": [
+                "10% increased Area of Effect",
+                "10% increased Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N400",
+            "x": 0.17854545454545453,
+            "y": 0.6480446927374302,
+            "name": "Vocal Empowerment",
+            "stats": [
+                "Warcries Empower an additional Attack"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N403",
+            "x": 0.45745454545454545,
+            "y": 0.6504888268156425,
+            "name": "Bloodletting",
+            "stats": [
+                "40% increased Bleeding Duration",
+                "20% chance to inflict Bleeding on Hit"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N406",
+            "x": 0.5672727272727273,
+            "y": 0.6536312849162011,
+            "name": "Fortifying Blood",
+            "stats": [
+                "20% increased amount of Life Leeched",
+                "40% increased Armour and Evasion Rating while Leeching"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N407",
+            "x": 0.13418181818181818,
+            "y": 0.6567737430167597,
+            "name": "Heavy Armour",
+            "stats": [
+                "100% of Strength Requirements from Boots, Gloves and Helmets also added to Armour"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N410",
+            "x": 0.09454545454545454,
+            "y": 0.660963687150838,
+            "name": "Skullcrusher",
+            "stats": [
+                "20% more Damage against Heavy Stunned Enemies with Maces"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N412",
+            "x": 0.2549090909090909,
+            "y": 0.6616620111731844,
+            "name": "Vigilance",
+            "stats": [
+                "12% increased Chance to Block",
+                "10 Life gained when you Block"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N420",
+            "x": 0.15854545454545454,
+            "y": 0.6703910614525139,
+            "name": "Heavy Draught",
+            "stats": [
+                "5% reduced Movement Speed during any Flask Effect",
+                "Guard Flasks applied to you have 40% increased Effect"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N421",
+            "x": 0.1410909090909091,
+            "y": 0.6808659217877095,
+            "name": "Made to Last",
+            "stats": [
+                "0.5% of Physical Damage prevented from Hits in the past",
+                "10 seconds is Regenerated as Life per second"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N426",
+            "x": 0.5861818181818181,
+            "y": 0.6878491620111732,
+            "name": "Back in Action",
+            "stats": [
+                "80% increased Stun and Block Recovery"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N427",
+            "x": 0.7756363636363637,
+            "y": 0.6885474860335196,
+            "name": "Catalysis",
+            "stats": [
+                "20% increased Elemental Damage with Attack Skills",
+                "5% of Physical Damage from Hits taken as Damage of a Random Element"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N431",
+            "x": 0.4669090909090909,
+            "y": 0.693086592178771,
+            "name": "Colossal Weapon",
+            "stats": [
+                "20% increased Area of Effect while wielding a Two Handed Melee Weapon",
+                "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N433",
+            "x": 0.10436363636363637,
+            "y": 0.6965782122905028,
+            "name": "Split the Earth",
+            "stats": [
+                "15% chance to Aftershock for Slam Skills you use with Maces",
+                "15% chance to Aftershock for Strike Skills you use with Maces"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N441",
+            "x": 0.5345454545454545,
+            "y": 0.7028631284916201,
+            "name": "Blade Flurry",
+            "stats": [
+                "6% increased Attack Speed while Dual Wielding",
+                "15% increased Attack Critical Hit Chance while Dual Wielding"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N442",
+            "x": 0.5163636363636364,
+            "y": 0.7032122905027933,
+            "name": "Cross Strike",
+            "stats": [
+                "20% increased Accuracy Rating while Dual Wielding",
+                "3% increased Movement Speed while Dual Wielding"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N443",
+            "x": 0.18545454545454546,
+            "y": 0.7035614525139665,
+            "name": "Irreparable",
+            "stats": [
+                "100% increased Armour Break Duration"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N444",
+            "x": 0.4781818181818182,
+            "y": 0.7042597765363129,
+            "name": "Curved Weapon",
+            "stats": [
+                "20% increased Accuracy Rating with Two Handed Melee Weapons",
+                "+10 to Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N449",
+            "x": 0.46145454545454545,
+            "y": 0.7091480446927374,
+            "name": "Overwhelm",
+            "stats": [
+                "5% reduced Attack Speed",
+                "20% increased Stun Buildup",
+                "40% increased Damage with Two Handed Weapons"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N451",
+            "x": 0.4381818181818182,
+            "y": 0.7129888268156425,
+            "name": "Lay Siege",
+            "stats": [
+                "1% increased Damage per 1% Chance to Block"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N454",
+            "x": 0.2952727272727273,
+            "y": 0.714036312849162,
+            "name": "Heatproofing",
+            "stats": [
+                "25% of Armour also applies to Fire Damage taken from Hits"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N455",
+            "x": 0.48218181818181816,
+            "y": 0.7196229050279329,
+            "name": "Quick-change Act",
+            "stats": [
+                "50% increased Weapon Swap Speed"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N456",
+            "x": 0.5207272727272727,
+            "y": 0.7196229050279329,
+            "name": "Clear Space",
+            "stats": [
+                "20% increased Knockback Distance",
+                "20% chance to Knock Enemies Back with Hits at Close Range"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N458",
+            "x": 0.15454545454545454,
+            "y": 0.7206703910614525,
+            "name": "Pile On",
+            "stats": [
+                "60% increased Damage against Enemies with Fully Broken Armour"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N470",
+            "x": 0.5181818181818182,
+            "y": 0.7409217877094972,
+            "name": "Coated Arms",
+            "stats": [
+                "25% increased Damage with One Handed Weapons",
+                "25% increased Chance to apply Ailments with One-Handed Attacks"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N471",
+            "x": 0.46036363636363636,
+            "y": 0.74231843575419,
+            "name": "Grenadier",
+            "stats": [
+                "Grenade Skills have +1 Cooldown Use"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N472",
+            "x": 0.48618181818181816,
+            "y": 0.7426675977653632,
+            "name": "Cluster Bombs",
+            "stats": [
+                "Grenade Skills Fire an additional Projectile"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N474",
+            "x": 0.8061818181818182,
+            "y": 0.7468575418994413,
+            "name": "Falcon Dive",
+            "stats": [
+                "1% increased Attack Speed per 250 Accuracy Rating"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N477",
+            "x": 0.22618181818181818,
+            "y": 0.7524441340782123,
+            "name": "Spike Pit",
+            "stats": [
+                "Jagged Ground you create applies 10% increased Damage taken to Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N478",
+            "x": 0.13345454545454546,
+            "y": 0.7541899441340782,
+            "name": "Whirling Onslaught",
+            "stats": [
+                "50% chance to gain Onslaught on Killing Blow with Axes"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N482",
+            "x": 0.5701818181818182,
+            "y": 0.755586592178771,
+            "name": "Close Confines",
+            "stats": [
+                "25% chance for Projectiles to Pierce Enemies within 3m distance of you"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N483",
+            "x": 0.5465454545454546,
+            "y": 0.759427374301676,
+            "name": "Unexpected Finesse",
+            "stats": [
+                "10% increased Attack Damage",
+                "Gain Accuracy Rating equal to your Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N487",
+            "x": 0.39854545454545454,
+            "y": 0.7639664804469274,
+            "name": "Initiative",
+            "stats": [
+                "30% increased Melee Damage when on Full Life",
+                "16% increased Attack Speed if you haven't Attacked Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N488",
+            "x": 0.5385454545454545,
+            "y": 0.7639664804469274,
+            "name": "Presence Present",
+            "stats": [
+                "Allies in your PResence have +100 to Accuracy Rating",
+                "35% increased Attack Damage while you have an Ally in your Presence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N492",
+            "x": 0.14945454545454545,
+            "y": 0.7695530726256983,
+            "name": "Enraged Reaver",
+            "stats": [
+                "+10 to Maximum Rage while wielding an Axe"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N498",
+            "x": 0.39854545454545454,
+            "y": 0.7824720670391061,
+            "name": "Deadly Flourish",
+            "stats": [
+                "20% increased Melee Critical Hit Chance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N502",
+            "x": 0.6589090909090909,
+            "y": 0.7852653631284916,
+            "name": "Multitasking",
+            "stats": [
+                "15% increased Skill Effect Duration",
+                "12% increased Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N503",
+            "x": 0.4250909090909091,
+            "y": 0.7905027932960894,
+            "name": "Bloodthirsty",
+            "stats": [
+                "25% increased amount of Life Leeched",
+                "Leech Life 25% faster"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N505",
+            "x": 0.5254545454545455,
+            "y": 0.7918994413407822,
+            "name": "Adrenaline Rush",
+            "stats": [
+                "4% increased Movement Speed if you've killed Recently",
+                "8% increased Attack Speed if you've Killed Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N511",
+            "x": 0.72,
+            "y": 0.8093575418994413,
+            "name": "Versatile Arms",
+            "stats": [
+                "6% increased Attack Speed with One Handed Melee Weapons",
+                "15% increased Accuracy Rating with One Handed Melee Weapons",
+                "+10 to Strength and Dexterity"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N512",
+            "x": 0.3650909090909091,
+            "y": 0.8100558659217877,
+            "name": "Hefty Unit",
+            "stats": [
+                "+3 to Stun Threshold per Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N514",
+            "x": 0.648,
+            "y": 0.8163407821229051,
+            "name": "Emboldened Avatar",
+            "stats": [
+                "30% increased chance to Ignite",
+                "30% increased Freeze Buildup",
+                "30% increased chance to Shock",
+                "20% increased Electrocute Buildup"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N517",
+            "x": 0.20327272727272727,
+            "y": 0.8233240223463687,
+            "name": "Unnatural Resilience",
+            "stats": [
+                "2% to Maximum fire Resistance for each 40% Uncapped Fire Resistance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N518",
+            "x": 0.6556363636363637,
+            "y": 0.8240223463687151,
+            "name": "Crystal Elixir",
+            "stats": [
+                "40% increased Elemental Damage with Attack Skills during any Flask Effect"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N519",
+            "x": 0.5116363636363637,
+            "y": 0.8243715083798883,
+            "name": "Distracting Presence",
+            "stats": [
+                "10% increased Cooldown Recovery Rate",
+                "Enemies in your Presence have 10% reduced Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N521",
+            "x": 0.645090909090909,
+            "y": 0.8268156424581006,
+            "name": "Forces of Nature",
+            "stats": [
+                "Attack Damage Penetrates 15% of Enemy Elemental Resistances"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N522",
+            "x": 0.38181818181818183,
+            "y": 0.8303072625698324,
+            "name": "Perfect Opportunity",
+            "stats": [
+                "25% increased Stun Buildup",
+                "Damage with Hits is Lucky against Heavy Stunned Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N529",
+            "x": 0.5952727272727273,
+            "y": 0.8376396648044693,
+            "name": "Strong Chin",
+            "stats": [
+                "Gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N533",
+            "x": 0.5785454545454546,
+            "y": 0.846717877094972,
+            "name": "Insulated Treads",
+            "stats": [
+                "Gain Ailment Threshold equal to the lowest of Evasion and Armour on your Boots"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N534",
+            "x": 0.5407272727272727,
+            "y": 0.8474162011173184,
+            "name": "Shrapnel",
+            "stats": [
+                "30% chance to Pierce an Enemy",
+                "Projectiles have 30% chance to Chain an additional time from terrain"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N535",
+            "x": 0.688,
+            "y": 0.8554469273743017,
+            "name": "Spiked Shield",
+            "stats": [
+                "50% increased Defences from Equipped Shield",
+                "1% increased Attack Damge per 75 Armour or Evasion Rating on Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N536",
+            "x": 0.6989090909090909,
+            "y": 0.8554469273743017,
+            "name": "Shield Expertise",
+            "stats": [
+                "12% increased Chance to Block",
+                "40% increased Block Recovery"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N537",
+            "x": 0.24109090909090908,
+            "y": 0.8610335195530726,
+            "name": "Urgent Call",
+            "stats": [
+                "Recover 3% of Life and Mana when you use a Warcry",
+                "24% increased Warcry Speed",
+                "18% increased Warcry Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N543",
+            "x": 0.43527272727272726,
+            "y": 0.8704608938547486,
+            "name": "Crushing Judgement",
+            "stats": [
+                "25% increased Armour Break Duration",
+                "25% increased Attack Area Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N548",
+            "x": 0.4389090909090909,
+            "y": 0.8837290502793296,
+            "name": "Authority",
+            "stats": [
+                "20% increased Area of Effect for Attacks",
+                "10% increased Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N549",
+            "x": 0.5505454545454546,
+            "y": 0.8837290502793296,
+            "name": "Blinding Flash",
+            "stats": [
+                "20% increased Blind Effect",
+                "Blind Enemies when they Stun you"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N550",
+            "x": 0.6312727272727273,
+            "y": 0.8886173184357542,
+            "name": "Levitation",
+            "stats": [
+                "Unaffected by Enemy Ground Effects for 1 second after stepping on them"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N552",
+            "x": 0.544,
+            "y": 0.8942039106145251,
+            "name": "Against All Odds",
+            "stats": [
+                "2% increased Attack Speed per Enemy in Close Range"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N553",
+            "x": 0.6872727272727273,
+            "y": 0.9011871508379888,
+            "name": "Refills",
+            "stats": [
+                "Life Flasks gain 0.4 charges per Second"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N554",
+            "x": 0.4669090909090909,
+            "y": 0.9067737430167597,
+            "name": "Bleeding Out",
+            "stats": [
+                "+250 to Accuracy against Bleeding Enemies",
+                "Bleeding you inflict deals Damage 10% faster"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N555",
+            "x": 0.6603636363636364,
+            "y": 0.9102653631284916,
+            "name": "Pinpoint Shot",
+            "stats": [
+                "Attacks gain increased Accuracy Rating equal to their Critical Hit Chance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N556",
+            "x": 0.32581818181818184,
+            "y": 0.9158519553072626,
+            "name": "Goring",
+            "stats": [
+                "5% reduced maximum Life",
+                "50% increased amount of Life Leeched",
+                "50% increased Physical Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N557",
+            "x": 0.34254545454545454,
+            "y": 0.9158519553072626,
+            "name": "Metabolism",
+            "stats": [
+                "Life Leech effects are not removed when Unreserved Life is Filled"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N559",
+            "x": 0.3618181818181818,
+            "y": 0.928072625698324,
+            "name": "Apocalypse",
+            "stats": [
+                "40% reduced Damage",
+                "Herald Skills deal 200% increased Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N560",
+            "x": 0.37163636363636365,
+            "y": 0.928072625698324,
+            "name": "Fate Finding",
+            "stats": [
+                "15% reduced Reservation of Herald Skills"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N561",
+            "x": 0.5549090909090909,
+            "y": 0.9329608938547486,
+            "name": "Repeating Explosives",
+            "stats": [
+                "Grenades have 20% change to activate a second time"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N562",
+            "x": 0.5934545454545455,
+            "y": 0.9364525139664804,
+            "name": "Reusable Ammunition",
+            "stats": [
+                "25% chance for Crossbow Attacks to not consume a bolt"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N563",
+            "x": 0.6181818181818182,
+            "y": 0.9388966480446927,
+            "name": "Giantslayer",
+            "stats": [
+                "25% increased Damage with Hits against Rare and Unique Enemies",
+                "20% increased Accuracy Rating against Rare or Unique Enemies",
+                "20% increased chance to inflict Ailments against Rare or Unique Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N565",
+            "x": 0.6229090909090909,
+            "y": 0.946927374301676,
+            "name": "Cull the Hordes",
+            "stats": [
+                "25% increased Culling Strike Threshold"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N566",
+            "x": 0.45890909090909093,
+            "y": 0.9472765363128491,
+            "name": "Titan Bindings",
+            "stats": [
+                "Gain 15% of Maximum Life as Armour"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N567",
+            "x": 0.43636363636363634,
+            "y": 0.9476256983240223,
+            "name": "Leather Bound Gauntlets",
+            "stats": [
+                "+1 to Evasion Rating per 1 Armour on Equipped Gloves"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N568",
+            "x": 0.576,
+            "y": 0.9528631284916201,
+            "name": "Power Shots",
+            "stats": [
+                "10% reduced Attack Speed with Crossbows",
+                "80% increased Critical Damage Bonus with Crossbows"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N569",
+            "x": 0.36327272727272725,
+            "y": 0.960195530726257,
+            "name": "Heavy Blade",
+            "stats": [
+                "25% increased Damage with Swords"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N570",
+            "x": 0.4789090909090909,
+            "y": 0.9626396648044693,
+            "name": "Polymathy",
+            "stats": [
+                "10% increased Attributes"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N571",
+            "x": 0.5236363636363637,
+            "y": 0.9626396648044693,
+            "name": "Jack of All Trades",
+            "stats": [
+                "2% increased Damage per 5 of your lowest Attribute"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N572",
+            "x": 0.38472727272727275,
+            "y": 0.9745111731843575,
+            "name": "Ripping Blade",
+            "stats": [
+                "25% increased Damage with Swords"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N573",
+            "x": 0.3629090909090909,
+            "y": 0.9860335195530726,
+            "name": "Stance Breaker",
+            "stats": [
+                "50% reduced Enemy Chance to Block Sword Attacks"
+            ],
+            "category": "notable"
+        }
+    ]
+}

@@ -2577,8 +2577,8 @@
       "id": "N308",
       "x": 0.35163636363636364,
       "y": 0.5443435754189944,
-      "name": "N308",
-      "stats": []
+     "name": "Smash",
+		"stats": ["20% increased Melee Damage", "40% increased Melee Damage against Heavy Stunned ennemies"]
     },
     {
       "id": "N309",
@@ -2608,8 +2608,8 @@
       "id": "N312",
       "x": 0.38872727272727275,
       "y": 0.5478351955307262,
-      "name": "N312",
-      "stats": []
+     "name": "Brutal",
+		"stats": ["10% increased Stun Buildup", "10% increased Melee Damage", "+10 to Strength"]
     },
     {
       "id": "N313",
@@ -2661,8 +2661,8 @@
       "id": "N319",
       "x": 0.2989090909090909,
       "y": 0.5579608938547486,
-      "name": "N319",
-      "stats": []
+      "name": "Bolstering Yell",
+		"stats": ["Empowered Attacks deal 30% increased Damage" ,"Warcry Skills have 30% increased Area of Effect"]
     },
     {
       "id": "N320",
@@ -2712,8 +2712,8 @@
       "id": "N326",
       "x": 0.2989090909090909,
       "y": 0.5684357541899442,
-      "name": "N326",
-      "stats": []
+      "name": "Admonisher",
+		"stats": ["25% increased Warcry Speed", "25% increased Warcry Cooldown Recovery Rate"]
     },
     {
       "id": "N327",
@@ -2736,8 +2736,8 @@
       "id": "N329",
       "x": 0.3836363636363636,
       "y": 0.5694832402234636,
-      "name": "N329",
-      "stats": []
+      "name": "Sturdy Metal",
+		 "stats": ["80% increased Armour from Equipped Body Armour"]
     },
     {
       "id": "N330",
@@ -2792,8 +2792,8 @@
       "id": "N337",
       "x": 0.40545454545454546,
       "y": 0.575768156424581,
-      "name": "N337",
-      "stats": []
+     "name": "Recentless",
+		 "stats": ["15% increased Armour" ,"Regenerate 1% of life per second" ,"+10 to Strength"]
     },
     {
       "id": "N338",
@@ -2860,8 +2860,8 @@
       "id": "N346",
       "x": 0.37163636363636365,
       "y": 0.590782122905028,
-      "name": "N346",
-      "stats": []
+      "name": "Defender's Resolve",
+		"stats": ["12% increased Chance to Block" ,"Stagger empties 50% faster while your Shield is lowered"]
     },
     {
       "id": "N347",
@@ -2988,8 +2988,12 @@
       "id": "N362",
       "x": 0.5181818181818182,
       "y": 0.6085893854748603,
-      "name": "N362",
-      "stats": []
+      "name": "Remorseless",
+      "stats": [
+			"15% increased Projectile Damage",
+			"30% increased Stun Buildup against enemies within 2 metres",
+			"+5 Strength and Dexterity"
+		]
     },
     {
       "id": "N363",
@@ -3209,22 +3213,22 @@
       "id": "N390",
       "x": 0.19854545454545455,
       "y": 0.6389664804469274,
-      "name": "N390",
-      "stats": []
+      "name": "Cacophony",
+		"stats": ["5% chance to deal Double Damage if you've Warcried in the past 8 seconds" ,"40% increased Damage with Warcry"]
     },
     {
       "id": "N391",
       "x": 0.28,
       "y": 0.6403631284916201,
-      "name": "N391",
-      "stats": []
+     "name": "Singular Purpose",
+		"stats": ["5% reduced Attack Speed" ,"20% increased Stun Buildup" ,"40% increased Damage with Two Handed Weapons"]
     },
     {
       "id": "N392",
       "x": 0.3050909090909091,
       "y": 0.6403631284916201,
-      "name": "N392",
-      "stats": []
+      "name": "Shockwaves",
+		"stats": ["30% increased Area of Effect if you've Stunned an enemy with a Two Handed Melee Weapon Recently"]
     },
     {
       "id": "N393",
@@ -3292,8 +3296,8 @@
       "id": "N400",
       "x": 0.17854545454545453,
       "y": 0.6480446927374302,
-      "name": "N400",
-      "stats": []
+     "name": "Vocal Empowerment",
+		"stats": ["Warcries Empower an additional Attack"]
     },
     {
       "id": "N401",
@@ -3347,8 +3351,8 @@
       "id": "N407",
       "x": 0.13418181818181818,
       "y": 0.6567737430167597,
-      "name": "N407",
-      "stats": []
+     "name": "Heavy Armour",
+		 "stats": ["100% of Strength Requirements from Boots, Gloves and Helmets also added to Armour"]
     },
     {
       "id": "N408",
