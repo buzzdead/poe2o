@@ -12,10 +12,12 @@ import {
 } from "@/components/ui/navigation-menu";
 
 // Navigation Items Configuration
-const navItems = [
+type NavItem = {label: string, href: string}
+const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Gems", href: "/gems" },
   { label: "Classes", href: "/classes" },
+  { label: "Skill Tree", href: "skilltree"},
   { label: "Early access", href: "/earlyaccess"}
 ];
 
