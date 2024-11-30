@@ -4,16 +4,6 @@ import Image from 'next/image';
 import nodes from './data/nodes.json';
 import nodeDescriptions from './data/nodes_desc.json';
 
-// Define types for node descriptions
-type NodeDescription = {
-    name: string;
-    stats: string[];
-};
-
-type NodeDescriptions = {
-    [key: string]: NodeDescription;
-};
-
 const SkillTreeMain = () => {
     const [tooltip, setTooltip] = useState<any>(null); // For showing node details
 
