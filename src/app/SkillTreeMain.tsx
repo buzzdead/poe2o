@@ -12,10 +12,13 @@ const SkillTreeMain = () => {
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
   const { nodes: myNodes, selectNode } = useCharacterContext()
   const handleSelectNode = (node: Node) => {
-    const isSelected = (myNodes.find(sn => sn.name === node.name))
-      isSelected ? selectNode(myNodes.filter(sn => sn.name !== node.name))
-      :
-    selectNode([...myNodes, node])
+    const isSelected = myNodes.find(sn => sn.name === node.name);
+    if (isSelected) {
+      selectNode(myNodes.filter(sn => sn.name !== node.name));
+    } else {
+      selectNode([...myNodes, node]);
+    }
+    
     toast(node.name + (isSelected ? " Removed" : " Selected"), {
     
     });
