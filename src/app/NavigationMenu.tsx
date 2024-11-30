@@ -18,7 +18,7 @@ const navItems: NavItem[] = [
   { label: "Gems", href: "/gems" },
   { label: "Classes", href: "/classes" },
   { label: "Skill Tree", href: "skilltree"},
-  { label: "Early access", href: "/earlyaccess"}
+  { label: "My Character", href: "/mycharacter"}
 ];
 
 export function NavigationMenuDemo() {

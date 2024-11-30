@@ -10,8 +10,7 @@ export default function Home() {
             Explore the Path of Exile 2 Experience
           </h1>
           <p className="text-muted-foreground/90 max-w-2xl mx-auto text-lg">
-            Discover the latest skill gems, character classes, and beta updates
-            all in one place.
+            Discover the latest skill gems, character classes, the passive skill tree and build your character!
           </p>
         </header>
 
@@ -30,7 +29,7 @@ export default function Home() {
             icon={Sword}
             theme="blue"
             title="Character Classes"
-            description="The upcoming Path of Exile 2 expansion introduces several new and unique character classes, each with their own playstyle, abilities, and specialties. Learn about the diverse class options and find the one that best fits your preferred gameplay approach."
+            description="The upcoming Path of Exile 2 expansion introduces several new and unique character classes, each with their own playstyle, abilities, and specialties."
             linkText="View Classes"
           />
 

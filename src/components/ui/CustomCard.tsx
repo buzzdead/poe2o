@@ -15,7 +15,6 @@ interface Props {
   buttonText?: string; // Text for the button (optional)
   fullWidth?: boolean;
 }
-
 export default function CustomCard({
   href,
   theme,
@@ -62,17 +61,18 @@ export default function CustomCard({
             {title}
           </CardTitle>
         </CardHeader>
-        <CardContent className="flex-1 flex flex-col items-center">
-          <p className="text-muted-foreground/80 mb-6 leading-relaxed max-w-md">
+
+        {/* Ensure consistent spacing and alignment */}
+        <CardContent className="flex-1 flex flex-col items-center justify-between">
+          <p className="text-muted-foreground/80 leading-relaxed max-w-md text-left">
             {description}
           </p>
           {linkText && (
-            <div className="flex items-center text-blue-400 font-semibold">
+            <div className="mt-auto flex items-center text-blue-400 font-semibold">
               {linkText}
               <ArrowRight className="ml-2 size-4 group-hover:translate-x-1 transition-transform" />
             </div>
           )}
-          
         </CardContent>
       </Card>
     </Link>
