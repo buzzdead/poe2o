@@ -69,7 +69,7 @@ const SkillTreeMain = () => {
       {nodes.keystones.map((node) => {
   const nodeStyle = node.stats.length > 0
     ? {
-        border: filterNodes.includes(node.name) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
+        border: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
         background: 'rgba(22, 163, 74, 0.15)',
         boxShadow: `
           0 0 0 1px rgba(22, 163, 74, 0.2),
@@ -103,7 +103,7 @@ const SkillTreeMain = () => {
       {nodes.notables.map((node) => {
         const nodeStyle = node.stats.length > 0
         ? {
-            border: filterNodes.includes(node.name) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
+            border: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
             background: 'rgba(22, 163, 74, 0.15)',
             boxShadow: `
               0 0 0 1px rgba(22, 163, 74, 0.2),
@@ -115,7 +115,7 @@ const SkillTreeMain = () => {
             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
             background: 'transparent',
           };
-          const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
+          const shadow = filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "shadow-lg shadow-yellow-300" : ""
         return (
           <div
             key={node.id}
