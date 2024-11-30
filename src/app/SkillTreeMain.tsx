@@ -64,44 +64,64 @@ const SkillTreeMain = () => {
 
       {/* Nodes Overlay */}
       {nodes.keystones.map((node) => {
-        const col =
-          node.stats.length > 0
-            ? "border-green-600/75 shadow-inner shadow-green-500"
-            : "border-blue-600/25";
-        return (
-          <div
-            key={node.id}
-            className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
-            style={{
-              left: `${node.x * 100}%`,
-              top: `${node.y * 100}%`,
-              transform: "translate(-50%, -50%)",
-              width: "15px",
-              height: "15px",
-            }}
-            onMouseEnter={() =>
-              setTooltip({ node: node, nodeDesc: node.stats })
-            }
-            onMouseLeave={closeTooltip}
-          />
-        );
-      })}
+  const nodeStyle = node.stats.length > 0
+    ? {
+        border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
+        background: 'rgba(22, 163, 74, 0.15)',
+        boxShadow: `
+          0 0 0 1px rgba(22, 163, 74, 0.2),
+          0 0 10px 2px rgba(22, 163, 74, 0.3),
+          inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
+        `,
+      }
+    : {
+        border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
+        background: 'transparent',
+      };
 
+  return (
+    <div
+      key={node.id}
+      className="absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125"
+      style={{
+        left: `${node.x * 100}%`,
+        top: `${node.y * 100}%`,
+        transform: "translate(-50%, -50%)",
+        width: "15px",
+        height: "15px",
+        ...nodeStyle
+      }}
+      onMouseEnter={() => setTooltip({ node: node, nodeDesc: node.stats })}
+      onMouseLeave={closeTooltip}
+    />
+  );
+})}
       {nodes.notables.map((node) => {
-        const col =
-          node.stats.length > 0
-            ? "border-green-600/75 shadow-inner shadow-green-500"
-            : "border-blue-600/25";
+        const nodeStyle = node.stats.length > 0
+        ? {
+            border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
+            background: 'rgba(22, 163, 74, 0.15)',
+            boxShadow: `
+              0 0 0 1px rgba(22, 163, 74, 0.2),
+              0 0 10px 2px rgba(22, 163, 74, 0.3),
+              inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
+            `,
+          }
+        : {
+            border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
+            background: 'transparent',
+          };
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
+            className={`absolute cursor-pointer rounded-full bg-transparent border-2`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
               transform: "translate(-50%, -50%)",
               width: "7.5px",
               height: "7.5px",
+              ...nodeStyle
             }}
             onMouseEnter={() =>
               setTooltip({ node: node, nodeDesc: node.stats })
@@ -112,20 +132,31 @@ const SkillTreeMain = () => {
       })}
 
       {nodes.small.map((node) => {
-        const col =
-          node.stats.length > 0
-            ? "border-green-600/75 shadow-inner shadow-green-500"
-            : "border-blue-600/25";
+         const nodeStyle = node.stats.length > 0
+         ? {
+             border: '2px solid rgba(22, 163, 74, 0.75)', // green-600
+             background: 'rgba(22, 163, 74, 0.15)',
+             boxShadow: `
+               0 0 0 1px rgba(22, 163, 74, 0.2),
+               0 0 10px 2px rgba(22, 163, 74, 0.3),
+               inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
+             `,
+           }
+         : {
+             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
+             background: 'transparent',
+           };
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
+            className={`absolute cursor-pointer rounded-full bg-transparent border-2`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
               transform: "translate(-50%, -50%)",
               width: "5px",
               height: "5px",
+              ...nodeStyle
             }}
             onMouseEnter={() =>
               setTooltip({ node: node, nodeDesc: node.stats })
