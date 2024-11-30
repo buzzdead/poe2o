@@ -17,12 +17,18 @@ const SkillTreeMain = () => {
   // Function to show the tooltip
   const showToolTip = () => {
     const node = tooltip.node;
+    const { isRightSide, cursorXPercent } = tooltip;
+  
+    const leftOffset = isRightSide 
+      ? `${Math.min(cursorXPercent * 100 - 10, 95)}%` // Adjust left but keep within bounds
+      : `${Math.max(cursorXPercent * 100 + 10, 5)}%`; // Adjust right but keep within bounds
+  
     return (
       <div
         className="absolute bg-black/95 backdrop-blur-sm text-white p-4 rounded-lg w-72 flex flex-col z-50 pointer-events-none shadow-xl"
         style={{
-          left: `${node.x * 87.5}%`,
-          top: `${node.y * 90}%`,
+          left: leftOffset,
+          top: `${node.y * 100}%`,
           transform: "translate(-50%, -50%)",
           boxShadow: `
             0 0 0 1px rgba(16, 185, 129, 0.2),
@@ -52,6 +58,7 @@ const SkillTreeMain = () => {
   
   
   
+  
 
   return (
     <div className="relative w-full h-full overflow-hidden">
@@ -69,6 +76,7 @@ const SkillTreeMain = () => {
       {nodes.keystones.map((node) => {
   const nodeStyle = node.stats.length > 0
     ? {
+        highLight: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())),
         border: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
         background: 'rgba(22, 163, 74, 0.15)',
         boxShadow: `
@@ -81,12 +89,11 @@ const SkillTreeMain = () => {
         border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
         background: 'transparent',
       };
-      const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
 
   return (
     <div
       key={node.id}
-      className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
+      className={`absolute cursor-pointer rounded-full transition-all duration-2000 hover:scale-125 ${nodeStyle.highLight ? "animate-pulseBorderShadow" : ""}`}
       style={{
         left: `${node.x * 100}%`,
         top: `${node.y * 100}%`,
@@ -95,7 +102,16 @@ const SkillTreeMain = () => {
         height: "15px",
         ...nodeStyle
       }}
-      onMouseEnter={() => setTooltip({ node: node, nodeDesc: node.stats })}
+      onMouseEnter={(event) => {
+        const isRightSide = event.clientX > window.innerWidth / 2;
+        const cursorXPercent = event.clientX / window.innerWidth;
+        setTooltip({ 
+          node: node, 
+          nodeDesc: node.stats, 
+          isRightSide, 
+          cursorXPercent 
+        });
+      }}
       onMouseLeave={closeTooltip}
     />
   );
@@ -103,6 +119,7 @@ const SkillTreeMain = () => {
       {nodes.notables.map((node) => {
         const nodeStyle = node.stats.length > 0
         ? {
+          highLight: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())),
             border: filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "2px solid rgba(220, 163, 74, 0.75)" : '2px solid rgba(22, 163, 74, 0.75)', // green-600
             background: 'rgba(22, 163, 74, 0.15)',
             boxShadow: `
@@ -115,11 +132,11 @@ const SkillTreeMain = () => {
             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
             background: 'transparent',
           };
-          const shadow = filterNodes.includes(node.name) || searchQuery.trim() !== "" && node.stats.some(stat => stat.toLowerCase().includes(searchQuery.toLowerCase())) ? "shadow-lg shadow-yellow-300" : ""
+          
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
+            className={`absolute cursor-pointer rounded-full transition-all duration-2000 hover:scale-125  ${nodeStyle.highLight ? "animate-pulseBorderShadow" : ""}`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
@@ -128,9 +145,16 @@ const SkillTreeMain = () => {
               height: "7.5px",
               ...nodeStyle
             }}
-            onMouseEnter={() =>
-              setTooltip({ node: node, nodeDesc: node.stats })
-            }
+            onMouseEnter={(event) => {
+              const isRightSide = event.clientX > window.innerWidth / 2;
+              const cursorXPercent = event.clientX / window.innerWidth;
+              setTooltip({ 
+                node: node, 
+                nodeDesc: node.stats, 
+                isRightSide, 
+                cursorXPercent 
+              });
+            }}
             onMouseLeave={closeTooltip}
           />
         );
@@ -151,11 +175,11 @@ const SkillTreeMain = () => {
             border: '2px solid rgba(37, 99, 235, 0.25)', // blue-600
             background: 'transparent',
           };
-          const shadow = filterNodes.includes(node.name) ? "shadow-lg shadow-yellow-300" : ""
+          
         return (
           <div
             key={node.id}
-            className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125 ${shadow}`}
+            className={`absolute cursor-pointer rounded-full transition-all duration-200 hover:scale-125`}
             style={{
               left: `${node.x * 100}%`,
               top: `${node.y * 100}%`,
@@ -164,9 +188,16 @@ const SkillTreeMain = () => {
               height: "5px",
               ...nodeStyle
             }}
-            onMouseEnter={() =>
-              setTooltip({ node: node, nodeDesc: node.stats })
-            }
+            onMouseEnter={(event) => {
+              const isRightSide = event.clientX > window.innerWidth / 2;
+              const cursorXPercent = event.clientX / window.innerWidth;
+              setTooltip({ 
+                node: node, 
+                nodeDesc: node.stats, 
+                isRightSide, 
+                cursorXPercent 
+              });
+            }}
             onMouseLeave={closeTooltip}
           />
         );

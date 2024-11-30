@@ -50,19 +50,15 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   
     if (savedFilters) {
       setFilters(JSON.parse(savedFilters));
-      console.log("Filters loaded:", JSON.parse(savedFilters));
     }
     if (savedPage) {
       setPage(Number(savedPage));
-      console.log("Page loaded:", Number(savedPage));
     }
     if (savedTags) {
       setTagFilters(JSON.parse(savedTags));
-      console.log("Tag Filters loaded:", JSON.parse(savedTags));
     }
   
     setIsHydrated(true);
-    console.log("Hydration complete");
   }, []);
   
   // Save state to localStorage whenever it changes

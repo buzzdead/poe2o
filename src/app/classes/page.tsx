@@ -125,7 +125,7 @@ const Classes = () => {
             <h4 className="text-2xl font-semibold mb-4 text-accent-fire skill-effect-fire">
               {ascendancy.name}
             </h4>
-            <Brain className="text-blue-400 cursor-pointer hover:text-blue-300 hover:animate-shake transition-all duration-50" onClick={() => toast({
+            <Brain className="text-blue-400 cursor-pointer hover:text-blue-300 hover:animate-shake transition-all duration-150" onClick={() => toast({
           title: classData.name,
           description: ascendancy.name,
           action: <ToastAction onClick={() => handleAddCharacter(ascendancy)} altText="Try again" className="text-accent-cold">Go to character</ToastAction>
