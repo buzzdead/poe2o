@@ -188,9 +188,9 @@
     ],
     "tags": [
       "Trigger",
+      "Attack",
       "AoE",
-      "Fire",
-      "Attack"
+      "Fire"
     ]
   },
   {
@@ -226,8 +226,8 @@
       "Killing Blows from Supported Strike Skills against Rare monsters grant one of their Modifiers for 20 seconds"
     ],
     "tags": [
-      "Melee",
       "Attack",
+      "Melee",
       "Strike"
     ]
   },
@@ -323,9 +323,9 @@
       "Supported Attacks cannot cause Bleeding"
     ],
     "tags": [
+      "Attack",
       "Physical",
-      "Melee",
-      "Attack"
+      "Melee"
     ]
   },
   {
@@ -402,10 +402,10 @@
       "Poison from Supported Skills also adds 200% of Damage per Second to Enemy as Plague, up to a maximum of 10% of Enemy's maximum Life"
     ],
     "tags": [
-      "Physical",
-      "AoE",
       "Trigger",
-      "Chaos"
+      "Chaos",
+      "Physical",
+      "AoE"
     ]
   },
   {
@@ -423,8 +423,8 @@
       "4% of Life recovered on Kill while a Supported Skill is active"
     ],
     "tags": [
-      "Buff",
-      "Persistent"
+      "Persistent",
+      "Buff"
     ]
   },
   {
@@ -482,8 +482,8 @@
       "receive Freeze buildup when Hit by Chaos damage"
     ],
     "tags": [
-      "Spell",
-      "Chaos"
+      "Chaos",
+      "Spell"
     ]
   },
   {
@@ -502,8 +502,8 @@
       "20% increased Mana Regeneration Rate while a Supported Skill is active"
     ],
     "tags": [
-      "Buff",
-      "Persistent"
+      "Persistent",
+      "Buff"
     ]
   },
   {
@@ -657,8 +657,8 @@
       "Supported Skills cannot deal Critical Hits"
     ],
     "tags": [
-      "Spell",
-      "Critical"
+      "Critical",
+      "Spell"
     ]
   },
   {
@@ -695,8 +695,8 @@
       "Poison applied by supported Skills also breaks Armour equal to 80% of Poison Damage dealt"
     ],
     "tags": [
-      "Physical",
-      "Chaos"
+      "Chaos",
+      "Physical"
     ]
   },
   {
@@ -717,8 +717,8 @@
       "Supported Warcries iniflict Corrupted Blood"
     ],
     "tags": [
-      "Physical",
       "Duration",
+      "Physical",
       "Warcry"
     ]
   },
@@ -738,8 +738,8 @@
       "Shocking Hits from supported Skills have a 50% chance to also Shock enemies in a 2.5 metre radius"
     ],
     "tags": [
-      "AoE",
-      "Lightning"
+      "Lightning",
+      "AoE"
     ]
   },
   {
@@ -814,8 +814,8 @@
       "Supported Attacks cause Daze buildup equal to 100% of Physical Damage dealt"
     ],
     "tags": [
-      "Physical",
-      "Attack"
+      "Attack",
+      "Physical"
     ]
   },
   {
@@ -853,8 +853,8 @@
       "Supported Skills inflict Decay, dealing 30% of Intelligence as Chaos damage per second for 8 seconds"
     ],
     "tags": [
-      "Curse",
-      "Chaos"
+      "Chaos",
+      "Curse"
     ]
   },
   {
@@ -986,8 +986,8 @@
     "tags": [
       "Fire",
       "Cold",
-      "Spell",
-      "Lightning"
+      "Lightning",
+      "Spell"
     ]
   },
   {
@@ -1113,8 +1113,8 @@
       "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
     ],
     "tags": [
-      "Melee",
-      "Attack"
+      "Attack",
+      "Melee"
     ]
   },
   {
@@ -1260,8 +1260,8 @@
       "Final Strike of Supported Skills can be performed twice in succession"
     ],
     "tags": [
-      "Melee",
       "Attack",
+      "Melee",
       "Strike"
     ]
   },
@@ -1279,8 +1279,8 @@
       "Supported Skills have 80% reduced penalty to Accuracy Rating at range"
     ],
     "tags": [
-      "Melee",
-      "Attack"
+      "Attack",
+      "Melee"
     ]
   },
   {
@@ -1450,9 +1450,9 @@
       "Attacks with Supported Skill are Ancestrally Boosted, no more than once every 6 seconds"
     ],
     "tags": [
-      "Melee",
       "Attack",
-      "Slam"
+      "Slam",
+      "Melee"
     ]
   },
   {
@@ -1547,8 +1547,8 @@
       "Supported Skills create Chilled Ground for 4 seconds when they Freeze an Enemy"
     ],
     "tags": [
-      "AoE",
-      "Cold"
+      "Cold",
+      "AoE"
     ]
   },
   {
@@ -1568,8 +1568,8 @@
       "Supported Skills Consume Freeze from Enemies they Ignite"
     ],
     "tags": [
-      "Cold",
-      "Fire"
+      "Fire",
+      "Cold"
     ]
   },
   {
@@ -1591,9 +1591,9 @@
       "Vortex lasts 3.00 seconds"
     ],
     "tags": [
-      "AoE",
+      "Cold",
       "Duration",
-      "Cold"
+      "AoE"
     ]
   },
   {
@@ -1651,8 +1651,8 @@
       "40% increased Recovery from Life Flasks while a Supported Skill is active"
     ],
     "tags": [
-      "Buff",
-      "Persistent"
+      "Persistent",
+      "Buff"
     ]
   },
   {
@@ -1671,8 +1671,8 @@
       "Curses from Supported Skills spread to enemies within 3 metres when a Cursed enemy dies"
     ],
     "tags": [
-      "AoE",
-      "Curse"
+      "Curse",
+      "AoE"
     ]
   },
   {
@@ -1691,8 +1691,8 @@
       "Chaos damage over time inflicted by Supported Skills also Hinders enemies"
     ],
     "tags": [
-      "Spell",
-      "Chaos"
+      "Chaos",
+      "Spell"
     ]
   },
   {
@@ -1765,8 +1765,8 @@
       "Attacks gain 35% of Damage as Cold Damage for 3 seconds on Freezing an enemy with Supported Skills"
     ],
     "tags": [
-      "Cold",
       "Attack",
+      "Cold",
       "Duration"
     ]
   },
@@ -1785,8 +1785,8 @@
       "Ignites caused by Supported Skills spread to other Enemies within 1.4 metres"
     ],
     "tags": [
-      "AoE",
-      "Fire"
+      "Fire",
+      "AoE"
     ]
   },
   {
@@ -1843,8 +1843,8 @@
       "Supported Skills create an Aftershock when they Stun an Enemy, dealing the same damage to enemies within 1 metre"
     ],
     "tags": [
-      "Melee",
       "Attack",
+      "Melee",
       "Strike"
     ]
   },
@@ -1865,9 +1865,9 @@
     ],
     "tags": [
       "Trigger",
+      "Chaos",
       "AoE",
-      "Spell",
-      "Chaos"
+      "Spell"
     ]
   },
   {
@@ -1941,9 +1941,9 @@
       "Minions from Supported Skills deal 5% of their maximum Life as Fire Damage per second to nearby enemies"
     ],
     "tags": [
-      "AoE",
       "Fire",
-      "Minion"
+      "Minion",
+      "AoE"
     ]
   },
   {
@@ -2032,10 +2032,10 @@
       "Jagged Ground lasts 6 seconds"
     ],
     "tags": [
-      "AoE",
-      "Slam",
       "Melee",
       "Duration",
+      "AoE",
+      "Slam",
       "Attack"
     ]
   },
@@ -2148,8 +2148,8 @@
       "Leech 3% of Physical Attack Damage from Supported Skills as Life"
     ],
     "tags": [
-      "Physical",
-      "Attack"
+      "Attack",
+      "Physical"
     ]
   },
   {
@@ -2280,8 +2280,8 @@
     ],
     "tags": [
       "Fire",
-      "Spell",
-      "Critical"
+      "Critical",
+      "Spell"
     ]
   },
   {
@@ -2299,8 +2299,8 @@
       "Leech 2% of Physical Attack Damage from Supported Skills as Mana"
     ],
     "tags": [
-      "Physical",
-      "Attack"
+      "Attack",
+      "Physical"
     ]
   },
   {
@@ -2356,9 +2356,9 @@
       "Supported Skill have 10% less Attack Speed"
     ],
     "tags": [
+      "Attack",
       "Physical",
-      "Melee",
-      "Attack"
+      "Melee"
     ]
   },
   {
@@ -2716,8 +2716,8 @@
       "30% increased Accuracy Rating while a Supported Skill is active"
     ],
     "tags": [
-      "Buff",
-      "Persistent"
+      "Persistent",
+      "Buff"
     ]
   },
   {
@@ -2737,8 +2737,8 @@
       "Supported Skills deal 20% more Melee Area Damage"
     ],
     "tags": [
-      "Melee",
-      "Attack"
+      "Attack",
+      "Melee"
     ]
   },
   {
@@ -2756,8 +2756,8 @@
       "Gain 3 Rage on Melee Hit"
     ],
     "tags": [
-      "Melee",
-      "Attack"
+      "Attack",
+      "Melee"
     ]
   },
   {
@@ -2845,7 +2845,7 @@
     ],
     "description": "[DNT] Reload Speed Support",
     "explicit_mods": [
-      "100% inicreased Crossbow Reload Speed"
+      "100% increased Crossbow Reload Speed"
     ],
     "tags": [
       ""
@@ -2962,25 +2962,6 @@
     ]
   },
   {
-    "name": "Shock Proliferation\n\n\nSupport",
-    "properties": [
-      "AoE, Lightning",
-      "Cost Multiplier: 120%"
-    ],
-    "requirements": [
-      "Requires:  Level 1",
-      "Support Reqirements: +5 Int"
-    ],
-    "description": "Supports any skill that Hits enemies, giving it a chance to also Shock nearby enemies when you Shock an enemy.",
-    "explicit_mods": [
-      "Shocking Hits from supported Skills have a 50% chance to also Shock enemies in a 2.5 metre radius"
-    ],
-    "tags": [
-      "AoE",
-      "Lightning"
-    ]
-  },
-  {
     "name": "Shock Siphon\n\n\nSupport",
     "properties": [
       "Lightning",
@@ -3090,9 +3071,9 @@
       "Triggers a Shockwave when you take a step while using Supported Skills"
     ],
     "tags": [
+      "Attack",
       "Physical",
-      "AoE",
-      "Attack"
+      "AoE"
     ]
   },
   {
@@ -3188,8 +3169,8 @@
       "Regenerate 1.5% of Life per second while a Supported Skill is active"
     ],
     "tags": [
-      "Buff",
-      "Persistent"
+      "Persistent",
+      "Buff"
     ]
   },
   {
@@ -3247,8 +3228,8 @@
       "Ignites you inflict Spread to other enemies that stay within 1.5 metres for 2 seconds"
     ],
     "tags": [
-      "AoE",
-      "Fire"
+      "Fire",
+      "AoE"
     ]
   },
   {
@@ -3266,8 +3247,8 @@
       "Supported Skills have a 20% chance to fire 8 additional Projectiles in a circle"
     ],
     "tags": [
-      "Spell",
-      "Projectile"
+      "Projectile",
+      "Spell"
     ]
   },
   {
@@ -3285,8 +3266,8 @@
       "Trigger Wind Wave when Stunned while using Supported Skills"
     ],
     "tags": [
-      "AoE",
-      "Trigger"
+      "Trigger",
+      "AoE"
     ]
   },
   {
@@ -3325,8 +3306,8 @@
       "Supported Skills inflict Withered on Hit with Chaos Damage"
     ],
     "tags": [
-      "Duration",
-      "Chaos"
+      "Chaos",
+      "Duration"
     ]
   }
 ]

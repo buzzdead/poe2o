@@ -35,6 +35,7 @@ const SkillTreeMain = () => {
   const showToolTip = () => {
     const node = tooltip.node;
     const { isRightSide, cursorXPercent } = tooltip;
+    const isStanceBreaker = node?.name === "Stance Breaker"
   
     const leftOffset = isRightSide 
       ? `${Math.min(cursorXPercent * 100 - 10, 95)}%` // Adjust left but keep within bounds
@@ -42,11 +43,12 @@ const SkillTreeMain = () => {
   
     return (
       <div
-        className="absolute bg-black/95 backdrop-blur-sm text-white p-4 rounded-lg w-72 flex flex-col z-50 pointer-events-none shadow-xl"
+        className="absolute bg-black/95 backdrop-blur-sm text-white p-4 rounded-lg flex flex-col z-50 pointer-events-none shadow-xl"
         style={{
           left: leftOffset,
-          top: `${node.y * 100}%`,
+          top: `${node.y * 100 - (isStanceBreaker ? 5 : 0)}%`,
           transform: "translate(-50%, -50%)",
+          maxWidth: "18rem", // Default width for desktops
           boxShadow: `
             0 0 0 1px rgba(16, 185, 129, 0.2),
             0 0 0 2px rgba(16, 185, 129, 0.3),
@@ -68,9 +70,19 @@ const SkillTreeMain = () => {
             </li>
           ))}
         </ul>
+        <style jsx>{`
+          @media (max-width: 640px) {
+            div {
+              max-width: 14rem; /* Smaller tooltip on mobile */
+              padding: 0.75rem; /* Reduce padding */
+              font-size: 0.875rem; /* Smaller font size */
+            }
+          }
+        `}</style>
       </div>
     );
   };
+  
   
   
   
