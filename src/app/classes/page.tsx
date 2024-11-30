@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -14,24 +13,10 @@ import classAscendancy from "../data/classAscendancy.json";
 import { Brain } from "lucide-react";
 import { useToast } from "../../hooks/use-toast";
 import { ToastAction } from "@radix-ui/react-toast";
+import { Ascendancy, Char, ClassesWithAscendancy } from "../types";
+import { useCharacterContext } from "../context/CharContext";
+import Link from "next/link";
 
-
-type Char = { name: string; image: string; info: string };
-type Skill = {
-    name: string;
-    effect: string;
-    prerequisite?: string;
-    modifier?: string;
-  };
-  
-  type Ascendancy = {
-    name: string;
-    nodes: Skill[];
-  };
-  type ClassesWithAscendancy = {
-    name: string
-    ascendancies: Ascendancy[]
-  }
 const classes: Char[] = [
   {
     name: "Druid",
@@ -78,6 +63,8 @@ const classes: Char[] = [
 const Classes = () => {
   const [selectedClass, setSelectedClass] = useState<Char>(classes[0]);
   const { toast } = useToast()
+
+  const { addCharacter } = useCharacterContext();
   const [classAscendancies, setClassAscendancies] = useState<ClassesWithAscendancy[]>([])
   useEffect(() => {
     // Map over the classAscendancy data to ensure it matches the ClassesWithAscendancy type
@@ -88,6 +75,34 @@ const Classes = () => {
     // Set the state with the mapped data
     setClassAscendancies(mappedAscendancies);
   }, []);
+
+  const handleAddCharacter = (ascendancy: Ascendancy) => {
+    const classData = classAscendancies.find(
+      (e) => e.name?.trim() === selectedClass.name?.trim()
+    );
+
+    if (!classData) {
+      toast({
+        title: "Error",
+        description: "No ascendancy data available for this class.",
+        action: <ToastAction altText="Dismiss">Close</ToastAction>,
+      });
+      return;
+    }
+
+    const newCharacter = {
+      ...selectedClass,
+      ascendancies: ascendancy
+    };
+
+    addCharacter(newCharacter);
+
+    toast({
+      title: "Character Added",
+      description: `${selectedClass.name} has been added to your state.`,
+      action: <ToastAction altText="Dismiss"><Link href="./mycharacter">Go to char</Link></ToastAction>,
+    });
+  };
   
   const renderClassAsc = () => {
     const classData = classAscendancies.find(
@@ -113,7 +128,7 @@ const Classes = () => {
             <Brain className="text-blue-400 cursor-pointer hover:text-blue-300 hover:animate-shake transition-all duration-50" onClick={() => toast({
           title: classData.name,
           description: ascendancy.name,
-          action: <ToastAction altText="Try again" className="text-accent-cold">Go to character</ToastAction>
+          action: <ToastAction onClick={() => handleAddCharacter(ascendancy)} altText="Try again" className="text-accent-cold">Go to character</ToastAction>
         })}/>
 
 

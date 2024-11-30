@@ -44,7 +44,6 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   }, []);
 
   useEffect(() => {
-    console.log("Reading from localStorage...");
     const savedFilters = localStorage.getItem("filters");
     const savedPage = localStorage.getItem("page");
     const savedTags = localStorage.getItem("tagFilters");
