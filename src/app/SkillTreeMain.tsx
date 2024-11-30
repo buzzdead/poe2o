@@ -17,7 +17,7 @@ const SkillTreeMain = () => {
         const node = tooltip.node
         return (
             <div
-                className="absolute bg-black bg-opacity-80 text-white p-2 rounded-lg w-64 flex flex-col z-50 pointer-events-none"
+                className="absolute bg-black bg-opacity-80 text-white p-2 rounded-lg border-green-300/50 border-2 w-64 flex flex-col z-50 pointer-events-none"
                 style={{
                     left: `${node.x * 87.5}%`,
                     top: `${node.y * 90}%`,
@@ -25,9 +25,9 @@ const SkillTreeMain = () => {
                 }}
             >
                 <h3 className="text-xl text-center mb-2">{node?.name || 'Unknown Node'}</h3>
-                <ul className="list-disc pl-5 text-blue-600">
+                <ul className="list-disc pl-5 text-green-400">
                     {tooltip.nodeDesc?.map((stat: string, index: number) => (
-                        <li key={index} className="text-sm text-green-400 mb-2">{stat}</li>
+                        <li key={index} className="text-sm text-green-500 mb-2">{stat}</li>
                     ))}
                 </ul>
             </div>
