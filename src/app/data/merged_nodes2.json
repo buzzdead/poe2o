@@ -1754,8 +1754,11 @@
       "id": "N199",
       "x": 0.649090909090909,
       "y": 0.38372905027932963,
-      "name": "N199",
-      "stats": []
+      "name": "Moment of Truth",
+		"stats": [
+            "25% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
+            "20% increased Critical Hit Chance"
+        ]
     },
     {
       "id": "N200",
@@ -1893,15 +1896,18 @@
       "id": "N217",
       "x": 0.704,
       "y": 0.41445530726256985,
-      "name": "N217",
-      "stats": []
+     "name": "Finesse",
+		"stats": [
+            "10% increased Global Accuracy Rating",
+            "Gain Accuracy Rating equal to your Intelligence"
+        ]
     },
     {
       "id": "N218",
       "x": 0.37927272727272726,
       "y": 0.4151536312849162,
-      "name": "N218",
-      "stats": []
+     "name": "Harmonic Generator",
+		"stats": ["20% chance to gain a Power Charge when you Shock a Chilled enemy"]
     },
     {
       "id": "N219",
@@ -2003,8 +2009,11 @@
       "id": "N232",
       "x": 0.6756363636363636,
       "y": 0.43854748603351956,
-      "name": "N232",
-      "stats": []
+      "name": "Immaterial",
+		"stats": [
+            "50% increased Evasion Rating if Energy Shield Recharge has started in the past 2 seconds",
+            "30% increased Evasion Rating while you have Energy Shield"
+        ]
     },
     {
       "id": "N233",
@@ -2062,8 +2071,11 @@
       "id": "N240",
       "x": 0.6756363636363636,
       "y": 0.44518156424581007,
-      "name": "N240",
-      "stats": []
+      "name": "Shimmering",
+		"stats": [
+            "20% increased Energy Shield Recovery Rate if you haven't been Hit Recently",
+            "5% increased Movement Speed while you have Energy Shield"
+        ]
     },
     {
       "id": "N241",
@@ -2142,8 +2154,11 @@
       "id": "N250",
       "x": 0.6269090909090909,
       "y": 0.45705307262569833,
-      "name": "N250",
-      "stats": []
+     "name": "Mystic Stance",
+		"stats": [
+            "30% faster start of Energy Shield Recharge",
+            "30% increased Stun Threshold while on full Life"
+        ]
     },
     {
       "id": "N251",
@@ -2170,8 +2185,11 @@
       "id": "N254",
       "x": 0.6858181818181818,
       "y": 0.4612430167597765,
-      "name": "N254",
-      "stats": []
+     "name": "Lust for Power",
+		"stats": [
+            "10% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
+            "+1 to Maximum Power Charges"
+        ]
     },
     {
       "id": "N255",
@@ -2224,8 +2242,11 @@
       "id": "N261",
       "x": 0.6345454545454545,
       "y": 0.46962290502793297,
-      "name": "N261",
-      "stats": []
+      "name": "Essence of the Mountain",
+		"stats": [
+            "20% increased Freeze Buildup",
+            "Gain 5% of Damage as Extra Cold Damage"
+        ]
     },
     {
       "id": "N262",
