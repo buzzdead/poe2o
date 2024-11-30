@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
-import nodes from './data/merged_nodes.json';
+import nodes from './data/merged_nodes2.json';
 
 const SkillTreeMain = () => {
     const [tooltip, setTooltip] = useState<any>(null); // For showing node details
@@ -47,7 +47,7 @@ const SkillTreeMain = () => {
 
             {/* Nodes Overlay */}
             {nodes.keystones.map((node) => {
-                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
+                const col = node.stats.length > 0 ? "border-green-600/75 shadow-inner shadow-green-500" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
@@ -66,7 +66,7 @@ const SkillTreeMain = () => {
             })}
 
             {nodes.notables.map((node) => {
-                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
+                const col = node.stats.length > 0 ? "border-green-600/75 shadow-inner shadow-green-500" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
@@ -85,7 +85,7 @@ const SkillTreeMain = () => {
             })}
 
             {nodes.small.map((node) => {
-                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
+                const col = node.stats.length > 0 ? "border-green-600/75 shadow-inner shadow-green-500" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
