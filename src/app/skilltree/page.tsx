@@ -1,6 +1,6 @@
 "use client"
 
-import SkillTreeMain from "../SkillTreeMain";
+import SkillTreeMain from "./SkillTreeMain";
 
 const SkillTree = () => {
     return <SkillTreeMain />
