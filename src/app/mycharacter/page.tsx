@@ -1,6 +1,4 @@
 "use client";
-import { ToastAction } from "@radix-ui/react-toast";
-import { Brain } from "lucide-react";
 import { Card, CardContent } from "../../components/ui/card";
 import {
   Tabs,
@@ -8,7 +6,6 @@ import {
   TabsList,
   TabsTrigger,
 } from "../../components/ui/tabs";
-import { toast } from "../../hooks/use-toast";
 import CharacterPanel from "../character";
 import { useCharacterContext } from "../context/CharContext";
 import { Ascendancy } from "../types";
