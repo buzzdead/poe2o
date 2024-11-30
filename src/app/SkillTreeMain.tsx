@@ -1,8 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
-import nodes from './data/nodes.json';
-import nodeDescriptions from './data/nodes_desc.json';
+import nodes from './data/merged_nodes.json';
 
 const SkillTreeMain = () => {
     const [tooltip, setTooltip] = useState<any>(null); // For showing node details
@@ -14,9 +13,8 @@ const SkillTreeMain = () => {
     const IMAGE_HEIGHT = 2864; // Python script's processed image height
 
     // Function to show the tooltip
-    const showToolTip = (node: any) => {
-        const nodeDesc = nodeDescriptions[node.id as keyof typeof nodeDescriptions];
-
+    const showToolTip = () => {
+        const node = tooltip.node
         return (
             <div
                 className="absolute bg-black bg-opacity-80 text-white p-2 rounded-lg w-64 flex flex-col z-50 pointer-events-none"
@@ -26,9 +24,9 @@ const SkillTreeMain = () => {
                     transform: 'translate(-50%, -50%)',
                 }}
             >
-                <h3 className="text-xl text-center mb-2">{nodeDesc?.name || 'Unknown Node'}</h3>
+                <h3 className="text-xl text-center mb-2">{node?.name || 'Unknown Node'}</h3>
                 <ul className="list-disc pl-5 text-blue-600">
-                    {nodeDesc?.stats.map((stat: string, index: number) => (
+                    {tooltip.nodeDesc?.map((stat: string, index: number) => (
                         <li key={index} className="text-sm text-green-400 mb-2">{stat}</li>
                     ))}
                 </ul>
@@ -49,10 +47,11 @@ const SkillTreeMain = () => {
 
             {/* Nodes Overlay */}
             {nodes.keystones.map((node) => {
+                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
-                        className="absolute cursor-pointer rounded-full bg-transparent border-2 border-blue-600/25 z-10"
+                        className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
                         style={{
                             left: `${node.x * 100}%`,
                             top: `${node.y * 100}%`,
@@ -60,17 +59,18 @@ const SkillTreeMain = () => {
                             width: '15px',
                             height: '15px',
                         }}
-                        onMouseEnter={() => setTooltip({ id: node.id, x: node.x, y: node.y })}
+                        onMouseEnter={() => setTooltip({node: node, nodeDesc: node.stats })}
                         onMouseLeave={closeTooltip}
                     />
                 );
             })}
 
             {nodes.notables.map((node) => {
+                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
-                        className="absolute cursor-pointer rounded-full bg-transparent border-2 border-blue-600/25 z-10"
+                        className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
                         style={{
                             left: `${node.x * 100}%`,
                             top: `${node.y * 100}%`,
@@ -78,17 +78,18 @@ const SkillTreeMain = () => {
                             width: '7.5px',
                             height: '7.5px',
                         }}
-                        onMouseEnter={() => setTooltip({ id: node.id, x: node.x, y: node.y })}
+                        onMouseEnter={() => setTooltip({node: node, nodeDesc: node.stats })}
                         onMouseLeave={closeTooltip}
                     />
                 );
             })}
 
             {nodes.small.map((node) => {
+                const col = node.stats.length > 0 ? "border-green-600/50" : "border-blue-600/25"
                 return (
                     <div
                         key={node.id}
-                        className="absolute cursor-pointer rounded-full bg-transparent border-2 border-blue-600/25 z-10"
+                        className={`absolute cursor-pointer rounded-full bg-transparent border-2 ${col}`}
                         style={{
                             left: `${node.x * 100}%`,
                             top: `${node.y * 100}%`,
@@ -96,14 +97,14 @@ const SkillTreeMain = () => {
                             width: '5px',
                             height: '5px',
                         }}
-                        onMouseEnter={() => setTooltip({ id: node.id, x: node.x, y: node.y })}
+                        onMouseEnter={() => setTooltip({node: node, nodeDesc: node.stats })}
                         onMouseLeave={closeTooltip}
                     />
                 );
             })}
 
             {/* Tooltip (Positioned outside of nodes) */}
-            {tooltip && showToolTip(tooltip)}
+            {tooltip && showToolTip()}
         </div>
     );
 };
