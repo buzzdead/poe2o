@@ -2970,8 +2970,8 @@
       "id": "N360",
       "x": 0.3901818181818182,
       "y": 0.6085893854748603,
-      "name": "N360",
-      "stats": []
+      "name": "Titan's Determination",
+		"stats": ["25% increased Stun Threshold" ,"Regenerate 1,5% of Life per second while moving"]
     },
     {
       "id": "N361",
@@ -3020,8 +3020,8 @@
       "id": "N366",
       "x": 0.4243636363636364,
       "y": 0.6134776536312849,
-      "name": "N366",
-      "stats": []
+      "name": "Mass Rejuvenation",
+		"stats": ["Regenarate 1% of Life per second" ,"Allies in your Presence Regenerate 2% of your Maximum Life per second"]
     },
     {
       "id": "N367",
@@ -3234,8 +3234,8 @@
       "id": "N393",
       "x": 0.408,
       "y": 0.6410614525139665,
-      "name": "N393",
-      "stats": []
+      "name": "Devastation",
+		"stats": ["15% increased Attack Area Damage" ,"15% increased Area of Effect for Attacks"]
     },
     {
       "id": "N394",
@@ -3334,8 +3334,8 @@
       "id": "N405",
       "x": 0.4007272727272727,
       "y": 0.6525837988826816,
-      "name": "N405",
-      "stats": []
+      "name": "Grit",
+		"stats": ["5% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges" ,"+1 to Maximum Endurance Charges"]
     },
     {
       "id": "N406",
@@ -3358,8 +3358,8 @@
       "id": "N408",
       "x": 0.348,
       "y": 0.6581703910614525,
-      "name": "N408",
-      "stats": []
+      "name": "Carved Earth",
+		"stats": ["20 increased Totem Damage" ,"6% increased Attack and Cast Speed if you've summoned a Totem Recently"]
     },
     {
       "id": "N409",
@@ -3419,8 +3419,8 @@
       "id": "N416",
       "x": 0.38436363636363635,
       "y": 0.6672486033519553,
-      "name": "N416",
-      "stats": []
+      "name": "Desperate Times",
+		"stats": ["Regenerate 3% of Life per second while on Low Life" ,"40% increased Life Recovery from Flasks used when on Low Life"]
     },
     {
       "id": "N417",
@@ -3433,8 +3433,8 @@
       "id": "N418",
       "x": 0.3643636363636364,
       "y": 0.6693435754189944,
-      "name": "N418",
-      "stats": []
+      "name": "Prolonged Fury",
+		"stats": ["Inherent loss of Rage is 25% slower"]
     },
     {
       "id": "N419",
@@ -3514,15 +3514,15 @@
       "id": "N428",
       "x": 0.3549090909090909,
       "y": 0.6888966480446927,
-      "name": "N428",
-      "stats": []
+      "name": "Voracious",
+		"stats": ["20% of Leech is Instant"]
     },
     {
       "id": "N429",
       "x": 0.2821818181818182,
       "y": 0.6902932960893855,
-      "name": "N429",
-      "stats": []
+      "name": "Internal Bleeding",
+		"stats": ["25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks" ,"Empowered Attacks deal 35% increased Damage"]
     },
     {
       "id": "N430",

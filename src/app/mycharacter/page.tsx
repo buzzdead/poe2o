@@ -11,7 +11,7 @@ import { useCharacterContext } from "../context/CharContext";
 import { Ascendancy } from "../types";
 
 const MyCharacter = () => {
-  const { characters } = useCharacterContext();
+  const { characters, nodes } = useCharacterContext();
   return (
     <div className="flex justify-center">
       <div className="flex-col flex gap-5">
@@ -24,12 +24,18 @@ const MyCharacter = () => {
           <TabsList>
             <TabsTrigger value="ascendancy">Ascendancy</TabsTrigger>
             <TabsTrigger value="characterpanel">Character Panel</TabsTrigger>
+            <TabsTrigger value="skilltree">Skill Tree</TabsTrigger>
           </TabsList>
           <TabsContent value="ascendancy">
             <AscendancyComp ascendancy={characters[0]?.ascendancies} />
           </TabsContent>
           <TabsContent value="characterpanel">
             <CharacterPanel />
+          </TabsContent>
+          <TabsContent value="skilltree">
+            <div className="flex flex-col gap-5 justify-center text-center p-5">
+          {nodes.map(n => <div key={n?.name}>{n?.name}</div>)}
+          </div>
           </TabsContent>
         </Tabs>
       </div>

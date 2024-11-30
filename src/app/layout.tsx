@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/toaster"
+import { Toaster as Toaster2 } from "@/components/ui/sonner"
 import "./globals.css";
 import { GemsProvider } from "./context/GemsContext";
 import Header from "./Header";
@@ -30,6 +31,7 @@ export default function RootLayout({
       </CharacterProvider>
         </GemsProvider>
         <Toaster />
+        <Toaster2 />
       </body>
     </html>
   );

@@ -5,8 +5,30 @@ import { Ascendancy, Char } from "../types";
 
 type CharacterWithAscendancy = Char & { ascendancies: Ascendancy };
 
+type Node = {
+  id: string;
+  x: number;
+  y: number;
+  name: string;
+  stats: string[];
+} | {
+  id: string;
+  x: number;
+  y: number;
+  name: string;
+  stats: string[];
+} | {
+  id: string;
+  x: number;
+  y: number;
+  name: string;
+  stats: never[];
+}
+
 type CharacterContextType = {
   characters: CharacterWithAscendancy[];
+  nodes: Node[]
+  selectNode: (node: Node[]) => void
   addCharacter: (character: CharacterWithAscendancy) => void;
 };
 
@@ -14,13 +36,16 @@ const CharacterContext = createContext<CharacterContextType | undefined>(undefin
 
 export const CharacterProvider = ({ children }: { children: ReactNode }) => {
   const [characters, setCharacters] = useState<CharacterWithAscendancy[]>([]);
-
+  const [nodes, setNodes] = useState<Node[]>([])
   const addCharacter = (character: CharacterWithAscendancy) => {
     setCharacters([character]);
   };
+  const selectNode = (nodes: Node[]) => {
+    setNodes(nodes)
+  }
 
   return (
-    <CharacterContext.Provider value={{ characters, addCharacter }}>
+    <CharacterContext.Provider value={{ characters, addCharacter, nodes, selectNode }}>
       {children}
     </CharacterContext.Provider>
   );
