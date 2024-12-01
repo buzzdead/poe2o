@@ -31,6 +31,7 @@ type CharacterContextType = {
   selectNode: (node: SkillNode[]) => void;
   addCharacter: (character: CharacterWithAscendancy) => void;
   clearCharacters: () => void; // Optional to clear all characters
+  clearSkillTree: () => void
 };
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
@@ -39,7 +40,9 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
   const [characters, setCharacters] = useState<CharacterWithAscendancy[]>([]);
   const [isHydrated, setIsHydrated] = useState(false);
   const [nodes, setNodes] = useState<SkillNode[]>([]);
-
+  const clearSkillTree = () => {
+    setNodes([])
+  }
   // Load data from localStorage on component mount
   useEffect(() => {
     const savedCharacters = localStorage.getItem("characters");
@@ -81,6 +84,7 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
     <CharacterContext.Provider
       value={{
         characters,
+        clearSkillTree,
         addCharacter,
         nodes,
         selectNode,

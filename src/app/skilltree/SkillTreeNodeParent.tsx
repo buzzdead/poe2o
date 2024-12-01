@@ -12,57 +12,57 @@ export const SkillTreeNodeParent = () => {
   const { nodes: myNodes, selectNode } = useCharacterContext();
   const { handleSearchChange, searchQuery, filterNodes } = useNodeSearch();
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
-  const handleSelectNode = (node: SkillNode) => {
-    const isSelected = myNodes.find((sn) => sn.id === node.id);
-    
-    // Define a distance threshold (adjust as needed)
-    const distanceThreshold = 10; // Example threshold, you can change this
-  
-    // Helper function to calculate distance to the center (0.5, 0.5)
-    const calculateDistanceToCenter = (node: SkillNode) => {
-      // We use the center (0.5, 0.5) as the reference point
-      const centerX = 0.5;
-      const centerY = 0.5;
-      const distance = Math.sqrt(
-        Math.pow(node.x - centerX, 2) + Math.pow(node.y - centerY, 2)
-      );
-      return distance;
-    };
-  
-    if (isSelected) {
-      // If the node is already selected, we deselect it (and potentially deselect others if Shift is held)
-      if (isLeftShiftSelected.current) {
-        // Deselect all nodes with the same name
-        selectNode(myNodes.filter((sn) => sn.name !== node.name));
-      } else {
-        // Deselect the single node
-        selectNode(myNodes.filter((sn) => sn.id !== node.id));
-      }
-      toast(node.name + " Removed", {});
-    } else {
-      if (isLeftShiftSelected.current) {
-        // If Shift is held down, find nodes with the same name and within the distance threshold
-        let nearbyNodes = filterNodesData.nodes.filter((sn) => {
-          // Check for nodes with the same name
-          return sn.name === node.name && calculateDistance(node, sn) <= distanceThreshold;
-        });
-  
-        // If the node is "Attribute", further filter the nearby nodes to prioritize those closer to the center
-        if (node.name === "Attribute") {
-          nearbyNodes = nearbyNodes.filter((sn) => calculateDistanceToCenter(sn) <= calculateDistanceToCenter(node));
-        }
-  
-        if (nearbyNodes.length > 0) {
-          selectNode([...myNodes, ...nearbyNodes]); // Add nearby nodes to the selection
-          toast(node.name + " and nearby nodes Selected", {});
-        }
-      } else {
-        // If Shift is not held, select the single node
-        selectNode([...myNodes, node]);
-        toast(node.name + " Selected", {});
-      }
-    }
+// Deduplicate nodes based on their 'id'
+const handleSelectNode = (node: SkillNode) => {
+  const isSelected = myNodes.find((sn) => sn.id === node.id);
+
+  // Define a distance threshold (adjust as needed)
+  const distanceThreshold = 10;
+
+  const calculateDistanceToCenter = (node: SkillNode) => {
+    const centerX = 0.5;
+    const centerY = 0.5;
+    return Math.sqrt(Math.pow(node.x - centerX, 2) + Math.pow(node.y - centerY, 2));
   };
+
+  if (isSelected) {
+    // Deselect logic
+    if (isLeftShiftSelected.current) {
+      selectNode(myNodes.filter((sn) => sn.name !== node.name));
+    } else {
+      selectNode(myNodes.filter((sn) => sn.id !== node.id));
+    }
+    toast(node.name + " Removed", {});
+  } else {
+    if (isLeftShiftSelected.current) {
+      // Check for nearby nodes with the same name within distanceThreshold
+      let nearbyNodes = filterNodesData.nodes.filter((sn) => {
+        return sn.name === node.name && calculateDistance(node, sn) <= distanceThreshold;
+      });
+
+      // Further filter for "Attribute" nodes to prioritize those closer to the center
+      if (node.name === "Attribute") {
+        nearbyNodes = nearbyNodes.filter((sn) => calculateDistanceToCenter(sn) <= calculateDistanceToCenter(node));
+      }
+
+      // Deduplicate nodes by ID before adding to myNodes
+      const uniqueNodesToAdd = nearbyNodes.filter(
+        (sn) => !myNodes.some((existingNode) => existingNode.id === sn.id)
+      );
+
+      if (uniqueNodesToAdd.length > 0) {
+        selectNode([...myNodes, ...uniqueNodesToAdd]);
+        toast(node.name + " and nearby nodes Selected", {});
+      }
+    } else {
+      // Single node selection logic
+      selectNode([...myNodes, node]);
+      toast(node.name + " Selected", {});
+    }
+  }
+};
+
+
   
   
 

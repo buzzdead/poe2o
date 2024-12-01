@@ -12,42 +12,65 @@ import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { Ascendancy } from "../types";
 import { Sword } from "lucide-react";
 import CustomCard from "../appcomponents/CustomCard";
+import { Button } from "../../components/ui/button";
+
+type MultipleNode = {
+  node: SkillNode;
+  numberOfDuplicates: number;
+};
 
 const MyCharacter = () => {
-  const { characters, nodes } = useCharacterContext();
-  const [stat, setStat] = useState<number>(0);
-  const [unknownNodes, setUnknownNodes] = useState(0)
+  const { characters, nodes, clearSkillTree } = useCharacterContext();
+  const [groupedStats, setGroupedStats] = useState<Record<string, MultipleNode>>({});
   const [myNodes, setMyNodes] = useState<SkillNode[]>([]);
+  const [stat, setStat] = useState(0)
+
   useEffect(() => {
-    let newStat = 0; // Temporary variable to calculate the stat increment
-    let un = 0;
+    const grouped: Record<string, MultipleNode> = {};
     const myN: SkillNode[] = [];
+    let newStat = 0;
     nodes.forEach((n) => {
-      if (n.name === "Attribute") {
-        // Check if the string contains exactly two digits
-        newStat += 1;
-      } 
-      else if (/^[NSK]\d/.test(n.name)) {
-        un += 1
+      if (!grouped[n.name]) {
+        grouped[n.name] = { node: n, numberOfDuplicates: 0 };
       }
-      else myN.push(n);
+      grouped[n.name].numberOfDuplicates += 1;
     });
-    setStat(newStat); // Update the state with the calculated stat
-    setUnknownNodes(un)
-    setMyNodes(myN);
+
+    // Separate out non-duplicate nodes for display
+    nodes.forEach((n) => {
+      if (/^[NSK]\d/.test(n.name)) {
+        newStat += 1;
+      }
+      else if (grouped[n.name].numberOfDuplicates === 1) {
+        myN.push(n);
+      }
+    });
+
+    setGroupedStats(grouped); // Update the grouped stats state
+    setMyNodes(myN); // Update myNodes state
+    setStat(newStat)
   }, [nodes]);
-  const renderStat = () => {
-    if (!stat) return;
-    return (
-      "Attribute x " + stat
-    );
+
+  const renderGroupedStats = () => {
+    return Object.entries(groupedStats)
+      .filter(([_, data]) => data.numberOfDuplicates > 1) // Only show nodes with duplicates
+      .map(([name, data]) => (
+        <div key={name}>
+          <Tooltip node={data.node}>
+            <div className="cursor-pointer text-accent-light hover:underline">
+              {name} x {data.numberOfDuplicates}
+            </div>
+          </Tooltip>
+        </div>
+      ));
   };
-  const renderUnknown = () => {
-    if(!unknownNodes) return;
-    return (
-      "Unknown nodes x " + unknownNodes
-    )
-  }
+
+  const handleClearSkillTree = () => {
+    setGroupedStats({});
+    setMyNodes([]);
+    clearSkillTree();
+  };
+
   return (
     <div className="flex justify-center">
       <div className="flex-col flex gap-5">
@@ -85,11 +108,9 @@ const MyCharacter = () => {
           </TabsContent>
           <TabsContent value="skilltree">
             <div className="flex flex-col gap-5 justify-center text-center p-5">
+              {stat > 0 && <div className="text-fuchsia-800">Unknown nodes x  {stat}</div>}
               <div className="flex flex-col gap-5 text-accent-cold">
-                <div>
-              {renderStat()}
-              </div>
-              {renderUnknown()}
+                {renderGroupedStats()}
               </div>
               {myNodes.map((n) => (
                 <Tooltip key={n?.id} node={n}>
@@ -98,6 +119,12 @@ const MyCharacter = () => {
                   </div>
                 </Tooltip>
               ))}
+              <Button
+                className="bg-red-950 hover:bg-red-600"
+                onClick={handleClearSkillTree}
+              >
+                Clear skill tree
+              </Button>
             </div>
           </TabsContent>
         </Tabs>
