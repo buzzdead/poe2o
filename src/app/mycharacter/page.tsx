@@ -8,7 +8,7 @@ import {
   TabsList,
   TabsTrigger,
 } from "../../components/ui/tabs";
-import CharacterPanel from "../character";
+import CharacterPanel from "./character";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { Ascendancy } from "../types";
 import { Sword } from "lucide-react";
@@ -21,7 +21,7 @@ const MyCharacter = () => {
     let newStat = 0; // Temporary variable to calculate the stat increment
     const myN: SkillNode[] = [];
     nodes.forEach((n) => {
-      if (/\d{2}/.test(n.name)) {
+      if (n.name.charAt(0).toLowerCase() === "s" && /\d{2}/.test(n.name)) {
         // Check if the string contains exactly two digits
         newStat += 10;
       } else myN.push(n);
