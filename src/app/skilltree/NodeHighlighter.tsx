@@ -1,5 +1,4 @@
-// useNodeSearch.ts
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 import React from "react";
 import { Input } from "../../components/ui/input";
@@ -7,6 +6,16 @@ import { Input } from "../../components/ui/input";
 export const useNodeSearch = () => {
   const [filterNodes, setFilterNodes] = useState<string[]>([]); // Store the filtered nodes
   const [searchQuery, setSearchQuery] = useState(""); // Store the search query
+  const [debouncedQuery, setDebouncedQuery] = useState(""); // Store the debounced query
+
+  // Debounce the search query
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setDebouncedQuery(searchQuery); // Set the debounced query after delay
+    }, 100); // Delay of 300ms (you can adjust this value as needed)
+
+    return () => clearTimeout(timeoutId); // Clean up the timeout on query change
+  }, [searchQuery]); // This effect runs every time searchQuery changes
 
   // Load the filtered nodes data
   useEffect(() => {
@@ -18,16 +27,16 @@ export const useNodeSearch = () => {
     setSearchQuery(query);
   };
 
-  // Filter nodes based on the search query
+  // Filter nodes based on the debounced query
   const getFilteredNodes = () => {
-    // If searchQuery is empty, return no nodes (or can be left as is)
-    if (searchQuery.trim() === "") {
-      return []; // Don't highlight any nodes if search query is empty
+    // If debouncedQuery is empty, return no nodes (or can be left as is)
+    if (debouncedQuery.trim() === "") {
+      return []; // Don't highlight any nodes if debounced query is empty
     }
 
     return filterNodes.filter((node) =>
       // Only include nodes with non-empty names that match the query
-      node.trim() !== "" && node.toLowerCase().includes(searchQuery.toLowerCase())
+      node.trim() !== "" && node.toLowerCase().includes(debouncedQuery.toLowerCase())
     );
   };
 
