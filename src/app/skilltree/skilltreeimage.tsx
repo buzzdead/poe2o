@@ -10,7 +10,7 @@ export const SkillTreeImage = () => {
         alt="Skill Tree"
         width={IMAGE_WIDTH}
         height={IMAGE_HEIGHT}
-        className="relative z-1" // Background with lower z-index
+        className="relative z-1 select-none" // Background with lower z-index
       />
     )
 }
