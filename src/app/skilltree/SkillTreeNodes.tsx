@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from 'react';
 import { SkillNode } from "../context/CharContext";
 
 interface Props {
@@ -20,6 +21,32 @@ export const SkillTreeNodes = ({
   setTooltip,
   size,
 }: Props) => {
+  const [isCtrlDown, setIsCtrlDown] = useState(false);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.ctrlKey) {
+        setIsCtrlDown(true);
+      }
+    };
+
+    const handleKeyUp = (event: KeyboardEvent) => {
+      if (!event.ctrlKey) {
+        setIsCtrlDown(false);
+      }
+    };
+
+    // Add event listeners
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+
+    // Cleanup event listeners
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
+    };
+  }, []);
+
   return (
     <div>
       {nodes.map((node) => {
@@ -80,6 +107,11 @@ export const SkillTreeNodes = ({
                 isRightSide,
                 cursorXPercent,
               });
+
+              // Automatically select node if Ctrl is held down
+              if (isCtrlDown) {
+                handleSelectNode(node);
+              }
             }}
             onMouseLeave={() => setTooltip(null)}
           >
