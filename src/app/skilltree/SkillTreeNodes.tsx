@@ -20,11 +20,10 @@ export const SkillTreeNodes = ({
   setTooltip,
   size,
 }: Props) => {
-      
   return (
     <div>
       {nodes.map((node) => {
-        const isSelected = myNodes.find((n) => n.name === node.name);
+        const isSelected = myNodes.find((n) => n.id === node.id);
         const nodeStyle =
           node.stats.length > 0
             ? {

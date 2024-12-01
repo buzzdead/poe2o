@@ -2,24 +2,50 @@
 import { toast } from "sonner";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { SearchInput, useNodeSearch } from "../NodeHighlighter";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import nodes from "../data/merged_nodes.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
+import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 
 export const SkillTreeNodeParent = () => {
+  const isLeftShiftSelected = useRef(false)
   const { nodes: myNodes, selectNode } = useCharacterContext();
   const { handleSearchChange, searchQuery, filterNodes } = useNodeSearch();
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
   const handleSelectNode = (node: SkillNode) => {
-    const isSelected = myNodes.find((sn) => sn.name === node.name);
+    const isSelected = myNodes.find((sn) => sn.id === node.id);
     if (isSelected) {
-      selectNode(myNodes.filter((sn) => sn.name !== node.name));
+      isLeftShiftSelected.current ? selectNode(myNodes.filter((sn) => sn.name !== node.name)) : selectNode(myNodes.filter((sn) => sn.id !== node.id));
     } else {
-      selectNode([...myNodes, node]);
+      const nodes2 = filterNodesData.nodes.filter((sn) => sn.name === node.name)
+
+      isLeftShiftSelected.current && nodes2.length > 0 ? selectNode([...myNodes, ...nodes2]) : selectNode([...myNodes, node]);
     }
 
     toast(node.name + (isSelected ? " Removed" : " Selected"), {});
   };
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Shift" && !e.repeat) {
+        isLeftShiftSelected.current = true;
+      }
+    };
+
+    const handleKeyUp = (e: KeyboardEvent) => {
+      if (e.key === "Shift") {
+        isLeftShiftSelected.current = false;
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    window.addEventListener("keyup", handleKeyUp);
+
+    // Cleanup listeners on unmount
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      window.removeEventListener("keyup", handleKeyUp);
+    };
+  }, []);
   const showToolTip = () => {
     const node = tooltip.node;
     const { isRightSide, cursorXPercent } = tooltip;
@@ -73,7 +99,7 @@ export const SkillTreeNodeParent = () => {
   const nodeGroups = [
     { size: "15px", nodes: nodes.keystones },
     { size: "7.5px", nodes: nodes.notables },
-    { size: "5px", nodes: nodes.small },
+    { size: "5px", nodes: nodes.smalls },
   ];
   return (
   <>

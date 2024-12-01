@@ -45,12 +45,19 @@ interface SearchInputProps {
 
 export const SearchInput: React.FC<SearchInputProps> = ({ searchQuery, handleSearchChange }) => {
   return (
-    <div className="absolute top-4 left-4 z-10 w-full flex justify-center">
+    <div className="absolute top-4 left-4 z-10 w-full flex flex-col items-center">
+      {/* New row above the search input */}
+      <div className="absolute -top-5 w-1/6 text-sm text-gray-400 text-center">
+        {/* Add your content here */}
+        <span>Shift click to select all of same type</span>
+      </div>
+
+      {/* Search input */}
       <Input
         type="text"
-        placeholder="Search nodes..."
+        placeholder="Search nodes (By name or description)..."
         value={searchQuery}
-        className="w-1/6"
+        className="w-1/6 mt-2"
         onChange={(e) => handleSearchChange(e.target.value)}
       />
     </div>

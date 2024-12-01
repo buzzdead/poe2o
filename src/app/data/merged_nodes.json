@@ -1871,8 +1871,10 @@
       "id": "N211",
       "x": 0.5014545454545455,
       "y": 0.3994413407821229,
-      "name": "N211",
-      "stats": []
+      "name": "Open Mind",
+      "stats": [
+        "25% increase Mana Regeneration Rate"
+      ]
     },
     {
       "id": "N212",
@@ -2711,11 +2713,10 @@
       "id": "N313",
       "x": 0.6265454545454545,
       "y": 0.5488826815642458,
-      "name": "Master Fletcher",
+      "name": "Clean Shot",
       "stats": [
-        "8% increased Projectile Speed",
-        "8% increased Attack Speed with Bows",
-        "8% increased Attack Speed with Crossbows"
+        "15% chance to Pierce an Enemy",
+        "15% increased Projectile Damage"
       ]
     },
     {
@@ -2896,9 +2897,9 @@
       "id": "N334",
       "x": 0.6912727272727273,
       "y": 0.571927374301676,
-      "name": "Hold Focus",
+      "name": "Mark Cast Speed",
       "stats": [
-        "12% increased Effect of your Marks"
+        "Mark Skills have 10% increased Cast Speed"
       ]
     },
     {
@@ -2949,7 +2950,7 @@
       "y": 0.5806564245810056,
       "name": "Break Focus",
       "stats": [
-        "12% increased Effect of your Marks"
+        "Enemies you Mark have 15% reduced Accuracy Rating"
       ]
     },
     {
@@ -3291,8 +3292,9 @@
       "id": "N380",
       "x": 0.6825454545454546,
       "y": 0.6277932960893855,
-      "name": "Flask Charges Gained Notable",
+      "name": "Lasting Concoctions",
       "stats": [
+        "25% increased Flask Effect Duration",
         "25% increased Flask Charges gained"
       ]
     },
@@ -3458,8 +3460,11 @@
       "id": "N399",
       "x": 0.5258181818181819,
       "y": 0.6438547486033519,
-      "name": "N399",
-      "stats": []
+      "name": "Ricochet",
+      "stats": [
+        "20% increased Projectile Damage",
+        "Projectiles have 20% chance to Chain an additional time from terrain"
+      ]
     },
     {
       "id": "N400",
@@ -4058,6 +4063,7 @@
       "y": 0.7426675977653632,
       "name": "Cluster Bombs",
       "stats": [
+        "50% increased Grenade Duration",
         "Grenade Skills Fire an additional Projectile"
       ]
     },
@@ -4208,8 +4214,10 @@
       "id": "N491",
       "x": 0.36727272727272725,
       "y": 0.7685055865921788,
-      "name": "N491",
-      "stats": []
+      "name": "Hale Heart",
+      "stats": [
+        "15% increased Life Recovery rate"
+      ]
     },
     {
       "id": "N492",
@@ -4460,7 +4468,7 @@
       "y": 0.8303072625698324,
       "name": "Perfect Opportunity",
       "stats": [
-        "25% increased Stun Buildup",
+        "30% increased Stun Buildup",
         "Damage with Hits is Lucky against Heavy Stunned Enemies"
       ]
     },
@@ -4786,7 +4794,7 @@
       "y": 0.9329608938547486,
       "name": "Repeating Explosives",
       "stats": [
-        "Grenades have 20% change to activate a second time"
+        "Grenades have 15% change to activate a second time"
       ]
     },
     {
@@ -4972,20 +4980,24 @@
       ]
     }
   ],
-  "small": [
+  "smalls": [
     {
       "id": "S1",
       "x": 0.5552727272727273,
       "y": 0.04993016759776536,
-      "name": "S1",
-      "stats": []
+      "name": "Lightning Damage",
+      "stats": [
+        "12% increased Lightning Damage"
+      ]
     },
     {
       "id": "S2",
       "x": 0.5487272727272727,
       "y": 0.061103351955307264,
-      "name": "S2",
-      "stats": []
+      "name": "Lightning Damage",
+      "stats": [
+        "12% increased Lightning Damage"
+      ]
     },
     {
       "id": "S3",
@@ -4998,8 +5010,10 @@
       "id": "S4",
       "x": 0.5534545454545454,
       "y": 0.0691340782122905,
-      "name": "S4",
-      "stats": []
+      "name": "Lightning Damage",
+      "stats": [
+        "12% increased Lightning Damage"
+      ]
     },
     {
       "id": "S5",
@@ -5075,8 +5089,10 @@
       "id": "S15",
       "x": 0.4541818181818182,
       "y": 0.08170391061452514,
-      "name": "S15",
-      "stats": []
+      "name": "Ignite Effect",
+      "stats": [
+        "10% increased Effect of Ignite"
+      ]
     },
     {
       "id": "S16",
@@ -5089,8 +5105,10 @@
       "id": "S17",
       "x": 0.544,
       "y": 0.08414804469273743,
-      "name": "S17",
-      "stats": []
+      "name": "Lightning Damage",
+      "stats": [
+        "12% increased Lightning Damage"
+      ]
     },
     {
       "id": "S18",
@@ -5145,8 +5163,10 @@
       "id": "S25",
       "x": 0.4530909090909091,
       "y": 0.08903631284916201,
-      "name": "S25",
-      "stats": []
+      "name": "Ignite Effect",
+      "stats": [
+        "10% increased Effect of Ignite"
+      ]
     },
     {
       "id": "S26",
@@ -5173,8 +5193,10 @@
       "id": "S29",
       "x": 0.44545454545454544,
       "y": 0.09043296089385475,
-      "name": "S29",
-      "stats": []
+      "name": "Ignite Effect",
+      "stats": [
+        "10% increased Effect of Ignite"
+      ]
     },
     {
       "id": "S30",
@@ -5208,8 +5230,10 @@
       "id": "S34",
       "x": 0.5487272727272727,
       "y": 0.09217877094972067,
-      "name": "S34",
-      "stats": []
+      "name": "Lightning Damage",
+      "stats": [
+        "12% increased Lightning Damage"
+      ]
     },
     {
       "id": "S35",
@@ -5222,15 +5246,19 @@
       "id": "S36",
       "x": 0.4421818181818182,
       "y": 0.09567039106145252,
-      "name": "S36",
-      "stats": []
+      "name": "Ignite Chance",
+      "stats": [
+        "20% increased chance to Ignite"
+      ]
     },
     {
       "id": "S37",
       "x": 0.4556363636363636,
       "y": 0.09636871508379888,
-      "name": "S37",
-      "stats": []
+      "name": "Fire Damage",
+      "stats": [
+        "12% increased Fire Damage"
+      ]
     },
     {
       "id": "S38",
@@ -8741,8 +8769,8 @@
     },
     {
       "id": "S539",
-      "x": 0.8789090909090909,
-      "y": 0.3481145251396648,
+      "x": 0.88,
+      "y": 0.349,
       "name": "S539",
       "stats": []
     },
@@ -8811,8 +8839,8 @@
     },
     {
       "id": "S549",
-      "x": 0.8712727272727273,
-      "y": 0.3526536312849162,
+      "x": 0.872,
+      "y": 0.3537,
       "name": "S549",
       "stats": []
     },
@@ -8902,8 +8930,8 @@
     },
     {
       "id": "S562",
-      "x": 0.9029090909090909,
-      "y": 0.3575418994413408,
+      "x": 0.8858,
+      "y": 0.3317,
       "name": "S562",
       "stats": []
     },
@@ -8944,8 +8972,8 @@
     },
     {
       "id": "S568",
-      "x": 0.8756363636363637,
-      "y": 0.36033519553072624,
+      "x": 0.8765,
+      "y": 0.3617,
       "name": "S568",
       "stats": []
     },
@@ -9161,8 +9189,8 @@
     },
     {
       "id": "S599",
-      "x": 0.8778181818181818,
-      "y": 0.3722067039106145,
+      "x": 0.879,
+      "y": 0.375,
       "name": "S599",
       "stats": []
     },
@@ -9245,15 +9273,15 @@
     },
     {
       "id": "S611",
-      "x": 0.8843636363636364,
-      "y": 0.37814245810055863,
+      "x": 0.8863,
+      "y": 0.3821,
       "name": "S611",
       "stats": []
     },
     {
       "id": "S612",
-      "x": 0.8978181818181818,
-      "y": 0.37814245810055863,
+      "x": 0.89945,
+      "y": 0.38125,
       "name": "S612",
       "stats": []
     },
@@ -9308,8 +9336,8 @@
     },
     {
       "id": "S620",
-      "x": 0.8781818181818182,
-      "y": 0.38023743016759776,
+      "x": 0.9113,
+      "y": 0.4238,
       "name": "S620",
       "stats": []
     },
@@ -9364,8 +9392,8 @@
     },
     {
       "id": "S628",
-      "x": 0.8778181818181818,
-      "y": 0.3840782122905028,
+      "x": 0.8789,
+      "y": 0.388,
       "name": "S628",
       "stats": []
     },
@@ -9716,8 +9744,10 @@
       "id": "S678",
       "x": 0.5207272727272727,
       "y": 0.4025837988826816,
-      "name": "S678",
-      "stats": []
+      "name": "Energy Shield Delay",
+      "stats": [
+        "10% faster start of Energy Shield recharge"
+      ]
     },
     {
       "id": "S679",
@@ -9772,8 +9802,10 @@
       "id": "S686",
       "x": 0.49272727272727274,
       "y": 0.4057262569832402,
-      "name": "S686",
-      "stats": []
+      "name": "Minion Life",
+      "stats": [
+        "Minions have 10% increased maximum Life"
+      ]
     },
     {
       "id": "S687",
@@ -9821,8 +9853,10 @@
       "id": "S693",
       "x": 0.5221818181818182,
       "y": 0.4085195530726257,
-      "name": "S693",
-      "stats": []
+      "name": "Energy Shield Delay",
+      "stats": [
+        "10% faster start of Energy Shield Recharge"
+      ]
     },
     {
       "id": "S694",
@@ -9940,8 +9974,10 @@
       "id": "S710",
       "x": 0.5134545454545455,
       "y": 0.41620111731843573,
-      "name": "S710",
-      "stats": []
+      "name": "Energy Shield",
+      "stats": [
+        "+10 to maximum Energy Shield"
+      ]
     },
     {
       "id": "S711",
@@ -10360,8 +10396,10 @@
       "id": "S770",
       "x": 0.5069090909090909,
       "y": 0.4399441340782123,
-      "name": "S770",
-      "stats": []
+      "name": "Energy Shield",
+      "stats": [
+        "+10 to maximum Energy Shield"
+      ]
     },
     {
       "id": "S771",
@@ -12201,8 +12239,10 @@
       "id": "S1033",
       "x": 0.5563636363636364,
       "y": 0.5401536312849162,
-      "name": "S1033",
-      "stats": []
+      "name": "Evasion",
+      "stats": [
+        "+16 to Evasion Rating"
+      ]
     },
     {
       "id": "S1034",
@@ -12383,8 +12423,10 @@
       "id": "S1059",
       "x": 0.6163636363636363,
       "y": 0.5478351955307262,
-      "name": "S1059",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1060",
@@ -12572,8 +12614,10 @@
       "id": "S1086",
       "x": 0.6327272727272727,
       "y": 0.556913407821229,
-      "name": "S1086",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1087",
@@ -12691,8 +12735,10 @@
       "id": "S1103",
       "x": 0.5749090909090909,
       "y": 0.5618016759776536,
-      "name": "S1103",
-      "stats": []
+      "name": "Movement Speed",
+      "stats": [
+        "2% increased Movement Speed"
+      ]
     },
     {
       "id": "S1104",
@@ -12887,8 +12933,11 @@
       "id": "S1131",
       "x": 0.6014545454545455,
       "y": 0.5740223463687151,
-      "name": "S1131",
-      "stats": []
+      "name": "Immobilise Buildup",
+      "stats": [
+        "8% increased Stun Build",
+        "8% increased Freeze Buildup"
+      ]
     },
     {
       "id": "S1132",
@@ -13006,8 +13055,11 @@
       "id": "S1148",
       "x": 0.6178181818181818,
       "y": 0.5831005586592178,
-      "name": "S1148",
-      "stats": []
+      "name": "Immobilise Buildup",
+      "stats": [
+        "8% increased Stun Buildup",
+        "8% increased Freeze Buildup"
+      ]
     },
     {
       "id": "S1149",
@@ -16464,8 +16516,10 @@
       "id": "S1642",
       "x": 0.3738181818181818,
       "y": 0.7685055865921788,
-      "name": "S1642",
-      "stats": []
+      "name": "Life Regeneration",
+      "stats": [
+        "Regenerate 0.4% of Life per second"
+      ]
     },
     {
       "id": "S1643",
@@ -16982,8 +17036,10 @@
       "id": "S1716",
       "x": 0.36836363636363634,
       "y": 0.8044692737430168,
-      "name": "S1716",
-      "stats": []
+      "name": "Stun Threshold",
+      "stats": [
+        "12% increased Stun Threshold"
+      ]
     },
     {
       "id": "S1717",
@@ -17171,8 +17227,10 @@
       "id": "S1743",
       "x": 0.38836363636363636,
       "y": 0.8198324022346368,
-      "name": "S1743",
-      "stats": []
+      "name": "Stun Buildup",
+      "stats": [
+        "15% increased Stun Buildup"
+      ]
     },
     {
       "id": "S1744",

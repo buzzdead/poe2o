@@ -51,6 +51,7 @@ const MyCharacter = () => {
             <TabsTrigger value="ascendancy">Ascendancy</TabsTrigger>
             <TabsTrigger value="characterpanel">Character Panel</TabsTrigger>
             <TabsTrigger value="skilltree">Skill Tree</TabsTrigger>
+            <TabsTrigger value="gems">Gems</TabsTrigger>
           </TabsList>
           <TabsContent value="ascendancy">
             {characters[0]?.ascendancies ? (
@@ -73,7 +74,7 @@ const MyCharacter = () => {
             <div className="flex flex-col gap-5 justify-center text-center p-5">
               {renderStat()}
               {myNodes.map((n) => (
-                <Tooltip key={n?.name} node={n}>
+                <Tooltip key={n?.id} node={n}>
                   <div className="cursor-pointer text-accent-light hover:underline">
                     {n?.name}
                   </div>

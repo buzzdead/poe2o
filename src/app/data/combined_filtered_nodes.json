@@ -876,6 +876,16 @@
             "category": "notable"
         },
         {
+            "id": "N211",
+            "x": 0.5014545454545455,
+            "y": 0.3994413407821229,
+            "name": "Open Mind",
+            "stats": [
+                "25% increase Mana Regeneration Rate"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N212",
             "x": 0.23236363636363636,
             "y": 0.4001396648044693,
@@ -1365,11 +1375,10 @@
             "id": "N313",
             "x": 0.6265454545454545,
             "y": 0.5488826815642458,
-            "name": "Master Fletcher",
+            "name": "Clean Shot",
             "stats": [
-                "8% increased Projectile Speed",
-                "8% increased Attack Speed with Bows",
-                "8% increased Attack Speed with Crossbows"
+                "15% chance to Pierce an Enemy",
+                "15% increased Projectile Damage"
             ],
             "category": "notable"
         },
@@ -1523,9 +1532,9 @@
             "id": "N334",
             "x": 0.6912727272727273,
             "y": 0.571927374301676,
-            "name": "Hold Focus",
+            "name": "Mark Cast Speed",
             "stats": [
-                "12% increased Effect of your Marks"
+                "Mark Skills have 10% increased Cast Speed"
             ],
             "category": "notable"
         },
@@ -1558,7 +1567,7 @@
             "y": 0.5806564245810056,
             "name": "Break Focus",
             "stats": [
-                "12% increased Effect of your Marks"
+                "Enemies you Mark have 15% reduced Accuracy Rating"
             ],
             "category": "notable"
         },
@@ -1796,8 +1805,9 @@
             "id": "N380",
             "x": 0.6825454545454546,
             "y": 0.6277932960893855,
-            "name": "Flask Charges Gained Notable",
+            "name": "Lasting Concoctions",
             "stats": [
+                "25% increased Flask Effect Duration",
                 "25% increased Flask Charges gained"
             ],
             "category": "notable"
@@ -1911,6 +1921,17 @@
             "stats": [
                 "10% increased Area of Effect",
                 "10% increased Cooldown Recovery Rate"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N399",
+            "x": 0.5258181818181819,
+            "y": 0.6438547486033519,
+            "name": "Ricochet",
+            "stats": [
+                "20% increased Projectile Damage",
+                "Projectiles have 20% chance to Chain an additional time from terrain"
             ],
             "category": "notable"
         },
@@ -2271,6 +2292,7 @@
             "y": 0.7426675977653632,
             "name": "Cluster Bombs",
             "stats": [
+                "50% increased Grenade Duration",
                 "Grenade Skills Fire an additional Projectile"
             ],
             "category": "notable"
@@ -2345,6 +2367,16 @@
             "stats": [
                 "Allies in your PResence have +100 to Accuracy Rating",
                 "35% increased Attack Damage while you have an Ally in your Presence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N491",
+            "x": 0.36727272727272725,
+            "y": 0.7685055865921788,
+            "name": "Hale Heart",
+            "stats": [
+                "15% increased Life Recovery rate"
             ],
             "category": "notable"
         },
@@ -2483,7 +2515,7 @@
             "y": 0.8303072625698324,
             "name": "Perfect Opportunity",
             "stats": [
-                "25% increased Stun Buildup",
+                "30% increased Stun Buildup",
                 "Damage with Hits is Lucky against Heavy Stunned Enemies"
             ],
             "category": "notable"
@@ -2696,7 +2728,7 @@
             "y": 0.9329608938547486,
             "name": "Repeating Explosives",
             "stats": [
-                "Grenades have 20% change to activate a second time"
+                "Grenades have 15% change to activate a second time"
             ],
             "category": "notable"
         },
@@ -2854,6 +2886,248 @@
                 "Leech Life 20% slower"
             ],
             "category": "notable"
+        },
+        {
+            "id": "S1",
+            "x": 0.5552727272727273,
+            "y": 0.04993016759776536,
+            "name": "Lightning Damage",
+            "stats": [
+                "12% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S2",
+            "x": 0.5487272727272727,
+            "y": 0.061103351955307264,
+            "name": "Lightning Damage",
+            "stats": [
+                "12% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S4",
+            "x": 0.5534545454545454,
+            "y": 0.0691340782122905,
+            "name": "Lightning Damage",
+            "stats": [
+                "12% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S15",
+            "x": 0.4541818181818182,
+            "y": 0.08170391061452514,
+            "name": "Ignite Effect",
+            "stats": [
+                "10% increased Effect of Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S17",
+            "x": 0.544,
+            "y": 0.08414804469273743,
+            "name": "Lightning Damage",
+            "stats": [
+                "12% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S25",
+            "x": 0.4530909090909091,
+            "y": 0.08903631284916201,
+            "name": "Ignite Effect",
+            "stats": [
+                "10% increased Effect of Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S29",
+            "x": 0.44545454545454544,
+            "y": 0.09043296089385475,
+            "name": "Ignite Effect",
+            "stats": [
+                "10% increased Effect of Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S34",
+            "x": 0.5487272727272727,
+            "y": 0.09217877094972067,
+            "name": "Lightning Damage",
+            "stats": [
+                "12% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S36",
+            "x": 0.4421818181818182,
+            "y": 0.09567039106145252,
+            "name": "Ignite Chance",
+            "stats": [
+                "20% increased chance to Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S37",
+            "x": 0.4556363636363636,
+            "y": 0.09636871508379888,
+            "name": "Fire Damage",
+            "stats": [
+                "12% increased Fire Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S678",
+            "x": 0.5207272727272727,
+            "y": 0.4025837988826816,
+            "name": "Energy Shield Delay",
+            "stats": [
+                "10% faster start of Energy Shield recharge"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S686",
+            "x": 0.49272727272727274,
+            "y": 0.4057262569832402,
+            "name": "Minion Life",
+            "stats": [
+                "Minions have 10% increased maximum Life"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S693",
+            "x": 0.5221818181818182,
+            "y": 0.4085195530726257,
+            "name": "Energy Shield Delay",
+            "stats": [
+                "10% faster start of Energy Shield Recharge"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S710",
+            "x": 0.5134545454545455,
+            "y": 0.41620111731843573,
+            "name": "Energy Shield",
+            "stats": [
+                "+10 to maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S770",
+            "x": 0.5069090909090909,
+            "y": 0.4399441340782123,
+            "name": "Energy Shield",
+            "stats": [
+                "+10 to maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1033",
+            "x": 0.5563636363636364,
+            "y": 0.5401536312849162,
+            "name": "Evasion",
+            "stats": [
+                "+16 to Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1059",
+            "x": 0.6163636363636363,
+            "y": 0.5478351955307262,
+            "name": "Projectile Damage",
+            "stats": [
+                "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1086",
+            "x": 0.6327272727272727,
+            "y": 0.556913407821229,
+            "name": "Projectile Damage",
+            "stats": [
+                "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1103",
+            "x": 0.5749090909090909,
+            "y": 0.5618016759776536,
+            "name": "Movement Speed",
+            "stats": [
+                "2% increased Movement Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1131",
+            "x": 0.6014545454545455,
+            "y": 0.5740223463687151,
+            "name": "Immobilise Buildup",
+            "stats": [
+                "8% increased Stun Build",
+                "8% increased Freeze Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1148",
+            "x": 0.6178181818181818,
+            "y": 0.5831005586592178,
+            "name": "Immobilise Buildup",
+            "stats": [
+                "8% increased Stun Buildup",
+                "8% increased Freeze Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1642",
+            "x": 0.3738181818181818,
+            "y": 0.7685055865921788,
+            "name": "Life Regeneration",
+            "stats": [
+                "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1716",
+            "x": 0.36836363636363634,
+            "y": 0.8044692737430168,
+            "name": "Stun Threshold",
+            "stats": [
+                "12% increased Stun Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1743",
+            "x": 0.38836363636363636,
+            "y": 0.8198324022346368,
+            "name": "Stun Buildup",
+            "stats": [
+                "15% increased Stun Buildup"
+            ],
+            "category": "smalls"
         }
     ]
 }
