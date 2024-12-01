@@ -121,7 +121,7 @@
         },
         {
             "id": "K12",
-            "x": 0.8283636363636364,
+            "x": 0.8257636363636364,
             "y": 0.5135251396648045,
             "name": "Heartstopper",
             "stats": [
@@ -429,6 +429,17 @@
             "stats": [
                 "20% increased Freeze Buildup",
                 "Gain 25% of Cold Damage as Extra Fire Damage against Frozen Enemies"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N54",
+            "x": 0.796,
+            "y": 0.1787709497206704,
+            "name": "Wither Away",
+            "stats": [
+                "Unwithered enemies are Withered for 8 seconds when they enter your Presence",
+                "20% increased Effect of Withered"
             ],
             "category": "notable"
         },
@@ -802,6 +813,16 @@
             "category": "notable"
         },
         {
+            "id": "N198",
+            "x": 0.5985454545454545,
+            "y": 0.38303072625698326,
+            "name": "N198 - Title Missing",
+            "stats": [
+                "6% of Damage taken Recouped as Life"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N199",
             "x": 0.649090909090909,
             "y": 0.38372905027932963,
@@ -866,6 +887,16 @@
             "category": "notable"
         },
         {
+            "id": "N216",
+            "x": 0.598909090909091,
+            "y": 0.4106145251396648,
+            "name": "N216 - Title Missing",
+            "stats": [
+                "15% increased Area of Effect for Staff Attacks"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N217",
             "x": 0.704,
             "y": 0.41445530726256985,
@@ -873,6 +904,16 @@
             "stats": [
                 "10% increased Global Accuracy Rating",
                 "Gain Accuracy Rating equal to your Intelligence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N219",
+            "x": 0.6021818181818182,
+            "y": 0.4165502793296089,
+            "name": "First Strike",
+            "stats": [
+                "50% increased Damage with Daggers against Enemies that are on Full Life"
             ],
             "category": "notable"
         },
@@ -915,6 +956,37 @@
             "stats": [
                 "25% increased Effect of Ignite",
                 "+10 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N228",
+            "x": 0.8556363636363636,
+            "y": 0.4333100558659218,
+            "name": "Leeching Toxins",
+            "stats": [
+                "30% increased Effect of Poison",
+                "Recover 2% of Life on Killing a Poisoned Enemy"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N229",
+            "x": 0.628,
+            "y": 0.4340083798882682,
+            "name": "Life from Death",
+            "stats": [
+                "Recover 3% of Life on Kill"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N231",
+            "x": 0.6221818181818182,
+            "y": 0.4368016759776536,
+            "name": "Unbroken Concentration",
+            "stats": [
+                "40% increased Stun Threshold if you haven't been stunned recently"
             ],
             "category": "notable"
         },
@@ -1004,6 +1076,19 @@
             "stats": [
                 "30% faster start of Energy Shield Recharge",
                 "30% increased Stun Threshold while on full Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N253",
+            "x": 0.5963636363636363,
+            "y": 0.4577513966480447,
+            "name": "Step Like Mist",
+            "stats": [
+                "4% increased Movement Speed",
+                "14% increased Evasion Rating",
+                "14% increased maximum Energy Shield",
+                "+5 to Dexterity and Intelligence"
             ],
             "category": "notable"
         },
@@ -1459,7 +1544,7 @@
             "id": "N337",
             "x": 0.40545454545454546,
             "y": 0.575768156424581,
-            "name": "Recentless",
+            "name": "Relentless",
             "stats": [
                 "15% increased Armour",
                 "Regenerate 1% of life per second",
@@ -2756,6 +2841,17 @@
             "name": "Escalating Toxins",
             "stats": [
                 "10% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N582",
+            "x": 0.12454545454545456,
+            "y": 0.5912290502793296,
+            "name": "Savoured Blood",
+            "stats": [
+                "50% increased amount of Life Leeched",
+                "Leech Life 20% slower"
             ],
             "category": "notable"
         }

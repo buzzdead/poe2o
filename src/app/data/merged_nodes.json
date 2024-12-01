@@ -110,7 +110,7 @@
     },
     {
       "id": "K12",
-      "x": 0.8283636363636364,
+      "x": 0.8257636363636364,
       "y": 0.5135251396648045,
       "name": "Heartstopper",
       "stats": [
@@ -657,8 +657,11 @@
       "id": "N54",
       "x": 0.796,
       "y": 0.1787709497206704,
-      "name": "N54",
-      "stats": []
+      "name": "Wither Away",
+      "stats": [
+        "Unwithered enemies are Withered for 8 seconds when they enter your Presence",
+        "20% increased Effect of Withered"
+      ]
     },
     {
       "id": "N55",
@@ -1762,8 +1765,10 @@
       "id": "N198",
       "x": 0.5985454545454545,
       "y": 0.38303072625698326,
-      "name": "N198",
-      "stats": []
+      "name": "N198 - Title Missing",
+      "stats": [
+        "6% of Damage taken Recouped as Life"
+      ]
     },
     {
       "id": "N199",
@@ -1904,8 +1909,10 @@
       "id": "N216",
       "x": 0.598909090909091,
       "y": 0.4106145251396648,
-      "name": "N216",
-      "stats": []
+      "name": "N216 - Title Missing",
+      "stats": [
+        "15% increased Area of Effect for Staff Attacks"
+      ]
     },
     {
       "id": "N217",
@@ -1928,8 +1935,10 @@
       "id": "N219",
       "x": 0.6021818181818182,
       "y": 0.4165502793296089,
-      "name": "N219",
-      "stats": []
+      "name": "First Strike",
+      "stats": [
+        "50% increased Damage with Daggers against Enemies that are on Full Life"
+      ]
     },
     {
       "id": "N220",
@@ -2001,15 +2010,20 @@
       "id": "N228",
       "x": 0.8556363636363636,
       "y": 0.4333100558659218,
-      "name": "N228",
-      "stats": []
+      "name": "Leeching Toxins",
+      "stats": [
+        "30% increased Effect of Poison",
+        "Recover 2% of Life on Killing a Poisoned Enemy"
+      ]
     },
     {
       "id": "N229",
       "x": 0.628,
       "y": 0.4340083798882682,
-      "name": "N229",
-      "stats": []
+      "name": "Life from Death",
+      "stats": [
+        "Recover 3% of Life on Kill"
+      ]
     },
     {
       "id": "N230",
@@ -2022,8 +2036,10 @@
       "id": "N231",
       "x": 0.6221818181818182,
       "y": 0.4368016759776536,
-      "name": "N231",
-      "stats": []
+      "name": "Unbroken Concentration",
+      "stats": [
+        "40% increased Stun Threshold if you haven't been stunned recently"
+      ]
     },
     {
       "id": "N232",
@@ -2201,8 +2217,13 @@
       "id": "N253",
       "x": 0.5963636363636363,
       "y": 0.4577513966480447,
-      "name": "N253",
-      "stats": []
+      "name": "Step Like Mist",
+      "stats": [
+        "4% increased Movement Speed",
+        "14% increased Evasion Rating",
+        "14% increased maximum Energy Shield",
+        "+5 to Dexterity and Intelligence"
+      ]
     },
     {
       "id": "N254",
@@ -2316,8 +2337,8 @@
     },
     {
       "id": "N267",
-      "x": 0.09454545454545454,
-      "y": 0.4762569832402235,
+      "x": 0.8888454545454545,
+      "y": 0.4882569832402235,
       "name": "N267",
       "stats": []
     },
@@ -2901,7 +2922,7 @@
       "id": "N337",
       "x": 0.40545454545454546,
       "y": 0.575768156424581,
-      "name": "Recentless",
+      "name": "Relentless",
       "stats": [
         "15% increased Armour",
         "Regenerate 1% of life per second",
@@ -4939,6 +4960,16 @@
       "y": 0.3047195530726257,
       "name": "N581",
       "stats": []
+    },
+    {
+      "id": "N582",
+      "x": 0.12454545454545456,
+      "y": 0.5912290502793296,
+      "name": "Savoured Blood",
+      "stats": [
+        "50% increased amount of Life Leeched",
+        "Leech Life 20% slower"
+      ]
     }
   ],
   "small": [
