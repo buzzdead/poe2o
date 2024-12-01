@@ -2,13 +2,13 @@
 import dynamic from 'next/dynamic';
 import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { CustomToggle } from "../CustomToggle";
+import { CustomToggle } from "../appcomponents/CustomToggle";
 import { useGems } from "../context/GemsContext";
 import React from "react";
-import TagSelector from "../../components/ui/TagSelector";
+import TagSelector from "../appcomponents/TagSelector";
 import tags from "../data/tags.json";
 
-const DynamicGemCard = dynamic(() => import("../context/GemCard"), { ssr: false });
+const DynamicGemCard = dynamic(() => import("./GemCard"), { ssr: false });
 
 const Gems = () => {
   const { page, setPage, displayedGems, allGems, filters, setFilters, tagFilters, toggleTagFilter } = useGems();

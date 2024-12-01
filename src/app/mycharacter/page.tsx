@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Card, CardContent } from "../../components/ui/card";
-import CustomCard from "../../components/ui/CustomCard";
 import {
   Tabs,
   TabsContent,
@@ -12,6 +11,7 @@ import CharacterPanel from "./character";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { Ascendancy } from "../types";
 import { Sword } from "lucide-react";
+import CustomCard from "../appcomponents/CustomCard";
 
 const MyCharacter = () => {
   const { characters, nodes } = useCharacterContext();
@@ -21,7 +21,7 @@ const MyCharacter = () => {
     let newStat = 0; // Temporary variable to calculate the stat increment
     const myN: SkillNode[] = [];
     nodes.forEach((n) => {
-      if (n.name.charAt(0).toLowerCase() === "s" && /\d{2}/.test(n.name)) {
+      if (n.name === "Attribute") {
         // Check if the string contains exactly two digits
         newStat += 10;
       } else myN.push(n);
@@ -32,7 +32,7 @@ const MyCharacter = () => {
   const renderStat = () => {
     if (!stat) return;
     return (
-      stat / 10 + " stat nodes * 10 dex/str/int = " + stat + " total stats"
+      "Attribute x " + myNodes.length
     );
   };
   return (

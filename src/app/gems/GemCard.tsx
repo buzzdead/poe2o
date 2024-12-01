@@ -2,16 +2,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AnimatePresence, motion } from "framer-motion"
 import "@google/model-viewer";
-import { CustomToolTip } from "../../components/ui/customToolTip."
+import { CustomToolTip } from "../appcomponents/customToolTip."
+import { Gem } from "../types";
 
-export interface Gem {
-  name: string
-  properties: string[]
-  requirements: string[]
-  description: string
-  explicit_mods: string[]
-  tags: string[]
-}
+
 
 type ElementType = 'Fire' | 'Cold' | 'Lightning' | 'Chaos'
 

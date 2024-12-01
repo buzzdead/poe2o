@@ -1,5 +1,5 @@
 import { TestTube } from "lucide-react";
-import CustomCard from "../../components/ui/CustomCard";
+import CustomCard from "../appcomponents/CustomCard";
 
 const Beta = () => {
   return (

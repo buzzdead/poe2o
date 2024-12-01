@@ -1,10 +1,10 @@
 "use client"
 
 import React, { createContext, useState, ReactNode, useMemo, useContext, useEffect } from "react";
-import { Gem } from "./GemCard";
 import skillGems from "../data/skillGems.json";
 import supportGems from "../data/supportGems.json";
 import spiritGems from "../data/spiritGems.json";
+import { Gem } from "../types";
 
 interface GemsContextType {
   page: number;
@@ -18,15 +18,19 @@ interface GemsContextType {
   };
   setFilters: (filters: Partial<GemsContextType["filters"]>) => void;
   tagFilters: string[];
+  selectedGems: Gem[];
+  setSelectedGems: (gem: Gem[]) => void;
   toggleTagFilter: (tag: string) => void;
   clearTagFilters: () => void;
 }
 
 const GemsContext = createContext<GemsContextType | undefined>(undefined);
+type GemWithType = Gem & {type: string}
 
 export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [page, setPage] = useState(1);
   const [isHydrated, setIsHydrated] = useState(false);
+  const [selectedGems, setMyGems] = useState<Gem[]>([])
   const [filters, setFilters] = useState({
     skillGems: false,
     supportGems: false,
@@ -34,8 +38,12 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   });
   const [tagFilters, setTagFilters] = useState<string[]>([]);
 
+  const setSelectedGems = (gems: Gem[]) => {
+    setMyGems(gems)
+  }
+
   // Memoize all gems with type labels
-  const allGems = useMemo(() => {
+  const allGems: GemWithType[] = useMemo(() => {
     return [
       ...skillGems.map(gem => ({ ...gem, type: "skillGems" })),
       ...supportGems.map(gem => ({ ...gem, type: "supportGems" })),
@@ -107,6 +115,8 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       displayedGems,
       allGems: allGems.length,
       filters,
+      selectedGems, 
+      setSelectedGems,
       tagFilters,
       setFilters: (newFilters: Partial<GemsContextType["filters"]>) => {
         setFilters(prev => ({ ...prev, ...newFilters }));
@@ -123,7 +133,7 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         setPage(1); // Reset page when filters change
       },
     }),
-    [page, displayedGems, filters, tagFilters, allGems.length]
+    [page, displayedGems, filters, tagFilters, allGems.length, selectedGems, setSelectedGems]
   );
 
   return isHydrated ? (

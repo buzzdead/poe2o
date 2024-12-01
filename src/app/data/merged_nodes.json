@@ -622,8 +622,11 @@
       "id": "N49",
       "x": 0.4709090909090909,
       "y": 0.17283519553072627,
-      "name": "N49",
-      "stats": []
+      "name": "Crushing Storms",
+      "stats": [
+        "16% increased Elemental Damage",
+        "Damage Penetrates 5% Elemental Resistances"
+      ]
     },
     {
       "id": "N50",
@@ -909,8 +912,12 @@
       "id": "N88",
       "x": 0.38072727272727275,
       "y": 0.24022346368715083,
-      "name": "N88",
-      "stats": []
+      "name": "Explosive Impact",
+      "stats": [
+        "15% increased Area of Effect",
+        "Burning Ennemies you kill have 5% chance to Explode, dealing a tenth of their maximum Life as",
+        "Fire Damage"
+      ]
     },
     {
       "id": "N89",
@@ -996,15 +1003,19 @@
       "id": "N100",
       "x": 0.4949090909090909,
       "y": 0.25314245810055863,
-      "name": "N100",
-      "stats": []
+      "name": "Mana Bloom",
+      "stats": [
+        "25% increased maximum Mana"
+      ]
     },
     {
       "id": "N101",
       "x": 0.509090909090909,
       "y": 0.25314245810055863,
-      "name": "N101",
-      "stats": []
+      "name": "Arcane Blossom",
+      "stats": [
+        "16% increased Mana Recovery rate"
+      ]
     },
     {
       "id": "N102",
@@ -1248,8 +1259,10 @@
       "id": "N132",
       "x": 0.4203636363636364,
       "y": 0.295391061452514,
-      "name": "N132",
-      "stats": []
+      "name": "Exploit the Elements",
+      "stats": [
+        "40% increased Damage with Hits agains Enemies affected by Elemental Ailments"
+      ]
     },
     {
       "id": "N133",
@@ -1428,15 +1441,20 @@
       "id": "N156",
       "x": 0.5018181818181818,
       "y": 0.3369413407821229,
-      "name": "N156",
-      "stats": []
+      "name": "Critical Overload",
+      "stats": [
+        "10% increased Critical Hit Chance for Spells",
+        "15% increased Spell Damage if you've dealt a Critical Strike Recently"
+      ]
     },
     {
       "id": "N157",
       "x": 0.7530909090909091,
       "y": 0.3369413407821229,
-      "name": "N157",
-      "stats": []
+      "name": "Poison Damage Notable",
+      "stats": [
+        "25% increased Effect of Poison"
+      ]
     },
     {
       "id": "N158",
@@ -1466,8 +1484,10 @@
       "id": "N161",
       "x": 0.7505454545454545,
       "y": 0.3460195530726257,
-      "name": "N161",
-      "stats": []
+      "name": "Darkness",
+      "stats": [
+        "25% increased Chaos Damage"
+      ]
     },
     {
       "id": "N162",
@@ -1555,8 +1575,11 @@
       "id": "N172",
       "x": 0.476,
       "y": 0.35614525139664804,
-      "name": "N172",
-      "stats": []
+      "name": "Jagged Shards",
+      "stats": [
+        "15% increased Critical Hit Chance for Spells",
+        "18% increased Physical Damage"
+      ]
     },
     {
       "id": "N173",
@@ -1606,8 +1629,10 @@
       "id": "N178",
       "x": 0.7094545454545454,
       "y": 0.3610335195530726,
-      "name": "N178",
-      "stats": []
+      "name": "Spell Haste",
+      "stats": [
+        "10% increased Cast Speed"
+      ]
     },
     {
       "id": "N179",
@@ -1630,8 +1655,10 @@
       "id": "N181",
       "x": 0.7189090909090909,
       "y": 0.3634776536312849,
-      "name": "N181",
-      "stats": []
+      "name": "Spellblade",
+      "stats": [
+        "32% increased Spell Damage"
+      ]
     },
     {
       "id": "N182",
@@ -1695,8 +1722,10 @@
       "id": "N189",
       "x": 0.7687272727272727,
       "y": 0.37604748603351956,
-      "name": "N189",
-      "stats": []
+      "name": "Immortal Infamy",
+      "stats": [
+        "Recover 2% of Life on Kill"
+      ]
     },
     {
       "id": "N190",
@@ -1716,8 +1745,10 @@
       "id": "N192",
       "x": 0.7789090909090909,
       "y": 0.378840782122905,
-      "name": "N192",
-      "stats": []
+      "name": "Immortal Thirst",
+      "stats": [
+        "25% increased ammount of Mana Leeched"
+      ]
     },
     {
       "id": "N193",
@@ -1834,8 +1865,12 @@
       "id": "N206",
       "x": 0.48254545454545456,
       "y": 0.39001396648044695,
-      "name": "N206",
-      "stats": []
+      "name": "Raw Destruction",
+      "stats": [
+        "16% increased Spell Damage",
+        "Minions deal 16% increased Damage",
+        "+10 to Intelligence"
+      ]
     },
     {
       "id": "N207",
@@ -1848,8 +1883,10 @@
       "id": "N208",
       "x": 0.7367272727272727,
       "y": 0.39385474860335196,
-      "name": "N208",
-      "stats": []
+      "name": "Killer Instinct",
+      "stats": [
+        "25% increased Attack Damage"
+      ]
     },
     {
       "id": "N209",
@@ -1897,8 +1934,10 @@
       "id": "N214",
       "x": 0.7341818181818182,
       "y": 0.4032821229050279,
-      "name": "N214",
-      "stats": []
+      "name": "Tenfold Attack",
+      "stats": [
+        "10% increased Attack speed"
+      ]
     },
     {
       "id": "N215",
@@ -1911,7 +1950,7 @@
       "id": "N216",
       "x": 0.598909090909091,
       "y": 0.4106145251396648,
-      "name": "N216 - Title Missing",
+      "name": "Resonating Impact",
       "stats": [
         "15% increased Area of Effect for Staff Attacks"
       ]
@@ -2311,8 +2350,10 @@
       "id": "N263",
       "x": 0.848,
       "y": 0.4727653631284916,
-      "name": "N263",
-      "stats": []
+      "name": "Accuracy",
+      "stats": [
+        "10% increased Global Accuracy Rating"
+      ]
     },
     {
       "id": "N264",
@@ -2348,8 +2389,10 @@
       "id": "N268",
       "x": 0.9487272727272728,
       "y": 0.4762569832402235,
-      "name": "N268",
-      "stats": []
+      "name": "Martial Artistry",
+      "stats": [
+        "+25% to Critical Strike Multiplier with Staves"
+      ]
     },
     {
       "id": "N269",
@@ -2659,8 +2702,8 @@
       "y": 0.5408519553072626,
       "name": "Honed Instincts",
       "stats": [
+        "8% increased Projectile Seed",
         "8% increased Attack Speed",
-        "6% increased Global Accuracy Rating",
         "+10 to Dexterity"
       ]
     },
@@ -4341,8 +4384,10 @@
       "id": "N507",
       "x": 0.5701818181818182,
       "y": 0.7932960893854749,
-      "name": "N507",
-      "stats": []
+      "name": "Volatile Grenades",
+      "stats": [
+        "25% reduced Grenade Duration"
+      ]
     },
     {
       "id": "N508",
@@ -4766,8 +4811,11 @@
       "id": "N558",
       "x": 0.5850909090909091,
       "y": 0.9196927374301676,
-      "name": "N558",
-      "stats": []
+      "name": "Full Salvo",
+      "stats": [
+        "25% Increased Damage with Crossbows for each type of Ammunition fired in the past 10",
+        "secondes"
+      ]
     },
     {
       "id": "N559",
@@ -4938,15 +4986,19 @@
       "id": "N577",
       "x": 0.9575181818181818,
       "y": 0.4519195530726257,
-      "name": "N577",
-      "stats": []
+      "name": "Quaterstaff Speed Notable",
+      "stats": [
+        "10% increased Attack Speed with Staves"
+      ]
     },
     {
       "id": "N578",
       "x": 0.9630181818181818,
       "y": 0.4341195530726257,
-      "name": "N578",
-      "stats": []
+      "name": "Quarterstaff Damage Notable",
+      "stats": [
+        "25% increased Damage with Staves"
+      ]
     },
     {
       "id": "N579",
@@ -5397,43 +5449,55 @@
       "id": "S57",
       "x": 0.3789090909090909,
       "y": 0.11208100558659218,
-      "name": "S57",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S58",
       "x": 0.4203636363636364,
       "y": 0.11243016759776536,
-      "name": "S58",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S59",
       "x": 0.4552727272727273,
       "y": 0.11243016759776536,
-      "name": "S59",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S60",
       "x": 0.548,
       "y": 0.11243016759776536,
-      "name": "S60",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S61",
       "x": 0.5847272727272728,
       "y": 0.11243016759776536,
-      "name": "S61",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S62",
       "x": 0.6498181818181819,
       "y": 0.11452513966480447,
-      "name": "S62",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S63",
@@ -5537,8 +5601,10 @@
       "id": "S77",
       "x": 0.3370909090909091,
       "y": 0.1270949720670391,
-      "name": "S77",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S78",
@@ -5558,8 +5624,10 @@
       "id": "S80",
       "x": 0.6847272727272727,
       "y": 0.12988826815642457,
-      "name": "S80",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S81",
@@ -5635,8 +5703,10 @@
       "id": "S91",
       "x": 0.5018181818181818,
       "y": 0.13582402234636873,
-      "name": "S91",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S92",
@@ -5663,8 +5733,10 @@
       "id": "S95",
       "x": 0.4389090909090909,
       "y": 0.13722067039106145,
-      "name": "S95",
-      "stats": []
+      "name": "Physical Damage",
+      "stats": [
+        "10% increased Physical Damage"
+      ]
     },
     {
       "id": "S96",
@@ -5691,8 +5763,10 @@
       "id": "S99",
       "x": 0.42727272727272725,
       "y": 0.13966480446927373,
-      "name": "S99",
-      "stats": []
+      "name": "Overwhelm Physical",
+      "stats": [
+        "Overwhelm 5% Physical Damage Reduction"
+      ]
     },
     {
       "id": "S100",
@@ -5789,8 +5863,10 @@
       "id": "S113",
       "x": 0.43636363636363634,
       "y": 0.14804469273743018,
-      "name": "S113",
-      "stats": []
+      "name": "Physical Damage",
+      "stats": [
+        "10% increased Physical Damage"
+      ]
     },
     {
       "id": "S114",
@@ -5817,8 +5893,10 @@
       "id": "S117",
       "x": 0.3930909090909091,
       "y": 0.15048882681564246,
-      "name": "S117",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S118",
@@ -5831,8 +5909,10 @@
       "id": "S119",
       "x": 0.42872727272727273,
       "y": 0.15258379888268156,
-      "name": "S119",
-      "stats": []
+      "name": "Physical Damage",
+      "stats": [
+        "10% increased Physical Damage"
+      ]
     },
     {
       "id": "S120",
@@ -5859,8 +5939,10 @@
       "id": "S123",
       "x": 0.41818181818181815,
       "y": 0.15677374301675978,
-      "name": "S123",
-      "stats": []
+      "name": "Physical Damage",
+      "stats": [
+        "10% increased Physical Damage"
+      ]
     },
     {
       "id": "S124",
@@ -5950,8 +6032,10 @@
       "id": "S136",
       "x": 0.6305454545454545,
       "y": 0.16445530726256982,
-      "name": "S136",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S137",
@@ -5964,8 +6048,10 @@
       "id": "S138",
       "x": 0.4087272727272727,
       "y": 0.16550279329608938,
-      "name": "S138",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S139",
@@ -5978,15 +6064,19 @@
       "id": "S140",
       "x": 0.4592727272727273,
       "y": 0.16689944134078213,
-      "name": "S140",
-      "stats": []
+      "name": "Elemental Damage",
+      "stats": [
+        "10% increased Elemental Damage"
+      ]
     },
     {
       "id": "S141",
       "x": 0.4818181818181818,
       "y": 0.16689944134078213,
-      "name": "S141",
-      "stats": []
+      "name": "Elemental Damage",
+      "stats": [
+        "10% increased Elemental Damage"
+      ]
     },
     {
       "id": "S142",
@@ -6006,8 +6096,10 @@
       "id": "S144",
       "x": 0.5018181818181818,
       "y": 0.16934357541899442,
-      "name": "S144",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S145",
@@ -6076,8 +6168,10 @@
       "id": "S154",
       "x": 0.25381818181818183,
       "y": 0.174231843575419,
-      "name": "S154",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S155",
@@ -6097,8 +6191,10 @@
       "id": "S157",
       "x": 0.752,
       "y": 0.17667597765363127,
-      "name": "S157",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S158",
@@ -6132,8 +6228,10 @@
       "id": "S162",
       "x": 0.6974545454545454,
       "y": 0.1787709497206704,
-      "name": "S162",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S163",
@@ -6216,8 +6314,10 @@
       "id": "S174",
       "x": 0.30872727272727274,
       "y": 0.18505586592178772,
-      "name": "S174",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S175",
@@ -6251,8 +6351,10 @@
       "id": "S179",
       "x": 0.47054545454545454,
       "y": 0.1857541899441341,
-      "name": "S179",
-      "stats": []
+      "name": "Elemental Damage",
+      "stats": [
+        "10% increased Elemental Damage"
+      ]
     },
     {
       "id": "S180",
@@ -6412,29 +6514,37 @@
       "id": "S202",
       "x": 0.2250909090909091,
       "y": 0.20216480446927373,
-      "name": "S202",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S203",
       "x": 0.31927272727272726,
       "y": 0.20251396648044692,
-      "name": "S203",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S204",
       "x": 0.47054545454545454,
       "y": 0.20251396648044692,
-      "name": "S204",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S205",
       "x": 0.6298181818181818,
       "y": 0.20251396648044692,
-      "name": "S205",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S206",
@@ -6454,57 +6564,73 @@
       "id": "S208",
       "x": 0.36072727272727273,
       "y": 0.2028631284916201,
-      "name": "S208",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S209",
       "x": 0.38545454545454544,
       "y": 0.2028631284916201,
-      "name": "S209",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S210",
       "x": 0.4410909090909091,
       "y": 0.2028631284916201,
-      "name": "S210",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S211",
       "x": 0.5018181818181818,
       "y": 0.2028631284916201,
-      "name": "S211",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S212",
       "x": 0.5214545454545455,
       "y": 0.2028631284916201,
-      "name": "S212",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S213",
       "x": 0.5436363636363636,
       "y": 0.2028631284916201,
-      "name": "S213",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S214",
       "x": 0.6050909090909091,
       "y": 0.2028631284916201,
-      "name": "S214",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S215",
       "x": 0.6825454545454546,
       "y": 0.20391061452513967,
-      "name": "S215",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S216",
@@ -6531,8 +6657,10 @@
       "id": "S219",
       "x": 0.7814545454545454,
       "y": 0.20600558659217877,
-      "name": "S219",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S220",
@@ -6657,8 +6785,10 @@
       "id": "S237",
       "x": 0.46145454545454545,
       "y": 0.21997206703910616,
-      "name": "S237",
-      "stats": []
+      "name": "Chaos Damage",
+      "stats": [
+        "10% increased Chaos Damage"
+      ]
     },
     {
       "id": "S238",
@@ -6783,8 +6913,10 @@
       "id": "S255",
       "x": 0.6694545454545454,
       "y": 0.22486033519553073,
-      "name": "S255",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S256",
@@ -6818,8 +6950,10 @@
       "id": "S260",
       "x": 0.33454545454545453,
       "y": 0.2276536312849162,
-      "name": "S260",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S261",
@@ -6839,8 +6973,10 @@
       "id": "S263",
       "x": 0.5018181818181818,
       "y": 0.22905027932960895,
-      "name": "S263",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S264",
@@ -6993,8 +7129,10 @@
       "id": "S285",
       "x": 0.8112727272727273,
       "y": 0.2346368715083799,
-      "name": "S285",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S286",
@@ -7070,8 +7208,10 @@
       "id": "S296",
       "x": 0.18436363636363637,
       "y": 0.24231843575418993,
-      "name": "S296",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S297",
@@ -7119,8 +7259,10 @@
       "id": "S303",
       "x": 0.6563636363636364,
       "y": 0.24720670391061453,
-      "name": "S303",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S304",
@@ -7147,8 +7289,10 @@
       "id": "S307",
       "x": 0.31236363636363634,
       "y": 0.24895251396648044,
-      "name": "S307",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S308",
@@ -7175,8 +7319,10 @@
       "id": "S311",
       "x": 0.7141818181818181,
       "y": 0.24930167597765363,
-      "name": "S311",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S312",
@@ -7252,8 +7398,10 @@
       "id": "S322",
       "x": 0.34945454545454546,
       "y": 0.25174581005586594,
-      "name": "S322",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S323",
@@ -7315,8 +7463,10 @@
       "id": "S331",
       "x": 0.5476363636363636,
       "y": 0.25803072625698326,
-      "name": "S331",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S332",
@@ -7378,8 +7528,10 @@
       "id": "S340",
       "x": 0.29854545454545456,
       "y": 0.26256983240223464,
-      "name": "S340",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S341",
@@ -7434,8 +7586,10 @@
       "id": "S348",
       "x": 0.8425454545454546,
       "y": 0.26466480446927376,
-      "name": "S348",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S349",
@@ -7462,8 +7616,10 @@
       "id": "S352",
       "x": 0.7276363636363636,
       "y": 0.267108938547486,
-      "name": "S352",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S353",
@@ -7476,8 +7632,10 @@
       "id": "S354",
       "x": 0.15745454545454546,
       "y": 0.2678072625698324,
-      "name": "S354",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S355",
@@ -7532,15 +7690,19 @@
       "id": "S362",
       "x": 0.3410909090909091,
       "y": 0.27129888268156427,
-      "name": "S362",
-      "stats": []
+      "name": "Minion Attack and Cast Speed",
+      "stats": [
+        "Minions have 4% increased Attack and Cast Speed"
+      ]
     },
     {
       "id": "S363",
       "x": 0.6407272727272727,
       "y": 0.27304469273743015,
-      "name": "S363",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S364",
@@ -7581,15 +7743,19 @@
       "id": "S369",
       "x": 0.3458181818181818,
       "y": 0.27583798882681565,
-      "name": "S369",
-      "stats": []
+      "name": "Minion Attack and Cast Speed",
+      "stats": [
+        "Minions have 4% increased Attack and Cast Speed"
+      ]
     },
     {
       "id": "S370",
       "x": 0.3643636363636364,
       "y": 0.27583798882681565,
-      "name": "S370",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S371",
@@ -7616,8 +7782,10 @@
       "id": "S374",
       "x": 0.5018181818181818,
       "y": 0.27967877094972066,
-      "name": "S374",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S375",
@@ -7693,8 +7861,10 @@
       "id": "S385",
       "x": 0.34763636363636363,
       "y": 0.28212290502793297,
-      "name": "S385",
-      "stats": []
+      "name": "Minion Attack and Cast Speed",
+      "stats": [
+        "Minions have 4% increased Attack and Cast Speed"
+      ]
     },
     {
       "id": "S386",
@@ -7868,8 +8038,10 @@
       "id": "S410",
       "x": 0.45127272727272727,
       "y": 0.2950418994413408,
-      "name": "S410",
-      "stats": []
+      "name": "Cold Penetration",
+      "stats": [
+        "Damage Penetrates 4% Cold Resistance"
+      ]
     },
     {
       "id": "S411",
@@ -7882,22 +8054,28 @@
       "id": "S412",
       "x": 0.46436363636363637,
       "y": 0.2950418994413408,
-      "name": "S412",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S413",
       "x": 0.5432727272727272,
       "y": 0.2950418994413408,
-      "name": "S413",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S414",
       "x": 0.5018181818181818,
       "y": 0.295391061452514,
-      "name": "S414",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S415",
@@ -7994,8 +8172,10 @@
       "id": "S428",
       "x": 0.6247272727272727,
       "y": 0.29993016759776536,
-      "name": "S428",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S429",
@@ -8008,22 +8188,28 @@
       "id": "S430",
       "x": 0.468,
       "y": 0.3009776536312849,
-      "name": "S430",
-      "stats": []
+      "name": "Fire Penetration",
+      "stats": [
+        "Damage Penetrates 4% Fire Resistance"
+      ]
     },
     {
       "id": "S431",
       "x": 0.37963636363636366,
       "y": 0.3013268156424581,
-      "name": "S431",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S432",
       "x": 0.41563636363636364,
       "y": 0.30272346368715086,
-      "name": "S432",
-      "stats": []
+      "name": "Damage against Ailments",
+      "stats": [
+        "10% increased Damage with Hits against Enemies affected by Elemental Ailments"
+      ]
     },
     {
       "id": "S433",
@@ -8127,15 +8313,19 @@
       "id": "S447",
       "x": 0.25018181818181817,
       "y": 0.308659217877095,
-      "name": "S447",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S448",
       "x": 0.41709090909090907,
       "y": 0.3090083798882682,
-      "name": "S448",
-      "stats": []
+      "name": "Damage against Ailments",
+      "stats": [
+        "10% increased Damage with Hits against Enemies affected by Elemental Ailments"
+      ]
     },
     {
       "id": "S449",
@@ -8190,8 +8380,10 @@
       "id": "S456",
       "x": 0.15527272727272728,
       "y": 0.3121508379888268,
-      "name": "S456",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S457",
@@ -8225,8 +8417,10 @@
       "id": "S461",
       "x": 0.7272727272727273,
       "y": 0.316340782122905,
-      "name": "S461",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S462",
@@ -8302,22 +8496,28 @@
       "id": "S472",
       "x": 0.4203636363636364,
       "y": 0.3226256983240223,
-      "name": "S472",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S473",
       "x": 0.5018181818181818,
       "y": 0.32437150837988826,
-      "name": "S473",
-      "stats": []
+      "name": "Spell Critical Damage",
+      "stats": [
+        "10% increased Critical Spell Damage Bonus"
+      ]
     },
     {
       "id": "S474",
       "x": 0.17745454545454545,
       "y": 0.32472067039106145,
-      "name": "S474",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S475",
@@ -8344,15 +8544,19 @@
       "id": "S478",
       "x": 0.3952727272727273,
       "y": 0.325768156424581,
-      "name": "S478",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S479",
       "x": 0.8225454545454546,
       "y": 0.3261173184357542,
-      "name": "S479",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S480",
@@ -8365,8 +8569,10 @@
       "id": "S481",
       "x": 0.23127272727272727,
       "y": 0.3264664804469274,
-      "name": "S481",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S482",
@@ -8379,36 +8585,46 @@
       "id": "S483",
       "x": 0.44545454545454544,
       "y": 0.3268156424581006,
-      "name": "S483",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S484",
       "x": 0.5207272727272727,
       "y": 0.3268156424581006,
-      "name": "S484",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S485",
       "x": 0.5629090909090909,
       "y": 0.3268156424581006,
-      "name": "S485",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S486",
       "x": 0.5847272727272728,
       "y": 0.3268156424581006,
-      "name": "S486",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S487",
       "x": 0.608,
       "y": 0.32716480446927376,
-      "name": "S487",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S488",
@@ -8421,8 +8637,10 @@
       "id": "S489",
       "x": 0.4829090909090909,
       "y": 0.32751396648044695,
-      "name": "S489",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S490",
@@ -8498,8 +8716,10 @@
       "id": "S500",
       "x": 0.11709090909090909,
       "y": 0.3344972067039106,
-      "name": "S500",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S501",
@@ -8540,22 +8760,28 @@
       "id": "S506",
       "x": 0.49527272727272725,
       "y": 0.3369413407821229,
-      "name": "S506",
-      "stats": []
+      "name": "Spell Critical Chance",
+      "stats": [
+        "8% increased Critical Hit Chance for Spells"
+      ]
     },
     {
       "id": "S507",
       "x": 0.5083636363636364,
       "y": 0.3369413407821229,
-      "name": "S507",
-      "stats": []
+      "name": "Spell Critical Damage",
+      "stats": [
+        "10% increased Critical Spell Damage Bonus"
+      ]
     },
     {
       "id": "S508",
       "x": 0.56,
       "y": 0.3372905027932961,
-      "name": "S508",
-      "stats": []
+      "name": "Energy Shield",
+      "stats": [
+        "10% increased Energy Shield"
+      ]
     },
     {
       "id": "S509",
@@ -8568,8 +8794,11 @@
       "id": "S510",
       "x": 0.4829090909090909,
       "y": 0.33798882681564246,
-      "name": "S510",
-      "stats": []
+      "name": "Spell and Minion Damage",
+      "stats": [
+        "8% increased Spell Damage",
+        "Minions deal 8% increased Damage"
+      ]
     },
     {
       "id": "S511",
@@ -8589,8 +8818,10 @@
       "id": "S513",
       "x": 0.62,
       "y": 0.33833798882681565,
-      "name": "S513",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S514",
@@ -8652,8 +8883,10 @@
       "id": "S522",
       "x": 0.7272727272727273,
       "y": 0.34252793296089384,
-      "name": "S522",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S523",
@@ -8694,8 +8927,10 @@
       "id": "S528",
       "x": 0.21309090909090908,
       "y": 0.3439245810055866,
-      "name": "S528",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S529",
@@ -8715,15 +8950,19 @@
       "id": "S531",
       "x": 0.41345454545454546,
       "y": 0.3442737430167598,
-      "name": "S531",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S532",
       "x": 0.38,
       "y": 0.34497206703910616,
-      "name": "S532",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S533",
@@ -8820,8 +9059,10 @@
       "id": "S546",
       "x": 0.5661818181818182,
       "y": 0.3512569832402235,
-      "name": "S546",
-      "stats": []
+      "name": "Energy Shield",
+      "stats": [
+        "10% increased Energy Shield"
+      ]
     },
     {
       "id": "S547",
@@ -8869,8 +9110,10 @@
       "id": "S553",
       "x": 0.6243636363636363,
       "y": 0.3543994413407821,
-      "name": "S553",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S554",
@@ -8932,8 +9175,10 @@
       "id": "S562",
       "x": 0.8858,
       "y": 0.3317,
-      "name": "S562",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S563",
@@ -8960,8 +9205,10 @@
       "id": "S566",
       "x": 0.5887272727272728,
       "y": 0.35963687150837986,
-      "name": "S566",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S567",
@@ -9002,8 +9249,10 @@
       "id": "S572",
       "x": 0.4698181818181818,
       "y": 0.36277932960893855,
-      "name": "S572",
-      "stats": []
+      "name": "Physical Damage",
+      "stats": [
+        "10% increased Physical Damage"
+      ]
     },
     {
       "id": "S573",
@@ -9058,8 +9307,10 @@
       "id": "S580",
       "x": 0.21309090909090908,
       "y": 0.3648743016759777,
-      "name": "S580",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S581",
@@ -9135,8 +9386,11 @@
       "id": "S591",
       "x": 0.41745454545454547,
       "y": 0.36976256983240224,
-      "name": "S591",
-      "stats": []
+      "name": "EnergyShield and Armour",
+      "stats": [
+        "8% increased Armour",
+        "8% increased maximum Energy Shield"
+      ]
     },
     {
       "id": "S592",
@@ -9156,8 +9410,10 @@
       "id": "S594",
       "x": 0.744,
       "y": 0.36976256983240224,
-      "name": "S594",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S595",
@@ -9184,8 +9440,10 @@
       "id": "S598",
       "x": 0.7534545454545455,
       "y": 0.3722067039106145,
-      "name": "S598",
-      "stats": []
+      "name": "Life on Kill",
+      "stats": [
+        "Recpver 1% Life on Kill"
+      ]
     },
     {
       "id": "S599",
@@ -9198,8 +9456,10 @@
       "id": "S600",
       "x": 0.376,
       "y": 0.3725558659217877,
-      "name": "S600",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S601",
@@ -9212,8 +9472,10 @@
       "id": "S602",
       "x": 0.4309090909090909,
       "y": 0.3729050279329609,
-      "name": "S602",
-      "stats": []
+      "name": "Chaos Damage",
+      "stats": [
+        "10% increased Chaos Damage"
+      ]
     },
     {
       "id": "S603",
@@ -9226,8 +9488,10 @@
       "id": "S604",
       "x": 0.268,
       "y": 0.3746508379888268,
-      "name": "S604",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S605",
@@ -9268,8 +9532,10 @@
       "id": "S610",
       "x": 0.10545454545454545,
       "y": 0.37639664804469275,
-      "name": "S610",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S611",
@@ -9282,8 +9548,10 @@
       "id": "S612",
       "x": 0.89945,
       "y": 0.38125,
-      "name": "S612",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S613",
@@ -9303,8 +9571,11 @@
       "id": "S615",
       "x": 0.48254545454545456,
       "y": 0.3791899441340782,
-      "name": "S615",
-      "stats": []
+      "name": "Spell and Minion Damage",
+      "stats": [
+        "8% increased Spell Damage",
+        "Minions deal 8% increased Damage"
+      ]
     },
     {
       "id": "S616",
@@ -9324,22 +9595,28 @@
       "id": "S618",
       "x": 0.4501818181818182,
       "y": 0.37988826815642457,
-      "name": "S618",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S619",
       "x": 0.5527272727272727,
       "y": 0.37988826815642457,
-      "name": "S619",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S620",
       "x": 0.9113,
       "y": 0.4238,
-      "name": "S620",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S621",
@@ -9373,8 +9650,10 @@
       "id": "S625",
       "x": 0.21309090909090908,
       "y": 0.38303072625698326,
-      "name": "S625",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S626",
@@ -9436,8 +9715,10 @@
       "id": "S634",
       "x": 0.7152727272727273,
       "y": 0.3858240223463687,
-      "name": "S634",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S635",
@@ -9555,29 +9836,37 @@
       "id": "S651",
       "x": 0.4338181818181818,
       "y": 0.39071229050279327,
-      "name": "S651",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S652",
       "x": 0.4578181818181818,
       "y": 0.39071229050279327,
-      "name": "S652",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S653",
       "x": 0.544,
       "y": 0.39106145251396646,
-      "name": "S653",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S654",
       "x": 0.5687272727272727,
       "y": 0.392108938547486,
-      "name": "S654",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S655",
@@ -9590,8 +9879,10 @@
       "id": "S656",
       "x": 0.496,
       "y": 0.3928072625698324,
-      "name": "S656",
-      "stats": []
+      "name": "Mana Regeneration",
+      "stats": [
+        "10% increased Mana Regeneration Rate"
+      ]
     },
     {
       "id": "S657",
@@ -9604,8 +9895,10 @@
       "id": "S658",
       "x": 0.3014545454545455,
       "y": 0.3931564245810056,
-      "name": "S658",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S659",
@@ -9639,8 +9932,10 @@
       "id": "S663",
       "x": 0.4469090909090909,
       "y": 0.3959497206703911,
-      "name": "S663",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S664",
@@ -9660,15 +9955,19 @@
       "id": "S666",
       "x": 0.7603636363636364,
       "y": 0.3969972067039106,
-      "name": "S666",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S667",
       "x": 0.5596363636363636,
       "y": 0.39769553072625696,
-      "name": "S667",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S668",
@@ -9688,8 +9987,10 @@
       "id": "S670",
       "x": 0.6167272727272727,
       "y": 0.3997905027932961,
-      "name": "S670",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S671",
@@ -9702,8 +10003,10 @@
       "id": "S672",
       "x": 0.37272727272727274,
       "y": 0.40083798882681565,
-      "name": "S672",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S673",
@@ -9716,15 +10019,19 @@
       "id": "S674",
       "x": 0.5145454545454545,
       "y": 0.40118715083798884,
-      "name": "S674",
-      "stats": []
+      "name": "Mana",
+      "stats": [
+        "8% increased maximum Mana"
+      ]
     },
     {
       "id": "S675",
       "x": 0.7436363636363637,
       "y": 0.40118715083798884,
-      "name": "S675",
-      "stats": []
+      "name": "Attack Damage",
+      "stats": [
+        "10% increased Attack Damage"
+      ]
     },
     {
       "id": "S676",
@@ -9737,8 +10044,10 @@
       "id": "S677",
       "x": 0.6847272727272727,
       "y": 0.4022346368715084,
-      "name": "S677",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S678",
@@ -9753,8 +10062,10 @@
       "id": "S679",
       "x": 0.568,
       "y": 0.4025837988826816,
-      "name": "S679",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S680",
@@ -9774,8 +10085,10 @@
       "id": "S682",
       "x": 0.4338181818181818,
       "y": 0.4039804469273743,
-      "name": "S682",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S683",
@@ -9795,8 +10108,10 @@
       "id": "S685",
       "x": 0.3890909090909091,
       "y": 0.40537709497206703,
-      "name": "S685",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S686",
@@ -9839,8 +10154,10 @@
       "id": "S691",
       "x": 0.472,
       "y": 0.4085195530726257,
-      "name": "S691",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S692",
@@ -9862,8 +10179,10 @@
       "id": "S694",
       "x": 0.5312727272727272,
       "y": 0.4085195530726257,
-      "name": "S694",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S695",
@@ -9904,8 +10223,10 @@
       "id": "S700",
       "x": 0.42145454545454547,
       "y": 0.41131284916201116,
-      "name": "S700",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S701",
@@ -9932,15 +10253,19 @@
       "id": "S704",
       "x": 0.09563636363636363,
       "y": 0.4134078212290503,
-      "name": "S704",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S705",
       "x": 0.6309090909090909,
       "y": 0.4134078212290503,
-      "name": "S705",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S706",
@@ -9960,8 +10285,10 @@
       "id": "S708",
       "x": 0.730909090909091,
       "y": 0.4155027932960894,
-      "name": "S708",
-      "stats": []
+      "name": "Attack Speed",
+      "stats": [
+        "3% increased Attack speed"
+      ]
     },
     {
       "id": "S709",
@@ -9983,8 +10310,10 @@
       "id": "S711",
       "x": 0.344,
       "y": 0.4165502793296089,
-      "name": "S711",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S712",
@@ -9997,8 +10326,10 @@
       "id": "S713",
       "x": 0.5818181818181818,
       "y": 0.4165502793296089,
-      "name": "S713",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S714",
@@ -10011,8 +10342,10 @@
       "id": "S715",
       "x": 0.7869090909090909,
       "y": 0.4165502793296089,
-      "name": "S715",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S716",
@@ -10060,8 +10393,10 @@
       "id": "S722",
       "x": 0.21309090909090908,
       "y": 0.41899441340782123,
-      "name": "S722",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S723",
@@ -10095,8 +10430,10 @@
       "id": "S727",
       "x": 0.6527272727272727,
       "y": 0.4200418994413408,
-      "name": "S727",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S728",
@@ -10130,15 +10467,19 @@
       "id": "S732",
       "x": 0.48254545454545456,
       "y": 0.42283519553072624,
-      "name": "S732",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S733",
       "x": 0.52,
       "y": 0.42283519553072624,
-      "name": "S733",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S734",
@@ -10277,8 +10618,10 @@
       "id": "S753",
       "x": 0.5738181818181818,
       "y": 0.4329608938547486,
-      "name": "S753",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S754",
@@ -10291,8 +10634,10 @@
       "id": "S755",
       "x": 0.4309090909090909,
       "y": 0.4333100558659218,
-      "name": "S755",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S756",
@@ -10426,8 +10771,10 @@
       "id": "S774",
       "x": 0.6476363636363637,
       "y": 0.44064245810055863,
-      "name": "S774",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S775",
@@ -10461,8 +10808,10 @@
       "id": "S779",
       "x": 0.5516363636363636,
       "y": 0.44518156424581007,
-      "name": "S779",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S780",
@@ -10503,8 +10852,10 @@
       "id": "S785",
       "x": 0.43527272727272726,
       "y": 0.4465782122905028,
-      "name": "S785",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S786",
@@ -10531,8 +10882,10 @@
       "id": "S789",
       "x": 0.344,
       "y": 0.4483240223463687,
-      "name": "S789",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S790",
@@ -10734,8 +11087,10 @@
       "id": "S818",
       "x": 0.6523636363636364,
       "y": 0.45914804469273746,
-      "name": "S818",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S819",
@@ -10748,8 +11103,10 @@
       "id": "S820",
       "x": 0.356,
       "y": 0.4598463687150838,
-      "name": "S820",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S821",
@@ -10797,15 +11154,19 @@
       "id": "S827",
       "x": 0.18727272727272729,
       "y": 0.4615921787709497,
-      "name": "S827",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S828",
       "x": 0.08254545454545455,
       "y": 0.4622905027932961,
-      "name": "S828",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S829",
@@ -10874,15 +11235,19 @@
       "id": "S838",
       "x": 0.9214545454545454,
       "y": 0.4643854748603352,
-      "name": "S838",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S839",
-      "x": 0.952,
+      "x": 0.953801382,
       "y": 0.4643854748603352,
-      "name": "S839",
-      "stats": []
+      "name": "Quarterstaff Speed",
+      "stats": [
+        "4% increased Attack Speed with Staves"
+      ]
     },
     {
       "id": "S840",
@@ -10916,8 +11281,10 @@
       "id": "S844",
       "x": 0.8152727272727273,
       "y": 0.4661312849162011,
-      "name": "S844",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S845",
@@ -11091,8 +11458,10 @@
       "id": "S869",
       "x": 0.316,
       "y": 0.4762569832402235,
-      "name": "S869",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S870",
@@ -11112,15 +11481,19 @@
       "id": "S872",
       "x": 0.8603636363636363,
       "y": 0.4762569832402235,
-      "name": "S872",
-      "stats": []
+      "name": "Attack Damage",
+      "stats": [
+        "10% increased Attack Damage"
+      ]
     },
     {
       "id": "S873",
       "x": 0.6767272727272727,
       "y": 0.47660614525139666,
-      "name": "S873",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S874",
@@ -11140,15 +11513,19 @@
       "id": "S876",
       "x": 0.4163636363636364,
       "y": 0.4780027932960894,
-      "name": "S876",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S877",
       "x": 0.8516363636363636,
       "y": 0.47835195530726254,
-      "name": "S877",
-      "stats": []
+      "name": "Attack Damage",
+      "stats": [
+        "10% increased Attack Damage"
+      ]
     },
     {
       "id": "S878",
@@ -11168,8 +11545,10 @@
       "id": "S880",
       "x": 0.6018181818181818,
       "y": 0.4793994413407821,
-      "name": "S880",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S881",
@@ -11182,15 +11561,19 @@
       "id": "S882",
       "x": 0.4021818181818182,
       "y": 0.48079608938547486,
-      "name": "S882",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S883",
       "x": 0.6207272727272727,
       "y": 0.48079608938547486,
-      "name": "S883",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S884",
@@ -11224,8 +11607,10 @@
       "id": "S888",
       "x": 0.8152727272727273,
       "y": 0.4821927374301676,
-      "name": "S888",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S889",
@@ -11245,8 +11630,10 @@
       "id": "S891",
       "x": 0.37781818181818183,
       "y": 0.48324022346368717,
-      "name": "S891",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S892",
@@ -11280,8 +11667,10 @@
       "id": "S896",
       "x": 0.862909090909091,
       "y": 0.48463687150837986,
-      "name": "S896",
-      "stats": []
+      "name": "Mana Leech",
+      "stats": [
+        "10% increased amount of Mana Leeched"
+      ]
     },
     {
       "id": "S897",
@@ -11329,8 +11718,10 @@
       "id": "S903",
       "x": 0.8538181818181818,
       "y": 0.4870810055865922,
-      "name": "S903",
-      "stats": []
+      "name": "Mana Leech",
+      "stats": [
+        "10% increased amount of Mana Leeched"
+      ]
     },
     {
       "id": "S904",
@@ -11357,15 +11748,19 @@
       "id": "S907",
       "x": 0.30363636363636365,
       "y": 0.48812849162011174,
-      "name": "S907",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S908",
       "x": 0.6887272727272727,
       "y": 0.48812849162011174,
-      "name": "S908",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S909",
@@ -11420,8 +11815,10 @@
       "id": "S916",
       "x": 0.848,
       "y": 0.49057262569832405,
-      "name": "S916",
-      "stats": []
+      "name": "Attack Damage",
+      "stats": [
+        "10% increased Attack Damage"
+      ]
     },
     {
       "id": "S917",
@@ -11455,15 +11852,19 @@
       "id": "S921",
       "x": 0.5796363636363636,
       "y": 0.49196927374301674,
-      "name": "S921",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S922",
       "x": 0.6305454545454545,
       "y": 0.49196927374301674,
-      "name": "S922",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S923",
@@ -11525,8 +11926,10 @@
       "id": "S931",
       "x": 0.38,
       "y": 0.49511173184357543,
-      "name": "S931",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S932",
@@ -11581,127 +11984,163 @@
       "id": "S939",
       "x": 0.19927272727272727,
       "y": 0.5038407821229051,
-      "name": "S939",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S940",
       "x": 0.29927272727272725,
       "y": 0.5038407821229051,
-      "name": "S940",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S941",
       "x": 0.3327272727272727,
       "y": 0.5038407821229051,
-      "name": "S941",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S942",
       "x": 0.3563636363636364,
       "y": 0.5038407821229051,
-      "name": "S942",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S943",
       "x": 0.653090909090909,
       "y": 0.5038407821229051,
-      "name": "S943",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S944",
       "x": 0.6730909090909091,
       "y": 0.5038407821229051,
-      "name": "S944",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S945",
       "x": 0.6930909090909091,
       "y": 0.5038407821229051,
-      "name": "S945",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S946",
       "x": 0.7232727272727273,
       "y": 0.5038407821229051,
-      "name": "S946",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S947",
       "x": 0.7552727272727273,
       "y": 0.5038407821229051,
-      "name": "S947",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S948",
       "x": 0.78,
       "y": 0.5038407821229051,
-      "name": "S948",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S949",
       "x": 0.8152727272727273,
       "y": 0.5038407821229051,
-      "name": "S949",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S950",
       "x": 0.856,
       "y": 0.5038407821229051,
-      "name": "S950",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S951",
       "x": 0.8883636363636364,
       "y": 0.5038407821229051,
-      "name": "S951",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S952",
       "x": 0.16072727272727272,
       "y": 0.5041899441340782,
-      "name": "S952",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S953",
       "x": 0.22436363636363638,
       "y": 0.5041899441340782,
-      "name": "S953",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S954",
       "x": 0.2650909090909091,
       "y": 0.5041899441340782,
-      "name": "S954",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S955",
       "x": 0.09454545454545454,
       "y": 0.5045391061452514,
-      "name": "S955",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S956",
       "x": 0.12654545454545454,
       "y": 0.5045391061452514,
-      "name": "S956",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S957",
@@ -11742,8 +12181,10 @@
       "id": "S962",
       "x": 0.38,
       "y": 0.5129189944134078,
-      "name": "S962",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S963",
@@ -11770,8 +12211,10 @@
       "id": "S966",
       "x": 0.6334545454545455,
       "y": 0.515013966480447,
-      "name": "S966",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S967",
@@ -11840,8 +12283,10 @@
       "id": "S976",
       "x": 0.30363636363636365,
       "y": 0.5199022346368715,
-      "name": "S976",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S977",
@@ -11896,36 +12341,46 @@
       "id": "S984",
       "x": 0.16072727272727272,
       "y": 0.5233938547486033,
-      "name": "S984",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S985",
       "x": 0.3770909090909091,
       "y": 0.5247905027932961,
-      "name": "S985",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S986",
       "x": 0.5854545454545454,
       "y": 0.5247905027932961,
-      "name": "S986",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S987",
       "x": 0.6047272727272728,
       "y": 0.5247905027932961,
-      "name": "S987",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S988",
       "x": 0.6247272727272727,
       "y": 0.5247905027932961,
-      "name": "S988",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S989",
@@ -11938,8 +12393,10 @@
       "id": "S990",
       "x": 0.4021818181818182,
       "y": 0.5251396648044693,
-      "name": "S990",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S991",
@@ -11973,8 +12430,10 @@
       "id": "S995",
       "x": 0.41709090909090907,
       "y": 0.5268854748603352,
-      "name": "S995",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S996",
@@ -12036,8 +12495,10 @@
       "id": "S1004",
       "x": 0.31563636363636366,
       "y": 0.5314245810055865,
-      "name": "S1004",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1005",
@@ -12050,8 +12511,10 @@
       "id": "S1006",
       "x": 0.6767272727272727,
       "y": 0.5314245810055865,
-      "name": "S1006",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1007",
@@ -12071,8 +12534,10 @@
       "id": "S1009",
       "x": 0.3483636363636364,
       "y": 0.5328212290502793,
-      "name": "S1009",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1010",
@@ -12127,8 +12592,10 @@
       "id": "S1017",
       "x": 0.5901818181818181,
       "y": 0.535963687150838,
-      "name": "S1017",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1018",
@@ -12204,8 +12671,10 @@
       "id": "S1028",
       "x": 0.633090909090909,
       "y": 0.5384078212290503,
-      "name": "S1028",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1029",
@@ -12218,8 +12687,10 @@
       "id": "S1030",
       "x": 0.08218181818181818,
       "y": 0.5394553072625698,
-      "name": "S1030",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1031",
@@ -12269,8 +12740,10 @@
       "id": "S1037",
       "x": 0.16036363636363637,
       "y": 0.5412011173184358,
-      "name": "S1037",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1038",
@@ -12439,8 +12912,10 @@
       "id": "S1061",
       "x": 0.8152727272727273,
       "y": 0.5478351955307262,
-      "name": "S1061",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1062",
@@ -12460,8 +12935,10 @@
       "id": "S1064",
       "x": 0.9207272727272727,
       "y": 0.5478351955307262,
-      "name": "S1064",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1065",
@@ -12721,8 +13198,10 @@
       "id": "S1101",
       "x": 0.3367272727272727,
       "y": 0.5614525139664804,
-      "name": "S1101",
-      "stats": []
+      "name": "Melee Damage",
+      "stats": [
+        "6% increased Melee Damage"
+      ]
     },
     {
       "id": "S1102",
@@ -12744,8 +13223,10 @@
       "id": "S1104",
       "x": 0.3301818181818182,
       "y": 0.5628491620111732,
-      "name": "S1104",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1105",
@@ -12772,8 +13253,10 @@
       "id": "S1108",
       "x": 0.4381818181818182,
       "y": 0.5628491620111732,
-      "name": "S1108",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1109",
@@ -12800,8 +13283,10 @@
       "id": "S1112",
       "x": 0.5621818181818182,
       "y": 0.5638966480446927,
-      "name": "S1112",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1113",
@@ -12835,8 +13320,10 @@
       "id": "S1117",
       "x": 0.3483636363636364,
       "y": 0.5673882681564246,
-      "name": "S1117",
-      "stats": []
+      "name": "Axe Damage",
+      "stats": [
+        "10% increased Damage with Axes"
+      ]
     },
     {
       "id": "S1118",
@@ -12905,8 +13392,10 @@
       "id": "S1127",
       "x": 0.6538181818181819,
       "y": 0.5715782122905028,
-      "name": "S1127",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1128",
@@ -12943,8 +13432,10 @@
       "id": "S1132",
       "x": 0.43272727272727274,
       "y": 0.575768156424581,
-      "name": "S1132",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1133",
@@ -13013,8 +13504,10 @@
       "id": "S1142",
       "x": 0.572,
       "y": 0.5799581005586593,
-      "name": "S1142",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1143",
@@ -13048,8 +13541,10 @@
       "id": "S1147",
       "x": 0.8152727272727273,
       "y": 0.5824022346368715,
-      "name": "S1147",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1148",
@@ -13065,8 +13560,10 @@
       "id": "S1149",
       "x": 0.09454545454545454,
       "y": 0.5841480446927374,
-      "name": "S1149",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1150",
@@ -13086,8 +13583,10 @@
       "id": "S1152",
       "x": 0.9105454545454545,
       "y": 0.5848463687150838,
-      "name": "S1152",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1153",
@@ -13240,8 +13739,10 @@
       "id": "S1174",
       "x": 0.5254545454545455,
       "y": 0.5942737430167597,
-      "name": "S1174",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1175",
@@ -13254,8 +13755,10 @@
       "id": "S1176",
       "x": 0.47709090909090907,
       "y": 0.5946229050279329,
-      "name": "S1176",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1177",
@@ -13282,15 +13785,19 @@
       "id": "S1180",
       "x": 0.3352727272727273,
       "y": 0.5963687150837989,
-      "name": "S1180",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1181",
       "x": 0.5818181818181818,
       "y": 0.5963687150837989,
-      "name": "S1181",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1182",
@@ -13303,15 +13810,19 @@
       "id": "S1183",
       "x": 0.4203636363636364,
       "y": 0.596717877094972,
-      "name": "S1183",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1184",
       "x": 0.5985454545454545,
       "y": 0.596717877094972,
-      "name": "S1184",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1185",
@@ -13324,8 +13835,10 @@
       "id": "S1186",
       "x": 0.6385454545454545,
       "y": 0.5970670391061452,
-      "name": "S1186",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1187",
@@ -13338,8 +13851,10 @@
       "id": "S1188",
       "x": 0.6694545454545454,
       "y": 0.5974162011173184,
-      "name": "S1188",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1189",
@@ -13373,8 +13888,10 @@
       "id": "S1193",
       "x": 0.5189090909090909,
       "y": 0.5998603351955307,
-      "name": "S1193",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1194",
@@ -13401,8 +13918,10 @@
       "id": "S1197",
       "x": 0.19636363636363635,
       "y": 0.6005586592178771,
-      "name": "S1197",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1198",
@@ -13429,15 +13948,19 @@
       "id": "S1201",
       "x": 0.4658181818181818,
       "y": 0.6030027932960894,
-      "name": "S1201",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1202",
       "x": 0.5367272727272727,
       "y": 0.6030027932960894,
-      "name": "S1202",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1203",
@@ -13520,8 +14043,10 @@
       "id": "S1214",
       "x": 0.572,
       "y": 0.6089385474860335,
-      "name": "S1214",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1215",
@@ -13618,8 +14143,10 @@
       "id": "S1228",
       "x": 0.6956363636363636,
       "y": 0.6120810055865922,
-      "name": "S1228",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1229",
@@ -13695,8 +14222,10 @@
       "id": "S1239",
       "x": 0.5607272727272727,
       "y": 0.615572625698324,
-      "name": "S1239",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1240",
@@ -13709,8 +14238,10 @@
       "id": "S1241",
       "x": 0.39890909090909094,
       "y": 0.6169692737430168,
-      "name": "S1241",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1242",
@@ -13723,15 +14254,19 @@
       "id": "S1243",
       "x": 0.36254545454545456,
       "y": 0.61731843575419,
-      "name": "S1243",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1244",
       "x": 0.544,
       "y": 0.6176675977653632,
-      "name": "S1244",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1245",
@@ -13751,8 +14286,10 @@
       "id": "S1247",
       "x": 0.45854545454545453,
       "y": 0.6180167597765364,
-      "name": "S1247",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1248",
@@ -13800,22 +14337,28 @@
       "id": "S1254",
       "x": 0.2927272727272727,
       "y": 0.6197625698324022,
-      "name": "S1254",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1255",
       "x": 0.4123636363636364,
       "y": 0.6197625698324022,
-      "name": "S1255",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1256",
       "x": 0.6247272727272727,
       "y": 0.6204608938547486,
-      "name": "S1256",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1257",
@@ -13835,8 +14378,10 @@
       "id": "S1259",
       "x": 0.9003636363636364,
       "y": 0.6211592178770949,
-      "name": "S1259",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1260",
@@ -13863,8 +14408,10 @@
       "id": "S1263",
       "x": 0.20945454545454545,
       "y": 0.6218575418994413,
-      "name": "S1263",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1264",
@@ -13933,15 +14480,19 @@
       "id": "S1273",
       "x": 0.7796363636363637,
       "y": 0.6267458100558659,
-      "name": "S1273",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1274",
       "x": 0.7225454545454545,
       "y": 0.6270949720670391,
-      "name": "S1274",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1275",
@@ -14003,8 +14554,10 @@
       "id": "S1283",
       "x": 0.5774545454545454,
       "y": 0.6302374301675978,
-      "name": "S1283",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1284",
@@ -14038,8 +14591,10 @@
       "id": "S1288",
       "x": 0.4243636363636364,
       "y": 0.6312849162011173,
-      "name": "S1288",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1289",
@@ -14094,8 +14649,10 @@
       "id": "S1296",
       "x": 0.10836363636363637,
       "y": 0.6323324022346368,
-      "name": "S1296",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1297",
@@ -14164,8 +14721,10 @@
       "id": "S1306",
       "x": 0.26654545454545453,
       "y": 0.634427374301676,
-      "name": "S1306",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1307",
@@ -14178,8 +14737,10 @@
       "id": "S1308",
       "x": 0.37018181818181817,
       "y": 0.6354748603351955,
-      "name": "S1308",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1309",
@@ -14199,8 +14760,10 @@
       "id": "S1311",
       "x": 0.4410909090909091,
       "y": 0.6358240223463687,
-      "name": "S1311",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1312",
@@ -14290,8 +14853,10 @@
       "id": "S1324",
       "x": 0.7723636363636364,
       "y": 0.640013966480447,
-      "name": "S1324",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1325",
@@ -14339,8 +14904,10 @@
       "id": "S1331",
       "x": 0.610909090909091,
       "y": 0.6435055865921788,
-      "name": "S1331",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1332",
@@ -14409,15 +14976,19 @@
       "id": "S1341",
       "x": 0.4149090909090909,
       "y": 0.647695530726257,
-      "name": "S1341",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1342",
       "x": 0.5876363636363636,
       "y": 0.647695530726257,
-      "name": "S1342",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1343",
@@ -14507,8 +15078,10 @@
       "id": "S1355",
       "x": 0.7654545454545455,
       "y": 0.6508379888268156,
-      "name": "S1355",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1356",
@@ -14528,8 +15101,10 @@
       "id": "S1358",
       "x": 0.38545454545454544,
       "y": 0.6536312849162011,
-      "name": "S1358",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1359",
@@ -14556,8 +15131,10 @@
       "id": "S1362",
       "x": 0.2290909090909091,
       "y": 0.6550279329608939,
-      "name": "S1362",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1363",
@@ -14591,8 +15168,10 @@
       "id": "S1367",
       "x": 0.5330909090909091,
       "y": 0.6564245810055865,
-      "name": "S1367",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1368",
@@ -14612,8 +15191,10 @@
       "id": "S1370",
       "x": 0.4698181818181818,
       "y": 0.6571229050279329,
-      "name": "S1370",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1371",
@@ -14675,8 +15256,10 @@
       "id": "S1379",
       "x": 0.7836363636363637,
       "y": 0.660963687150838,
-      "name": "S1379",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1380",
@@ -14703,8 +15286,10 @@
       "id": "S1383",
       "x": 0.7592727272727273,
       "y": 0.6616620111731844,
-      "name": "S1383",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1384",
@@ -14766,8 +15351,10 @@
       "id": "S1392",
       "x": 0.5978181818181818,
       "y": 0.6651536312849162,
-      "name": "S1392",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1393",
@@ -14808,8 +15395,10 @@
       "id": "S1398",
       "x": 0.8872727272727273,
       "y": 0.6672486033519553,
-      "name": "S1398",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1399",
@@ -14850,8 +15439,10 @@
       "id": "S1404",
       "x": 0.4010909090909091,
       "y": 0.6707402234636871,
-      "name": "S1404",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1405",
@@ -14885,22 +15476,28 @@
       "id": "S1409",
       "x": 0.5694545454545454,
       "y": 0.6721368715083799,
-      "name": "S1409",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1410",
       "x": 0.12036363636363637,
       "y": 0.6731843575418994,
-      "name": "S1410",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1411",
       "x": 0.19672727272727272,
       "y": 0.6731843575418994,
-      "name": "S1411",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1412",
@@ -14941,8 +15538,10 @@
       "id": "S1417",
       "x": 0.42218181818181816,
       "y": 0.6745810055865922,
-      "name": "S1417",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1418",
@@ -14955,8 +15554,10 @@
       "id": "S1419",
       "x": 0.7512727272727273,
       "y": 0.6745810055865922,
-      "name": "S1419",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1420",
@@ -15039,29 +15640,37 @@
       "id": "S1431",
       "x": 0.448,
       "y": 0.6787709497206704,
-      "name": "S1431",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1432",
       "x": 0.49272727272727274,
       "y": 0.6787709497206704,
-      "name": "S1432",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1433",
       "x": 0.5098181818181818,
       "y": 0.6791201117318436,
-      "name": "S1433",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1434",
       "x": 0.5407272727272727,
       "y": 0.6791201117318436,
-      "name": "S1434",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1435",
@@ -15221,15 +15830,19 @@
       "id": "S1457",
       "x": 0.8338181818181818,
       "y": 0.6885474860335196,
-      "name": "S1457",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1458",
       "x": 0.24945454545454546,
       "y": 0.6888966480446927,
-      "name": "S1458",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1459",
@@ -15333,8 +15946,10 @@
       "id": "S1473",
       "x": 0.15854545454545454,
       "y": 0.6937849162011173,
-      "name": "S1473",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1474",
@@ -15438,8 +16053,10 @@
       "id": "S1488",
       "x": 0.38472727272727275,
       "y": 0.6976256983240223,
-      "name": "S1488",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1489",
@@ -15487,8 +16104,10 @@
       "id": "S1495",
       "x": 0.5014545454545455,
       "y": 0.7011173184357542,
-      "name": "S1495",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1496",
@@ -15536,8 +16155,10 @@
       "id": "S1502",
       "x": 0.2581818181818182,
       "y": 0.7039106145251397,
-      "name": "S1502",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1503",
@@ -15599,8 +16220,10 @@
       "id": "S1511",
       "x": 0.6225454545454545,
       "y": 0.7056564245810056,
-      "name": "S1511",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1512",
@@ -15760,8 +16383,10 @@
       "id": "S1534",
       "x": 0.372,
       "y": 0.7189245810055865,
-      "name": "S1534",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1535",
@@ -15928,8 +16553,10 @@
       "id": "S1558",
       "x": 0.7203636363636363,
       "y": 0.7311452513966481,
-      "name": "S1558",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1559",
@@ -15970,8 +16597,10 @@
       "id": "S1564",
       "x": 0.8501818181818181,
       "y": 0.7360335195530726,
-      "name": "S1564",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1565",
@@ -15998,8 +16627,10 @@
       "id": "S1568",
       "x": 0.5014545454545455,
       "y": 0.7395251396648045,
-      "name": "S1568",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1569",
@@ -16019,15 +16650,19 @@
       "id": "S1571",
       "x": 0.16290909090909092,
       "y": 0.7416201117318436,
-      "name": "S1571",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1572",
       "x": 0.35745454545454547,
       "y": 0.74231843575419,
-      "name": "S1572",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1573",
@@ -16103,8 +16738,10 @@
       "id": "S1583",
       "x": 0.46545454545454545,
       "y": 0.7451117318435754,
-      "name": "S1583",
-      "stats": []
+      "name": "Grenade Cooldown Recovery Rate",
+      "stats": [
+        "15% increased Cooldown Recovery Rate for Grenade Skills"
+      ]
     },
     {
       "id": "S1584",
@@ -16152,8 +16789,10 @@
       "id": "S1590",
       "x": 0.6916363636363636,
       "y": 0.7472067039106145,
-      "name": "S1590",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1591",
@@ -16166,8 +16805,10 @@
       "id": "S1592",
       "x": 0.29854545454545456,
       "y": 0.7479050279329609,
-      "name": "S1592",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1593",
@@ -16362,8 +17003,10 @@
       "id": "S1620",
       "x": 0.32036363636363635,
       "y": 0.7597765363128491,
-      "name": "S1620",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1621",
@@ -16432,8 +17075,10 @@
       "id": "S1630",
       "x": 0.8225454545454546,
       "y": 0.7625698324022346,
-      "name": "S1630",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1631",
@@ -16460,8 +17105,10 @@
       "id": "S1634",
       "x": 0.6581818181818182,
       "y": 0.7653631284916201,
-      "name": "S1634",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1635",
@@ -16539,8 +17186,10 @@
       "id": "S1645",
       "x": 0.5010909090909091,
       "y": 0.7688547486033519,
-      "name": "S1645",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1646",
@@ -16560,15 +17209,19 @@
       "id": "S1648",
       "x": 0.1938181818181818,
       "y": 0.7712988826815642,
-      "name": "S1648",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1649",
       "x": 0.34145454545454546,
       "y": 0.7712988826815642,
-      "name": "S1649",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1650",
@@ -16791,15 +17444,19 @@
       "id": "S1681",
       "x": 0.6236363636363637,
       "y": 0.7849162011173184,
-      "name": "S1681",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1682",
       "x": 0.3690909090909091,
       "y": 0.7866620111731844,
-      "name": "S1682",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1683",
@@ -16847,8 +17504,10 @@
       "id": "S1689",
       "x": 0.7930909090909091,
       "y": 0.7908519553072626,
-      "name": "S1689",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1690",
@@ -16910,8 +17569,10 @@
       "id": "S1698",
       "x": 0.5996363636363636,
       "y": 0.7981843575418994,
-      "name": "S1698",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1699",
@@ -16938,8 +17599,10 @@
       "id": "S1702",
       "x": 0.6785454545454546,
       "y": 0.7995810055865922,
-      "name": "S1702",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1703",
@@ -16973,8 +17636,10 @@
       "id": "S1707",
       "x": 0.2250909090909091,
       "y": 0.8020251396648045,
-      "name": "S1707",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1708",
@@ -17015,8 +17680,10 @@
       "id": "S1713",
       "x": 0.3981818181818182,
       "y": 0.8027234636871509,
-      "name": "S1713",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1714",
@@ -17164,36 +17831,46 @@
       "id": "S1734",
       "x": 0.4552727272727273,
       "y": 0.8145949720670391,
-      "name": "S1734",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1735",
       "x": 0.4778181818181818,
       "y": 0.8145949720670391,
-      "name": "S1735",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1736",
       "x": 0.5018181818181818,
       "y": 0.8145949720670391,
-      "name": "S1736",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1737",
       "x": 0.525090909090909,
       "y": 0.8145949720670391,
-      "name": "S1737",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1738",
       "x": 0.548,
       "y": 0.8145949720670391,
-      "name": "S1738",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1739",
@@ -17220,8 +17897,10 @@
       "id": "S1742",
       "x": 0.31236363636363634,
       "y": 0.8194832402234636,
-      "name": "S1742",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1743",
@@ -17236,8 +17915,10 @@
       "id": "S1744",
       "x": 0.7625454545454545,
       "y": 0.82018156424581,
-      "name": "S1744",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1745",
@@ -17271,8 +17952,10 @@
       "id": "S1749",
       "x": 0.6934545454545454,
       "y": 0.8236731843575419,
-      "name": "S1749",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1750",
@@ -17453,8 +18136,10 @@
       "id": "S1775",
       "x": 0.2570909090909091,
       "y": 0.8341480446927374,
-      "name": "S1775",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1776",
@@ -17544,8 +18229,10 @@
       "id": "S1788",
       "x": 0.29854545454545456,
       "y": 0.8411312849162011,
-      "name": "S1788",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1789",
@@ -17649,8 +18336,10 @@
       "id": "S1803",
       "x": 0.5014545454545455,
       "y": 0.8589385474860335,
-      "name": "S1803",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1804",
@@ -17803,8 +18492,10 @@
       "id": "S1825",
       "x": 0.6894545454545454,
       "y": 0.875,
-      "name": "S1825",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1826",
@@ -17887,15 +18578,19 @@
       "id": "S1837",
       "x": 0.3341818181818182,
       "y": 0.8833798882681564,
-      "name": "S1837",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1838",
       "x": 0.5014545454545455,
       "y": 0.8847765363128491,
-      "name": "S1838",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1839",
@@ -17936,8 +18631,10 @@
       "id": "S1844",
       "x": 0.6494545454545455,
       "y": 0.8921089385474861,
-      "name": "S1844",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1845",
@@ -18013,8 +18710,10 @@
       "id": "S1855",
       "x": 0.37163636363636365,
       "y": 0.8997905027932961,
-      "name": "S1855",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1856",
@@ -18097,29 +18796,37 @@
       "id": "S1867",
       "x": 0.5472727272727272,
       "y": 0.9120111731843575,
-      "name": "S1867",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1868",
       "x": 0.40145454545454545,
       "y": 0.9123603351955307,
-      "name": "S1868",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1869",
       "x": 0.4476363636363636,
       "y": 0.9123603351955307,
-      "name": "S1869",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1870",
       "x": 0.6021818181818182,
       "y": 0.9123603351955307,
-      "name": "S1870",
-      "stats": []
+      "name": "Attribute",
+      "stats": [
+        "+5 to any Attribute"
+      ]
     },
     {
       "id": "S1871",
@@ -18420,6 +19127,44 @@
       "x": 0.3690909090909091,
       "y": 0.9793994413407822,
       "name": "S1913",
+      "stats": []
+    },
+    {
+      "id": "S1914",
+      "x": 0.955620226,
+      "y": 0.45860985,
+      "name": "S1914",
+      "stats": []
+    },
+    {
+      "id": "S1915",
+      "x": 0.961804292,
+      "y": 0.446035627,
+      "name": "Quarterstaff Stun and Knockback",
+      "stats": [
+        "20% increased Stun Buildup",
+        "20% increased Knockback Distance"
+      ]
+    },
+    {
+      "id": "S1916",
+      "x": 0.963259367,
+      "y": 0.441145651,
+      "name": "S1916",
+      "stats": []
+    },
+    {
+      "id": "S1917",
+      "x": 0.9570753,
+      "y": 0.444638491,
+      "name": "S1917",
+      "stats": []
+    },
+    {
+      "id": "S1918",
+      "x": 0.958530375,
+      "y": 0.4400978,
+      "name": "S1918",
       "stats": []
     }
   ]

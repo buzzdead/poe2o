@@ -1,7 +1,7 @@
 "use client";
 import { toast } from "sonner";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
-import { SearchInput, useNodeSearch } from "../NodeHighlighter";
+import { SearchInput, useNodeSearch } from "./NodeHighlighter";
 import { useEffect, useRef, useState } from "react";
 import nodes from "../data/merged_nodes.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
@@ -14,16 +14,71 @@ export const SkillTreeNodeParent = () => {
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
   const handleSelectNode = (node: SkillNode) => {
     const isSelected = myNodes.find((sn) => sn.id === node.id);
+    
+    // Define a distance threshold (adjust as needed)
+    const distanceThreshold = 10; // Example threshold, you can change this
+  
+    // Helper function to calculate distance to the center (0.5, 0.5)
+    const calculateDistanceToCenter = (node: SkillNode) => {
+      // We use the center (0.5, 0.5) as the reference point
+      const centerX = 0.5;
+      const centerY = 0.5;
+      const distance = Math.sqrt(
+        Math.pow(node.x - centerX, 2) + Math.pow(node.y - centerY, 2)
+      );
+      return distance;
+    };
+  
     if (isSelected) {
-      isLeftShiftSelected.current ? selectNode(myNodes.filter((sn) => sn.name !== node.name)) : selectNode(myNodes.filter((sn) => sn.id !== node.id));
+      // If the node is already selected, we deselect it (and potentially deselect others if Shift is held)
+      if (isLeftShiftSelected.current) {
+        // Deselect all nodes with the same name
+        selectNode(myNodes.filter((sn) => sn.name !== node.name));
+      } else {
+        // Deselect the single node
+        selectNode(myNodes.filter((sn) => sn.id !== node.id));
+      }
+      toast(node.name + " Removed", {});
     } else {
-      const nodes2 = filterNodesData.nodes.filter((sn) => sn.name === node.name)
-
-      isLeftShiftSelected.current && nodes2.length > 0 ? selectNode([...myNodes, ...nodes2]) : selectNode([...myNodes, node]);
+      if (isLeftShiftSelected.current) {
+        // If Shift is held down, find nodes with the same name and within the distance threshold
+        let nearbyNodes = filterNodesData.nodes.filter((sn) => {
+          // Check for nodes with the same name
+          return sn.name === node.name && calculateDistance(node, sn) <= distanceThreshold;
+        });
+  
+        // If the node is "Attribute", further filter the nearby nodes to prioritize those closer to the center
+        if (node.name === "Attribute") {
+          nearbyNodes = nearbyNodes.filter((sn) => calculateDistanceToCenter(sn) <= calculateDistanceToCenter(node));
+        }
+  
+        if (nearbyNodes.length > 0) {
+          selectNode([...myNodes, ...nearbyNodes]); // Add nearby nodes to the selection
+          toast(node.name + " and nearby nodes Selected", {});
+        }
+      } else {
+        // If Shift is not held, select the single node
+        selectNode([...myNodes, node]);
+        toast(node.name + " Selected", {});
+      }
     }
-
-    toast(node.name + (isSelected ? " Removed" : " Selected"), {});
   };
+  
+  
+
+  const calculateDistance = (node1: { x: number, y: number }, node2: { x: number, y: number }): number => {
+    // Scale the x and y coordinates by 100
+    const x1 = node1.x * 100;
+    const y1 = node1.y * 100;
+    const x2 = node2.x * 100;
+    const y2 = node2.y * 100;
+  
+    // Calculate the Euclidean distance between the two nodes
+    const distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+  
+    return distance;
+  };
+  
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Shift" && !e.repeat) {

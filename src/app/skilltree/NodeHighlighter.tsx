@@ -1,8 +1,8 @@
 // useNodeSearch.ts
 import { useState, useEffect } from "react";
-import filterNodesData from "./data/combined_filtered_nodes.json"; // Load the filtered nodes
+import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 import React from "react";
-import { Input } from "../components/ui/input";
+import { Input } from "../../components/ui/input";
 
 export const useNodeSearch = () => {
   const [filterNodes, setFilterNodes] = useState<string[]>([]); // Store the filtered nodes

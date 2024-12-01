@@ -1,5 +1,5 @@
 import { Sparkles, Sword, TestTube } from "lucide-react";
-import CustomCard from "../components/ui/CustomCard";
+import CustomCard from "./appcomponents/CustomCard";
 
 export default function Home() {
   return (

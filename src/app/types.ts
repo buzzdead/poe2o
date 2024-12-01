@@ -14,3 +14,20 @@ export type ClassesWithAscendancy = {
     name: string
     ascendancies: Ascendancy[]
 }
+
+export type Gem = {
+        name: string;
+        properties: string[];
+        requirements: string[];
+        description: string;
+        explicit_mods: string[];
+        tags: string[];
+    } | {
+        name: string;
+        properties: string[];
+        requirements: string[];
+        description: null;
+        explicit_mods: string[];
+        tags: string[];
+    
+}

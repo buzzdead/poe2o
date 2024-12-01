@@ -433,6 +433,17 @@
             "category": "notable"
         },
         {
+            "id": "N49",
+            "x": 0.4709090909090909,
+            "y": 0.17283519553072627,
+            "name": "Crushing Storms",
+            "stats": [
+                "16% increased Elemental Damage",
+                "Damage Penetrates 5% Elemental Resistances"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N54",
             "x": 0.796,
             "y": 0.1787709497206704,
@@ -487,6 +498,18 @@
             "category": "notable"
         },
         {
+            "id": "N88",
+            "x": 0.38072727272727275,
+            "y": 0.24022346368715083,
+            "name": "Explosive Impact",
+            "stats": [
+                "15% increased Area of Effect",
+                "Burning Ennemies you kill have 5% chance to Explode, dealing a tenth of their maximum Life as",
+                "Fire Damage"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N99",
             "x": 0.43672727272727274,
             "y": 0.25,
@@ -494,6 +517,26 @@
             "stats": [
                 "40% increased maximum Energy Shield",
                 "10% reduced maximum Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N100",
+            "x": 0.4949090909090909,
+            "y": 0.25314245810055863,
+            "name": "Mana Bloom",
+            "stats": [
+                "25% increased maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N101",
+            "x": 0.509090909090909,
+            "y": 0.25314245810055863,
+            "name": "Arcane Blossom",
+            "stats": [
+                "16% increased Mana Recovery rate"
             ],
             "category": "notable"
         },
@@ -598,6 +641,16 @@
             "category": "notable"
         },
         {
+            "id": "N132",
+            "x": 0.4203636363636364,
+            "y": 0.295391061452514,
+            "name": "Exploit the Elements",
+            "stats": [
+                "40% increased Damage with Hits agains Enemies affected by Elemental Ailments"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N136",
             "x": 0.08509090909090909,
             "y": 0.30272346368715086,
@@ -650,6 +703,27 @@
             "category": "notable"
         },
         {
+            "id": "N156",
+            "x": 0.5018181818181818,
+            "y": 0.3369413407821229,
+            "name": "Critical Overload",
+            "stats": [
+                "10% increased Critical Hit Chance for Spells",
+                "15% increased Spell Damage if you've dealt a Critical Strike Recently"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N157",
+            "x": 0.7530909090909091,
+            "y": 0.3369413407821229,
+            "name": "Poison Damage Notable",
+            "stats": [
+                "25% increased Effect of Poison"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N158",
             "x": 0.14654545454545453,
             "y": 0.33833798882681565,
@@ -657,6 +731,16 @@
             "stats": [
                 "5% reduced Movement Speed",
                 "Regenerate 2% of Life per second while stationary"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N161",
+            "x": 0.7505454545454545,
+            "y": 0.3460195530726257,
+            "name": "Darkness",
+            "stats": [
+                "25% increased Chaos Damage"
             ],
             "category": "notable"
         },
@@ -705,6 +789,17 @@
             "category": "notable"
         },
         {
+            "id": "N172",
+            "x": 0.476,
+            "y": 0.35614525139664804,
+            "name": "Jagged Shards",
+            "stats": [
+                "15% increased Critical Hit Chance for Spells",
+                "18% increased Physical Damage"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N174",
             "x": 0.5141818181818182,
             "y": 0.35614525139664804,
@@ -738,6 +833,16 @@
             "category": "notable"
         },
         {
+            "id": "N178",
+            "x": 0.7094545454545454,
+            "y": 0.3610335195530726,
+            "name": "Spell Haste",
+            "stats": [
+                "10% increased Cast Speed"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N179",
             "x": 0.521090909090909,
             "y": 0.36277932960893855,
@@ -745,6 +850,16 @@
             "stats": [
                 "+20 to maximum Mana",
                 "6% increased maximum Mana"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N181",
+            "x": 0.7189090909090909,
+            "y": 0.3634776536312849,
+            "name": "Spellblade",
+            "stats": [
+                "32% increased Spell Damage"
             ],
             "category": "notable"
         },
@@ -778,6 +893,26 @@
             "stats": [
                 "10% increased Cast Speed",
                 "+7% to Chaos Resistance"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N189",
+            "x": 0.7687272727272727,
+            "y": 0.37604748603351956,
+            "name": "Immortal Infamy",
+            "stats": [
+                "Recover 2% of Life on Kill"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N192",
+            "x": 0.7789090909090909,
+            "y": 0.378840782122905,
+            "name": "Immortal Thirst",
+            "stats": [
+                "25% increased ammount of Mana Leeched"
             ],
             "category": "notable"
         },
@@ -866,6 +1001,28 @@
             "category": "notable"
         },
         {
+            "id": "N206",
+            "x": 0.48254545454545456,
+            "y": 0.39001396648044695,
+            "name": "Raw Destruction",
+            "stats": [
+                "16% increased Spell Damage",
+                "Minions deal 16% increased Damage",
+                "+10 to Intelligence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N208",
+            "x": 0.7367272727272727,
+            "y": 0.39385474860335196,
+            "name": "Killer Instinct",
+            "stats": [
+                "25% increased Attack Damage"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N210",
             "x": 0.13090909090909092,
             "y": 0.3959497206703911,
@@ -897,10 +1054,20 @@
             "category": "notable"
         },
         {
+            "id": "N214",
+            "x": 0.7341818181818182,
+            "y": 0.4032821229050279,
+            "name": "Tenfold Attack",
+            "stats": [
+                "10% increased Attack speed"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N216",
             "x": 0.598909090909091,
             "y": 0.4106145251396648,
-            "name": "N216 - Title Missing",
+            "name": "Resonating Impact",
             "stats": [
                 "15% increased Area of Effect for Staff Attacks"
             ],
@@ -1168,12 +1335,32 @@
             "category": "notable"
         },
         {
+            "id": "N263",
+            "x": 0.848,
+            "y": 0.4727653631284916,
+            "name": "Accuracy",
+            "stats": [
+                "10% increased Global Accuracy Rating"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N264",
             "x": 0.8665454545454545,
             "y": 0.4727653631284916,
             "name": "Serrated Edges",
             "stats": [
                 "30% increased Attack Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N268",
+            "x": 0.9487272727272728,
+            "y": 0.4762569832402235,
+            "name": "Martial Artistry",
+            "stats": [
+                "+25% to Critical Strike Multiplier with Staves"
             ],
             "category": "notable"
         },
@@ -1331,8 +1518,8 @@
             "y": 0.5408519553072626,
             "name": "Honed Instincts",
             "stats": [
+                "8% increased Projectile Seed",
                 "8% increased Attack Speed",
-                "6% increased Global Accuracy Rating",
                 "+10 to Dexterity"
             ],
             "category": "notable"
@@ -2434,6 +2621,16 @@
             "category": "notable"
         },
         {
+            "id": "N507",
+            "x": 0.5701818181818182,
+            "y": 0.7932960893854749,
+            "name": "Volatile Grenades",
+            "stats": [
+                "25% reduced Grenade Duration"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N511",
             "x": 0.72,
             "y": 0.8093575418994413,
@@ -2702,6 +2899,17 @@
             "category": "notable"
         },
         {
+            "id": "N558",
+            "x": 0.5850909090909091,
+            "y": 0.9196927374301676,
+            "name": "Full Salvo",
+            "stats": [
+                "25% Increased Damage with Crossbows for each type of Ammunition fired in the past 10",
+                "secondes"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N559",
             "x": 0.3618181818181818,
             "y": 0.928072625698324,
@@ -2877,6 +3085,26 @@
             "category": "notable"
         },
         {
+            "id": "N577",
+            "x": 0.9575181818181818,
+            "y": 0.4519195530726257,
+            "name": "Quaterstaff Speed Notable",
+            "stats": [
+                "10% increased Attack Speed with Staves"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N578",
+            "x": 0.9630181818181818,
+            "y": 0.4341195530726257,
+            "name": "Quarterstaff Damage Notable",
+            "stats": [
+                "25% increased Damage with Staves"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N582",
             "x": 0.12454545454545456,
             "y": 0.5912290502793296,
@@ -2988,12 +3216,1315 @@
             "category": "smalls"
         },
         {
+            "id": "S57",
+            "x": 0.3789090909090909,
+            "y": 0.11208100558659218,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S58",
+            "x": 0.4203636363636364,
+            "y": 0.11243016759776536,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S59",
+            "x": 0.4552727272727273,
+            "y": 0.11243016759776536,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S60",
+            "x": 0.548,
+            "y": 0.11243016759776536,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S61",
+            "x": 0.5847272727272728,
+            "y": 0.11243016759776536,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S62",
+            "x": 0.6498181818181819,
+            "y": 0.11452513966480447,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S77",
+            "x": 0.3370909090909091,
+            "y": 0.1270949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S80",
+            "x": 0.6847272727272727,
+            "y": 0.12988826815642457,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S91",
+            "x": 0.5018181818181818,
+            "y": 0.13582402234636873,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S95",
+            "x": 0.4389090909090909,
+            "y": 0.13722067039106145,
+            "name": "Physical Damage",
+            "stats": [
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S99",
+            "x": 0.42727272727272725,
+            "y": 0.13966480446927373,
+            "name": "Overwhelm Physical",
+            "stats": [
+                "Overwhelm 5% Physical Damage Reduction"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S113",
+            "x": 0.43636363636363634,
+            "y": 0.14804469273743018,
+            "name": "Physical Damage",
+            "stats": [
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S117",
+            "x": 0.3930909090909091,
+            "y": 0.15048882681564246,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S119",
+            "x": 0.42872727272727273,
+            "y": 0.15258379888268156,
+            "name": "Physical Damage",
+            "stats": [
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S123",
+            "x": 0.41818181818181815,
+            "y": 0.15677374301675978,
+            "name": "Physical Damage",
+            "stats": [
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S136",
+            "x": 0.6305454545454545,
+            "y": 0.16445530726256982,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S138",
+            "x": 0.4087272727272727,
+            "y": 0.16550279329608938,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S140",
+            "x": 0.4592727272727273,
+            "y": 0.16689944134078213,
+            "name": "Elemental Damage",
+            "stats": [
+                "10% increased Elemental Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S141",
+            "x": 0.4818181818181818,
+            "y": 0.16689944134078213,
+            "name": "Elemental Damage",
+            "stats": [
+                "10% increased Elemental Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S144",
+            "x": 0.5018181818181818,
+            "y": 0.16934357541899442,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S154",
+            "x": 0.25381818181818183,
+            "y": 0.174231843575419,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S157",
+            "x": 0.752,
+            "y": 0.17667597765363127,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S162",
+            "x": 0.6974545454545454,
+            "y": 0.1787709497206704,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S174",
+            "x": 0.30872727272727274,
+            "y": 0.18505586592178772,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S179",
+            "x": 0.47054545454545454,
+            "y": 0.1857541899441341,
+            "name": "Elemental Damage",
+            "stats": [
+                "10% increased Elemental Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S202",
+            "x": 0.2250909090909091,
+            "y": 0.20216480446927373,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S203",
+            "x": 0.31927272727272726,
+            "y": 0.20251396648044692,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S204",
+            "x": 0.47054545454545454,
+            "y": 0.20251396648044692,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S205",
+            "x": 0.6298181818181818,
+            "y": 0.20251396648044692,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S208",
+            "x": 0.36072727272727273,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S209",
+            "x": 0.38545454545454544,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S210",
+            "x": 0.4410909090909091,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S211",
+            "x": 0.5018181818181818,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S212",
+            "x": 0.5214545454545455,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S213",
+            "x": 0.5436363636363636,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S214",
+            "x": 0.6050909090909091,
+            "y": 0.2028631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S215",
+            "x": 0.6825454545454546,
+            "y": 0.20391061452513967,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S219",
+            "x": 0.7814545454545454,
+            "y": 0.20600558659217877,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S237",
+            "x": 0.46145454545454545,
+            "y": 0.21997206703910616,
+            "name": "Chaos Damage",
+            "stats": [
+                "10% increased Chaos Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S255",
+            "x": 0.6694545454545454,
+            "y": 0.22486033519553073,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S260",
+            "x": 0.33454545454545453,
+            "y": 0.2276536312849162,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S263",
+            "x": 0.5018181818181818,
+            "y": 0.22905027932960895,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S285",
+            "x": 0.8112727272727273,
+            "y": 0.2346368715083799,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S296",
+            "x": 0.18436363636363637,
+            "y": 0.24231843575418993,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S303",
+            "x": 0.6563636363636364,
+            "y": 0.24720670391061453,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S307",
+            "x": 0.31236363636363634,
+            "y": 0.24895251396648044,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S311",
+            "x": 0.7141818181818181,
+            "y": 0.24930167597765363,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S322",
+            "x": 0.34945454545454546,
+            "y": 0.25174581005586594,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S331",
+            "x": 0.5476363636363636,
+            "y": 0.25803072625698326,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S340",
+            "x": 0.29854545454545456,
+            "y": 0.26256983240223464,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S348",
+            "x": 0.8425454545454546,
+            "y": 0.26466480446927376,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S352",
+            "x": 0.7276363636363636,
+            "y": 0.267108938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S354",
+            "x": 0.15745454545454546,
+            "y": 0.2678072625698324,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S362",
+            "x": 0.3410909090909091,
+            "y": 0.27129888268156427,
+            "name": "Minion Attack and Cast Speed",
+            "stats": [
+                "Minions have 4% increased Attack and Cast Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S363",
+            "x": 0.6407272727272727,
+            "y": 0.27304469273743015,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S369",
+            "x": 0.3458181818181818,
+            "y": 0.27583798882681565,
+            "name": "Minion Attack and Cast Speed",
+            "stats": [
+                "Minions have 4% increased Attack and Cast Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S370",
+            "x": 0.3643636363636364,
+            "y": 0.27583798882681565,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S374",
+            "x": 0.5018181818181818,
+            "y": 0.27967877094972066,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S385",
+            "x": 0.34763636363636363,
+            "y": 0.28212290502793297,
+            "name": "Minion Attack and Cast Speed",
+            "stats": [
+                "Minions have 4% increased Attack and Cast Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S410",
+            "x": 0.45127272727272727,
+            "y": 0.2950418994413408,
+            "name": "Cold Penetration",
+            "stats": [
+                "Damage Penetrates 4% Cold Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S412",
+            "x": 0.46436363636363637,
+            "y": 0.2950418994413408,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S413",
+            "x": 0.5432727272727272,
+            "y": 0.2950418994413408,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S414",
+            "x": 0.5018181818181818,
+            "y": 0.295391061452514,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S428",
+            "x": 0.6247272727272727,
+            "y": 0.29993016759776536,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S430",
+            "x": 0.468,
+            "y": 0.3009776536312849,
+            "name": "Fire Penetration",
+            "stats": [
+                "Damage Penetrates 4% Fire Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S431",
+            "x": 0.37963636363636366,
+            "y": 0.3013268156424581,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S432",
+            "x": 0.41563636363636364,
+            "y": 0.30272346368715086,
+            "name": "Damage against Ailments",
+            "stats": [
+                "10% increased Damage with Hits against Enemies affected by Elemental Ailments"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S447",
+            "x": 0.25018181818181817,
+            "y": 0.308659217877095,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S448",
+            "x": 0.41709090909090907,
+            "y": 0.3090083798882682,
+            "name": "Damage against Ailments",
+            "stats": [
+                "10% increased Damage with Hits against Enemies affected by Elemental Ailments"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S456",
+            "x": 0.15527272727272728,
+            "y": 0.3121508379888268,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S461",
+            "x": 0.7272727272727273,
+            "y": 0.316340782122905,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S472",
+            "x": 0.4203636363636364,
+            "y": 0.3226256983240223,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S473",
+            "x": 0.5018181818181818,
+            "y": 0.32437150837988826,
+            "name": "Spell Critical Damage",
+            "stats": [
+                "10% increased Critical Spell Damage Bonus"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S474",
+            "x": 0.17745454545454545,
+            "y": 0.32472067039106145,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S478",
+            "x": 0.3952727272727273,
+            "y": 0.325768156424581,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S479",
+            "x": 0.8225454545454546,
+            "y": 0.3261173184357542,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S481",
+            "x": 0.23127272727272727,
+            "y": 0.3264664804469274,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S483",
+            "x": 0.44545454545454544,
+            "y": 0.3268156424581006,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S484",
+            "x": 0.5207272727272727,
+            "y": 0.3268156424581006,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S485",
+            "x": 0.5629090909090909,
+            "y": 0.3268156424581006,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S486",
+            "x": 0.5847272727272728,
+            "y": 0.3268156424581006,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S487",
+            "x": 0.608,
+            "y": 0.32716480446927376,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S489",
+            "x": 0.4829090909090909,
+            "y": 0.32751396648044695,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S500",
+            "x": 0.11709090909090909,
+            "y": 0.3344972067039106,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S506",
+            "x": 0.49527272727272725,
+            "y": 0.3369413407821229,
+            "name": "Spell Critical Chance",
+            "stats": [
+                "8% increased Critical Hit Chance for Spells"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S507",
+            "x": 0.5083636363636364,
+            "y": 0.3369413407821229,
+            "name": "Spell Critical Damage",
+            "stats": [
+                "10% increased Critical Spell Damage Bonus"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S508",
+            "x": 0.56,
+            "y": 0.3372905027932961,
+            "name": "Energy Shield",
+            "stats": [
+                "10% increased Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S510",
+            "x": 0.4829090909090909,
+            "y": 0.33798882681564246,
+            "name": "Spell and Minion Damage",
+            "stats": [
+                "8% increased Spell Damage",
+                "Minions deal 8% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S513",
+            "x": 0.62,
+            "y": 0.33833798882681565,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S522",
+            "x": 0.7272727272727273,
+            "y": 0.34252793296089384,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S528",
+            "x": 0.21309090909090908,
+            "y": 0.3439245810055866,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S531",
+            "x": 0.41345454545454546,
+            "y": 0.3442737430167598,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S532",
+            "x": 0.38,
+            "y": 0.34497206703910616,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S546",
+            "x": 0.5661818181818182,
+            "y": 0.3512569832402235,
+            "name": "Energy Shield",
+            "stats": [
+                "10% increased Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S553",
+            "x": 0.6243636363636363,
+            "y": 0.3543994413407821,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S562",
+            "x": 0.8858,
+            "y": 0.3317,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S566",
+            "x": 0.5887272727272728,
+            "y": 0.35963687150837986,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S572",
+            "x": 0.4698181818181818,
+            "y": 0.36277932960893855,
+            "name": "Physical Damage",
+            "stats": [
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S580",
+            "x": 0.21309090909090908,
+            "y": 0.3648743016759777,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S591",
+            "x": 0.41745454545454547,
+            "y": 0.36976256983240224,
+            "name": "EnergyShield and Armour",
+            "stats": [
+                "8% increased Armour",
+                "8% increased maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S594",
+            "x": 0.744,
+            "y": 0.36976256983240224,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S598",
+            "x": 0.7534545454545455,
+            "y": 0.3722067039106145,
+            "name": "Life on Kill",
+            "stats": [
+                "Recpver 1% Life on Kill"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S600",
+            "x": 0.376,
+            "y": 0.3725558659217877,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S602",
+            "x": 0.4309090909090909,
+            "y": 0.3729050279329609,
+            "name": "Chaos Damage",
+            "stats": [
+                "10% increased Chaos Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S604",
+            "x": 0.268,
+            "y": 0.3746508379888268,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S610",
+            "x": 0.10545454545454545,
+            "y": 0.37639664804469275,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S612",
+            "x": 0.89945,
+            "y": 0.38125,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S615",
+            "x": 0.48254545454545456,
+            "y": 0.3791899441340782,
+            "name": "Spell and Minion Damage",
+            "stats": [
+                "8% increased Spell Damage",
+                "Minions deal 8% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S618",
+            "x": 0.4501818181818182,
+            "y": 0.37988826815642457,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S619",
+            "x": 0.5527272727272727,
+            "y": 0.37988826815642457,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S620",
+            "x": 0.9113,
+            "y": 0.4238,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S625",
+            "x": 0.21309090909090908,
+            "y": 0.38303072625698326,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S634",
+            "x": 0.7152727272727273,
+            "y": 0.3858240223463687,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S651",
+            "x": 0.4338181818181818,
+            "y": 0.39071229050279327,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S652",
+            "x": 0.4578181818181818,
+            "y": 0.39071229050279327,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S653",
+            "x": 0.544,
+            "y": 0.39106145251396646,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S654",
+            "x": 0.5687272727272727,
+            "y": 0.392108938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S656",
+            "x": 0.496,
+            "y": 0.3928072625698324,
+            "name": "Mana Regeneration",
+            "stats": [
+                "10% increased Mana Regeneration Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S658",
+            "x": 0.3014545454545455,
+            "y": 0.3931564245810056,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S663",
+            "x": 0.4469090909090909,
+            "y": 0.3959497206703911,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S666",
+            "x": 0.7603636363636364,
+            "y": 0.3969972067039106,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S667",
+            "x": 0.5596363636363636,
+            "y": 0.39769553072625696,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S670",
+            "x": 0.6167272727272727,
+            "y": 0.3997905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S672",
+            "x": 0.37272727272727274,
+            "y": 0.40083798882681565,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S674",
+            "x": 0.5145454545454545,
+            "y": 0.40118715083798884,
+            "name": "Mana",
+            "stats": [
+                "8% increased maximum Mana"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S675",
+            "x": 0.7436363636363637,
+            "y": 0.40118715083798884,
+            "name": "Attack Damage",
+            "stats": [
+                "10% increased Attack Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S677",
+            "x": 0.6847272727272727,
+            "y": 0.4022346368715084,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S678",
             "x": 0.5207272727272727,
             "y": 0.4025837988826816,
             "name": "Energy Shield Delay",
             "stats": [
                 "10% faster start of Energy Shield recharge"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S679",
+            "x": 0.568,
+            "y": 0.4025837988826816,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S682",
+            "x": 0.4338181818181818,
+            "y": 0.4039804469273743,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S685",
+            "x": 0.3890909090909091,
+            "y": 0.40537709497206703,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
             ],
             "category": "smalls"
         },
@@ -3008,12 +4539,72 @@
             "category": "smalls"
         },
         {
+            "id": "S691",
+            "x": 0.472,
+            "y": 0.4085195530726257,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S693",
             "x": 0.5221818181818182,
             "y": 0.4085195530726257,
             "name": "Energy Shield Delay",
             "stats": [
                 "10% faster start of Energy Shield Recharge"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S694",
+            "x": 0.5312727272727272,
+            "y": 0.4085195530726257,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S700",
+            "x": 0.42145454545454547,
+            "y": 0.41131284916201116,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S704",
+            "x": 0.09563636363636363,
+            "y": 0.4134078212290503,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S705",
+            "x": 0.6309090909090909,
+            "y": 0.4134078212290503,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S708",
+            "x": 0.730909090909091,
+            "y": 0.4155027932960894,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack speed"
             ],
             "category": "smalls"
         },
@@ -3028,12 +4619,732 @@
             "category": "smalls"
         },
         {
+            "id": "S711",
+            "x": 0.344,
+            "y": 0.4165502793296089,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S713",
+            "x": 0.5818181818181818,
+            "y": 0.4165502793296089,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S715",
+            "x": 0.7869090909090909,
+            "y": 0.4165502793296089,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S722",
+            "x": 0.21309090909090908,
+            "y": 0.41899441340782123,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S727",
+            "x": 0.6527272727272727,
+            "y": 0.4200418994413408,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S732",
+            "x": 0.48254545454545456,
+            "y": 0.42283519553072624,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S733",
+            "x": 0.52,
+            "y": 0.42283519553072624,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S753",
+            "x": 0.5738181818181818,
+            "y": 0.4329608938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S755",
+            "x": 0.4309090909090909,
+            "y": 0.4333100558659218,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S770",
             "x": 0.5069090909090909,
             "y": 0.4399441340782123,
             "name": "Energy Shield",
             "stats": [
                 "+10 to maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S774",
+            "x": 0.6476363636363637,
+            "y": 0.44064245810055863,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S779",
+            "x": 0.5516363636363636,
+            "y": 0.44518156424581007,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S785",
+            "x": 0.43527272727272726,
+            "y": 0.4465782122905028,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S789",
+            "x": 0.344,
+            "y": 0.4483240223463687,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S818",
+            "x": 0.6523636363636364,
+            "y": 0.45914804469273746,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S820",
+            "x": 0.356,
+            "y": 0.4598463687150838,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S827",
+            "x": 0.18727272727272729,
+            "y": 0.4615921787709497,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S828",
+            "x": 0.08254545454545455,
+            "y": 0.4622905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S838",
+            "x": 0.9214545454545454,
+            "y": 0.4643854748603352,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S839",
+            "x": 0.953801382,
+            "y": 0.4643854748603352,
+            "name": "Quarterstaff Speed",
+            "stats": [
+                "4% increased Attack Speed with Staves"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S844",
+            "x": 0.8152727272727273,
+            "y": 0.4661312849162011,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S869",
+            "x": 0.316,
+            "y": 0.4762569832402235,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S872",
+            "x": 0.8603636363636363,
+            "y": 0.4762569832402235,
+            "name": "Attack Damage",
+            "stats": [
+                "10% increased Attack Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S873",
+            "x": 0.6767272727272727,
+            "y": 0.47660614525139666,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S876",
+            "x": 0.4163636363636364,
+            "y": 0.4780027932960894,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S877",
+            "x": 0.8516363636363636,
+            "y": 0.47835195530726254,
+            "name": "Attack Damage",
+            "stats": [
+                "10% increased Attack Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S880",
+            "x": 0.6018181818181818,
+            "y": 0.4793994413407821,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S882",
+            "x": 0.4021818181818182,
+            "y": 0.48079608938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S883",
+            "x": 0.6207272727272727,
+            "y": 0.48079608938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S888",
+            "x": 0.8152727272727273,
+            "y": 0.4821927374301676,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S891",
+            "x": 0.37781818181818183,
+            "y": 0.48324022346368717,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S896",
+            "x": 0.862909090909091,
+            "y": 0.48463687150837986,
+            "name": "Mana Leech",
+            "stats": [
+                "10% increased amount of Mana Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S903",
+            "x": 0.8538181818181818,
+            "y": 0.4870810055865922,
+            "name": "Mana Leech",
+            "stats": [
+                "10% increased amount of Mana Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S907",
+            "x": 0.30363636363636365,
+            "y": 0.48812849162011174,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S908",
+            "x": 0.6887272727272727,
+            "y": 0.48812849162011174,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S916",
+            "x": 0.848,
+            "y": 0.49057262569832405,
+            "name": "Attack Damage",
+            "stats": [
+                "10% increased Attack Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S921",
+            "x": 0.5796363636363636,
+            "y": 0.49196927374301674,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S922",
+            "x": 0.6305454545454545,
+            "y": 0.49196927374301674,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S931",
+            "x": 0.38,
+            "y": 0.49511173184357543,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S939",
+            "x": 0.19927272727272727,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S940",
+            "x": 0.29927272727272725,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S941",
+            "x": 0.3327272727272727,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S942",
+            "x": 0.3563636363636364,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S943",
+            "x": 0.653090909090909,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S944",
+            "x": 0.6730909090909091,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S945",
+            "x": 0.6930909090909091,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S946",
+            "x": 0.7232727272727273,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S947",
+            "x": 0.7552727272727273,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S948",
+            "x": 0.78,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S949",
+            "x": 0.8152727272727273,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S950",
+            "x": 0.856,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S951",
+            "x": 0.8883636363636364,
+            "y": 0.5038407821229051,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S952",
+            "x": 0.16072727272727272,
+            "y": 0.5041899441340782,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S953",
+            "x": 0.22436363636363638,
+            "y": 0.5041899441340782,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S954",
+            "x": 0.2650909090909091,
+            "y": 0.5041899441340782,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S955",
+            "x": 0.09454545454545454,
+            "y": 0.5045391061452514,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S956",
+            "x": 0.12654545454545454,
+            "y": 0.5045391061452514,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S962",
+            "x": 0.38,
+            "y": 0.5129189944134078,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S966",
+            "x": 0.6334545454545455,
+            "y": 0.515013966480447,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S976",
+            "x": 0.30363636363636365,
+            "y": 0.5199022346368715,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S984",
+            "x": 0.16072727272727272,
+            "y": 0.5233938547486033,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S985",
+            "x": 0.3770909090909091,
+            "y": 0.5247905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S986",
+            "x": 0.5854545454545454,
+            "y": 0.5247905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S987",
+            "x": 0.6047272727272728,
+            "y": 0.5247905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S988",
+            "x": 0.6247272727272727,
+            "y": 0.5247905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S990",
+            "x": 0.4021818181818182,
+            "y": 0.5251396648044693,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S995",
+            "x": 0.41709090909090907,
+            "y": 0.5268854748603352,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1004",
+            "x": 0.31563636363636366,
+            "y": 0.5314245810055865,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1006",
+            "x": 0.6767272727272727,
+            "y": 0.5314245810055865,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1009",
+            "x": 0.3483636363636364,
+            "y": 0.5328212290502793,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1017",
+            "x": 0.5901818181818181,
+            "y": 0.535963687150838,
+            "name": "Projectile Damage",
+            "stats": [
+                "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1028",
+            "x": 0.633090909090909,
+            "y": 0.5384078212290503,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1030",
+            "x": 0.08218181818181818,
+            "y": 0.5394553072625698,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
             ],
             "category": "smalls"
         },
@@ -3048,12 +5359,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1037",
+            "x": 0.16036363636363637,
+            "y": 0.5412011173184358,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1059",
             "x": 0.6163636363636363,
             "y": 0.5478351955307262,
             "name": "Projectile Damage",
             "stats": [
                 "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1061",
+            "x": 0.8152727272727273,
+            "y": 0.5478351955307262,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1064",
+            "x": 0.9207272727272727,
+            "y": 0.5478351955307262,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
             ],
             "category": "smalls"
         },
@@ -3068,12 +5409,72 @@
             "category": "smalls"
         },
         {
+            "id": "S1101",
+            "x": 0.3367272727272727,
+            "y": 0.5614525139664804,
+            "name": "Melee Damage",
+            "stats": [
+                "6% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1103",
             "x": 0.5749090909090909,
             "y": 0.5618016759776536,
             "name": "Movement Speed",
             "stats": [
                 "2% increased Movement Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1104",
+            "x": 0.3301818181818182,
+            "y": 0.5628491620111732,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1108",
+            "x": 0.4381818181818182,
+            "y": 0.5628491620111732,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1112",
+            "x": 0.5621818181818182,
+            "y": 0.5638966480446927,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1117",
+            "x": 0.3483636363636364,
+            "y": 0.5673882681564246,
+            "name": "Axe Damage",
+            "stats": [
+                "10% increased Damage with Axes"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1127",
+            "x": 0.6538181818181819,
+            "y": 0.5715782122905028,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
             ],
             "category": "smalls"
         },
@@ -3089,6 +5490,36 @@
             "category": "smalls"
         },
         {
+            "id": "S1132",
+            "x": 0.43272727272727274,
+            "y": 0.575768156424581,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1142",
+            "x": 0.572,
+            "y": 0.5799581005586593,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1147",
+            "x": 0.8152727272727273,
+            "y": 0.5824022346368715,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1148",
             "x": 0.6178181818181818,
             "y": 0.5831005586592178,
@@ -3096,6 +5527,766 @@
             "stats": [
                 "8% increased Stun Buildup",
                 "8% increased Freeze Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1149",
+            "x": 0.09454545454545454,
+            "y": 0.5841480446927374,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1152",
+            "x": 0.9105454545454545,
+            "y": 0.5848463687150838,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1174",
+            "x": 0.5254545454545455,
+            "y": 0.5942737430167597,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1176",
+            "x": 0.47709090909090907,
+            "y": 0.5946229050279329,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1180",
+            "x": 0.3352727272727273,
+            "y": 0.5963687150837989,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1181",
+            "x": 0.5818181818181818,
+            "y": 0.5963687150837989,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1183",
+            "x": 0.4203636363636364,
+            "y": 0.596717877094972,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1184",
+            "x": 0.5985454545454545,
+            "y": 0.596717877094972,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1186",
+            "x": 0.6385454545454545,
+            "y": 0.5970670391061452,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1188",
+            "x": 0.6694545454545454,
+            "y": 0.5974162011173184,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1193",
+            "x": 0.5189090909090909,
+            "y": 0.5998603351955307,
+            "name": "Projectile Damage",
+            "stats": [
+                "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1197",
+            "x": 0.19636363636363635,
+            "y": 0.6005586592178771,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1201",
+            "x": 0.4658181818181818,
+            "y": 0.6030027932960894,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1202",
+            "x": 0.5367272727272727,
+            "y": 0.6030027932960894,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1214",
+            "x": 0.572,
+            "y": 0.6089385474860335,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1228",
+            "x": 0.6956363636363636,
+            "y": 0.6120810055865922,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1239",
+            "x": 0.5607272727272727,
+            "y": 0.615572625698324,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1241",
+            "x": 0.39890909090909094,
+            "y": 0.6169692737430168,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1243",
+            "x": 0.36254545454545456,
+            "y": 0.61731843575419,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1244",
+            "x": 0.544,
+            "y": 0.6176675977653632,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1247",
+            "x": 0.45854545454545453,
+            "y": 0.6180167597765364,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1254",
+            "x": 0.2927272727272727,
+            "y": 0.6197625698324022,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1255",
+            "x": 0.4123636363636364,
+            "y": 0.6197625698324022,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1256",
+            "x": 0.6247272727272727,
+            "y": 0.6204608938547486,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1259",
+            "x": 0.9003636363636364,
+            "y": 0.6211592178770949,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1263",
+            "x": 0.20945454545454545,
+            "y": 0.6218575418994413,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1273",
+            "x": 0.7796363636363637,
+            "y": 0.6267458100558659,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1274",
+            "x": 0.7225454545454545,
+            "y": 0.6270949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1283",
+            "x": 0.5774545454545454,
+            "y": 0.6302374301675978,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1288",
+            "x": 0.4243636363636364,
+            "y": 0.6312849162011173,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1296",
+            "x": 0.10836363636363637,
+            "y": 0.6323324022346368,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1306",
+            "x": 0.26654545454545453,
+            "y": 0.634427374301676,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1308",
+            "x": 0.37018181818181817,
+            "y": 0.6354748603351955,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1311",
+            "x": 0.4410909090909091,
+            "y": 0.6358240223463687,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1324",
+            "x": 0.7723636363636364,
+            "y": 0.640013966480447,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1331",
+            "x": 0.610909090909091,
+            "y": 0.6435055865921788,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1341",
+            "x": 0.4149090909090909,
+            "y": 0.647695530726257,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1342",
+            "x": 0.5876363636363636,
+            "y": 0.647695530726257,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1355",
+            "x": 0.7654545454545455,
+            "y": 0.6508379888268156,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1358",
+            "x": 0.38545454545454544,
+            "y": 0.6536312849162011,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1362",
+            "x": 0.2290909090909091,
+            "y": 0.6550279329608939,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1367",
+            "x": 0.5330909090909091,
+            "y": 0.6564245810055865,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1370",
+            "x": 0.4698181818181818,
+            "y": 0.6571229050279329,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1379",
+            "x": 0.7836363636363637,
+            "y": 0.660963687150838,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1383",
+            "x": 0.7592727272727273,
+            "y": 0.6616620111731844,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1392",
+            "x": 0.5978181818181818,
+            "y": 0.6651536312849162,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1398",
+            "x": 0.8872727272727273,
+            "y": 0.6672486033519553,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1404",
+            "x": 0.4010909090909091,
+            "y": 0.6707402234636871,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1409",
+            "x": 0.5694545454545454,
+            "y": 0.6721368715083799,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1410",
+            "x": 0.12036363636363637,
+            "y": 0.6731843575418994,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1411",
+            "x": 0.19672727272727272,
+            "y": 0.6731843575418994,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1417",
+            "x": 0.42218181818181816,
+            "y": 0.6745810055865922,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1419",
+            "x": 0.7512727272727273,
+            "y": 0.6745810055865922,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1431",
+            "x": 0.448,
+            "y": 0.6787709497206704,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1432",
+            "x": 0.49272727272727274,
+            "y": 0.6787709497206704,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1433",
+            "x": 0.5098181818181818,
+            "y": 0.6791201117318436,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1434",
+            "x": 0.5407272727272727,
+            "y": 0.6791201117318436,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1457",
+            "x": 0.8338181818181818,
+            "y": 0.6885474860335196,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1458",
+            "x": 0.24945454545454546,
+            "y": 0.6888966480446927,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1473",
+            "x": 0.15854545454545454,
+            "y": 0.6937849162011173,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1488",
+            "x": 0.38472727272727275,
+            "y": 0.6976256983240223,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1495",
+            "x": 0.5014545454545455,
+            "y": 0.7011173184357542,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1502",
+            "x": 0.2581818181818182,
+            "y": 0.7039106145251397,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1511",
+            "x": 0.6225454545454545,
+            "y": 0.7056564245810056,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1534",
+            "x": 0.372,
+            "y": 0.7189245810055865,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1558",
+            "x": 0.7203636363636363,
+            "y": 0.7311452513966481,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1564",
+            "x": 0.8501818181818181,
+            "y": 0.7360335195530726,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1568",
+            "x": 0.5014545454545455,
+            "y": 0.7395251396648045,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1571",
+            "x": 0.16290909090909092,
+            "y": 0.7416201117318436,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1572",
+            "x": 0.35745454545454547,
+            "y": 0.74231843575419,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1583",
+            "x": 0.46545454545454545,
+            "y": 0.7451117318435754,
+            "name": "Grenade Cooldown Recovery Rate",
+            "stats": [
+                "15% increased Cooldown Recovery Rate for Grenade Skills"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1590",
+            "x": 0.6916363636363636,
+            "y": 0.7472067039106145,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1592",
+            "x": 0.29854545454545456,
+            "y": 0.7479050279329609,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1620",
+            "x": 0.32036363636363635,
+            "y": 0.7597765363128491,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1630",
+            "x": 0.8225454545454546,
+            "y": 0.7625698324022346,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1634",
+            "x": 0.6581818181818182,
+            "y": 0.7653631284916201,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
             ],
             "category": "smalls"
         },
@@ -3110,6 +6301,106 @@
             "category": "smalls"
         },
         {
+            "id": "S1645",
+            "x": 0.5010909090909091,
+            "y": 0.7688547486033519,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1648",
+            "x": 0.1938181818181818,
+            "y": 0.7712988826815642,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1649",
+            "x": 0.34145454545454546,
+            "y": 0.7712988826815642,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1681",
+            "x": 0.6236363636363637,
+            "y": 0.7849162011173184,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1682",
+            "x": 0.3690909090909091,
+            "y": 0.7866620111731844,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1689",
+            "x": 0.7930909090909091,
+            "y": 0.7908519553072626,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1698",
+            "x": 0.5996363636363636,
+            "y": 0.7981843575418994,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1702",
+            "x": 0.6785454545454546,
+            "y": 0.7995810055865922,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1707",
+            "x": 0.2250909090909091,
+            "y": 0.8020251396648045,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1713",
+            "x": 0.3981818181818182,
+            "y": 0.8027234636871509,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1716",
             "x": 0.36836363636363634,
             "y": 0.8044692737430168,
@@ -3120,12 +6411,223 @@
             "category": "smalls"
         },
         {
+            "id": "S1734",
+            "x": 0.4552727272727273,
+            "y": 0.8145949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1735",
+            "x": 0.4778181818181818,
+            "y": 0.8145949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1736",
+            "x": 0.5018181818181818,
+            "y": 0.8145949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1737",
+            "x": 0.525090909090909,
+            "y": 0.8145949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1738",
+            "x": 0.548,
+            "y": 0.8145949720670391,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1742",
+            "x": 0.31236363636363634,
+            "y": 0.8194832402234636,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1743",
             "x": 0.38836363636363636,
             "y": 0.8198324022346368,
             "name": "Stun Buildup",
             "stats": [
                 "15% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1744",
+            "x": 0.7625454545454545,
+            "y": 0.82018156424581,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1749",
+            "x": 0.6934545454545454,
+            "y": 0.8236731843575419,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1775",
+            "x": 0.2570909090909091,
+            "y": 0.8341480446927374,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1788",
+            "x": 0.29854545454545456,
+            "y": 0.8411312849162011,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1803",
+            "x": 0.5014545454545455,
+            "y": 0.8589385474860335,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1825",
+            "x": 0.6894545454545454,
+            "y": 0.875,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1837",
+            "x": 0.3341818181818182,
+            "y": 0.8833798882681564,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1838",
+            "x": 0.5014545454545455,
+            "y": 0.8847765363128491,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1844",
+            "x": 0.6494545454545455,
+            "y": 0.8921089385474861,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1855",
+            "x": 0.37163636363636365,
+            "y": 0.8997905027932961,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1867",
+            "x": 0.5472727272727272,
+            "y": 0.9120111731843575,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1868",
+            "x": 0.40145454545454545,
+            "y": 0.9123603351955307,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1869",
+            "x": 0.4476363636363636,
+            "y": 0.9123603351955307,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1870",
+            "x": 0.6021818181818182,
+            "y": 0.9123603351955307,
+            "name": "Attribute",
+            "stats": [
+                "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1915",
+            "x": 0.961804292,
+            "y": 0.446035627,
+            "name": "Quarterstaff Stun and Knockback",
+            "stats": [
+                "20% increased Stun Buildup",
+                "20% increased Knockback Distance"
             ],
             "category": "smalls"
         }

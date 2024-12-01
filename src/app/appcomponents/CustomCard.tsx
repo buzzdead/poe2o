@@ -1,7 +1,7 @@
 // components/CustomCard.tsx
 import { LucideIcon, ArrowRight } from "lucide-react";
-import { Card, CardHeader, CardTitle, CardContent } from "./card";
 import Link from "next/link";
+import { Card, CardHeader, CardTitle, CardContent } from "../../components/ui/card";
 
 type Theme = "blue" | "purple";
 
