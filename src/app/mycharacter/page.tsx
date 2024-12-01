@@ -16,25 +16,38 @@ import CustomCard from "../appcomponents/CustomCard";
 const MyCharacter = () => {
   const { characters, nodes } = useCharacterContext();
   const [stat, setStat] = useState<number>(0);
+  const [unknownNodes, setUnknownNodes] = useState(0)
   const [myNodes, setMyNodes] = useState<SkillNode[]>([]);
   useEffect(() => {
     let newStat = 0; // Temporary variable to calculate the stat increment
+    let un = 0;
     const myN: SkillNode[] = [];
     nodes.forEach((n) => {
       if (n.name === "Attribute") {
         // Check if the string contains exactly two digits
-        newStat += 10;
-      } else myN.push(n);
+        newStat += 1;
+      } 
+      else if (/^[NSK]\d/.test(n.name)) {
+        un += 1
+      }
+      else myN.push(n);
     });
     setStat(newStat); // Update the state with the calculated stat
+    setUnknownNodes(un)
     setMyNodes(myN);
   }, [nodes]);
   const renderStat = () => {
     if (!stat) return;
     return (
-      "Attribute x " + myNodes.length
+      "Attribute x " + stat
     );
   };
+  const renderUnknown = () => {
+    if(!unknownNodes) return;
+    return (
+      "Unknown nodes x " + unknownNodes
+    )
+  }
   return (
     <div className="flex justify-center">
       <div className="flex-col flex gap-5">
@@ -72,7 +85,12 @@ const MyCharacter = () => {
           </TabsContent>
           <TabsContent value="skilltree">
             <div className="flex flex-col gap-5 justify-center text-center p-5">
+              <div className="flex flex-col gap-5 text-accent-cold">
+                <div>
               {renderStat()}
+              </div>
+              {renderUnknown()}
+              </div>
               {myNodes.map((n) => (
                 <Tooltip key={n?.id} node={n}>
                   <div className="cursor-pointer text-accent-light hover:underline">
