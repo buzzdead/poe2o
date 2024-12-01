@@ -47,7 +47,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({ searchQuery, handleSea
   return (
     <div className="absolute top-4 left-4 z-10 w-full flex flex-col items-center select-none">
       {/* New row above the search input */}
-      <div className="absolute -top-5 w-1/6 text-sm text-gray-400 text-center">
+      <div className="absolute -top-5 w-2/6 text-sm text-gray-400 text-center">
         {/* Add your content here */}
         <span>Shift click to select all of same type, ctrl to auto select</span>
       </div>
