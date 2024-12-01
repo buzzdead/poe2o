@@ -133,7 +133,7 @@ export const GemsProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         setPage(1); // Reset page when filters change
       },
     }),
-    [page, displayedGems, filters, tagFilters, allGems.length, selectedGems, setSelectedGems]
+    [page, displayedGems, filters, tagFilters, allGems.length, selectedGems]
   );
 
   return isHydrated ? (
