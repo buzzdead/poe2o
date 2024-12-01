@@ -12,7 +12,7 @@ export const useNodeSearch = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setDebouncedQuery(searchQuery); // Set the debounced query after delay
-    }, 100); // Delay of 300ms (you can adjust this value as needed)
+    }, 300); // Delay of 300ms (you can adjust this value as needed)
 
     return () => clearTimeout(timeoutId); // Clean up the timeout on query change
   }, [searchQuery]); // This effect runs every time searchQuery changes
