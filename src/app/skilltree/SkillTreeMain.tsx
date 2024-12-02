@@ -34,7 +34,6 @@ const SkillTreeMain = () => {
 
   useEffect(() => {
     const targetElement = document.getElementById("target-div");
-    const scale = zoomRef?.current?.instance?.transformState?.scale || 1; 
 
     if (targetElement) {
       const rect = targetElement.getBoundingClientRect();
@@ -58,7 +57,7 @@ const SkillTreeMain = () => {
      
 
       {/* Pass the target position to CircleMenu */}
-      {targetPosition && <CircleMenu isOpen={isOpen} position={targetPosition} />}
+      {targetPosition && <CircleMenu setIsOpen={handleTargetClick} isOpen={isOpen} position={targetPosition} />}
 
       <TransformWrapper
         ref={zoomRef}

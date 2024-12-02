@@ -8,6 +8,7 @@ interface Props {
 }
 const SkillTreeImageComponent = ({setIsOpen}: Props) => {
   const { characters } = useCharacterContext()
+  
   const scale = 0.7
     const IMAGE_WIDTH = 2750; // Width of the large image
     const IMAGE_HEIGHT = 2864; // Height of the large image

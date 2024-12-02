@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCharacterContext } from "../context/CharContext";
 import classAscendancy from "../data/classAscendancy.json";
@@ -7,11 +7,12 @@ import { classes } from "../classes/page";
 interface Props {
   isOpen: boolean;
   position: { top: number; left: number };
+  setIsOpen: () => void
 }
 
 type Image = { name: string; src: string };
 
-const CircleMenu = ({ isOpen, position }: Props) => {
+const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   const { addCharacter, clearSkillTree } = useCharacterContext();
   const radius = 200; // Radius of the circle
   const images: Image[] = [
@@ -29,20 +30,8 @@ const CircleMenu = ({ isOpen, position }: Props) => {
     { name: "Witchhunter", src: "/ascendancy/witchhunter.png" },
   ];
 
-  // Internal state to manage visibility during transitions
-  const [showMenu, setShowMenu] = useState(isOpen);
 
-  useEffect(() => {
-    if (isOpen) {
-      setShowMenu(true); // Show the menu when isOpen becomes true
-    } else {
-      // Wait for the animation to finish before hiding the menu
-      const timeout = setTimeout(() => setShowMenu(false), 500); // Adjust timing to match animation
-      return () => clearTimeout(timeout);
-    }
-  }, [isOpen]);
-
-  const handleOnClick = ({ name, src }: Image) => {
+  const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
       for (const ascendancy of classData.ascendancies) {
         if (ascendancy.name.includes(name)) {
@@ -51,6 +40,7 @@ const CircleMenu = ({ isOpen, position }: Props) => {
           if (char) {
             addCharacter({ ...char, ascendancies: ascendancy });
             clearSkillTree();
+            setIsOpen()
           }
         }
       }
@@ -59,7 +49,7 @@ const CircleMenu = ({ isOpen, position }: Props) => {
 
   return (
     <AnimatePresence>
-      {showMenu && (
+      {isOpen && (
         <div
           style={{
             position: "absolute",
@@ -113,7 +103,7 @@ const CircleMenu = ({ isOpen, position }: Props) => {
                   borderRadius: "50%",
                   cursor: "pointer",
                 }}
-                onClick={() => handleOnClick(image)}
+                onClick={() => handleOnClick(image.name)}
               />
             );
           })}
