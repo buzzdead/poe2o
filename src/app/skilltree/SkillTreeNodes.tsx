@@ -9,6 +9,7 @@ interface Props {
   filterNodes: string[];
   searchQuery: string;
   size: string;
+  zoomRef: any
 }
 
 export const SkillTreeNodes = ({
@@ -16,6 +17,7 @@ export const SkillTreeNodes = ({
   filterNodes,
   searchQuery,
   size,
+  zoomRef
 }: Props) => {
   const [isCtrlDown, setIsCtrlDown] = useState(false);
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
@@ -45,52 +47,42 @@ export const SkillTreeNodes = ({
     };
   }, []);
   const showToolTip = () => {
+    const scale = zoomRef?.current?.instance?.transformState?.scale || 1; 
     const node = tooltip.node;
-    const { isRightSide, cursorXPercent } = tooltip;
-    const isStanceBreaker = node?.name === "Stance Breaker";
-
+    const { cursorXPercent, cursorYPercent } = tooltip;
+    const isRightSide = cursorXPercent > 0.5;
+    const isTopHalf = cursorYPercent < 0.5;
+    const tooltipScale = Math.min(Math.max(1 / scale, 0.5), 1);
+    // Left-right positioning: If it's on the right side, align the tooltip to the left, otherwise to the right
     const leftOffset = isRightSide
-      ? `${Math.min(cursorXPercent * 100 - 10, 95)}%` // Adjust left but keep within bounds
-      : `${Math.max(cursorXPercent * 100 + 10, 5)}%`; // Adjust right but keep within bounds
-
+      ? `${Math.min(cursorXPercent * 100 - 7.5 + scale)}%`
+      : `${Math.max(cursorXPercent * 100 + 7.5 - scale)}%`;
+  
+    // Top-bottom positioning: If it's on the top half, position it below the cursor, otherwise above
+    const topOffset = isTopHalf
+      ? `${Math.max(cursorYPercent * 100 + 2)}%`
+      : `${Math.min(cursorYPercent * 100 - 2)}%`;
+  
     return (
       <div
-        className="absolute bg-black/95 backdrop-blur-sm text-white p-4 rounded-lg flex flex-col z-50 pointer-events-none shadow-xl"
+        className="absolute bg-black/95 text-white p-4 rounded-lg flex flex-col z-50 pointer-events-none"
         style={{
           left: leftOffset,
-          top: `${node.y * 100 - (isStanceBreaker ? 5 : 0)}%`,
-          transform: "translate(-50%, -50%)",
-          maxWidth: "18rem", // Default width for desktops
-          boxShadow: `
-                0 0 0 1px rgba(16, 185, 129, 0.2),
-                0 0 0 2px rgba(16, 185, 129, 0.3),
-                0 0 0 4px rgba(16, 185, 129, 0.1),
-                0 0 20px 4px rgba(16, 185, 129, 0.1)
-              `,
+          top: topOffset,
+          transform: `translate(-50%, -50%) scale(${tooltipScale})`,
+          maxWidth: "18rem",
         }}
       >
         <h3 className="text-xl font-semibold text-center mb-3 text-emerald-200">
           {node?.name || "Unknown Node"}
         </h3>
         <ul className="list-disc pl-5 space-y-2.5">
-          {tooltip.nodeDesc?.map((stat: string, index: number) => (
-            <li
-              key={index}
-              className="text-sm text-emerald-100 leading-relaxed"
-            >
+          {tooltip.nodeDesc?.map((stat: string[], index: number) => (
+            <li key={index} className="text-sm text-emerald-100 leading-relaxed">
               {stat}
             </li>
           ))}
         </ul>
-        <style jsx>{`
-          @media (max-width: 640px) {
-            div {
-              max-width: 14rem; /* Smaller tooltip on mobile */
-              padding: 0.75rem; /* Reduce padding */
-              font-size: 0.875rem; /* Smaller font size */
-            }
-          }
-        `}</style>
       </div>
     );
   };
@@ -200,11 +192,7 @@ export const SkillTreeNodes = ({
                   ? "2px solid rgba(220, 163, 74, 0.75)"
                   : "2px solid rgba(22, 163, 74, 0.75)", // green-600
                 background: isSelected ? "red" : "green",
-                boxShadow: `
-         0 0 0 1px rgba(22, 163, 74, 0.2),
-         0 0 10px 2px rgba(22, 163, 74, 0.3),
-         inset 0 0 4px 1px rgba(22, 163, 74, 0.3)
-       `,
+               
               }
             : {
                 border: isSelected
@@ -229,14 +217,22 @@ export const SkillTreeNodes = ({
               ...nodeStyle,
             }}
             onMouseEnter={(event) => {
-              const isRightSide = event.clientX > window.innerWidth / 2;
-              const cursorXPercent = event.clientX / window.innerWidth;
-              setTooltip({
-                node: node,
-                nodeDesc: node.stats,
-                isRightSide,
-                cursorXPercent,
-              });
+              const imageContainer = document.getElementById("image-container"); // Adjust this to your image container's id
+  const rect = imageContainer?.getBoundingClientRect();
+  if(!rect) return
+  const cursorXPercent = (event.clientX - rect.left) / rect.width;
+  const cursorYPercent = (event.clientY - rect.top) / rect.height;
+
+  const isRightSide = cursorXPercent > 0.5;
+  const isTopHalf = cursorYPercent < 0.5;
+
+  setTooltip({
+    node: node,
+    nodeDesc: node.stats,
+    isRightSide,
+    cursorXPercent,
+    cursorYPercent
+  });
 
               // Automatically select node if Ctrl is held down
               if (isCtrlDown) {

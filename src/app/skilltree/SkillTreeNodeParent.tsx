@@ -3,7 +3,11 @@ import { SearchInput, useNodeSearch } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
 
-export const SkillTreeNodeParent = () => {
+interface Props {
+  zoomRef: any
+}
+
+export const SkillTreeNodeParent = ({zoomRef}: Props) => {
   // Deduplicate nodes based on their 'id'
   const { searchQuery, handleSearchChange, filterNodes } = useNodeSearch();
 
@@ -26,6 +30,7 @@ export const SkillTreeNodeParent = () => {
           searchQuery={searchQuery}
           filterNodes={filterNodes}
           nodes={nodes}
+          zoomRef={zoomRef}
         />
       ))}
     </>

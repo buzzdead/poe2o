@@ -6,6 +6,7 @@ export const SkillTreeImage = () => {
 
     return (
         <Image
+        id="image-container"
         src="/skill-tree3.png" // Ensure this is the same file used in Python
         alt="Skill Tree"
         width={IMAGE_WIDTH}

@@ -62,7 +62,7 @@ export const SearchInput: React.FC<SearchInputProps> = React.memo(({
     <div className="absolute top-4 left-4 z-10 w-full flex flex-col items-center select-none">
       {/* New row above the search input */}
       <div className="absolute -top-5 w-2/6 text-sm text-gray-100 text-center">
-        <span>Shift click to select all of same type, ctrl to auto select</span>
+        <span>Shift click to select all of same type - Hold Ctrl to auto select - Shift scroll to zoom - Scroll to scroll :)</span>
       </div>
 
       {/* Search input */}
