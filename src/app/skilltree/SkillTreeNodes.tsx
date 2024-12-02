@@ -204,12 +204,14 @@ export const SkillTreeNodes = ({
         return (
           <div
             key={node.id}
+            
             onClick={() => handleSelectNode(node)}
             className={`absolute cursor-pointer rounded-full transform-gpu will-change-transform transition-all duration-2000 ${
               nodeStyle.highLight ? "animate-pulseBorderShadow bg-yellow!important" : ""
             }`}
             style={{
               left: `${node.x * 100}%`,
+              zIndex: 55,
               top: `${node.y * 100}%`,
               transform: "translate(-50%, -50%)",
               width: size,

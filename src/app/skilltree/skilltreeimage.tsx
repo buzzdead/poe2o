@@ -1,21 +1,72 @@
+"use client"
 import Image from "next/image";
 import React from "react";
+import { useCharacterContext } from "../context/CharContext";
 
-const SkillTreeImageComponent = () => {
-    const IMAGE_WIDTH = 2750; // Python script's processed image width
-    const IMAGE_HEIGHT = 2864; // Python script's processed image height
-
+interface Props {
+  setIsOpen: () => void
+}
+const SkillTreeImageComponent = ({setIsOpen}: Props) => {
+  const { characters } = useCharacterContext()
+  const scale = 0.7
+    const IMAGE_WIDTH = 2750; // Width of the large image
+    const IMAGE_HEIGHT = 2864; // Height of the large image
+    const SMALL_IMAGE_SIZE = 320 * scale; // Size of the smaller image
+    const mt = -(320 * scale * 0.460).toString() + 'px';
+    const ml = -(320 * scale * 0.487).toString() + 'px';
+    const handleTargetClick = () => {
+      setIsOpen();
+    };
     return (
-        <Image
-            id="image-container"
-            src="/skill-tree3.png" // Ensure this is the same file used in Python
-            alt="Skill Tree"
-            width={IMAGE_WIDTH}
-            height={IMAGE_HEIGHT}
-            className="relative z-1 select-none" // Background with lower z-index
-        />
+        <div
+            
+        >
+            {/* Large Image */}
+            <Image
+                src="/skill-tree5.png"
+                alt="Skill Tree"
+                id="image-container"
+                width={IMAGE_WIDTH}
+                height={IMAGE_HEIGHT}
+                className="select-none"
+
+            />
+ <div
+        id="target-div"
+        onClick={handleTargetClick}
+        style={{
+          width: "200px",
+          height: "200px",
+          cursor: 'pointer',
+          zIndex: 40,
+          left: '44.75%',
+          top: '45.25%',
+        }}
+        className="absolute rounded-3xl"
+      />
+      
+
+            {/* Smaller Image */}
+            <Image
+                id="clickexpand"
+                src={characters[0]?.ascendancies.image || ""} // Replace with the actual smaller image path
+                alt="Ascendancy"
+                width={SMALL_IMAGE_SIZE}
+                height={SMALL_IMAGE_SIZE}
+                onClick={() => console.log("hasdf")}
+               
+                
+                className="absolute cursor-pointer"
+                style={{
+                    top: '50%',
+                    left: '50%',
+                    marginLeft: ml,
+                    marginTop: mt,
+                }}
+            />
+        </div>
     );
 };
 
-// Memoize the component to avoid re-renders unless props change
+// Memoize the component to avoid unnecessary re-renders
 export const SkillTreeImage = React.memo(SkillTreeImageComponent);

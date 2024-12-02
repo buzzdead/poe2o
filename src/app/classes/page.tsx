@@ -17,7 +17,7 @@ import { Ascendancy, Char, ClassesWithAscendancy } from "../types";
 import { useCharacterContext } from "../context/CharContext";
 import Link from "next/link";
 
-const classes: Char[] = [
+export const classes: Char[] = [
   {
     name: "Druid",
     image: "/druid.webp",

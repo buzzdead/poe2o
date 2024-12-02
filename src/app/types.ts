@@ -8,6 +8,7 @@ export type Skill = {
 
 export type Ascendancy = {
     name: string;
+    image: string
     nodes: Skill[];
 };
 export type ClassesWithAscendancy = {
