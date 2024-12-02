@@ -2827,8 +2827,10 @@
       "id": "N320",
       "x": 0.059272727272727276,
       "y": 0.5586592178770949,
-      "name": "N320",
-      "stats": []
+      "name": "Retaliation",
+      "stats": [
+        "75% of Damage taken reflected to Melee Attackers"
+      ]
     },
     {
       "id": "N321",
@@ -3293,8 +3295,10 @@
       "id": "N374",
       "x": 0.4410909090909091,
       "y": 0.6225558659217877,
-      "name": "N374",
-      "stats": []
+      "name": "Mass Hysteria",
+      "stats": [
+        "Allies in your Presence have 6% increased Attack Speed"
+      ]
     },
     {
       "id": "N375",
@@ -4044,8 +4048,10 @@
       "id": "N463",
       "x": 0.3381818181818182,
       "y": 0.734986033519553,
-      "name": "N463",
-      "stats": []
+      "name": "Vengeance",
+      "stats": [
+        "60% of Damage taken reflected to Melee Attackers"
+      ]
     },
     {
       "id": "N464",
@@ -4368,8 +4374,10 @@
       "id": "N504",
       "x": 0.4781818181818182,
       "y": 0.7918994413407822,
-      "name": "N504",
-      "stats": []
+      "name": "Natural Immunity",
+      "stats": [
+        "+4 to Ailment Threshold per Dexterity"
+      ]
     },
     {
       "id": "N505",
@@ -4401,8 +4409,10 @@
       "id": "N508",
       "x": 0.4552727272727273,
       "y": 0.7957402234636871,
-      "name": "N508",
-      "stats": []
+      "name": "Two-Pronged Attack",
+      "stats": [
+        "Minions deal 25% increased Damage"
+      ]
     },
     {
       "id": "N509",
@@ -5102,10 +5112,8 @@
       "id": "S8",
       "x": 0.5585454545454546,
       "y": 0.07716480446927375,
-      "name": "Cold Damage",
-      "stats": [
-        "10% increased Effect of Ignite"
-      ]
+      "name": "S8",
+      "stats": []
     },
     {
       "id": "S9",
@@ -5173,7 +5181,7 @@
       "y": 0.08414804469273743,
       "name": "Lightning Damage",
       "stats": [
-        "12% increased Fire Damage"
+        "12% increased Lightning Damage"
       ]
     },
     {
@@ -7904,8 +7912,10 @@
       "id": "S388",
       "x": 0.4709090909090909,
       "y": 0.2842178770949721,
-      "name": "S388",
-      "stats": []
+      "name": "Lightning Penetration",
+      "stats": [
+        "Damage Penetrates 6% Lightning Resistance"
+      ]
     },
     {
       "id": "S389",
@@ -7967,8 +7977,10 @@
       "id": "S397",
       "x": 0.46763636363636363,
       "y": 0.28980446927374304,
-      "name": "S397",
-      "stats": []
+      "name": "Lightning Penetration",
+      "stats": [
+        "Damage Penetrates 6% Lightning Resistance"
+      ]
     },
     {
       "id": "S398",
@@ -8060,15 +8072,17 @@
       "y": 0.2950418994413408,
       "name": "Cold Penetration",
       "stats": [
-        "Damage Penetrates 4% Cold Resistance"
+        "Damage Penetrates 6% Cold Resistance"
       ]
     },
     {
       "id": "S411",
       "x": 0.4578181818181818,
       "y": 0.2950418994413408,
-      "name": "S411",
-      "stats": []
+      "name": "Cold Penetration",
+      "stats": [
+        "Damage Penetrates 6% Cold Resistance"
+      ]
     },
     {
       "id": "S412",
@@ -8210,7 +8224,7 @@
       "y": 0.3009776536312849,
       "name": "Fire Penetration",
       "stats": [
-        "Damage Penetrates 4% Fire Resistance"
+        "Damage Penetrates 6% Fire Resistance"
       ]
     },
     {
@@ -8270,8 +8284,10 @@
       "id": "S438",
       "x": 0.4709090909090909,
       "y": 0.3058659217877095,
-      "name": "S438",
-      "stats": []
+      "name": "Fire Penetration",
+      "stats": [
+        "Damage Penetrates 6% Fire Resistance"
+      ]
     },
     {
       "id": "S439",
@@ -10036,8 +10052,10 @@
       "id": "S673",
       "x": 0.4883636363636364,
       "y": 0.40118715083798884,
-      "name": "S673",
-      "stats": []
+      "name": "Mana Regeneration",
+      "stats": [
+        "10% increased Mana Regeneration Rate"
+      ]
     },
     {
       "id": "S674",
@@ -10102,8 +10120,10 @@
       "id": "S681",
       "x": 0.48218181818181816,
       "y": 0.4029329608938548,
-      "name": "S681",
-      "stats": []
+      "name": "Spell Damage",
+      "stats": [
+        "8% increased Spell Damage"
+      ]
     },
     {
       "id": "S682",
@@ -10141,9 +10161,10 @@
       "id": "S686",
       "x": 0.49272727272727274,
       "y": 0.4057262569832402,
-      "name": "Minion Life",
+      "name": "Mana Regeneration/Minion Life",
       "stats": [
-        "Minions have 10% increased maximum Life"
+        "10% increased Mana Regeneration Rate (Sorceress)",
+        "Minions have 10% increased maximum Life (Witch)"
       ]
     },
     {
@@ -10187,10 +10208,11 @@
       "id": "S692",
       "x": 0.4803636363636364,
       "y": 0.4085195530726257,
-      "name": "Spell and Minion Damage",
+      "name": "Spell Damage/Spell and Minion Damage",
       "stats": [
-        "5% increased Spell Damage",
-        "Minions deal 5% increased Damage"
+        "8% increased Spell Damage (Sorceress)",
+        "5% increased Spell Damage (Witch)",
+        "Minions deal 5% increased Damage (Witch)"
       ]
     },
     {
@@ -10321,10 +10343,11 @@
       "id": "S709",
       "x": 0.4890909090909091,
       "y": 0.41620111731843573,
-      "name": "Spell and Minion Damage",
+      "name": "Spell Damage/Spell and Minion Damage",
       "stats": [
-        "5% increased Spell Damage",
-        "Minions deal 5% increased Damage"
+        "8% increased Spell Damage (Sorceress)",
+        "5% increased Spell Damage (Witch)",
+        "Minions deal 5% increased Damage (Witch)"
       ]
     },
     {
@@ -10768,10 +10791,11 @@
       "id": "S769",
       "x": 0.496,
       "y": 0.4399441340782123,
-      "name": "Spell and Minion Damage",
+      "name": "Spell Damage/Spell and Minion Damage",
       "stats": [
-        "5% increased Spell Damage",
-        "Minions deal 5% increased Damage"
+        "8% increased Spell Damage (Sorceress)",
+        "5% increased Spell Damage (Witch)",
+        "Minions deal 5% increased Damage (Witch)"
       ]
     },
     {
@@ -13403,8 +13427,10 @@
       "id": "S1119",
       "x": 0.5065454545454545,
       "y": 0.5677374301675978,
-      "name": "S1119",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1120",
@@ -13417,8 +13443,11 @@
       "id": "S1121",
       "x": 0.496,
       "y": 0.568086592178771,
-      "name": "S1121",
-      "stats": []
+      "name": "Armour and Evasion",
+      "stats": [
+        "+10 to Armour",
+        "+8 to Evasion Rating"
+      ]
     },
     {
       "id": "S1122",
@@ -14616,8 +14645,10 @@
       "id": "S1280",
       "x": 0.5229090909090909,
       "y": 0.6284916201117319,
-      "name": "S1280",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1281",
@@ -14863,8 +14894,10 @@
       "id": "S1313",
       "x": 0.5261818181818182,
       "y": 0.6358240223463687,
-      "name": "S1313",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1314",
@@ -15170,8 +15203,10 @@
       "id": "S1354",
       "x": 0.5218181818181818,
       "y": 0.6508379888268156,
-      "name": "S1354",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "10% increased Projectile Damage"
+      ]
     },
     {
       "id": "S1355",
@@ -15313,8 +15348,10 @@
       "id": "S1373",
       "x": 0.5690909090909091,
       "y": 0.6595670391061452,
-      "name": "S1373",
-      "stats": []
+      "name": "Life Leech",
+      "stats": [
+        "10% increased amount of Life Leeched"
+      ]
     },
     {
       "id": "S1374",
@@ -15373,8 +15410,10 @@
       "id": "S1381",
       "x": 0.8054545454545454,
       "y": 0.660963687150838,
-      "name": "S1381",
-      "stats": []
+      "name": "Projectile Damage",
+      "stats": [
+        "Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"
+      ]
     },
     {
       "id": "S1382",
@@ -16090,8 +16129,10 @@
       "id": "S1478",
       "x": 0.47563636363636363,
       "y": 0.6958798882681564,
-      "name": "S1478",
-      "stats": []
+      "name": "Two Handed Damage",
+      "stats": [
+        "12% increased Damage with Two Handed Weapons"
+      ]
     },
     {
       "id": "S1479",
@@ -16197,8 +16238,10 @@
       "id": "S1493",
       "x": 0.4712727272727273,
       "y": 0.6997206703910615,
-      "name": "S1493",
-      "stats": []
+      "name": "Two Handed Damage",
+      "stats": [
+        "12% increased Damage with Two Handed Weapons"
+      ]
     },
     {
       "id": "S1494",
@@ -16271,8 +16314,10 @@
       "id": "S1503",
       "x": 0.46654545454545454,
       "y": 0.7042597765363129,
-      "name": "S1503",
-      "stats": []
+      "name": "Two Handed Damage",
+      "stats": [
+        "12% increased Damage with Two Handed Weapons"
+      ]
     },
     {
       "id": "S1504",
@@ -16727,8 +16772,10 @@
       "id": "S1567",
       "x": 0.4738181818181818,
       "y": 0.7391759776536313,
-      "name": "S1567",
-      "stats": []
+      "name": "Grenade Area",
+      "stats": [
+        "12% increased Grenade Area of Effect"
+      ]
     },
     {
       "id": "S1568",
@@ -16977,8 +17024,10 @@
       "id": "S1601",
       "x": 0.49018181818181816,
       "y": 0.7517458100558659,
-      "name": "S1601",
-      "stats": []
+      "name": "Grenade Area",
+      "stats": [
+        "12% increased Grenade Area of Effect"
+      ]
     },
     {
       "id": "S1602",
@@ -17551,10 +17600,9 @@
       "id": "S1681",
       "x": 0.6236363636363637,
       "y": 0.7849162011173184,
-      "name": "Spell and Minion Damage",
+      "name": "Attribute",
       "stats": [
-        "5% increased Spell Damage",
-        "Minions deal 5% increased Damage"
+        "+5 to any Attribute"
       ]
     },
     {

@@ -1,47 +1,49 @@
-import { useState, useEffect } from "react";
-import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
+import { useState, useEffect, useMemo, useCallback } from "react";
+import filterNodesData from "../data/combined_filtered_nodes.json";
 import React from "react";
 import { Input } from "../../components/ui/input";
 
 export const useNodeSearch = () => {
-  const [filterNodes, setFilterNodes] = useState<string[]>([]); // Store the filtered nodes
-  const [searchQuery, setSearchQuery] = useState(""); // Store the search query
-  const [debouncedQuery, setDebouncedQuery] = useState(""); // Store the debounced query
+  const [searchQuery, setSearchQuery] = useState(""); 
+  const [debouncedQuery, setDebouncedQuery] = useState(""); 
+
+  // Memoize the full list of filterable nodes
+  const filterNodes = useMemo(() => 
+    filterNodesData.nodes.map(e => e.name), 
+    []
+  );
 
   // Debounce the search query
   useEffect(() => {
+    // Create a reference to the timeout
     const timeoutId = setTimeout(() => {
-      setDebouncedQuery(searchQuery); // Set the debounced query after delay
-    }, 300); // Delay of 300ms (you can adjust this value as needed)
+      setDebouncedQuery(searchQuery);
+    }, 150);
 
-    return () => clearTimeout(timeoutId); // Clean up the timeout on query change
-  }, [searchQuery]); // This effect runs every time searchQuery changes
+    // Clear the previous timeout on each change
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery]);
 
-  // Load the filtered nodes data
-  useEffect(() => {
-    setFilterNodes(filterNodesData.nodes.map(e => e.name)); // Initialize with the filtered nodes
-  }, []);
-
-  // Handle the search query change
-  const handleSearchChange = (query: string) => {
-    setSearchQuery(query);
-  };
-
-  // Filter nodes based on the debounced query
-  const getFilteredNodes = () => {
-    // If debouncedQuery is empty, return no nodes (or can be left as is)
+  // Memoize filtered nodes to prevent unnecessary recalculations
+  const filteredNodes = useMemo(() => {
+    // If debouncedQuery is empty, return no nodes
     if (debouncedQuery.trim() === "") {
-      return []; // Don't highlight any nodes if debounced query is empty
+      return [];
     }
 
     return filterNodes.filter((node) =>
-      // Only include nodes with non-empty names that match the query
-      node.trim() !== "" && node.toLowerCase().includes(debouncedQuery.toLowerCase())
+      node.trim() !== "" && 
+      node.toLowerCase().includes(debouncedQuery.toLowerCase())
     );
-  };
+  }, [debouncedQuery, filterNodes]);
+
+  // Handle the search query change
+  const handleSearchChange = useCallback((query: string) => {
+    setSearchQuery(query);
+  }, []);
 
   return {
-    filterNodes: getFilteredNodes(),
+    filterNodes: filteredNodes,
     searchQuery,
     handleSearchChange,
   };
@@ -52,12 +54,14 @@ interface SearchInputProps {
   handleSearchChange: (query: string) => void;
 }
 
-export const SearchInput: React.FC<SearchInputProps> = ({ searchQuery, handleSearchChange }) => {
+export const SearchInput: React.FC<SearchInputProps> = React.memo(({ 
+  searchQuery, 
+  handleSearchChange 
+}) => {
   return (
     <div className="absolute top-4 left-4 z-10 w-full flex flex-col items-center select-none">
       {/* New row above the search input */}
-      <div className="absolute -top-5 w-2/6 text-sm text-gray-400 text-center">
-        {/* Add your content here */}
+      <div className="absolute -top-5 w-2/6 text-sm text-gray-100 text-center">
         <span>Shift click to select all of same type, ctrl to auto select</span>
       </div>
 
@@ -71,4 +75,4 @@ export const SearchInput: React.FC<SearchInputProps> = ({ searchQuery, handleSea
       />
     </div>
   );
-};
+});

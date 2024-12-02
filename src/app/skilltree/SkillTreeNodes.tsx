@@ -87,7 +87,7 @@ export const SkillTreeNodes = ({
           <div
             key={node.id}
             onClick={() => handleSelectNode(node)}
-            className={`absolute cursor-pointer rounded-full transform-gpu will-change-transform transition-all duration-2000 hover:scale-125 ${
+            className={`absolute cursor-pointer rounded-full transform-gpu will-change-transform transition-all duration-2000 ${
               nodeStyle.highLight ? "animate-pulseBorderShadow " : ""
             }`}
             style={{
