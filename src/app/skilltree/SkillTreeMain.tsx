@@ -82,7 +82,7 @@ const SkillTreeMain = () => {
               zoomRef={zoomRef}
             />
           ))}
-          <SkillTreeNodes size="16px" searchQuery={searchQuery} filterNodes={filterNodes} nodes={newNodes.ascNodes.filter(an => an.class === characters[0].ascendancies.name.toLowerCase())} zoomRef={zoomRef}/>
+          <SkillTreeNodes size="16px" searchQuery={searchQuery} filterNodes={filterNodes} nodes={newNodes?.ascNodes?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())} zoomRef={zoomRef}/>
         </TransformComponent>
       </TransformWrapper>
     </div>
