@@ -69,7 +69,7 @@ export const SkillTreeNodes = ({
                       ))
                   ? "2px solid rgba(220, 163, 74, 0.75)"
                   : "2px solid rgba(22, 163, 74, 0.75)", // green-600
-                background: "rgba(22, 163, 74, 0.15)",
+                background: isSelected ? "red" : "green",
                 boxShadow: `
          0 0 0 1px rgba(22, 163, 74, 0.2),
          0 0 10px 2px rgba(22, 163, 74, 0.3),
@@ -80,7 +80,7 @@ export const SkillTreeNodes = ({
                 border: isSelected
                   ? "2px solid red"
                   : "2px solid rgba(37, 99, 235, 0.25)", // blue-600
-                background: "transparent",
+                background: isSelected ? "red" : "transparent",
               };
 
         return (
@@ -88,7 +88,7 @@ export const SkillTreeNodes = ({
             key={node.id}
             onClick={() => handleSelectNode(node)}
             className={`absolute cursor-pointer rounded-full transform-gpu will-change-transform transition-all duration-2000 ${
-              nodeStyle.highLight ? "animate-pulseBorderShadow " : ""
+              nodeStyle.highLight ? "animate-pulseBorderShadow bg-yellow!important" : ""
             }`}
             style={{
               left: `${node.x * 100}%`,
