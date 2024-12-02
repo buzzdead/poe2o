@@ -191,14 +191,14 @@ export const SkillTreeNodes = ({
                       ))
                   ? "2px solid rgba(220, 163, 74, 0.75)"
                   : "2px solid rgba(22, 163, 74, 0.75)", // green-600
-                background: isSelected ? "red" : "green",
+                background: isSelected ? "red" : "rgba(22, 163, 74, 0.5)",
                
               }
             : {
                 border: isSelected
                   ? "2px solid red"
-                  : "2px solid rgba(37, 99, 235, 0.25)", // blue-600
-                background: isSelected ? "red" : "transparent",
+                  : "2px solid rgba(37, 99, 235, 0.15)", // blue-600
+                background: isSelected ? "red" : "rgba(204, 204, 255, .41)",
               };
 
         return (
@@ -223,13 +223,9 @@ export const SkillTreeNodes = ({
   const cursorXPercent = (event.clientX - rect.left) / rect.width;
   const cursorYPercent = (event.clientY - rect.top) / rect.height;
 
-  const isRightSide = cursorXPercent > 0.5;
-  const isTopHalf = cursorYPercent < 0.5;
-
   setTooltip({
     node: node,
     nodeDesc: node.stats,
-    isRightSide,
     cursorXPercent,
     cursorYPercent
   });
@@ -247,7 +243,7 @@ export const SkillTreeNodes = ({
                 backgroundColor: "transparent",
                 pointerEvents: "auto", // Ensure it captures mouse events
                 borderRadius: "50%", // Keep it rounded
-                padding: size === "7.5px" ? "8px" : size === "5px" ? "6px" : "", // Increase clickable area
+                padding: size === "10.5px" ? "8px" : size === "8px" ? "6px" : "", // Increase clickable area
               }}
             />
           </div>

@@ -12,9 +12,9 @@ export const SkillTreeNodeParent = ({zoomRef}: Props) => {
   const { searchQuery, handleSearchChange, filterNodes } = useNodeSearch();
 
   const nodeGroups = [
-    { size: "15px", nodes: nodes.keystones },
-    { size: "7.5px", nodes: nodes.notables },
-    { size: "5px", nodes: nodes.smalls },
+    { size: "15.5px", nodes: nodes.keystones },
+    { size: "10.5px", nodes: nodes.notables },
+    { size: "8px", nodes: nodes.smalls },
   ];
 
   return (
