@@ -2,7 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCharacterContext } from "../context/CharContext";
 import classAscendancy from "../data/classAscendancy.json";
-import { classes } from "../classes/page";
+import { MyClasses } from "../classes/const";
 
 interface Props {
   isOpen: boolean;
@@ -36,7 +36,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
       for (const ascendancy of classData.ascendancies) {
         if (ascendancy.name.includes(name)) {
           const className = classData.name;
-          const char = classes.find((e) => e.name === className);
+          const char = MyClasses.find((e) => e.name === className);
           if (char) {
             addCharacter({ ...char, ascendancies: ascendancy });
             clearSkillTree();
