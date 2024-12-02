@@ -94,9 +94,7 @@ const Classes = () => {
       ...selectedClass,
       ascendancies: ascendancy
     };
-
-    addCharacter(newCharacter);
-
+    addCharacter(newCharacter)
     toast({
       title: "Character Added",
       description: `${selectedClass.name} has been added to your state.`,
