@@ -1,0 +1,469 @@
+
+    { 
+        "ascNodes": [
+        {
+            "id": "AN1",
+            "name": "Sanguimancy",
+            "stats": [
+                "Grants Skill: Life Remnants",
+                "Skills gain a Base Life Cost equal to Base Mana Cost"
+            ],
+            "kind": "notable",
+            "class": "bloodmage",
+            "x": 0.5019545454545455,
+            "y": 0.4730614525139665
+        },
+        {
+            "id": "AN2",
+            "name": "Crimson Power",
+            "stats": [
+                "Gain Energy Shield from equipped Body Armour as extra maximum Life"
+            ],
+            "kind": "notable",
+            "class": "bloodmage",
+            "x": 0.5117545454545455,
+            "y": 0.5205614525139665
+        },
+        {
+            "id": "AN3",
+            "name": "Vitality Siphon",
+            "stats": [
+                "10% of Spell Damage Leeched as Life"
+            ],
+            "kind": "notable",
+            "class": "bloodmage",
+            "x": 0.4807545454545455,
+            "y": 0.4805614525139665
+        },
+        {
+            "id": "AN4",
+            "name": "Gore Spike",
+            "stats": [
+                "1% increased Critical Damage Bonus per 20 Life"
+            ],
+            "kind": "notable",
+            "class": "bloodmage",
+            "x": 0.4630545454545455,
+            "y": 0.4871614525139665
+        },
+        {
+            "id": "AS11",
+            "name": "AS11",
+            "stats": [
+                "Infernalist small"
+            ],
+            "kind": "small",
+            "class": "infernalist",
+            "x": 0.5019545454545455,
+            "y": 0.4639614525139665
+        },
+        {
+            "id": "AN11",
+            "name": "Loyal Hellhound",
+            "stats": [
+                "Grants Skill: Summon Infernal Hound",
+                "20% of Damage from Hits is taken from your Hellhound\u00c2\u00b4s Life before you"
+            ],
+            "kind": "notable",
+            "class": "infernalist",
+            "x": 0.5254545454545455,
+            "y": 0.4710614525139665
+        },
+        {
+            "id": "AN12",
+            "name": "Demonic Possession",
+            "stats": [
+                "Grants Skill: Demon Form"
+            ],
+            "kind": "notable",
+            "class": "infernalist",
+            "x": 0.4809545454545455,
+            "y": 0.4690614525139665
+        },
+        {
+            "id": "AN13",
+            "name": "Pyromantic Pact",
+            "stats": [
+                "Maximum Mana is replaced by Maximum Infernal Flame",
+                "Gain Infernal Flame instead of spending Mana for Skill costs",
+                "Take maximum Life and Energy Shield as Fire Damage when Infernal flame reaches maximum",
+                "Lose all Infernal Flame on reaching maximum Infernal Flame",
+                "10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
+            ],
+            "kind": "notable",
+            "class": "infernalist",
+            "x": 0.5101545454545455,
+            "y": 0.4740614525139665
+        },
+        {
+            "id": "AN14",
+            "name": "Bringer of Flame",
+            "stats": [
+                "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+            ],
+            "kind": "notable",
+            "class": "infernalist",
+            "x": 0.48859545454545456,
+            "y": 0.4827614525139665
+        },
+        {
+            "id": "AS21",
+            "name": "AS21",
+            "stats": [
+                "Stormweaver small"
+            ],
+            "kind": "small",
+            "class": "stormweaver",
+            "x": 0.5049545454545455,
+            "y": 0.4629614525139665
+        },
+        {
+            "id": "AN21",
+            "name": "Tempest Caller",
+            "stats": [
+                "Grants Skill: Elemental Storm",
+                "Trigger Elemental Storm on Critical Hit with Spells"
+            ],
+            "kind": "notable",
+            "class": "stormweaver",
+            "x": 0.5380545454545455,
+            "y": 0.4838614525139665
+        },
+        {
+            "id": "AN22",
+            "name": "Strike Twice",
+            "stats": [
+                "Targets can be affected by two of your Shocks at the same time",
+                "50% less Shock Duration"
+            ],
+            "kind": "notable",
+            "class": "stormweaver",
+            "x": 0.4839545454545455,
+            "y": 0.4764614525139665
+        },
+        {
+            "id": "AN23",
+            "name": "Shaper of Storms",
+            "stats": [
+                "All Damage from Hits Contributes to Shock Chance"
+            ],
+            "kind": "notable",
+            "class": "stormweaver",
+            "x": 0.4959545454545455,
+            "y": 0.4790614525139665
+        },
+        {
+            "id": "AS31",
+            "name": "AS31",
+            "stats": [
+                "Chronomancer small"
+            ],
+            "kind": "small",
+            "class": "chronomancer",
+            "x": 0.5019545454545455,
+            "y": 0.4609614525139665
+        },
+        {
+            "id": "AN31",
+            "name": "Footprints in the Sand",
+            "stats": [
+                "Grants Skill: Temporal Rift"
+            ],
+            "kind": "notable",
+            "class": "chronomancer",
+            "x": 0.4955545454545455,
+            "y": 0.4960614525139665
+        },
+        {
+            "id": "AN32",
+            "name": "Ultimate Command",
+            "stats": [
+                "Grants Skill: Time Freeze"
+            ],
+            "kind": "notable",
+            "class": "chronomancer",
+            "x": 0.4979545454545455,
+            "y": 0.5385614525139665
+        },
+        {
+            "id": "AN33",
+            "name": "Unbound Encore",
+            "stats": [
+                "Grants Skill: Time Snap"
+            ],
+            "kind": "notable",
+            "class": "chronomancer",
+            "x": 0.5079554545454545,
+            "y": 0.5385614525139665
+        },
+        {
+            "id": "AS41",
+            "name": "AS41",
+            "stats": [
+                "Invoker small"
+            ],
+            "kind": "small",
+            "class": "invoker",
+            "x": 0.5019545454545455,
+            "y": 0.4629614525139665
+        },
+        {
+            "id": "AN41",
+            "name": "Faith is a Choice",
+            "stats": [
+                "Grants Skill: Meditate"
+            ],
+            "kind": "notable",
+            "class": "invoker",
+            "x": 0.5210545454545455,
+            "y": 0.4780614525139665
+        },
+        {
+            "id": "AN42",
+            "name": "I am the Blizzard...",
+            "stats": [
+                "Gain 10% of Damage as Extra Cold Damage",
+                "On Freezing Enemies create Chilled Ground"
+            ],
+            "kind": "notable",
+            "class": "invoker",
+            "x": 0.5204545454545455,
+            "y": 0.4868614525139665
+        },
+        {
+            "id": "AN43",
+            "name": "I am the Thunder...",
+            "stats": [
+                "Gain 10% of Damage as Extra Lightning Damage",
+                "25% chance on Shocking Enemies to create Shocked Ground"
+            ],
+            "kind": "notable",
+            "class": "invoker",
+            "x": 0.5273545454545455,
+            "y": 0.4980614525139665
+        },
+        {
+            "id": "AN44",
+            "name": "...and I Shall Rage",
+            "stats": [
+                "Grants Skill: Unbound Avatar"
+            ],
+            "kind": "notable",
+            "class": "invoker",
+            "x": 0.5135545454545455,
+            "y": 0.4980614525139665
+        },
+        {
+            "id": "AN45",
+            "name": "...and Scatter Them to the Winds",
+            "stats": [
+                "Grants Skill: Elemental Expression",
+                "Trigger Elemental Expression on Meele Critical Hit"
+            ],
+            "kind": "notable",
+            "class": "invoker",
+            "x": 0.5405545454545455,
+            "y": 0.5385614525139665
+        },
+        {
+            "id": "AS51",
+            "name": "AS51",
+            "stats": [
+                "Acolyte small"
+            ],
+            "kind": "small",
+            "class": "acolyte",
+            "x": 0.5240545454545456,
+            "y": 0.4790614525139665
+        },
+        {
+            "id": "AN51",
+            "name": "Chayula\u00c2\u00b4s Gift",
+            "stats": [
+                "+10% to Maximum Chaos Resistance",
+                "Chaos Resistance is doubled"
+            ],
+            "kind": "notable",
+            "class": "acolyte",
+            "x": 0.5160045454545455,
+            "y": 0.4653914525139665
+        },
+        {
+            "id": "AN52",
+            "name": "Ravenous Doubts",
+            "stats": [
+                "Mana Leech is instant"
+            ],
+            "kind": "notable",
+            "class": "acolyte",
+            "x": 0.5190045454545456,
+            "y": 0.4572914525139665
+        },
+        {
+            "id": "AN53",
+            "name": "Consuming Questions",
+            "stats": [
+                "You cannot Recharge Energy Shield",
+                "Mana Leech effects also Recover Energy Shield"
+            ],
+            "kind": "notable",
+            "class": "acolyte",
+            "x": 0.4834045454545455,
+            "y": 0.4569914525139665
+        },
+        {
+            "id": "AN54",
+            "name": "Waking Dream",
+            "stats": [
+                "Grants Skill: Into the Breach"
+            ],
+            "kind": "notable",
+            "class": "acolyte",
+            "x": 0.5270045454545454,
+            "y": 0.5000614525139665
+        },
+        {
+            "id": "AN55",
+            "name": "Grasp of the Void",
+            "stats": [
+                "Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"
+            ],
+            "kind": "notable",
+            "class": "acolyte",
+            "x": 0.5365545454545455,
+            "y": 0.5286614525139665
+        },
+        {
+            "id": "AS61",
+            "name": "AS61",
+            "stats": [
+                "Titan small"
+            ],
+            "kind": "small",
+            "class": "titan",
+            "x": 0.4730545454545455,
+            "y": 0.5215614525139665
+        },
+        {
+            "id": "AN61",
+            "name": "AN61",
+            "stats": [
+                "Titan notable"
+            ],
+            "kind": "notable",
+            "class": "titan",
+            "x": 0.4794545454545455,
+            "y": 0.5180614525139665
+        },
+        {
+            "id": "AS71",
+            "name": "AS71",
+            "stats": [
+                "Warbringer small"
+            ],
+            "kind": "small",
+            "class": "warbringer",
+            "x": 0.4685545454545455,
+            "y": 0.5307614525139664
+        },
+        {
+            "id": "AN71",
+            "name": "AN71",
+            "stats": [
+                "Warbringer notable"
+            ],
+            "kind": "notable",
+            "class": "warbringer",
+            "x": 0.486945454545455,
+            "y": 0.5264614525139665
+        },
+        {
+            "id": "AS81",
+            "name": "AS81",
+            "stats": [
+                "Deadeye small"
+            ],
+            "kind": "small",
+            "class": "deadeye",
+            "x": 0.5438545454545455,
+            "y": 0.5125614525139665
+        },
+        {
+            "id": "AN81",
+            "name": "AN81",
+            "stats": [
+                "Deadeye notable"
+            ],
+            "kind": "notable",
+            "class": "deadeye",
+            "x": 0.5419545454545455,
+            "y": 0.5010614525139665
+        },
+        {
+            "id": "AS91",
+            "name": "AS91",
+            "stats": [
+                "Pathffinder small"
+            ],
+            "kind": "small",
+            "class": "pathfinder",
+            "x": 0.5432545454545455,
+            "y": 0.5099614525139665
+        },
+        {
+            "id": "AN91",
+            "name": "AN91",
+            "stats": [
+                "Pathffinder notable"
+            ],
+            "kind": "notable",
+            "class": "pathfinder",
+            "x": 0.5359545454545455,
+            "y": 0.5099614525139665
+        },
+        {
+            "id": "AS101",
+            "name": "AS101",
+            "stats": [
+                "Witchhunter small"
+            ],
+            "kind": "small",
+            "class": "witchhunter",
+            "x": 0.5009545454545455,
+            "y": 0.5459614525139665
+        },
+        {
+            "id": "AN101",
+            "name": "AN101",
+            "stats": [
+                "Witchhunter notable"
+            ],
+            "kind": "notable",
+            "class": "witchhunter",
+            "x": 0.5009545454545455,
+            "y": 0.5300614525139665
+        },
+        {
+            "id": "AS111",
+            "name": "AS111",
+            "stats": [
+                "Legionnaire small"
+            ],
+            "kind": "small",
+            "class": "legionnaire",
+            "x": 0.4935545454545455,
+            "y": 0.5416614525139665
+        },
+        {
+            "id": "AN111",
+            "name": "AN111",
+            "stats": [
+                "Legionnaire notable"
+            ],
+            "kind": "notable",
+            "class": "legionnaire",
+            "x": 0.4829545454545455,
+            "y": 0.5240614525139665
+        }
+    ]
+    }

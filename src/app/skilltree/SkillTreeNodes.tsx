@@ -65,10 +65,11 @@ export const SkillTreeNodes = ({
   
     return (
       <div
-        className="absolute bg-black/95 text-white p-4 rounded-lg flex flex-col z-50 pointer-events-none"
+        className="absolute bg-black/95 text-white p-4 rounded-lg flex flex-col pointer-events-none"
         style={{
           left: leftOffset,
           top: topOffset,
+          zIndex: 99999,
           transform: `translate(-50%, -50%) scale(${tooltipScale})`,
           maxWidth: "18rem",
         }}
