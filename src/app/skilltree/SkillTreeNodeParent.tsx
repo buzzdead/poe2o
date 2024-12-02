@@ -1,70 +1,14 @@
 "use client";
-import { toast } from "sonner";
-import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { SearchInput, useNodeSearch } from "./NodeHighlighter";
 import { useEffect, useRef, useState } from "react";
 import nodes from "../data/merged_nodes.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
-import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 
 export const SkillTreeNodeParent = () => {
   const isLeftShiftSelected = useRef(false)
-  const { nodes: myNodes, selectNode } = useCharacterContext();
-  const { handleSearchChange, searchQuery, filterNodes } = useNodeSearch();
   const [tooltip, setTooltip] = useState<any>(null); // For showing node details
 // Deduplicate nodes based on their 'id'
-const handleSelectNode = (node: SkillNode) => {
-  const isSelected = myNodes.find((sn) => sn.id === node.id);
-
-  // Define a distance threshold (adjust as needed)
-  const distanceThreshold = 10;
-
-  const calculateDistanceToCenter = (node: SkillNode) => {
-    const centerX = 0.5;
-    const centerY = 0.5;
-    return Math.sqrt(Math.pow(node.x - centerX, 2) + Math.pow(node.y - centerY, 2));
-  };
-
-  if (isSelected) {
-    // Deselect logic
-    if (isLeftShiftSelected.current) {
-      selectNode(myNodes.filter((sn) => sn.name !== node.name));
-    } else {
-      selectNode(myNodes.filter((sn) => sn.id !== node.id));
-    }
-    toast(node.name + " Removed", {});
-  } else {
-    if (isLeftShiftSelected.current) {
-      // Check for nearby nodes with the same name within distanceThreshold
-      let nearbyNodes = filterNodesData.nodes.filter((sn) => {
-        return sn.name === node.name && calculateDistance(node, sn) <= distanceThreshold;
-      });
-
-      // Further filter for "Attribute" nodes to prioritize those closer to the center
-      if (node.name === "Attribute") {
-        nearbyNodes = nearbyNodes.filter((sn) => calculateDistanceToCenter(sn) <= calculateDistanceToCenter(node));
-      }
-
-      // Deduplicate nodes by ID before adding to myNodes
-      const uniqueNodesToAdd = nearbyNodes.filter(
-        (sn) => !myNodes.some((existingNode) => existingNode.id === sn.id)
-      );
-
-      if (uniqueNodesToAdd.length > 0) {
-        selectNode([...myNodes, ...uniqueNodesToAdd]);
-        toast(node.name + " and nearby nodes Selected", {});
-      }
-    } else {
-      // Single node selection logic
-      selectNode([...myNodes, node]);
-      toast(node.name + " Selected", {});
-    }
-  }
-};
-
-
-  
-  
+ const { searchQuery, handleSearchChange, filterNodes } = useNodeSearch()
 
   const calculateDistance = (node1: { x: number, y: number }, node2: { x: number, y: number }): number => {
     // Scale the x and y coordinates by 100
@@ -156,6 +100,7 @@ const handleSelectNode = (node: SkillNode) => {
     { size: "7.5px", nodes: nodes.notables },
     { size: "5px", nodes: nodes.smalls },
   ];
+  
   return (
   <>
   <SearchInput searchQuery={searchQuery} handleSearchChange={handleSearchChange} />
@@ -164,11 +109,8 @@ const handleSelectNode = (node: SkillNode) => {
         key={index}
         size={size}
         searchQuery={searchQuery}
-        setTooltip={setTooltip}
         filterNodes={filterNodes}
         nodes={nodes}
-        myNodes={myNodes}
-        handleSelectNode={handleSelectNode}
       />
     ))}
     {tooltip && showToolTip()}
