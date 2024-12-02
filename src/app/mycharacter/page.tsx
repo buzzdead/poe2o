@@ -74,12 +74,12 @@ const MyCharacter = () => {
   return (
     <div className="flex justify-center">
       <div className="flex-col flex gap-5">
-        {characters.map((c) => (
+        {characters?.map((c) => (
           <div
             className="text-4xl text-center text-accent-foreground"
-            key={c.name}
+            key={c?.name || " "}
           >
-            <p>{c.name}</p>
+            <p>{c?.name || " "}</p>
           </div>
         ))}
         <Tabs defaultValue="ascendancy" className="w-[400px]">
