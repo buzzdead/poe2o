@@ -21,8 +21,6 @@ const SaveLoadSetups = () => {
     nodes,
     addCharacter,
     selectNode,
-    clearCharacters,
-    clearSkillTree,
   } = useCharacterContext();
   const {
     page,
