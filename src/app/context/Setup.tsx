@@ -35,7 +35,7 @@ const SaveLoadSetups = () => {
   });
 
   const [isOpen, setIsOpen] = useState(true); // State to track collapsible open/close
-
+  const [inputValue, setInputValue] = useState("");
   const saveSetup = (name: string) => {
     const newSetup = {
       name,
@@ -46,10 +46,25 @@ const SaveLoadSetups = () => {
       tagFilters,
       selectedGems,
     };
-    const updatedSetups = [...savedSetups, newSetup];
+  
+    // Check if a setup with the same name exists
+    const existingIndex = savedSetups.findIndex((setup) => setup.name === name);
+  
+    let updatedSetups;
+  
+    if (existingIndex >= 0) {
+      // If it exists, update the existing setup
+      updatedSetups = [...savedSetups];
+      updatedSetups[existingIndex] = newSetup;
+    } else {
+      // If it doesn't exist, add a new setup
+      updatedSetups = [...savedSetups, newSetup];
+    }
+  
     setSavedSetups(updatedSetups);
     localStorage.setItem("savedSetups", JSON.stringify(updatedSetups));
   };
+  
 
   const loadSetup = (name: string) => {
     const setup = savedSetups.find((s) => s.name === name);
@@ -105,11 +120,13 @@ const SaveLoadSetups = () => {
           <h2 className="text-lg font-semibold">Manage Setups</h2>
 
           <div className="flex items-center space-x-2">
-            <input
+          <input
               type="text"
               placeholder="Setup Name"
               id="setupName"
               className="flex-grow px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-inherit"
+              value={inputValue} // Bind to the inputValue state
+              onChange={(e) => setInputValue(e.target.value)} // Update state on change
             />
             <Button
               onClick={() => {
@@ -134,7 +151,7 @@ const SaveLoadSetups = () => {
                 <div className="space-x-2">
                   <Button
                     variant="outline"
-                    onClick={() => loadSetup(setup.name)}
+                    onClick={() => {loadSetup(setup.name); setInputValue(setup.name)}}
                   >
                     Load
                   </Button>
