@@ -262,3 +262,5 @@ export const SkillTreeNodes = React.memo(({
     </div>
   );
 });
+
+SkillTreeNodes.displayName = "SkillTreeNodes";
