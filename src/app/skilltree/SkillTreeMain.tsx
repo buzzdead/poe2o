@@ -3,12 +3,13 @@ import { useRef, useState, useEffect } from "react";
 import SaveLoadSetups from "../context/Setup";
 import { SkillTreeImage } from "./skilltreeimage";
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
-import { SearchInput, useNodeSearch } from "./NodeHighlighter";
+import { SearchInput } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
 import newNodes from "../data/updated_nodes_desc.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
 import CircleMenu from "./circlemenu";
 import { useCharacterContext } from "../context/CharContext";
+import { useNodeSearch } from "./useNodeSearch";
 
 const SkillTreeMain = () => {
   const zoomRef = useRef<ReactZoomPanPinchRef>(null);
