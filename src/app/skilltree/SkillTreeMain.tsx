@@ -5,17 +5,15 @@ import { SkillTreeImage } from "./skilltreeimage";
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef, getMatrixTransformStyles } from "react-zoom-pan-pinch";
 import { SearchInput } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
-import newNodes from "../data/file1_updated.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
 import CircleMenu from "./circlemenu";
-import { useCharacterContext } from "../context/CharContext";
 import { useNodeSearch } from "./useNodeSearch";
+import { Ascendancies } from "./Ascendancies";
 
 const SkillTreeMain = () => {
   const zoomRef = useRef<ReactZoomPanPinchRef>(null);
   const { searchQuery, handleSearchChange, filterNodes } = useNodeSearch();
   const [isOpen, setIsOpen] = useState(false);
-  const { characters } = useCharacterContext()
   const [targetPosition, setTargetPosition] = useState<{ top: number, left: number } | null>(null);
 
   const nodeGroups = [
@@ -76,7 +74,7 @@ const SkillTreeMain = () => {
         velocityAnimation={{
           disabled: false, // Smooth momentum
           sensitivity: 0.5, // Adjust sensitivity
-          animationTime: 0.8 // Animation duration
+          animationTime: .4 // Animation duration
         }}
        
       >
@@ -92,7 +90,7 @@ const SkillTreeMain = () => {
               zoomRef={zoomRef}
             />
           ))}
-          <SkillTreeNodes size="16px" searchQuery={searchQuery} filterNodes={filterNodes} nodes={newNodes?.asc?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())} zoomRef={zoomRef}/>
+          <Ascendancies searchQuery={searchQuery} filterNodes={filterNodes}  zoomRef={zoomRef}/>
         </TransformComponent>
       </TransformWrapper>
     </div>

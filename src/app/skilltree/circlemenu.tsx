@@ -30,6 +30,16 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
     { name: "Warbringer", src: "/ascendancy/warbringer.webp" },
     { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
   ];
+  const preloadImages = images.map((image) => {
+    const img = new Image();
+    img.src = image.src;
+    return img;
+  });
+  
+  React.useEffect(() => {
+    preloadImages.forEach((img) => img.onload = () => console.log(`${img.src} loaded`));
+  }, []);
+  
 
   const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
@@ -71,6 +81,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
                 <Tooltip key={index}>
                   <TooltipTrigger asChild>
                     <motion.img
+                    draggable={false}
                       src={image.src}
                       alt={`Option ${index + 1}`}
                       initial={{
