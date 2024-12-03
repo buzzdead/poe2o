@@ -25,20 +25,21 @@ const Header = ({
             {subtitle}
           </span>
         </h1>
-        <div className="justify-center flex mt-4">
-          <div className="w-[40rem] h-[5rem] relative bg-transparent">
+        <div className="justify-center flex mt-4 ">
+          <div className="w-[40rem] h-[5rem] relative bg-transparent transform-gpu will-change-transform">
             {/* Gradients */}
-            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm transform-gpu will-change-transform" />
+            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4 transform-gpu will-change-transform" />
+            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm transform-gpu will-change-transform" />
+            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4 transform-gpu will-change-transform" />
 
             {/* Updated Sparkles */}
             <SparklesCore
               background="transparent"
-              minSize={0.6}
-              maxSize={1.2}
-              particleDensity={500}
+              
+              minSize={1}
+              maxSize={2}
+              particleDensity={200}
               particleColor={["#FFFFFF", "#80D0FF", "#6A5ACD"]}
               className="w-full h-full pulse-star"
               particleGlow={{
