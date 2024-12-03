@@ -2,7 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 import SaveLoadSetups from "../context/Setup";
 import { SkillTreeImage } from "./skilltreeimage";
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef, getMatrixTransformStyles } from "react-zoom-pan-pinch";
 import { SearchInput } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
 import newNodes from "../data/updated_nodes_desc.json";
@@ -62,6 +62,9 @@ const SkillTreeMain = () => {
 
       <TransformWrapper
         ref={zoomRef}
+        customTransform={(scale, positionX, positionY) => 
+          getMatrixTransformStyles(scale, positionX, positionY)
+        }
         initialScale={1}
         limitToBounds={true}
         wheel={{
@@ -77,7 +80,7 @@ const SkillTreeMain = () => {
         }}
        
       >
-        <TransformComponent>
+        <TransformComponent contentStyle={{willChange: "transform"}}>
           <SkillTreeImage setIsOpen={handleTargetClick} />
           {nodeGroups.map(({ size, nodes }, index) => (
             <SkillTreeNodes
