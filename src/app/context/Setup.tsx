@@ -87,7 +87,7 @@ const SaveLoadSetups = () => {
   };
 
   return (
-    <div className="fixed z-50 top-5 left-5 p-4 bg-inherit border border-gray-700 rounded-lg shadow-lg space-y-4 w-[25rem]">
+    <div className="fixed z-50 top-5 left-5 p-2 bg-background/75 border border-gray-700 rounded-lg shadow-lg space-y-4 w-[25rem]">
       <Collapsible.Root open={isOpen} onOpenChange={setIsOpen}>
         {/* Collapsible Trigger */}
         <Collapsible.Trigger asChild>
@@ -98,7 +98,7 @@ const SaveLoadSetups = () => {
             Skill Trees
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`w-6 h-6 transform transition-transform ${
+              className={`w-6 h-6 transform duration-200 transition-transform ${
                 isOpen ? "rotate-180" : "rotate-0"
               }`}
               fill="none"
@@ -116,8 +116,8 @@ const SaveLoadSetups = () => {
         </Collapsible.Trigger>
 
         {/* Collapsible Content */}
-        <Collapsible.Content>
-          <h2 className="text-lg font-semibold">Manage Setups</h2>
+        <Collapsible.Content className="gap-3 flex flex-col">
+          <h2 className="text-lg font-semibold">Current skilltree</h2>
 
           <div className="flex items-center space-x-2">
           <input
@@ -140,7 +140,7 @@ const SaveLoadSetups = () => {
             </Button>
           </div>
 
-          <h3 className="text-md font-medium">Saved Setups</h3>
+          <h3 className="text-lg font-bold mt-3">Saved skilltrees</h3>
           <ul className="space-y-2">
             {savedSetups.map((setup) => (
               <li
