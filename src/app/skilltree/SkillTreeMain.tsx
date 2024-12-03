@@ -43,7 +43,7 @@ const SkillTreeMain = () => {
 
       // Fine-tuning the position by adding a slight offset to adjust the circle menu positioning
       setTargetPosition({
-        top: rect.top + window.scrollY - divHeight / 2 - 175,  // Adjust top with a small offset
+        top: rect.top + window.scrollY - divHeight / 2 - 125,  // Adjust top with a small offset
         left: rect.left + window.scrollX - divWidth / 2 + -50, // Adjust left with a small offset
       });
     }

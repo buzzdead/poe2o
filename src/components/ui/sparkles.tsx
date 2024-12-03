@@ -6,6 +6,7 @@ import type { Container, SingleOrMultiple } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 import { cn } from "@/lib/utils";
 import { motion, useAnimation } from "framer-motion";
+import React from "react";
 
 type ParticlesProps = {
   id?: string;
@@ -23,7 +24,7 @@ type ParticlesProps = {
     blur?: number;  // Blur radius
   };
 };
-export const SparklesCore = (props: ParticlesProps) => {
+const SparklesCore = (props: ParticlesProps) => {
   const {
     id,
     className,
@@ -436,3 +437,5 @@ export const SparklesCore = (props: ParticlesProps) => {
     </motion.div>
   );
 };
+
+export default React.memo(SparklesCore);
