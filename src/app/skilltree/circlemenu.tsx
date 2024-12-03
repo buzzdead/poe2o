@@ -1,6 +1,11 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { useCharacterContext } from "../context/CharContext";
 import classAscendancy from "../data/classAscendancy.json";
 import { MyClasses } from "../classes/const";
@@ -8,7 +13,7 @@ import { MyClasses } from "../classes/const";
 interface Props {
   isOpen: boolean;
   position: { top: number; left: number };
-  setIsOpen: () => void
+  setIsOpen: () => void;
 }
 
 type Image = { name: string; src: string };
@@ -35,11 +40,12 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
     img.src = image.src;
     return img;
   });
-  
+
   React.useEffect(() => {
-    preloadImages.forEach((img) => img.onload = () => console.log(`${img.src} loaded`));
-  }, []);
-  
+    preloadImages.forEach(
+      (img) => (img.onload = () => console.log(`${img.src} loaded`))
+    );
+  }, [preloadImages]);
 
   const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
@@ -50,7 +56,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
           if (char) {
             addCharacter({ ...char, ascendancies: ascendancy });
             clearSkillTree();
-            setIsOpen()
+            setIsOpen();
           }
         }
       }
@@ -81,7 +87,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
                 <Tooltip key={index}>
                   <TooltipTrigger asChild>
                     <motion.img
-                    draggable={false}
+                      draggable={false}
                       src={image.src}
                       alt={`Option ${index + 1}`}
                       initial={{
@@ -118,9 +124,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
                       onClick={() => handleOnClick(image.name)}
                     />
                   </TooltipTrigger>
-                  <TooltipContent>
-  {image.name}
-</TooltipContent>
+                  <TooltipContent>{image.name}</TooltipContent>
                 </Tooltip>
               );
             })}

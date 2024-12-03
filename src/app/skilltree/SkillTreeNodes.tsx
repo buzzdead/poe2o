@@ -293,4 +293,5 @@ const MemoizedNode = React.memo(
     );
   }
 );
+MemoizedNode.displayName = "MemoizedNode"
 SkillTreeNodes.displayName = "SkillTreeNodes";
