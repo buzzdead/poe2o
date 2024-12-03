@@ -55,7 +55,6 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
                 
                 width={SMALL_IMAGE_SIZE}
                 height={SMALL_IMAGE_SIZE}
-                onClick={() => console.log("hasdf")}
                
                 
                 className="absolute cursor-pointer"

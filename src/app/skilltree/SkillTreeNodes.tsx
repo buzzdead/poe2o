@@ -214,7 +214,6 @@ export const SkillTreeNodes = React.memo(
 
       return distance;
     };
-    console.log("rendering nooedez")
     return (
       <div>
         {tooltip && showToolTip()}
