@@ -24,7 +24,7 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
         >
             {/* Large Image */}
             <Image
-                src="/skill-tree5.png"
+                src="/skill-tree5.webp"
                 alt="Skill Tree"
                 id="image-container"
                 width={IMAGE_WIDTH}
@@ -50,7 +50,7 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
             {/* Smaller Image */}
             <Image
                 id="clickexpand"
-                src={characters[0]?.ascendancies.image || "/ascendancy/acolyte.png"} // Replace with the actual smaller image path
+                src={characters[0]?.ascendancies.image || "/ascendancy/acolyte.webp"} // Replace with the actual smaller image path
                 alt="Ascendancy"
                 width={SMALL_IMAGE_SIZE}
                 height={SMALL_IMAGE_SIZE}
