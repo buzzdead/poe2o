@@ -69,7 +69,13 @@ const SkillTreeMain = () => {
           wheelDisabled: false,
           activationKeys: ['Shift'],
         }}
-        panning={{ disabled: false }}
+        panning={{ disabled: false, }}
+        velocityAnimation={{
+          disabled: false, // Smooth momentum
+          sensitivity: 0.5, // Adjust sensitivity
+          animationTime: 0.8 // Animation duration
+        }}
+       
       >
         <TransformComponent>
           <SkillTreeImage setIsOpen={handleTargetClick} />

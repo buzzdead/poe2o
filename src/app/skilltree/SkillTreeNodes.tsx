@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { toast } from 'sonner';
 import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
+import React from 'react';
 
 interface Props {
   nodes: SkillNode[];
@@ -12,7 +13,7 @@ interface Props {
   zoomRef: any
 }
 
-export const SkillTreeNodes = ({
+export const SkillTreeNodes = React.memo(({
   nodes,
   filterNodes,
   searchQuery,
@@ -260,4 +261,4 @@ export const SkillTreeNodes = ({
       })}{" "}
     </div>
   );
-};
+});
