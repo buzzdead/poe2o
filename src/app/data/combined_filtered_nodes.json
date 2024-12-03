@@ -134,7 +134,7 @@
             "id": "K13",
             "x": 0.1050909090909091,
             "y": 0.5146648044692738,
-            "name": "Bloodmagic",
+            "name": "Blood Magic",
             "stats": [
                 "Removes all Mana",
                 "Skills Cost Life instead of Mana"
@@ -497,6 +497,28 @@
             "category": "notable"
         },
         {
+            "id": "N71",
+            "x": 0.5381818181818182,
+            "y": 0.22416201117318435,
+            "name": "Roil",
+            "stats": [
+                "Spell skills have 30% increased Area of Effect",
+                "10% reduced Spell Area Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N74",
+            "x": 0.5570909090909091,
+            "y": 0.22905027932960895,
+            "name": "Ruin",
+            "stats": [
+                "Spell skills have 10% reduced Area of Effect",
+                "30% increased Spell Area Damage"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N81",
             "x": 0.26654545454545453,
             "y": 0.2342877094972067,
@@ -527,6 +549,17 @@
                 "15% increased Area of Effect",
                 "Burning Ennemies you kill have 5% chance to Explode, dealing a tenth of their maximum Life as",
                 "Fire Damage"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N94",
+            "x": 0.5632727272727273,
+            "y": 0.2430167597765363,
+            "name": "Relentless Fallen",
+            "stats": [
+                "Minions have 10% increased Attack and Cast Speed",
+                "Minions have 20% increased Movement Speed"
             ],
             "category": "notable"
         },
@@ -562,6 +595,17 @@
             "category": "notable"
         },
         {
+            "id": "N102",
+            "x": 0.5869090909090909,
+            "y": 0.2534916201117318,
+            "name": "Gravedigger",
+            "stats": [
+                "Minions reviver 25% faster",
+                "You gain 3% Life when one of your Minions is revived"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N104",
             "x": 0.6101818181818182,
             "y": 0.25593575418994413,
@@ -580,6 +624,27 @@
                 "20% increased Evasion Rating",
                 "20% increased maximum Energy Shield",
                 "25% reduced Effect of Curses on you"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N110",
+            "x": 0.33454545454545453,
+            "y": 0.26955307262569833,
+            "name": "Crystalline Flesh",
+            "stats": [
+                "Minions have +20% to all Elemental Resistances",
+                "Minions have +5% to all maximum Elemental Resistances"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N111",
+            "x": 0.5178181818181818,
+            "y": 0.2723463687150838,
+            "name": "Taut Flesh",
+            "stats": [
+                "15% of Physical Damage taken Recouped as Life"
             ],
             "category": "notable"
         },
@@ -612,6 +677,17 @@
             "stats": [
                 "Gain 20% of maximum Energy Shield as additional Stun Threshold",
                 "20% increased Stun Threshold while on full Life"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N120",
+            "x": 0.3229090909090909,
+            "y": 0.2884078212290503,
+            "name": "Growing Swarm",
+            "stats": [
+                "Minions have 25% increased Area of Effect",
+                "Minion have 25% reduced Enemy Stun Threshold"
             ],
             "category": "notable"
         },
@@ -980,6 +1056,16 @@
             "category": "notable"
         },
         {
+            "id": "N196",
+            "x": 0.5014545454545455,
+            "y": 0.38058659217877094,
+            "name": "Practiced Signs",
+            "stats": [
+                "6% increased Cast Speed"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N198",
             "x": 0.5985454545454545,
             "y": 0.38303072625698326,
@@ -1041,6 +1127,16 @@
                 "16% increased Spell Damage",
                 "Minions deal 16% increased Damage",
                 "+10 to Intelligence"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N207",
+            "x": 0.5207272727272727,
+            "y": 0.39001396648044695,
+            "name": "Pure Energy",
+            "stats": [
+                "30% increased maximum Energy Shield"
             ],
             "category": "notable"
         },
@@ -1751,9 +1847,9 @@
             "id": "N331",
             "x": 0.7861818181818182,
             "y": 0.57018156424581,
-            "name": "Ranged",
+            "name": "Trick Shot",
             "stats": [
-                "40% increased Projectile Damage"
+                "Projectiles have 50% chance to Chain an additional time from terrain"
             ],
             "category": "notable"
         },
@@ -1801,6 +1897,16 @@
             "category": "notable"
         },
         {
+            "id": "N341",
+            "x": 0.7705454545454545,
+            "y": 0.5824022346368715,
+            "name": "Split Shot",
+            "stats": [
+                "Projectiles have 75% chance for an additional Projectile when Forking"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N342",
             "x": 0.16145454545454546,
             "y": 0.5837988826815642,
@@ -1829,6 +1935,16 @@
             "stats": [
                 "12% increased Chance to Block",
                 "Stagger empties 50% faster while your Shield is lowered"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N349",
+            "x": 0.7865454545454545,
+            "y": 0.5946229050279329,
+            "name": "Piercing Shot",
+            "stats": [
+                "50% chance to Pierce an Enemy"
             ],
             "category": "notable"
         },
@@ -2004,6 +2120,7 @@
             "y": 0.6225558659217877,
             "name": "Mass Hysteria",
             "stats": [
+                "6% increased Attack Speed",
                 "Allies in your Presence have 6% increased Attack Speed"
             ],
             "category": "notable"
@@ -2614,7 +2731,7 @@
             "y": 0.7639664804469274,
             "name": "Presence Present",
             "stats": [
-                "Allies in your PResence have +100 to Accuracy Rating",
+                "Allies in your Presence have +100 to Accuracy Rating",
                 "35% increased Attack Damage while you have an Ally in your Presence"
             ],
             "category": "notable"
@@ -2741,7 +2858,7 @@
             "name": "Emboldened Avatar",
             "stats": [
                 "30% increased chance to Ignite",
-                "30% increased Freeze Buildup",
+                "20% increased Freeze Buildup",
                 "30% increased chance to Shock",
                 "20% increased Electrocute Buildup"
             ],
@@ -2794,7 +2911,7 @@
             "y": 0.8303072625698324,
             "name": "Perfect Opportunity",
             "stats": [
-                "30% increased Stun Buildup",
+                "25% increased Stun Buildup",
                 "Damage with Hits is Lucky against Heavy Stunned Enemies"
             ],
             "category": "notable"
@@ -3628,6 +3745,16 @@
             "category": "smalls"
         },
         {
+            "id": "S206",
+            "x": 0.3367272727272727,
+            "y": 0.2028631284916201,
+            "name": "Energy Shield Recharge",
+            "stats": [
+                "15% increased Energy Shield Recharge Rate"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S208",
             "x": 0.36072727272727273,
             "y": 0.2028631284916201,
@@ -3958,6 +4085,16 @@
             "category": "smalls"
         },
         {
+            "id": "S402",
+            "x": 0.6058181818181818,
+            "y": 0.2925977653631285,
+            "name": "Stun Threshold and Energy Shield",
+            "stats": [
+                "Gain 15% of maximum Energy Shield as additional Stun Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S410",
             "x": 0.45127272727272727,
             "y": 0.2950418994413408,
@@ -4004,6 +4141,17 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S418",
+            "x": 0.09345454545454546,
+            "y": 0.29783519553072624,
+            "name": "Armour and Energy Shield",
+            "stats": [
+                "12% increased Armour",
+                "12% increased maximum Energy Shield"
             ],
             "category": "smalls"
         },
@@ -4058,6 +4206,36 @@
             "category": "smalls"
         },
         {
+            "id": "S441",
+            "x": 0.07454545454545454,
+            "y": 0.30726256983240224,
+            "name": "Shield Defences",
+            "stats": [
+                "25% increased Defences from Equipped Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S442",
+            "x": 0.11272727272727273,
+            "y": 0.30726256983240224,
+            "name": "Shield Block",
+            "stats": [
+                "5% increased Chance to Block"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S443",
+            "x": 0.6043636363636363,
+            "y": 0.3079608938547486,
+            "name": "Curse Area",
+            "stats": [
+                "20% increased Area of Effect of Hex Skills"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S447",
             "x": 0.25018181818181817,
             "y": 0.308659217877095,
@@ -4094,6 +4272,17 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S468",
+            "x": 0.09381818181818181,
+            "y": 0.3198324022346369,
+            "name": "Armour and Energy Shield",
+            "stats": [
+                "12% increased Armour",
+                "12% increased maximum Energy Shield"
             ],
             "category": "smalls"
         },
@@ -4218,12 +4407,33 @@
             "category": "smalls"
         },
         {
+            "id": "S490",
+            "x": 0.08509090909090909,
+            "y": 0.32786312849162014,
+            "name": "Shield Defences",
+            "stats": [
+                "25% increased Defences from Equipped Shield"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S500",
             "x": 0.11709090909090909,
             "y": 0.3344972067039106,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S502",
+            "x": 0.09345454545454546,
+            "y": 0.3348463687150838,
+            "name": "Armour and Energy Shield",
+            "stats": [
+                "12% increased Armour",
+                "12% increased maximum Energy Shield"
             ],
             "category": "smalls"
         },
@@ -4329,6 +4539,46 @@
             "category": "smalls"
         },
         {
+            "id": "S533",
+            "x": 0.17745454545454545,
+            "y": 0.34532122905027934,
+            "name": "Warcry Speed",
+            "stats": [
+                "16% increased Warcry Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S535",
+            "x": 0.44545454545454544,
+            "y": 0.3467178770949721,
+            "name": "Energy Shield",
+            "stats": [
+                "15% increased maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S538",
+            "x": 0.16472727272727272,
+            "y": 0.3481145251396648,
+            "name": "Warcry Speed",
+            "stats": [
+                "16% increased Warcry Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S540",
+            "x": 0.24945454545454546,
+            "y": 0.348463687150838,
+            "name": "Life Recoup",
+            "stats": [
+                "3% of Damage taken Recouped as Life"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S546",
             "x": 0.5661818181818182,
             "y": 0.3512569832402235,
@@ -4339,12 +4589,42 @@
             "category": "smalls"
         },
         {
+            "id": "S550",
+            "x": 0.2650909090909091,
+            "y": 0.35335195530726254,
+            "name": "Critical Ignite Effect",
+            "stats": [
+                "15% increased Effect of Ignite from Critical Hits"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S553",
             "x": 0.6243636363636363,
             "y": 0.3543994413407821,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S554",
+            "x": 0.19018181818181817,
+            "y": 0.3547486033519553,
+            "name": "Warcry Cooldown Speed",
+            "stats": [
+                "10% increased Warcry Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S560",
+            "x": 0.17745454545454545,
+            "y": 0.3575418994413408,
+            "name": "Warcry Cooldown Speed",
+            "stats": [
+                "10% increased Warcry Cooldown Recovery Rate"
             ],
             "category": "smalls"
         },
@@ -4369,6 +4649,16 @@
             "category": "smalls"
         },
         {
+            "id": "S567",
+            "x": 0.2647272727272727,
+            "y": 0.35998603351955305,
+            "name": "Critical Ignite Effect",
+            "stats": [
+                "15% increased Effect of Ignite from Critical Hits"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S572",
             "x": 0.4698181818181818,
             "y": 0.36277932960893855,
@@ -4379,12 +4669,33 @@
             "category": "smalls"
         },
         {
+            "id": "S576",
+            "x": 0.272,
+            "y": 0.36312849162011174,
+            "name": "Ignite and Critical Chance",
+            "stats": [
+                "12% increased chance to Ignite",
+                "6% increased Critical Hit Chance"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S580",
             "x": 0.21309090909090908,
             "y": 0.3648743016759777,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S587",
+            "x": 0.09236363636363637,
+            "y": 0.36906424581005587,
+            "name": "Flail Damage",
+            "stats": [
+                "10% increased Damage with Flails"
             ],
             "category": "smalls"
         },
@@ -4460,6 +4771,16 @@
             "category": "smalls"
         },
         {
+            "id": "S609",
+            "x": 0.07781818181818181,
+            "y": 0.3756983240223464,
+            "name": "Flail Critical Chance",
+            "stats": [
+                "15% increased Critical Hit Chance with Flails"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S610",
             "x": 0.10545454545454545,
             "y": 0.37639664804469275,
@@ -4487,6 +4808,17 @@
             "stats": [
                 "8% increased Spell Damage",
                 "Minions deal 8% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S616",
+            "x": 0.13090909090909092,
+            "y": 0.3795391061452514,
+            "name": "Minion Life and Chaos Resistance",
+            "stats": [
+                "Minions have 8% increased maximum Life",
+                "Minions have +7% to Chaos Resistance"
             ],
             "category": "smalls"
         },
@@ -4521,12 +4853,32 @@
             "category": "smalls"
         },
         {
+            "id": "S622",
+            "x": 0.11745454545454545,
+            "y": 0.38303072625698326,
+            "name": "Minion Life",
+            "stats": [
+                "Minions have 10% increased maximum Life"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S625",
             "x": 0.21309090909090908,
             "y": 0.38303072625698326,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S631",
+            "x": 0.06945454545454545,
+            "y": 0.3851256983240223,
+            "name": "Flail Critical Chance",
+            "stats": [
+                "15% increased Critical Hit Chance with Flails"
             ],
             "category": "smalls"
         },
@@ -4896,6 +5248,16 @@
             "category": "smalls"
         },
         {
+            "id": "S726",
+            "x": 0.11090909090909092,
+            "y": 0.4200418994413408,
+            "name": "Ignite Effect on You",
+            "stats": [
+                "10% reduced Effect of Ignite on you"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S727",
             "x": 0.6527272727272727,
             "y": 0.4200418994413408,
@@ -4936,6 +5298,26 @@
             "category": "smalls"
         },
         {
+            "id": "S736",
+            "x": 0.12072727272727272,
+            "y": 0.424231843575419,
+            "name": "Ignite Effect on You",
+            "stats": [
+                "10% reduced Effect of Ignite on you"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S741",
+            "x": 0.10909090909090909,
+            "y": 0.4266759776536313,
+            "name": "Ignite Chance",
+            "stats": [
+                "20% increased chance to Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S744",
             "x": 0.6032727272727273,
             "y": 0.42877094972067037,
@@ -4956,12 +5338,42 @@
             "category": "smalls"
         },
         {
+            "id": "S754",
+            "x": 0.12472727272727273,
+            "y": 0.4333100558659218,
+            "name": "Ignite Effect on You",
+            "stats": [
+                "10% reduced Effect of Ignite on you"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S755",
             "x": 0.4309090909090909,
             "y": 0.4333100558659218,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S758",
+            "x": 0.1050909090909091,
+            "y": 0.4350558659217877,
+            "name": "Ignite Chance",
+            "stats": [
+                "20% increased chance to Ignite"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S766",
+            "x": 0.11272727272727273,
+            "y": 0.43889664804469275,
+            "name": "Ignite Chance",
+            "stats": [
+                "20% increased chance to Ignite"
             ],
             "category": "smalls"
         },
@@ -5018,12 +5430,32 @@
             "category": "smalls"
         },
         {
+            "id": "S787",
+            "x": 0.06109090909090909,
+            "y": 0.4479748603351955,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S789",
             "x": 0.344,
             "y": 0.4483240223463687,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S805",
+            "x": 0.11963636363636364,
+            "y": 0.45286312849162014,
+            "name": "Armour",
+            "stats": [
+                "20% increased Armour if you haven't been Hit Recently"
             ],
             "category": "smalls"
         },
@@ -5064,6 +5496,16 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S823",
+            "x": 0.04436363636363636,
+            "y": 0.46054469273743015,
+            "name": "Melee Damage",
+            "stats": [
+                "12% increased Melee Damage"
             ],
             "category": "smalls"
         },
@@ -5138,6 +5580,16 @@
             "category": "smalls"
         },
         {
+            "id": "S853",
+            "x": 0.0669090909090909,
+            "y": 0.4692737430167598,
+            "name": "Melee Damage",
+            "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S854",
             "x": 0.5894545454545455,
             "y": 0.46962290502793297,
@@ -5145,6 +5597,16 @@
             "stats": [
                 "+8 to Evasion Rating",
                 "+5 to maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S855",
+            "x": 0.20254545454545456,
+            "y": 0.47032122905027934,
+            "name": "Elemental Damage",
+            "stats": [
+                "10% increased Elemental Damage"
             ],
             "category": "smalls"
         },
@@ -5160,6 +5622,26 @@
             "category": "smalls"
         },
         {
+            "id": "S863",
+            "x": 0.06109090909090909,
+            "y": 0.4727653631284916,
+            "name": "Melee Damage",
+            "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S865",
+            "x": 0.19818181818181818,
+            "y": 0.4752094972067039,
+            "name": "Fire Damage",
+            "stats": [
+                "12% increased Fire Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S866",
             "x": 0.5847272727272728,
             "y": 0.4752094972067039,
@@ -5167,6 +5649,16 @@
             "stats": [
                 "+8 to Evasion Rating",
                 "+5 to maximum Energy Shield"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S868",
+            "x": 0.21236363636363637,
+            "y": 0.4755586592178771,
+            "name": "Elemental Damage",
+            "stats": [
+                "10% increased Elemental Damage"
             ],
             "category": "smalls"
         },
@@ -5282,12 +5774,42 @@
             "category": "smalls"
         },
         {
+            "id": "S894",
+            "x": 0.32145454545454544,
+            "y": 0.48393854748603354,
+            "name": "Shield Block",
+            "stats": [
+                "5% increased Chance to Block"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S896",
             "x": 0.862909090909091,
             "y": 0.48463687150837986,
             "name": "Mana Leech",
             "stats": [
                 "10% increased amount of Mana Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S900",
+            "x": 0.2258181818181818,
+            "y": 0.486731843575419,
+            "name": "Lightning Damage",
+            "stats": [
+                "10% increased Lightning Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S901",
+            "x": 0.316,
+            "y": 0.486731843575419,
+            "name": "Shield Damage from Shield Defences",
+            "stats": [
+                "5% increased Chance to Block"
             ],
             "category": "smalls"
         },
@@ -5358,6 +5880,16 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S933",
+            "x": 0.32145454545454544,
+            "y": 0.4965083798882682,
+            "name": "Shield Block",
+            "stats": [
+                "5% increased Chance to Block"
             ],
             "category": "smalls"
         },
@@ -5562,6 +6094,16 @@
             "category": "smalls"
         },
         {
+            "id": "S963",
+            "x": 0.12654545454545454,
+            "y": 0.5139664804469274,
+            "name": "Maximum Cold Resistance",
+            "stats": [
+                "+1% to Maximum Cold Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S966",
             "x": 0.6334545454545455,
             "y": 0.515013966480447,
@@ -5578,6 +6120,26 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S978",
+            "x": 0.12654545454545454,
+            "y": 0.5202513966480447,
+            "name": "Maximum Cold Resistance",
+            "stats": [
+                "+1% to Maximum Cold Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S979",
+            "x": 0.3490909090909091,
+            "y": 0.520949720670391,
+            "name": "Ignite Chance",
+            "stats": [
+                "20% increased chance to Ignite"
             ],
             "category": "smalls"
         },
@@ -5642,12 +6204,32 @@
             "category": "smalls"
         },
         {
+            "id": "S992",
+            "x": 0.27854545454545454,
+            "y": 0.526536312849162,
+            "name": "Life Regeneration",
+            "stats": [
+                "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S995",
             "x": 0.41709090909090907,
             "y": 0.5268854748603352,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1003",
+            "x": 0.10690909090909091,
+            "y": 0.5307262569832403,
+            "name": "Maximum Fire Resistance",
+            "stats": [
+                "+1% to Maximum Fire Resistance"
             ],
             "category": "smalls"
         },
@@ -5672,6 +6254,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1007",
+            "x": 0.4410909090909091,
+            "y": 0.5317737430167597,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1009",
             "x": 0.3483636363636364,
             "y": 0.5328212290502793,
@@ -5682,12 +6274,72 @@
             "category": "smalls"
         },
         {
+            "id": "S1012",
+            "x": 0.4047272727272727,
+            "y": 0.5338687150837989,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1013",
+            "x": 0.2421818181818182,
+            "y": 0.5349162011173184,
+            "name": "Area Damage",
+            "stats": [
+                "12% increased Attack Area Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1014",
+            "x": 0.412,
+            "y": 0.5349162011173184,
+            "name": "Melee Damage",
+            "stats": [
+                "8% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1017",
             "x": 0.5901818181818181,
             "y": 0.535963687150838,
             "name": "Projectile Damage",
             "stats": [
                 "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1018",
+            "x": 0.09527272727272727,
+            "y": 0.5363128491620112,
+            "name": "Maximum Fire Resistance",
+            "stats": [
+                "+1% to Maximum Fire Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1023",
+            "x": 0.2730909090909091,
+            "y": 0.5377094972067039,
+            "name": "Life Regeneration",
+            "stats": [
+                "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1027",
+            "x": 0.39854545454545454,
+            "y": 0.5384078212290503,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
             ],
             "category": "smalls"
         },
@@ -5732,6 +6384,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1034",
+            "x": 0.4167272727272727,
+            "y": 0.5408519553072626,
+            "name": "Melee Damage",
+            "stats": [
+                "8% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1036",
+            "x": 0.14327272727272727,
+            "y": 0.5412011173184358,
+            "name": "Maximum Lightning Resistance",
+            "stats": [
+                "+1% to Maximum Lightning Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1037",
             "x": 0.16036363636363637,
             "y": 0.5412011173184358,
@@ -5742,12 +6414,32 @@
             "category": "smalls"
         },
         {
+            "id": "S1040",
+            "x": 0.12618181818181817,
+            "y": 0.541550279329609,
+            "name": "Maximum Lightning Resistance",
+            "stats": [
+                "+1% to Maximum Lightning Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1051",
             "x": 0.3614545454545455,
             "y": 0.5457402234636871,
             "name": "Melee Damage",
             "stats": [
                 "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1057",
+            "x": 0.41563636363636364,
+            "y": 0.5478351955307262,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
             ],
             "category": "smalls"
         },
@@ -5792,6 +6484,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1070",
+            "x": 0.1989090909090909,
+            "y": 0.5506284916201117,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1071",
+            "x": 0.4021818181818182,
+            "y": 0.5513268156424581,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1078",
             "x": 0.4192727272727273,
             "y": 0.5534217877094972,
@@ -5802,12 +6514,52 @@
             "category": "smalls"
         },
         {
+            "id": "S1079",
+            "x": 0.23054545454545455,
+            "y": 0.5537709497206704,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1084",
+            "x": 0.42618181818181816,
+            "y": 0.5562150837988827,
+            "name": "Armour",
+            "stats": [
+                "+20 to Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1086",
             "x": 0.6327272727272727,
             "y": 0.556913407821229,
             "name": "Projectile Damage",
             "stats": [
                 "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1095",
+            "x": 0.1938181818181818,
+            "y": 0.5586592178770949,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1098",
+            "x": 0.38945454545454544,
+            "y": 0.5600558659217877,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
             ],
             "category": "smalls"
         },
@@ -5842,6 +6594,36 @@
             "category": "smalls"
         },
         {
+            "id": "S1105",
+            "x": 0.36618181818181816,
+            "y": 0.5628491620111732,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1106",
+            "x": 0.40945454545454546,
+            "y": 0.5628491620111732,
+            "name": "Life Regeneration",
+            "stats": [
+                "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1107",
+            "x": 0.4290909090909091,
+            "y": 0.5628491620111732,
+            "name": "Stun Threshold",
+            "stats": [
+                "12% increased Stun Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1108",
             "x": 0.4381818181818182,
             "y": 0.5628491620111732,
@@ -5862,12 +6644,22 @@
             "category": "smalls"
         },
         {
+            "id": "S1116",
+            "x": 0.18872727272727272,
+            "y": 0.5666899441340782,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1117",
             "x": 0.3483636363636364,
             "y": 0.5673882681564246,
-            "name": "Axe Damage",
+            "name": "Attack Area",
             "stats": [
-                "10% increased Damage with Axes"
+                "8% increased Area of Effect for Attacks"
             ],
             "category": "smalls"
         },
@@ -5893,12 +6685,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1122",
+            "x": 0.3054545454545455,
+            "y": 0.5684357541899442,
+            "name": "Warcry Cooldown Speed",
+            "stats": [
+                "10% increased Warcry Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1123",
+            "x": 0.39490909090909093,
+            "y": 0.5694832402234636,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1127",
             "x": 0.6538181818181819,
             "y": 0.5715782122905028,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1130",
+            "x": 0.4192727272727273,
+            "y": 0.5722765363128491,
+            "name": "Stun Threshold",
+            "stats": [
+                "12% increased Stun Threshold"
             ],
             "category": "smalls"
         },
@@ -5986,6 +6808,27 @@
             "category": "smalls"
         },
         {
+            "id": "S1153",
+            "x": 0.38072727272727275,
+            "y": 0.5869413407821229,
+            "name": "Block",
+            "stats": [
+                "5% increased Chance to Block"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1156",
+            "x": 0.4890909090909091,
+            "y": 0.5879888268156425,
+            "name": "Armour and Evasion",
+            "stats": [
+                "+10 to Armour",
+                "+8 to Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1160",
             "x": 0.328,
             "y": 0.5893854748603352,
@@ -5993,6 +6836,46 @@
             "stats": [
                 "8% increased Attack Area Damage",
                 "5% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1161",
+            "x": 0.5014545454545455,
+            "y": 0.5893854748603352,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1167",
+            "x": 0.49563636363636365,
+            "y": 0.5921787709497207,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1168",
+            "x": 0.5069090909090909,
+            "y": 0.5921787709497207,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1173",
+            "x": 0.4858181818181818,
+            "y": 0.5939245810055865,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion"
             ],
             "category": "smalls"
         },
@@ -6013,6 +6896,16 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1178",
+            "x": 0.176,
+            "y": 0.5953212290502793,
+            "name": "Recover Life on consuming Endurance Charge",
+            "stats": [
+                "Recover 2% of Life for each Endurance Charge consumed"
             ],
             "category": "smalls"
         },
@@ -6107,6 +7000,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1194",
+            "x": 0.4843636363636364,
+            "y": 0.6002094972067039,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1196",
+            "x": 0.18581818181818183,
+            "y": 0.6005586592178771,
+            "name": "Recover Life on consuming Endurance Charge",
+            "stats": [
+                "Recover 2% of Life for each Endurance Charge consumed"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1197",
             "x": 0.19636363636363635,
             "y": 0.6005586592178771,
@@ -6157,6 +7070,27 @@
             "category": "smalls"
         },
         {
+            "id": "S1218",
+            "x": 0.19418181818181818,
+            "y": 0.6096368715083799,
+            "name": "Stun Threshold and Strength",
+            "stats": [
+                "10% increased Stun Threshold",
+                "+5 to Strength"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1222",
+            "x": 0.4410909090909091,
+            "y": 0.6103351955307262,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1224",
             "x": 0.2927272727272727,
             "y": 0.6110335195530726,
@@ -6173,6 +7107,26 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1234",
+            "x": 0.49563636363636365,
+            "y": 0.6141759776536313,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1235",
+            "x": 0.5069090909090909,
+            "y": 0.6141759776536313,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion"
             ],
             "category": "smalls"
         },
@@ -6237,6 +7191,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1250",
+            "x": 0.32181818181818184,
+            "y": 0.619413407821229,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1254",
             "x": 0.2927272727272727,
             "y": 0.6197625698324022,
@@ -6267,6 +7231,17 @@
             "category": "smalls"
         },
         {
+            "id": "S1258",
+            "x": 0.19090909090909092,
+            "y": 0.6211592178770949,
+            "name": "Stun Threshold and Strength",
+            "stats": [
+                "10% increased Stun Threshold",
+                "+5 to Strength"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1259",
             "x": 0.9003636363636364,
             "y": 0.6211592178770949,
@@ -6277,12 +7252,52 @@
             "category": "smalls"
         },
         {
+            "id": "S1260",
+            "x": 0.43454545454545457,
+            "y": 0.6215083798882681,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1261",
+            "x": 0.4476363636363636,
+            "y": 0.6215083798882681,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1263",
             "x": 0.20945454545454545,
             "y": 0.6218575418994413,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1269",
+            "x": 0.26654545454545453,
+            "y": 0.6239525139664804,
+            "name": "Damage against Burning Enemies",
+            "stats": [
+                "14% increased Damage with Hits against Burning Enemies"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1272",
+            "x": 0.5541818181818182,
+            "y": 0.6263966480446927,
+            "name": "Melee Damage",
+            "stats": [
+                "8% increased Melee Damage"
             ],
             "category": "smalls"
         },
@@ -6307,12 +7322,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1276",
+            "x": 0.32436363636363635,
+            "y": 0.6281424581005587,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1277",
+            "x": 0.33745454545454545,
+            "y": 0.6281424581005587,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1280",
             "x": 0.5229090909090909,
             "y": 0.6284916201117319,
             "name": "Projectile Damage",
             "stats": [
                 "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1281",
+            "x": 0.4410909090909091,
+            "y": 0.6288407821229051,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
             ],
             "category": "smalls"
         },
@@ -6327,12 +7372,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1284",
+            "x": 0.19345454545454546,
+            "y": 0.630586592178771,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1286",
+            "x": 0.24254545454545454,
+            "y": 0.6309357541899442,
+            "name": "Slower Rage Decay",
+            "stats": [
+                "Inherent loss of Rage is 10% slower"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1288",
             "x": 0.4243636363636364,
             "y": 0.6312849162011173,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1293",
+            "x": 0.5494545454545454,
+            "y": 0.6319832402234636,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
             ],
             "category": "smalls"
         },
@@ -6363,6 +7438,26 @@
             "name": "Slower Rage Decay",
             "stats": [
                 "Inherent loss of Rage is 10% slower"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1304",
+            "x": 0.15527272727272728,
+            "y": 0.6340782122905028,
+            "name": "Melee Damage against Immobilised",
+            "stats": [
+                "20% increased Melee Damage against Immobilised Enemies"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1305",
+            "x": 0.18109090909090908,
+            "y": 0.6340782122905028,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
             ],
             "category": "smalls"
         },
@@ -6410,6 +7505,36 @@
             "id": "S1315",
             "x": 0.16836363636363635,
             "y": 0.6372206703910615,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1318",
+            "x": 0.496,
+            "y": 0.6375698324022346,
+            "name": "Life Regeneration",
+            "stats": [
+                "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1319",
+            "x": 0.5065454545454545,
+            "y": 0.6375698324022346,
+            "name": "Cooldown Recovery Rate",
+            "stats": [
+                "5% increased Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1322",
+            "x": 0.5505454545454546,
+            "y": 0.6393156424581006,
             "name": "Melee Damage",
             "stats": [
                 "10% increased Melee Damage"
@@ -6507,6 +7632,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1352",
+            "x": 0.5065454545454545,
+            "y": 0.6501396648044693,
+            "name": "Cooldown Recovery Rate",
+            "stats": [
+                "5% increased Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1353",
+            "x": 0.4807272727272727,
+            "y": 0.6508379888268156,
+            "name": "Ailment Chance",
+            "stats": [
+                "16% increased chance to inflict Ailments"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1354",
             "x": 0.5218181818181818,
             "y": 0.6508379888268156,
@@ -6523,6 +7668,17 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1357",
+            "x": 0.5607272727272727,
+            "y": 0.6518854748603352,
+            "name": "Life Leech. Armour and Evasion while Leeching",
+            "stats": [
+                "8% increased amount of Life Leeched",
+                "8% increased Armour and Evasion Rating while Leeching"
             ],
             "category": "smalls"
         },
@@ -6607,12 +7763,32 @@
             "category": "smalls"
         },
         {
+            "id": "S1382",
+            "x": 0.10581818181818183,
+            "y": 0.6613128491620112,
+            "name": "Mace Stun Buildup",
+            "stats": [
+                "16% increased Stun Buildup with Maces"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1383",
             "x": 0.7592727272727273,
             "y": 0.6616620111731844,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1386",
+            "x": 0.46036363636363636,
+            "y": 0.6627094972067039,
+            "name": "Bleeding Chance",
+            "stats": [
+                "10% chance to inflict Bleeding on Hit"
             ],
             "category": "smalls"
         },
@@ -6627,12 +7803,33 @@
             "category": "smalls"
         },
         {
+            "id": "S1389",
+            "x": 0.5643636363636364,
+            "y": 0.6637569832402235,
+            "name": "Life Leech",
+            "stats": [
+                "10% increased amount of Life Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1392",
             "x": 0.5978181818181818,
             "y": 0.6651536312849162,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1395",
+            "x": 0.08581818181818182,
+            "y": 0.6658519553072626,
+            "name": "Mace Damage and Stun Buildup",
+            "stats": [
+                "10% increased Stun Buildup",
+                "10% increased Damage with Maces"
             ],
             "category": "smalls"
         },
@@ -6647,6 +7844,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1401",
+            "x": 0.13745454545454547,
+            "y": 0.6689944134078212,
+            "name": "Armour",
+            "stats": [
+                "15% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1402",
             "x": 0.7887272727272727,
             "y": 0.6689944134078212,
@@ -6657,12 +7864,32 @@
             "category": "smalls"
         },
         {
+            "id": "S1403",
+            "x": 0.26036363636363635,
+            "y": 0.6693435754189944,
+            "name": "Shield Defences",
+            "stats": [
+                "25% increased Defences from Equipped Shield"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1404",
             "x": 0.4010909090909091,
             "y": 0.6707402234636871,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1407",
+            "x": 0.10618181818181818,
+            "y": 0.6717877094972067,
+            "name": "Mace Stun Buildup",
+            "stats": [
+                "16% increased Stun Buildup with Maces"
             ],
             "category": "smalls"
         },
@@ -6697,6 +7924,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1413",
+            "x": 0.1461818181818182,
+            "y": 0.6735335195530726,
+            "name": "Armour",
+            "stats": [
+                "18% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1417",
             "x": 0.42218181818181816,
             "y": 0.6745810055865922,
@@ -6723,6 +7960,16 @@
             "name": "Projectile Damage",
             "stats": [
                 "Projectiles deal 12% increased Damage with Hits against Enemies within 2m"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1426",
+            "x": 0.13272727272727272,
+            "y": 0.6770251396648045,
+            "name": "Armour",
+            "stats": [
+                "30% increased Armour from Equipped Body Armour"
             ],
             "category": "smalls"
         },
@@ -6767,6 +8014,36 @@
             "category": "smalls"
         },
         {
+            "id": "S1439",
+            "x": 0.08981818181818182,
+            "y": 0.6812150837988827,
+            "name": "Mace Damage",
+            "stats": [
+                "15% increased Damage with Maces"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1442",
+            "x": 0.23054545454545455,
+            "y": 0.6826117318435754,
+            "name": "Stun Threshold",
+            "stats": [
+                "12% increased Stun Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1451",
+            "x": 0.48654545454545456,
+            "y": 0.6854050279329609,
+            "name": "Two Handed Damage",
+            "stats": [
+                "12% increased Damage with Two Handed Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1457",
             "x": 0.8338181818181818,
             "y": 0.6885474860335196,
@@ -6783,6 +8060,26 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1461",
+            "x": 0.5298181818181819,
+            "y": 0.6895949720670391,
+            "name": "Dual Wielding Damage",
+            "stats": [
+                "12% increased Attack Damage while Dual Wielding"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1464",
+            "x": 0.11272727272727273,
+            "y": 0.6916899441340782,
+            "name": "Mace Damage",
+            "stats": [
+                "14% increased Damage with Maces"
             ],
             "category": "smalls"
         },
@@ -6807,12 +8104,62 @@
             "category": "smalls"
         },
         {
+            "id": "S1479",
+            "x": 0.18036363636363636,
+            "y": 0.6962290502793296,
+            "name": "Armour Break",
+            "stats": [
+                "Break 20% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1480",
+            "x": 0.5625454545454546,
+            "y": 0.6962290502793296,
+            "name": "Damage against Enemies on Low Life",
+            "stats": [
+                "30% increased Damage with Hits against Enemies that are on Low Life"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1485",
+            "x": 0.09418181818181819,
+            "y": 0.6965782122905028,
+            "name": "Mace Aftershock Chance",
+            "stats": [
+                "8% chance to Aftershock for Slam Skills you use with Maces"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1488",
             "x": 0.38472727272727275,
             "y": 0.6976256983240223,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1491",
+            "x": 0.5207272727272727,
+            "y": 0.6983240223463687,
+            "name": "Dual Wielding Accuracy",
+            "stats": [
+                "10% increased Accuracy Rating while Dual Wielding"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1492",
+            "x": 0.5298181818181819,
+            "y": 0.6983240223463687,
+            "name": "Dual Wielding Speed",
+            "stats": [
+                "3% increased Attack Speed while Dual Wielding"
             ],
             "category": "smalls"
         },
@@ -6837,6 +8184,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1497",
+            "x": 0.5974545454545455,
+            "y": 0.7021648044692738,
+            "name": "Accuracy",
+            "stats": [
+                "8% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1498",
+            "x": 0.6083636363636363,
+            "y": 0.7021648044692738,
+            "name": "Accuracy",
+            "stats": [
+                "8% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1502",
             "x": 0.2581818181818182,
             "y": 0.7039106145251397,
@@ -6857,6 +8224,36 @@
             "category": "smalls"
         },
         {
+            "id": "S1504",
+            "x": 0.1650909090909091,
+            "y": 0.7046089385474861,
+            "name": "Armour Break",
+            "stats": [
+                "Break 20% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1507",
+            "x": 0.44436363636363635,
+            "y": 0.7049581005586593,
+            "name": "Shield Block",
+            "stats": [
+                "5% increased Chance to Block"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1510",
+            "x": 0.5832727272727273,
+            "y": 0.7056564245810056,
+            "name": "Damage against Enemies on Low Life",
+            "stats": [
+                "30% increased Damage with Hits against Enemies that are on Low Life"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1511",
             "x": 0.6225454545454545,
             "y": 0.7056564245810056,
@@ -6867,12 +8264,72 @@
             "category": "smalls"
         },
         {
+            "id": "S1519",
+            "x": 0.18945454545454546,
+            "y": 0.7115921787709497,
+            "name": "Damage vs Armour Broken Enemies",
+            "stats": [
+                "20% increased Damage against Enemies with Fully Broken Armour"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1522",
+            "x": 0.15054545454545454,
+            "y": 0.7129888268156425,
+            "name": "Armour Break",
+            "stats": [
+                "Break 20% increased Armour"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1529",
+            "x": 0.5098181818181818,
+            "y": 0.7150837988826816,
+            "name": "Knockback",
+            "stats": [
+                "8% increased Knockback Distance"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1534",
             "x": 0.372,
             "y": 0.7189245810055865,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1537",
+            "x": 0.44327272727272726,
+            "y": 0.7213687150837989,
+            "name": "Shield Block",
+            "stats": [
+                "5% increased Chance to Block"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1546",
+            "x": 0.5098181818181818,
+            "y": 0.7245111731843575,
+            "name": "Knockback",
+            "stats": [
+                "8% increased Knockback Distance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1552",
+            "x": 0.15963636363636363,
+            "y": 0.7283519553072626,
+            "name": "Damage vs Armour Broken Enemies",
+            "stats": [
+                "20% increased Damage against Enemies with Fully Broken Armour"
             ],
             "category": "smalls"
         },
@@ -6947,6 +8404,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1585",
+            "x": 0.5149090909090909,
+            "y": 0.7465083798882681,
+            "name": "One Handed Damage",
+            "stats": [
+                "10% increased Damage with One Handed Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1590",
             "x": 0.6916363636363636,
             "y": 0.7472067039106145,
@@ -6967,6 +8434,26 @@
             "category": "smalls"
         },
         {
+            "id": "S1595",
+            "x": 0.15563636363636363,
+            "y": 0.7486033519553073,
+            "name": "Axe Damage",
+            "stats": [
+                "12% increased Damage with Axes"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1599",
+            "x": 0.148,
+            "y": 0.7513966480446927,
+            "name": "Axe Attack Speed",
+            "stats": [
+                "3% increased Attack Speed with Axes"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1601",
             "x": 0.49018181818181816,
             "y": 0.7517458100558659,
@@ -6977,12 +8464,53 @@
             "category": "smalls"
         },
         {
+            "id": "S1602",
+            "x": 0.5112727272727273,
+            "y": 0.7517458100558659,
+            "name": "One Handed Damage",
+            "stats": [
+                "10% increased Damage with One Handed Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1604",
+            "x": 0.5178181818181818,
+            "y": 0.7534916201117319,
+            "name": "One Handed Ailment Chance",
+            "stats": [
+                "15% increased Chance to apply Ailments with One-Handed Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1615",
+            "x": 0.6301818181818182,
+            "y": 0.7566340782122905,
+            "name": "Flask Charges Used",
+            "stats": [
+                "5% reduced Flask Charges used"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1620",
             "x": 0.32036363636363635,
             "y": 0.7597765363128491,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1623",
+            "x": 0.525090909090909,
+            "y": 0.7604748603351955,
+            "name": "Attack Damage and Accuracy",
+            "stats": [
+                "6% increased Attack Damage",
+                "5% increased Global Accuracy Rating"
             ],
             "category": "smalls"
         },
@@ -7007,12 +8535,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1638",
+            "x": 0.5927272727272728,
+            "y": 0.7678072625698324,
+            "name": "Projectile Damage",
+            "stats": [
+                "10% increased Projectile Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1642",
             "x": 0.3738181818181818,
             "y": 0.7685055865921788,
             "name": "Life Regeneration",
             "stats": [
                 "Regenerate 0.4% of Life per second"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1643",
+            "x": 0.44145454545454543,
+            "y": 0.7685055865921788,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1644",
+            "x": 0.52,
+            "y": 0.7685055865921788,
+            "name": "Attack Damage",
+            "stats": [
+                "10% increased Attack Damage"
             ],
             "category": "smalls"
         },
@@ -7047,6 +8605,77 @@
             "category": "smalls"
         },
         {
+            "id": "S1652",
+            "x": 0.39854545454545454,
+            "y": 0.7730446927374302,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1662",
+            "x": 0.5298181818181819,
+            "y": 0.7779329608938548,
+            "name": "Attack Daamge with nearby Ally",
+            "stats": [
+                "16% increased Attack Damage while you have an Ally in your Presence"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1671",
+            "x": 0.4250909090909091,
+            "y": 0.7817737430167597,
+            "name": "Life Leech",
+            "stats": [
+                "10% increased amount of Life Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1673",
+            "x": 0.38872727272727275,
+            "y": 0.7824720670391061,
+            "name": "Melee Damage",
+            "stats": [
+                "10% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1674",
+            "x": 0.4083636363636364,
+            "y": 0.7824720670391061,
+            "name": "Melee Critical Chance",
+            "stats": [
+                "10% increased Melee Critical Hit Chance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1678",
+            "x": 0.6461818181818182,
+            "y": 0.7835195530726257,
+            "name": "Cooldown Recovery Rate",
+            "stats": [
+                "5% increased Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1679",
+            "x": 0.5396363636363637,
+            "y": 0.7845670391061452,
+            "name": "Attack Damage and Accuracy",
+            "stats": [
+                "6% increased Attack Damage",
+                "5% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1681",
             "x": 0.6236363636363637,
             "y": 0.7849162011173184,
@@ -7067,12 +8696,42 @@
             "category": "smalls"
         },
         {
+            "id": "S1686",
+            "x": 0.4552727272727273,
+            "y": 0.789804469273743,
+            "name": "Mercenaries",
+            "stats": [
+                "Minions deal 10% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1689",
             "x": 0.7930909090909091,
             "y": 0.7908519553072626,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1692",
+            "x": 0.49163636363636365,
+            "y": 0.7922486033519553,
+            "name": "Ailment Threshold",
+            "stats": [
+                "15% increased Elemental Ailment Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1696",
+            "x": 0.656,
+            "y": 0.7960893854748603,
+            "name": "Cooldown Recovery Rate",
+            "stats": [
+                "5% increased Cooldown Recovery Rate"
             ],
             "category": "smalls"
         },
@@ -7097,12 +8756,32 @@
             "category": "smalls"
         },
         {
+            "id": "S1704",
+            "x": 0.72,
+            "y": 0.7999301675977654,
+            "name": "One Handed Attack Speed",
+            "stats": [
+                "3% increased Attack Speed with One Handed Melee Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1707",
             "x": 0.2250909090909091,
             "y": 0.8020251396648045,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1709",
+            "x": 0.4552727272727273,
+            "y": 0.8020251396648045,
+            "name": "Mercenaries",
+            "stats": [
+                "Minions deal 10% increased Damage"
             ],
             "category": "smalls"
         },
@@ -7123,6 +8802,46 @@
             "name": "Stun Threshold",
             "stats": [
                 "12% increased Stun Threshold"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1717",
+            "x": 0.7112727272727273,
+            "y": 0.8044692737430168,
+            "name": "One Handed Accuracy",
+            "stats": [
+                "12% increased Accuracy with One Handed Melee Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1724",
+            "x": 0.21672727272727274,
+            "y": 0.8100558659217877,
+            "name": "Maximum Lightning Resistance",
+            "stats": [
+                "+1% to Maximum Lightning Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1731",
+            "x": 0.7283636363636363,
+            "y": 0.8138966480446927,
+            "name": "One Handed Attack Speed",
+            "stats": [
+                "3% increased Attack Speed with One Handed Melee Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1733",
+            "x": 0.20072727272727273,
+            "y": 0.8142458100558659,
+            "name": "Maximum Cold Resistance",
+            "stats": [
+                "+1% to Maximum Cold Resistance"
             ],
             "category": "smalls"
         },
@@ -7177,6 +8896,36 @@
             "category": "smalls"
         },
         {
+            "id": "S1739",
+            "x": 0.7130909090909091,
+            "y": 0.8159916201117319,
+            "name": "One Handed Attack Speed",
+            "stats": [
+                "3% increased Attack Speed with One Handed Melee Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1740",
+            "x": 0.7036363636363636,
+            "y": 0.8184357541899442,
+            "name": "One Handed Damage",
+            "stats": [
+                "10% increased Damage with One Handed Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1741",
+            "x": 0.72,
+            "y": 0.8187849162011173,
+            "name": "One Handed Attack Speed",
+            "stats": [
+                "3% increased Attack Speed with One Handed Melee Weapons"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1742",
             "x": 0.31236363636363634,
             "y": 0.8194832402234636,
@@ -7192,7 +8941,7 @@
             "y": 0.8198324022346368,
             "name": "Stun Buildup",
             "stats": [
-                "15% increased Stun Buildup"
+                "12% increased Stun Buildup"
             ],
             "category": "smalls"
         },
@@ -7207,12 +8956,82 @@
             "category": "smalls"
         },
         {
+            "id": "S1746",
+            "x": 0.548,
+            "y": 0.821927374301676,
+            "name": "Herald Reservation",
+            "stats": [
+                "4% reduced Reservation of Herald Skills"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1749",
             "x": 0.6934545454545454,
             "y": 0.8236731843575419,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1753",
+            "x": 0.588,
+            "y": 0.8261173184357542,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1756",
+            "x": 0.21636363636363637,
+            "y": 0.8271648044692738,
+            "name": "Maximum Fire Resistance",
+            "stats": [
+                "+1% to Maximum Fire Resistance"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1758",
+            "x": 0.668,
+            "y": 0.8271648044692738,
+            "name": "Elemental Attack Damage",
+            "stats": [
+                "12% increased Elemental Damage with Attack Skills"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1761",
+            "x": 0.39090909090909093,
+            "y": 0.8282122905027933,
+            "name": "Stun Buildup",
+            "stats": [
+                "12% increased Stun Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1762",
+            "x": 0.5785454545454546,
+            "y": 0.8285614525139665,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1774",
+            "x": 0.656,
+            "y": 0.833449720670391,
+            "name": "Elemental Attack Damage",
+            "stats": [
+                "12% increased Elemental Damage with Attack Skills"
             ],
             "category": "smalls"
         },
@@ -7227,6 +9046,66 @@
             "category": "smalls"
         },
         {
+            "id": "S1776",
+            "x": 0.5716363636363636,
+            "y": 0.835195530726257,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1780",
+            "x": 0.5396363636363637,
+            "y": 0.8358938547486033,
+            "name": "Herald Reservation",
+            "stats": [
+                "4% reduced Reservation of Herald Skills"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1781",
+            "x": 0.5563636363636364,
+            "y": 0.8358938547486033,
+            "name": "Herald Damage",
+            "stats": [
+                "Herald Skills deal 20% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1783",
+            "x": 0.5876363636363636,
+            "y": 0.8372905027932961,
+            "name": "Armour and Evasion",
+            "stats": [
+                "16% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1786",
+            "x": 0.5818181818181818,
+            "y": 0.8404329608938548,
+            "name": "Armour and Evasion",
+            "stats": [
+                "16% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1787",
+            "x": 0.548,
+            "y": 0.840782122905028,
+            "name": "Herald Damage",
+            "stats": [
+                "Herald Skills deal 20% increased Damage"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1788",
             "x": 0.29854545454545456,
             "y": 0.8411312849162011,
@@ -7237,12 +9116,124 @@
             "category": "smalls"
         },
         {
+            "id": "S1792",
+            "x": 0.24109090909090908,
+            "y": 0.8446229050279329,
+            "name": "Warcry Speed",
+            "stats": [
+                "16% increased Warcry Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1798",
+            "x": 0.23636363636363636,
+            "y": 0.8530027932960894,
+            "name": "Warcry Speed",
+            "stats": [
+                "16% increased Warcry Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1800",
+            "x": 0.5290909090909091,
+            "y": 0.854050279329609,
+            "name": "Chaining Projectiles",
+            "stats": [
+                "Projectiles have 15% chance to Chain an additional time from terrain"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1803",
             "x": 0.5014545454545455,
             "y": 0.8589385474860335,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1804",
+            "x": 0.521090909090909,
+            "y": 0.8589385474860335,
+            "name": "Chaining Projectiles",
+            "stats": [
+                "Projectiles have 15% chance to Chain an additional time from terrain"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1806",
+            "x": 0.432,
+            "y": 0.8596368715083799,
+            "name": "Area Damage",
+            "stats": [
+                "12% increased Attack Area Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1807",
+            "x": 0.2509090909090909,
+            "y": 0.8610335195530726,
+            "name": "Warcry Cooldown",
+            "stats": [
+                "10% increased Warcry Cooldown Recovery Rate"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1808",
+            "x": 0.6934545454545454,
+            "y": 0.8613826815642458,
+            "name": "Block Recovery",
+            "stats": [
+                "25% increased Block Recovery"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1814",
+            "x": 0.4421818181818182,
+            "y": 0.8690642458100558,
+            "name": "Area Damage and Armour Break",
+            "stats": [
+                "Break 10% increased Armour",
+                "8% increased Attack Area Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1817",
+            "x": 0.4792727272727273,
+            "y": 0.8718575418994413,
+            "name": "Electrocute Buildup",
+            "stats": [
+                "15% increased Electrocute Buildup"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1819",
+            "x": 0.4552727272727273,
+            "y": 0.8722067039106145,
+            "name": "Area Damage",
+            "stats": [
+                "12% increased Attack Area Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1821",
+            "x": 0.42872727272727273,
+            "y": 0.8725558659217877,
+            "name": "Area Damage and Armour Break",
+            "stats": [
+                "Break 10% increased Armour",
+                "8% increased Attack Area Damage"
             ],
             "category": "smalls"
         },
@@ -7277,6 +9268,16 @@
             "category": "smalls"
         },
         {
+            "id": "S1834",
+            "x": 0.44545454545454544,
+            "y": 0.8819832402234636,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1837",
             "x": 0.3341818181818182,
             "y": 0.8833798882681564,
@@ -7293,6 +9294,36 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1839",
+            "x": 0.432,
+            "y": 0.8851256983240223,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1841",
+            "x": 0.6894545454545454,
+            "y": 0.8858240223463687,
+            "name": "Life Flasks",
+            "stats": [
+                "10% increased Life Recovery from Flasks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1842",
+            "x": 0.696,
+            "y": 0.8858240223463687,
+            "name": "Life Flasks",
+            "stats": [
+                "10% increased Life Recovery from Flasks"
             ],
             "category": "smalls"
         },
@@ -7317,12 +9348,103 @@
             "category": "smalls"
         },
         {
+            "id": "S1845",
+            "x": 0.3341818181818182,
+            "y": 0.8928072625698324,
+            "name": "Life Leech",
+            "stats": [
+                "10% increased amount of Life Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1848",
+            "x": 0.6883636363636364,
+            "y": 0.8938547486033519,
+            "name": "Life Flasks",
+            "stats": [
+                "10% increased Life Recovery from Flasks"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1849",
+            "x": 0.4421818181818182,
+            "y": 0.8949022346368715,
+            "name": "Attack Area",
+            "stats": [
+                "8% increased Area of Effect for Attacks"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S1855",
             "x": 0.37163636363636365,
             "y": 0.8997905027932961,
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1858",
+            "x": 0.5469090909090909,
+            "y": 0.901536312849162,
+            "name": "Attack Speed",
+            "stats": [
+                "3% increased Attack Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1859",
+            "x": 0.47454545454545455,
+            "y": 0.9018854748603352,
+            "name": "Attack Damage vs Bleeding Enemies",
+            "stats": [
+                "20% increased Attack Damage against Bleeding Enemies"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1860",
+            "x": 0.6556363636363637,
+            "y": 0.9022346368715084,
+            "name": "Accuracy",
+            "stats": [
+                "8% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1861",
+            "x": 0.4829090909090909,
+            "y": 0.9036312849162011,
+            "name": "Bleeding Damage",
+            "stats": [
+                "10% increased Effect of Bleeding"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1862",
+            "x": 0.32727272727272727,
+            "y": 0.9043296089385475,
+            "name": "Life Leech and Physical Damage",
+            "stats": [
+                "10% increased amount of Life Leeched",
+                "10% increased Physical Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1863",
+            "x": 0.6927272727272727,
+            "y": 0.9043296089385475,
+            "name": "Life Flask Charges",
+            "stats": [
+                "Life Flasks gain 0.1 charges per Second"
             ],
             "category": "smalls"
         },
@@ -7363,6 +9485,208 @@
             "name": "Attribute",
             "stats": [
                 "+5 to any Attribute"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1872",
+            "x": 0.652,
+            "y": 0.9151536312849162,
+            "name": "Accuracy and Attack Critical Chance",
+            "stats": [
+                "8% increased Critical Hit Chance for Attacks",
+                "6% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1874",
+            "x": 0.6654545454545454,
+            "y": 0.9182960893854749,
+            "name": "Accuracy and Attack Critical Chance",
+            "stats": [
+                "8% increased Critical Hit Chance for Attacks",
+                "6% increased Global Accuracy Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1875",
+            "x": 0.3341818181818182,
+            "y": 0.9207402234636871,
+            "name": "Life Leech",
+            "stats": [
+                "10% increased amount of Life Leeched"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1880",
+            "x": 0.5010909090909091,
+            "y": 0.9252793296089385,
+            "name": "All Attributes",
+            "stats": [
+                "+3 to all Attributes"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1881",
+            "x": 0.6101818181818182,
+            "y": 0.9256284916201117,
+            "name": "Attack Damage",
+            "stats": [
+                "16% increased Attack Damage against Rare or Unique Enemies"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1883",
+            "x": 0.5625454545454546,
+            "y": 0.9284217877094972,
+            "name": "Crossbow Damage",
+            "stats": [
+                "12% increased Damage with Crossbows"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1884",
+            "x": 0.4476363636363636,
+            "y": 0.9287709497206704,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1888",
+            "x": 0.5781818181818181,
+            "y": 0.9322625698324022,
+            "name": "Crossbow Damage",
+            "stats": [
+                "12% increased Damage with Crossbows"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1890",
+            "x": 0.612,
+            "y": 0.9340083798882681,
+            "name": "Attack Damage",
+            "stats": [
+                "16% increased Attack Damage against Rare or Unique Enemies"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1891",
+            "x": 0.436,
+            "y": 0.9347067039106145,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1896",
+            "x": 0.49636363636363634,
+            "y": 0.9420391061452514,
+            "name": "All Attributes",
+            "stats": [
+                "+3 to all Attributes"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1897",
+            "x": 0.5061818181818182,
+            "y": 0.9420391061452514,
+            "name": "All Attributes",
+            "stats": [
+                "+3 to all Attributes"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1899",
+            "x": 0.6112727272727273,
+            "y": 0.9462290502793296,
+            "name": "Attack Speed",
+            "stats": [
+                "4% increased Attack Speed while a Rare or Unique Enemy is Nearby"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1904",
+            "x": 0.4476363636363636,
+            "y": 0.9535614525139665,
+            "name": "Armour and Evasion",
+            "stats": [
+                "12% increased Armour and Evasion Rating"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1905",
+            "x": 0.6290909090909091,
+            "y": 0.9570530726256983,
+            "name": "Attack Speed",
+            "stats": [
+                "4% increased Attack Speed while a Rare or Unique Enemy is Nearby"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1906",
+            "x": 0.49636363636363634,
+            "y": 0.958449720670391,
+            "name": "Reduced Attribute Requirements",
+            "stats": [
+                "Items and Gems have 5% reduced Attribute Requirements"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1907",
+            "x": 0.5061818181818182,
+            "y": 0.958449720670391,
+            "name": "Reduced Attribute Requirements",
+            "stats": [
+                "Items and Gems have 5% reduced Attribute Requirements"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1908",
+            "x": 0.37563636363636366,
+            "y": 0.960195530726257,
+            "name": "Sword Damage",
+            "stats": [
+                "10% increased Damage with Swords"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1909",
+            "x": 0.38,
+            "y": 0.9629888268156425,
+            "name": "Sword Speed",
+            "stats": [
+                "3% increased Attack Speed with Swords"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S1912",
+            "x": 0.5010909090909091,
+            "y": 0.9748603351955307,
+            "name": "Reduced Attribute Requirements",
+            "stats": [
+                "Items and Gems have 5% reduced Attribute Requirements"
             ],
             "category": "smalls"
         },
@@ -7702,11 +10026,61 @@
         },
         {
             "id": "AN61",
-            "x": 0.4794545454545455,
-            "y": 0.5180614525139665,
-            "name": "AN61",
+            "x": 0.4778545454545455,
+            "y": 0.5175614525139665,
+            "name": "Colossal Capacity",
             "stats": [
-                "Titan notable"
+                "Equip a Chest which has 20 Inventory Slots"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN62",
+            "x": 0.5031545454545455,
+            "y": 0.5433614525139665,
+            "name": "Mysterious Lineage",
+            "stats": [
+                "20% more Maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN63",
+            "x": 0.4620545454545455,
+            "y": 0.4710614525139665,
+            "name": "Ancestral Empowerment",
+            "stats": [
+                "Every second Slam Skill you use yourself is Ancestrally Boosted"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN64",
+            "x": 0.4900545454545455,
+            "y": 0.4950614525139665,
+            "name": "Earthbreaker",
+            "stats": [
+                "20% chance for Slam Skills you use yourself to cause Aftershocks"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN65",
+            "x": 0.5046545454545455,
+            "y": 0.5187614525139665,
+            "name": "Crushing Impacts",
+            "stats": [
+                "Yout Hits are Crushing Blows"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN66",
+            "x": 0.5120545454545455,
+            "y": 0.5540614525139665,
+            "name": "Surprising strength",
+            "stats": [
+                "40% more Damage against Heavy Stunned Enemies"
             ],
             "category": "ascendancies"
         },
@@ -7722,11 +10096,43 @@
         },
         {
             "id": "AN71",
-            "x": 0.486945454545455,
-            "y": 0.5264614525139665,
-            "name": "AN71",
+            "x": 0.468245454545455,
+            "y": 0.5024614525139665,
+            "name": "Answered Call",
             "stats": [
-                "Warbringer notable"
+                "Grants Skill: Ancestral Spirits",
+                "Trigger Ancestral Spirits when you Summon a Totem"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN72",
+            "x": 0.461945454545455,
+            "y": 0.4949614525139665,
+            "name": "Jade Heritage",
+            "stats": [
+                "Grants Skill: Encased in Jade",
+                "Gain a stack of Jade every second"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN73",
+            "x": 0.486445454545455,
+            "y": 0.5397614525139665,
+            "name": "Warcallers\u00c2\u00b4s Bellow",
+            "stats": [
+                "Corpses in your Presence Explode when you Warcry dealing 25% of their Life as Physical Damage"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN74",
+            "x": 0.511845454545455,
+            "y": 0.5367614525139665,
+            "name": "Greatwolf\u00c2\u00b4s Howl",
+            "stats": [
+                "Ignore Warcry Cooldowns"
             ],
             "category": "ascendancies"
         },
@@ -7742,11 +10148,32 @@
         },
         {
             "id": "AN81",
-            "x": 0.5419545454545455,
-            "y": 0.5010614525139665,
-            "name": "AN81",
+            "x": 0.5079545454545455,
+            "y": 0.5087614525139665,
+            "name": "Endless Munitions",
             "stats": [
-                "Deadeye notable"
+                "Skills fire an additional Projectile"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN82",
+            "x": 0.5219545454545454,
+            "y": 0.4984614525139665,
+            "name": "Eagle eyes",
+            "stats": [
+                "You have no Accuracy Penalty at Distance"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN83",
+            "x": 0.5210545454545455,
+            "y": 0.5374614525139665,
+            "name": "Gathering Winds",
+            "stats": [
+                "Gain Tailwind on Skill use",
+                "Lose all Tailwind when Hit"
             ],
             "category": "ascendancies"
         },
@@ -7762,11 +10189,42 @@
         },
         {
             "id": "AN91",
-            "x": 0.5359545454545455,
-            "y": 0.5099614525139665,
-            "name": "AN91",
+            "x": 0.5343545454545455,
+            "y": 0.5105614525139665,
+            "name": "Contagious Contamination",
             "stats": [
-                "Pathffinder notable"
+                "The most Damaging Poison on Enemies you Kill is Spread to other Enemies within 1.5 metres"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN92",
+            "x": 0.5420545454545455,
+            "y": 0.4847614525139665,
+            "name": "Overwhelming Toxicity",
+            "stats": [
+                "Double the number of Poisons you can inflict on Enemies",
+                "35% less Poison Duration"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN93",
+            "x": 0.5024254545454545,
+            "y": 0.5555614525139665,
+            "name": "Running Assault",
+            "stats": [
+                "30% less Movement Speed Penalty when using Skills while moving"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN94",
+            "x": 0.4565545454545455,
+            "y": 0.5304614525139665,
+            "name": "Relentless Pursuit",
+            "stats": [
+                "You gain immunity to slows from enemies"
             ],
             "category": "ascendancies"
         },
@@ -7782,21 +10240,58 @@
         },
         {
             "id": "AN101",
-            "x": 0.5009545454545455,
-            "y": 0.5300614525139665,
-            "name": "AN101",
+            "x": 0.5221545454545455,
+            "y": 0.5290614525139665,
+            "name": "Obssesive Rituals",
             "stats": [
-                "Witchhunter notable"
+                "Grants Skill: Sorcery Ward",
+                "50% les Armour and Evasion Rating"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN102",
+            "x": 0.4809545454545455,
+            "y": 0.5085614525139664,
+            "name": "Witchbane",
+            "stats": [
+                "Enemies Maximum Concentration equal to 40% of their Maximum Life",
+                "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+                "Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
+                "past 5 seconds"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN103",
+            "x": 0.5012545454545455,
+            "y": 0.5296614525139665,
+            "name": "Judge, Jury, and Executionner",
+            "stats": [
+                "Decimating Strike",
+                "(First hit chunks enemy)"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN104",
+            "x": 0.5443545454545455,
+            "y": 0.5140614525139665,
+            "name": "Zealous inquisition",
+            "stats": [
+                "10% chance for Enemies you Kill to Explode, dealing 100%",
+                "of their Maximum Life as Physical Damage",
+                "Chance is doubled against Undead and Demons"
             ],
             "category": "ascendancies"
         },
         {
             "id": "AS111",
-            "x": 0.4935545454545455,
+            "x": 0.4928545454545455,
             "y": 0.5416614525139665,
             "name": "AS111",
             "stats": [
-                "Legionnaire small"
+                "Gemling small"
             ],
             "category": "ascendancies"
         },
@@ -7806,7 +10301,49 @@
             "y": 0.5240614525139665,
             "name": "AN111",
             "stats": [
-                "Legionnaire notable"
+                "Gemling notable"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN112",
+            "x": 0.4539545454545455,
+            "y": 0.4986614525139665,
+            "name": "Crystalline Potential",
+            "stats": [
+                "+12% to Quality of all Skill Gems"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN113",
+            "x": 0.5249545454545455,
+            "y": 0.5215614525139665,
+            "name": "Integrated Efficiency",
+            "stats": [
+                "Grants 3 additional Skill Slots"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN114",
+            "x": 0.5352545454545455,
+            "y": 0.4830614525139665,
+            "name": "Thaumaturgical Infusion",
+            "stats": [
+                "+1% to Maximum Cold Resistance per 3 Blue Support Gems Socketed anywhere",
+                "+1% to Maximum Fire Resistance per 3 Red Support Gems Socketed anywhere",
+                "+1% to Maximum Lightning Resistance per 3 Green Support Gems Socketed anywhere"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN115",
+            "x": 0.533845454545455,
+            "y": 0.5300614525139665,
+            "name": "Adaptive Capability",
+            "stats": [
+                "Attribute Requirements of Gems can be satisfied by your highest Attribute"
             ],
             "category": "ascendancies"
         }

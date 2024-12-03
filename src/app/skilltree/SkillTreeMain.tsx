@@ -5,7 +5,7 @@ import { SkillTreeImage } from "./skilltreeimage";
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef, getMatrixTransformStyles } from "react-zoom-pan-pinch";
 import { SearchInput } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
-import newNodes from "../data/updated_nodes_desc.json";
+import newNodes from "../data/file1_updated.json";
 import { SkillTreeNodes } from "./SkillTreeNodes";
 import CircleMenu from "./circlemenu";
 import { useCharacterContext } from "../context/CharContext";
@@ -92,7 +92,7 @@ const SkillTreeMain = () => {
               zoomRef={zoomRef}
             />
           ))}
-          <SkillTreeNodes size="16px" searchQuery={searchQuery} filterNodes={filterNodes} nodes={newNodes?.ascNodes?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())} zoomRef={zoomRef}/>
+          <SkillTreeNodes size="16px" searchQuery={searchQuery} filterNodes={filterNodes} nodes={newNodes?.asc?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())} zoomRef={zoomRef}/>
         </TransformComponent>
       </TransformWrapper>
     </div>

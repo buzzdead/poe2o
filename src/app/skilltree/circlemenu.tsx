@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useCharacterContext } from "../context/CharContext";
 import classAscendancy from "../data/classAscendancy.json";
 import { MyClasses } from "../classes/const";
@@ -30,7 +31,6 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
     { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
   ];
 
-
   const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
       for (const ascendancy of classData.ascendancies) {
@@ -48,68 +48,75 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   };
 
   return (
-    <AnimatePresence>
-      {isOpen && (
-        <div
-          style={{
-            position: "absolute",
-            top: `${position.top}px`,
-            left: `${position.left}px`,
-            width: 400,
-            height: 400,
-            margin: "auto",
-          }}
-        >
-          {/* Circle Images */}
-          {images.map((image, index) => {
-            const angle = (index / images.length) * 2 * Math.PI;
-            const x = Math.cos(angle) * radius;
-            const y = Math.sin(angle) * radius;
+    <TooltipProvider>
+      <AnimatePresence>
+        {isOpen && (
+          <div
+            style={{
+              position: "absolute",
+              top: `${position.top}px`,
+              left: `${position.left}px`,
+              width: 400,
+              height: 400,
+              margin: "auto",
+            }}
+          >
+            {/* Circle Images */}
+            {images.map((image, index) => {
+              const angle = (index / images.length) * 2 * Math.PI;
+              const x = Math.cos(angle) * radius;
+              const y = Math.sin(angle) * radius;
 
-            return (
-              <motion.img
-                key={index}
-                src={image.src}
-                alt={`Option ${index + 1}`}
-                initial={{
-                  x: 0,
-                  y: 0,
-                  opacity: 0,
-                }}
-                animate={{
-                  x: isOpen ? x : 0,
-                  y: isOpen ? y : 0,
-                  opacity: isOpen ? 1 : 0,
-                }}
-                exit={{
-                  x: 0,
-                  y: 0,
-                  opacity: 0,
-                  
-                }}
-                transition={{
-                    type: "spring",
-                    stiffness: 200, // Lower value = slower
-                    damping: 30, // Higher value = slower
-                    duration: 1.5, // Add a fixed duration if needed
-                  }}
-                style={{
-                  position: "absolute",
-                  left: "50%",
-                  width: 100,
-                  zIndex: 45,
-                  height: 100,
-                  transform: "translate(-50%, -50%)",
-                  borderRadius: "50%",
-                  cursor: "pointer",
-                }}
-                onClick={() => handleOnClick(image.name)}
-              />
-            );
-          })}
-        </div>
-      )}
-    </AnimatePresence>
+              return (
+                <Tooltip key={index}>
+                  <TooltipTrigger asChild>
+                    <motion.img
+                      src={image.src}
+                      alt={`Option ${index + 1}`}
+                      initial={{
+                        x: 0,
+                        y: 0,
+                        opacity: 0,
+                      }}
+                      animate={{
+                        x: isOpen ? x : 0,
+                        y: isOpen ? y : 0,
+                        opacity: isOpen ? 1 : 0,
+                      }}
+                      exit={{
+                        x: 0,
+                        y: 0,
+                        opacity: 0,
+                      }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 200,
+                        damping: 30,
+                        duration: 1.5,
+                      }}
+                      style={{
+                        position: "absolute",
+                        left: "50%",
+                        width: 100,
+                        zIndex: 45,
+                        height: 100,
+                        transform: "translate(-50%, -50%)",
+                        borderRadius: "50%",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleOnClick(image.name)}
+                    />
+                  </TooltipTrigger>
+                  <TooltipContent>
+  {image.name}
+</TooltipContent>
+                </Tooltip>
+              );
+            })}
+          </div>
+        )}
+      </AnimatePresence>
+    </TooltipProvider>
   );
 };
 

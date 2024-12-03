@@ -87,7 +87,7 @@ const SaveLoadSetups = () => {
   };
 
   return (
-    <div className="fixed z-50 top-5 left-5 p-2 bg-background/75 border border-gray-700 rounded-lg shadow-lg space-y-4 w-[25rem]">
+    <div className="fixed z-50 top-5 left-5 p-2 bg-background/95 border border-gray-700 rounded-lg shadow-lg space-y-4 w-[25rem]">
       <Collapsible.Root open={isOpen} onOpenChange={setIsOpen}>
         {/* Collapsible Trigger */}
         <Collapsible.Trigger asChild>

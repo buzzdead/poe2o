@@ -20,7 +20,7 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
     };
     return (
         <div
-            
+            className="will-change-transform"
         >
             {/* Large Image */}
             <Image
@@ -52,6 +52,7 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
                 id="clickexpand"
                 src={characters[0]?.ascendancies.image || "/ascendancy/acolyte.webp"} // Replace with the actual smaller image path
                 alt="Ascendancy"
+                
                 width={SMALL_IMAGE_SIZE}
                 height={SMALL_IMAGE_SIZE}
                 onClick={() => console.log("hasdf")}
