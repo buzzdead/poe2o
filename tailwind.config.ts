@@ -11,7 +11,7 @@ export default {
     extend: {
       animation: {
         shake: 'shake 0.25s ease-in-out',
-        pulseBorderShadow: 'pulseBorderShadow 2s infinite'
+        pulseBorderShadow: 'pulseBorderShadow 2s linear infinite'
       },
       keyframes: {
         shake: {
@@ -23,18 +23,16 @@ export default {
         },
         pulseBorderShadow: {
           '0%': {
-            borderWidth: '2px',
-            boxShadow: '0 0 0 1px rgba(220, 163, 74, 0.75), 0 0 10px 2px rgba(220, 163, 74, 0.75)',
-          },
-          '50%': {
-            borderWidth: '4px',
-            boxShadow: '0 0 2.5px 2.5px rgba(220, 163, 74, 0.75), 0 0 15px 5px rgba(220, 163, 74, 0.75)',
+            borderWidth: '8px',
+            borderColor: 'orange',
+            scale: "0.75"
           },
           '100%': {
-            borderWidth: '2px',
-            boxShadow: '0 0 0 1px rgba(220, 163, 74, 0.75), 0 0 10px 2px rgba(220, 163, 74, 0.75)',
+            borderWidth: '8px',
+            scale: "0.75",
+            borderColor: 'yellow'
           },
-      },
+        }
     },
       colors: {
         background: 'hsl(var(--background))',

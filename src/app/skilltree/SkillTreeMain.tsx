@@ -50,7 +50,7 @@ const SkillTreeMain = () => {
   }, [isOpen]); // Recalculate position when `isOpen` changes
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    <div className="relative w-full h-full overflow-hidden will-change-auto">
       <SaveLoadSetups />
       <SearchInput searchQuery={searchQuery} handleSearchChange={handleSearchChange} />
       
@@ -72,7 +72,7 @@ const SkillTreeMain = () => {
           wheelDisabled: false,
           activationKeys: ['Shift'],
         }}
-        panning={{ disabled: false, }}
+        panning={{ disabled: false, wheelPanning: false}}
         velocityAnimation={{
           disabled: false, // Smooth momentum
           sensitivity: 0.5, // Adjust sensitivity

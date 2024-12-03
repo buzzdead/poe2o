@@ -181,6 +181,7 @@ export const SkillTreeNodes = React.memo(({
           {tooltip && showToolTip()}
       {nodes.map((node) => {
         const isSelected = myNodes.find((n) => n.id === node.id);
+        
         const nodeStyle =
           node.stats.length > 0
             ? {
@@ -202,6 +203,7 @@ export const SkillTreeNodes = React.memo(({
                 background: isSelected ? "red" : "rgba(22, 163, 74, 0.5)",
                
               }
+              
             : {
                 border: isSelected
                   ? "2px solid red"
@@ -214,7 +216,7 @@ export const SkillTreeNodes = React.memo(({
             key={node.id}
             
             onClick={() => handleSelectNode(node)}
-            className={`absolute cursor-pointer rounded-full transform-gpu will-change-transform transition-all duration-2000 ${
+            className={`absolute cursor-pointer rounded-full will-change-auto transition-all duration-5000 ${
               nodeStyle.highLight ? "animate-pulseBorderShadow bg-yellow!important" : ""
             }`}
             style={{

@@ -20,7 +20,7 @@ const SkillTreeImageComponent = ({setIsOpen}: Props) => {
     };
     return (
         <div
-            className="will-change-transform"
+            className="will-change-auto"
         >
             {/* Large Image */}
             <Image
