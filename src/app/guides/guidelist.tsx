@@ -1,54 +1,83 @@
 export const GuideList = {
-    bloodmage: {
-        earlyFocus: [
-            {
-                bulletPoint: "Attributes",
-                description: "Start by selecting nodes that grant Intelligence, as it boosts your spellcasting."
-            },
-            {
-                bulletPoint: "Spell Damage",
-                description: "Prioritize nodes that increase Spell Damage and Chaos/Elemental Damage for scaling your damage output."
-            },
-            {
-                bulletPoint: "Energy Shield",
-                description: "Pick Energy Shield nodes to enhance survivability, as you’ll rely on your shield to buffer damage while using life for spells."
-            }
-        ],
-        coreSkills: [
-            {
-                bulletPoint: "Blood Magic",
-                description: "Use Blood Magic gem to convert your mana to life, enabling you to cast spells without worrying about mana."
-            },
-            {
-                bulletPoint: "Life Leech",
-                description: "Life Leech gem is essential for recovering health from damage dealt, crucial for sustaining your health pool."
-            },
-            {
-                bulletPoint: "Blood Offering",
-                description: "Blood Offering increases your spell damage at the cost of sacrificing a portion of your life, enhancing overall power."
-            }
-        ],
-        keyNodes: [
-            {
-                bulletPoint: "Life Regeneration",
-                description: "Focus on Life Regeneration nodes for maintaining a sustainable life pool while using life as a resource."
-            },
-            {
-                bulletPoint: "Chaos/Elemental Damage",
-                description: "Pick nodes that scale your specific damage type, whether it’s Chaos or Elemental, based on your skill choice."
-            },
-            {
-                bulletPoint: "Blood Magic-Specific Nodes",
-                description: "Invest in nodes that specifically enhance your Blood Magic, like increasing damage or life-related effects."
-            }
-        ],
-        ascendancy: [
-            {
-                bulletPoint: "Blood Mage Ascendancy",
-                description: "Blood Mage offers significant damage boosts while converting life to mana and provides bonuses to Life Leech for improved sustainability."
-            }
-        ]
+    
+        bloodmage: {
+            earlyFocus: [
+                {
+                    bulletPoint: "Attributes",
+                    description: "Start by selecting nodes that grant Intelligence, as it boosts your spellcasting and allows for better gear scaling."
+                },
+                {
+                    bulletPoint: "Life Pool",
+                    description: "Focus on nodes that increase maximum life, as your skills consume life as a resource."
+                },
+                {
+                    bulletPoint: "Damage Scaling",
+                    description: "Prioritize nodes that increase Spell Damage, with emphasis on Elemental or Chaos Damage based on your chosen skills."
+                },
+                {
+                    bulletPoint: "Life Recovery",
+                    description: "Ensure you pick up life regeneration nodes early for sustainable resource management."
+                }
+            ],
+            coreSkills: [
+                {
+                    bulletPoint: "Sanguimancy Keystone",
+                    description: "Sanguimancy converts your mana costs into life costs, enabling a unique resource system that leverages high health pools."
+                },
+                {
+                    bulletPoint: "Life Recovery Mechanics",
+                    description: "Incorporate skills or mechanics like Life Leech or skills that grant Life on Kill to sustain your resource pool effectively."
+                },
+                {
+                    bulletPoint: "Spell Scaling",
+                    description: "Utilize spell skills that synergize well with life-based resource management, such as Chaos or Elemental spells with high damage multipliers."
+                }
+            ],
+            keyNodes: [
+                {
+                    bulletPoint: "Life Regeneration",
+                    description: "Focus on Life Regeneration nodes to maintain your survivability while casting spells."
+                },
+                {
+                    bulletPoint: "Damage Scaling",
+                    description: "Pick nodes that enhance Chaos, Fire, or Elemental Damage to scale your offensive output effectively."
+                },
+                {
+                    bulletPoint: "Defensive Layers",
+                    description: "Invest in defensive nodes like Energy Shield or Armor for survivability in the face of high life expenditure."
+                }
+            ],
+            ascendancy: [
+                {
+                    bulletPoint: "Sanguimancy Ascendancy",
+                    description: "The Blood Mage Ascendancy provides powerful bonuses to life-based spellcasting, with increased damage, life recovery, and additional scaling options."
+                },
+                {
+                    bulletPoint: "Vitality Siphon Support",
+                    description: "Leverage the Vitality Siphon keystone for additional life leech, allowing sustained survivability while casting high-cost spells."
+                }
+            ],
+            notes: [
+                {
+                    bulletPoint: "Physical Damage Potential",
+                    description: "Experiment with life-based melee or attack skills that benefit from scaling life and using unique items that convert life into offensive power."
+                },
+                {
+                    bulletPoint: "Support Skill Synergies",
+                    description: "Look for support gems that enhance physical damage output while synergizing with high-life builds, such as increased area of effect or bleed modifiers."
+                },
+                {
+                    bulletPoint: "Unique Item Interactions",
+                    description: "Utilize items like Covenant or other uniques that interact with life-based skill costs to add diversity to your build."
+                },
+                {
+                    bulletPoint: "Hybrid Builds",
+                    description: "Consider hybrid playstyles that combine spellcasting and physical skills for versatility, utilizing nodes that benefit both damage types."
+                }
+            ]
+        
     },
+    
     infernalist: {
         earlyFocus: [
             {

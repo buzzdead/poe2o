@@ -54,7 +54,7 @@ const Guides = () => {
                         />
                         <h3
                           className={`text-lg font-semibold absolute bottom-1 left-1 bg-black/50 px-2 py-2 rounded select-none ${
-                            img.name === selectedAscendancy ? 'text-blue-600' : 'text-white'
+                            img.name.toLowerCase() === selectedAscendancy ? 'text-blue-600' : 'text-white'
                           }`}
                         >
                           {img.name}
@@ -75,13 +75,13 @@ const Guides = () => {
     );
   };
 
-const Guide = ({ ascendancy }: GuideProps) => {
-    const myGuide = GuideList[ascendancy];
+  const Guide = ({ ascendancy }: GuideProps) => {
+    const myGuide: typeof GuideList[keyof typeof GuideList] & {notes?: any} = GuideList[ascendancy];
 
     return (
         <div className="space-y-8">
             <div>
-                <h3 className="text-2xl font-semibold text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Early Focus</h3>
+                <h3 className="text-3xl text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Early Focus</h3>
                 <ul className="space-y-6">
                     {myGuide.earlyFocus.map((item, index) => (
                         <li key={index} className="flex flex-col space-y-3">
@@ -93,7 +93,7 @@ const Guide = ({ ascendancy }: GuideProps) => {
             </div>
 
             <div>
-                <h3 className="text-2xl font-semibold text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Core Skills</h3>
+                <h3 className="text-3xl text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Core Skills</h3>
                 <ul className="space-y-6">
                     {myGuide.coreSkills.map((item, index) => (
                         <li key={index} className="flex flex-col space-y-3">
@@ -105,7 +105,7 @@ const Guide = ({ ascendancy }: GuideProps) => {
             </div>
 
             <div>
-                <h3 className="text-2xl font-semibold text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Key Nodes</h3>
+                <h3 className="text-3xl text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Key Nodes</h3>
                 <ul className="space-y-6">
                     {myGuide.keyNodes.map((item, index) => (
                         <li key={index} className="flex flex-col space-y-3">
@@ -117,7 +117,7 @@ const Guide = ({ ascendancy }: GuideProps) => {
             </div>
 
             <div>
-                <h3 className="text-2xl font-semibold text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Ascendancy</h3>
+                <h3 className="text-3xl text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Ascendancy</h3>
                 <ul className="space-y-6">
                     {myGuide.ascendancy.map((item, index) => (
                         <li key={index} className="flex flex-col space-y-3">
@@ -127,8 +127,23 @@ const Guide = ({ ascendancy }: GuideProps) => {
                     ))}
                 </ul>
             </div>
+
+            {myGuide.notes && (
+                <div>
+                    <h3 className="text-3xl text-accent-fire border-b-2 border-blue-800 pb-2 mb-4">Notes</h3>
+                    <ul className="space-y-6">
+                        {myGuide.notes.map((item: any, index: number) => (
+                            <li key={index} className="flex flex-col space-y-3">
+                                <span className="text-xl font-bold text-accent">{item.bulletPoint}</span>
+                                <p className="text-base text-gray-300">{item.description}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
     );
 };
+
 
 export default Guides;
