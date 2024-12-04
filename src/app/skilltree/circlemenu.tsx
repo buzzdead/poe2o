@@ -53,8 +53,8 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   };
 
   return (
-    <TooltipProvider delayDuration={20}>
-      <div className="w-[100rem] h-[100rem] absolute" onClick={() => setIsOpen()}style={{zIndex: 40}}></div>
+    <TooltipProvider delayDuration={isOpen  ? 20 : 99999}>
+      <div className="w-[100rem] h-[100rem] absolute" onClick={() => setIsOpen()}style={{zIndex: isOpen ? 40 : -1}}></div>
       <AnimatePresence>
         {isOpen && (
           <div
