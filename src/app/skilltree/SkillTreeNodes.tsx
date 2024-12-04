@@ -49,46 +49,41 @@ export const SkillTreeNodes = React.memo(
       const isRightSide = cursorXPercent > 0.5;
       const isTopHalf = cursorYPercent < 0.5;
       const tooltipScale = Math.min(Math.max(1 / scale, 0.5), 1);
+    
       // Left-right positioning: If it's on the right side, align the tooltip to the left, otherwise to the right
       const leftOffset = isRightSide
         ? `${Math.min(cursorXPercent * 100 - 7.5 + scale)}%`
         : `${Math.max(cursorXPercent * 100 + 7.5 - scale)}%`;
-
+    
       // Top-bottom positioning: If it's on the top half, position it below the cursor, otherwise above
       const topOffset = isTopHalf
         ? `${Math.max(cursorYPercent * 100 + 2)}%`
         : `${Math.min(cursorYPercent * 100 - 2)}%`;
-
+    
       return (
         <div
-          className="absolute bg-black/95 backdrop-blur-sm text-white p-4 rounded-lg flex flex-col pointer-events-none"
+          className="absolute bg-gradient-to-tl from-gray-900 to-background text-white p-0 rounded-2xl w-72 flex flex-col pointer-events-none"
           style={{
             left: leftOffset,
             top: topOffset,
             zIndex: 99999,
-            boxShadow: `
-          0 0 0 4px rgba(16, 185, 129, 0.2),
-          0 0 0 2px rgba(16, 185, 129, 0.3),
-          0 0 0 4px rgba(16, 185, 129, 0.1),
-          0 0 20px 4px rgba(16, 185, 129, 0.1)
-        `,
             transform: `translate(-50%, -50%) scale(${tooltipScale})`,
             maxWidth: "18rem",
+            backfaceVisibility: "hidden"
           }}
         >
-          <h3 className="text-xl font-semibold text-center mb-3 text-emerald-200">
-            {node?.name || "Unknown Node"}
-          </h3>
-          <ul className="list-disc pl-5 space-y-2.5">
-            {tooltip.nodeDesc?.map((stat: string[], index: number) => (
-              <li
-                key={index}
-                className="text-sm text-emerald-100 leading-relaxed"
-              >
-                {stat}
-              </li>
+          <div className="bg-gradient-to-b from-red-600 to-background px-4 py-1 mt- rounded-3xl">
+            <h3 className="text-xl text-center bg-gradient-to-r from-yellow-300 via-red-100 pb-1 to-yellow-700 bg-clip-text text-transparent">
+              {node?.name || "Unknown Node"}
+            </h3>
+          </div>
+          <div className="p-4 space-y-2 gap-2 flex flex-col">
+            {node.stats?.map((stat: string[], index: number) => (
+              <div key={index}>
+                <span className="text-white text-md font-semibold text-md">{stat}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       );
     };

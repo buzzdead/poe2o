@@ -31,7 +31,7 @@ export const SearchInput: React.FC<SearchInputProps> = React.memo(
         if (localQuery !== searchQuery) {
           handleSearchChange(localQuery);
         }
-      }, 200);
+      }, 300);
 
       return () => clearTimeout(timeoutId);
     }, [localQuery, searchQuery, handleSearchChange]);

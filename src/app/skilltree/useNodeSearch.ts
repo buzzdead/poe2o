@@ -29,7 +29,7 @@ export const useNodeSearch = () => {
         worker.removeEventListener('message', handleWorkerMessage);
         worker.terminate();
       };
-    }, [searchQuery]);
+    }, []);
   
     const handleSearchChange = useCallback((query: string) => {
       setSearchQuery(query);
