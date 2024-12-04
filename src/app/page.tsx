@@ -1,4 +1,4 @@
-import { Sparkles, Sword, TestTube } from "lucide-react";
+import { Sparkles, Sword, TestTube, TreesIcon, BadgeInfo } from "lucide-react";
 import CustomCard from "./appcomponents/CustomCard";
 
 export default function Home() {
@@ -32,6 +32,22 @@ export default function Home() {
             description="The upcoming Path of Exile 2 expansion introduces several new and unique character classes, each with their own playstyle, abilities, and specialties."
             linkText="View Classes"
           />
+             <CustomCard
+            href="/skilltree"
+            icon={TreesIcon}
+            theme="blue"
+            title="Skill Tree"
+            description="Huge skilltree where you can choose asendancy and plan your build. Save your builds to store them in local storage, and they will be there way into launch!"
+            linkText="View Skilltree"
+          />
+               <CustomCard
+            href="/guides"
+            icon={BadgeInfo}
+            theme="blue"
+            title="Guides"
+            description="AI Generated guides"
+            linkText="View Classes"
+          />
 
           <CustomCard
             href="/earlyaccess"
@@ -41,6 +57,7 @@ export default function Home() {
             description="Stay tuned for the latest updates on the Path of Exile 2 early access release. We will be sharing news, release dates, and details."
             fullWidth
           />
+          
         </section>
       </main>
     </div>
