@@ -15,6 +15,7 @@ import {
 type NavItem = {label: string, href: string}
 const navItems: NavItem[] = [
   { label: "Home", href: "/" },
+  { label: "Guides", href: "/guides"},
   { label: "Gems", href: "/gems" },
   { label: "Classes", href: "/classes" },
   { label: "Skill Tree", href: "/skilltree"},
@@ -35,7 +36,7 @@ export function NavigationMenuDemo() {
                   href={item.href}
                   className={cn(
                     navigationMenuTriggerStyle(),
-                    pathname === item.href && "bg-accent text-accent-foreground"
+                    pathname === item.href && "bg-accent text-accent-foreground",
                   )}
                 >
                   {item.label}
