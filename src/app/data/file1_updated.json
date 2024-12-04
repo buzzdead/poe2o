@@ -599,7 +599,7 @@
                 "Acolyte small"
             ],
             "kind": "small",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN51",
@@ -611,7 +611,7 @@
                 "Chaos Resistance is doubled"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN52",
@@ -622,7 +622,7 @@
                 "Mana Leech is instant"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN53",
@@ -634,7 +634,7 @@
                 "Mana Leech effects also Recover Energy Shield"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN54",
@@ -645,7 +645,7 @@
                 "Grants Skill: Into the Breach"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN55",
@@ -656,7 +656,7 @@
                 "Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AS61",
@@ -1112,7 +1112,7 @@
                 "Gemling small"
             ],
             "kind": "small",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN111",
@@ -1123,7 +1123,7 @@
                 "+12% to Quality of all Skill Gems"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN112",
@@ -1134,7 +1134,7 @@
                 "+1 to Level of all Skills"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN113",
@@ -1145,7 +1145,7 @@
                 "Grants 3 additional Skill Slots"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN114",
@@ -1158,7 +1158,7 @@
                 "+1% to Maximum Lightning Resistance per 4 Green Support Gems Socketed"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN115",
@@ -1169,7 +1169,7 @@
                 "Attribute Requirements of Gems can be satisfied by your highest Attribute"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN116",
@@ -1180,7 +1180,7 @@
                 "Inherent bonuses from Intelligence Strength and Dexterity are doubled"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN117",
@@ -1192,7 +1192,7 @@
                 "Skill Gems have 30% more Attribute Requirements"
             ],
             "kind": "notable",
-            "class": "gemling"
+            "class": "gemling legionnaire"
         },
         {
             "id": "AN145",
@@ -1201,7 +1201,7 @@
             "name": "AN145",
             "stats": [],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN119",
@@ -1212,7 +1212,7 @@
                 "Effect and Duration of Flames of Chayula on You is Double"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN120",
@@ -1227,7 +1227,7 @@
                 "+5 to Maximum Darkness per Level"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN121",
@@ -1240,7 +1240,7 @@
                 "7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
             ],
             "kind": "notable",
-            "class": "acolyte"
+            "class": "acolyte of chayula"
         },
         {
             "id": "AN122",
