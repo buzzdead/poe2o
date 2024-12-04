@@ -1,51 +1,27 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
 import { toast } from "sonner";
 import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
+import nodes from "../data/file1_updated.json";
 import React from "react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../../components/ui/tooltip";
 
-export type NodeSize = 'small' | 'notable' | 'keystone';
-
-interface ColorsFromSizeType {
-  unSelected: Record<NodeSize, string>;
-  selected: Record<NodeSize, string>;
-}
-
-const ColorsFromSize: ColorsFromSizeType = {
-  unSelected: {
-    keystone: 'rgba(22, 163, 74, 1)', // Dark Green
-    notable: 'rgba(34, 197, 94, 0.75)', // Medium Green
-    small: 'rgba(134, 239, 172, 0.5)', // Light Green
-  },
-  selected: {
-    keystone: 'rgba(220, 38, 38, 1)', // Dark Red
-    notable: 'rgba(244, 63, 63, 0.75)', // Medium Red
-    small: 'rgba(252, 129, 129, 0.5)', // Light Red
-  },
-};
-
-const sizes: Record<NodeSize, string> = {
-  small: '8px',
-  notable: '10.5px',
-  keystone: '15.5px'
-}
-
+type ArcNode = SkillNode & {kind: string, class: string}
+const ascNodeSizes: Record<string, string> = {small: '10px', notable: '16px', keystone: '16px'}
 
 interface Props {
-  nodes: SkillNode[]
   filterNodes: string[];
   searchQuery: string;
-  size: NodeSize 
   zoomRef: any;
 }
 
-export const SkillTreeNodes = React.memo(
-  ({ nodes, filterNodes, searchQuery, size, zoomRef }: Props) => {
+export const AscNodes = React.memo(
+  ({ filterNodes, searchQuery, zoomRef }: Props) => {
     const isCtrlDown = useRef(false);
     const [tooltip, setTooltip] = useState<any>(null); // For showing node details
     const isLeftShiftSelected = useRef(false);
-    const { nodes: myNodes, selectNode } = useCharacterContext();
+    const { nodes: myNodes, selectNode, characters } = useCharacterContext();
     useEffect(() => {
       const handleKeyDown = (event: KeyboardEvent) => {
         if (event.ctrlKey) {
@@ -69,6 +45,7 @@ export const SkillTreeNodes = React.memo(
         window.removeEventListener("keyup", handleKeyUp);
       };
     }, []);
+
     const showToolTip = () => {
       const scale = zoomRef?.current?.instance?.transformState?.scale || 1;
       const node = tooltip.node;
@@ -114,7 +91,8 @@ export const SkillTreeNodes = React.memo(
         </div>
       );
     };
-    const calculateNodeStyle = (node: SkillNode, isSelected: boolean) => {
+   
+    const calculateNodeStyle = (node: ArcNode, isSelected: boolean) => {
       const nodeStyle =
             node.stats.length > 0
               ? {
@@ -125,21 +103,21 @@ export const SkillTreeNodes = React.memo(
                         stat.toLowerCase().includes(searchQuery.toLowerCase())
                       )),
                   border: isSelected
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
+                    ? "2px solid red"
                     : filterNodes.includes(node.name) ||
                       (searchQuery.trim() !== "" &&
                         node.stats.some((stat) =>
                           stat.toLowerCase().includes(searchQuery.toLowerCase())
                         ))
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
-                    :  `2px solid ${ColorsFromSize.unSelected[size]}`,
-                  background: isSelected ? ColorsFromSize.selected[size] :  ColorsFromSize.unSelected[size],
+                    ? "2px solid rgba(220, 163, 74, 0.75)"
+                    : "2px solid rgba(22, 163, 74, 0.75)", // green-600
+                    background: isSelected ? "red" : node.kind === "small" ? 'yellow' : node.kind === "notable" ? 'lightblue' : "rgba(204, 204, 255, .41)",
                 }
               : {
                   border: isSelected
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
+                    ? "2px solid red"
                     : "2px solid rgba(37, 99, 235, 0.15)", // blue-600
-                  background: isSelected ? ColorsFromSize.selected[size] : "rgba(204, 204, 255, .41)",
+                  background: isSelected ? "red" : node.kind === "small" ? 'yellow' : node.kind === "notable" ? 'lightblue' : "rgba(204, 204, 255, .41)",
                 };
               return nodeStyle
     };
@@ -238,20 +216,20 @@ export const SkillTreeNodes = React.memo(
     };
     return (
       <div>
-        {tooltip && showToolTip()}
-        {nodes.map((node) => {
+          {tooltip && showToolTip()}
+        {nodes?.asc?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())?.map((node) => {
           const isSelected = myNodes.some((n) => n.id === node.id);
           const nodeStyle = calculateNodeStyle(node, isSelected);
   
           return (
-            <MemoizedNode
+            <MemoizedAscNode
               key={node.id}
               node={node}
               nodeStyle={nodeStyle}
-              size={sizes[size]}
+              size={ascNodeSizes[node.kind] ?? '12px'}
               handleSelectNode={handleSelectNode}
-              setTooltip={setTooltip}
               isCtrlDown={isCtrlDown.current}
+              setTooltip={setTooltip}
             />
           );
         })}
@@ -260,7 +238,7 @@ export const SkillTreeNodes = React.memo(
   }
 );
 
-const MemoizedNode = React.memo(
+const MemoizedAscNode = React.memo(
   ({ node, nodeStyle, size, handleSelectNode, setTooltip, isCtrlDown }: any) => {
     return (
       <div
@@ -315,5 +293,5 @@ const MemoizedNode = React.memo(
     );
   }
 );
-MemoizedNode.displayName = "MemoizedNode"
-SkillTreeNodes.displayName = "SkillTreeNodes";
+MemoizedAscNode.displayName = "MemoizedAscNode"
+AscNodes.displayName = "SkillTreeNodes";

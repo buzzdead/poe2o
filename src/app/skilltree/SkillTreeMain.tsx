@@ -5,10 +5,11 @@ import { SkillTreeImage } from "./skilltreeimage";
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef, getMatrixTransformStyles } from "react-zoom-pan-pinch";
 import { SearchInput } from "./NodeHighlighter";
 import nodes from "../data/merged_nodes.json";
-import { SkillTreeNodes } from "./SkillTreeNodes";
+import { NodeSize, SkillTreeNodes } from "./SkillTreeNodes";
 import CircleMenu from "./circlemenu";
 import { useNodeSearch } from "./useNodeSearch";
-import { Ascendancies } from "./Ascendancies";
+import { SkillNode } from "../context/CharContext";
+import { AscNodes } from "./AscNodes";
 
 const SkillTreeMain = () => {
   const zoomRef = useRef<ReactZoomPanPinchRef>(null);
@@ -16,12 +17,12 @@ const SkillTreeMain = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [targetPosition, setTargetPosition] = useState<{ top: number, left: number } | null>(null);
 
-  const nodeGroups = [
-    { size: "15.5px", nodes: nodes.keystones },
-    { size: "10.5px", nodes: nodes.notables },
-    { size: "8px", nodes: nodes.smalls },
-  ];
-
+ 
+  const nodeGroups: Record<NodeSize, SkillNode[]> = {
+    small: nodes.smalls,
+    notable: nodes.notables,
+    keystone: nodes.keystones,
+  };
   const handleTargetClick = () => {
     if(zoomRef?.current?.instance?.transformState?.scale)
    zoomRef.current.zoomOut(5)
@@ -80,17 +81,21 @@ const SkillTreeMain = () => {
       >
         <TransformComponent contentStyle={{willChange: "transform"}}>
           <SkillTreeImage setIsOpen={handleTargetClick} />
-          {nodeGroups.map(({ size, nodes }, index) => (
+          {Object.entries(nodeGroups).map(([type, nodes], index) => (
             <SkillTreeNodes
-              key={index}
-              size={size}
+              key={index} // Unique key for each group
+              size={type as NodeSize} // Pass the type as the size, ensuring it's typed correctly
               searchQuery={searchQuery}
               filterNodes={filterNodes}
               nodes={nodes}
               zoomRef={zoomRef}
             />
           ))}
-          <Ascendancies searchQuery={searchQuery} filterNodes={filterNodes}  zoomRef={zoomRef}/>
+          <AscNodes
+            searchQuery={searchQuery}
+            filterNodes={filterNodes}
+            zoomRef={zoomRef}
+          />
         </TransformComponent>
       </TransformWrapper>
     </div>
