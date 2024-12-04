@@ -35,17 +35,6 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
     { name: "Warbringer", src: "/ascendancy/warbringer.webp" },
     { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
   ];
-  const preloadImages = images.map((image) => {
-    const img = new Image();
-    img.src = image.src;
-    return img;
-  });
-
-  React.useEffect(() => {
-    preloadImages.forEach(
-      (img) => (img.onload = () => console.log(`${img.src} loaded`))
-    );
-  }, [preloadImages]);
 
   const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
@@ -65,6 +54,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
 
   return (
     <TooltipProvider delayDuration={20}>
+      <div className="w-[100rem] h-[100rem] absolute" onClick={() => setIsOpen()}style={{zIndex: 40}}></div>
       <AnimatePresence>
         {isOpen && (
           <div
@@ -84,30 +74,31 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
               const y = Math.sin(angle) * radius;
 
               return (
-                <Tooltip key={index}>
+                <Tooltip disableHoverableContent key={index}>
                   <TooltipTrigger asChild>
                     <motion.img
                       draggable={false}
                       src={image.src}
                       alt={`Option ${index + 1}`}
                       initial={{
-                        x: 0,
-                        y: 0,
-                        opacity: 0,
-                        scale: 1, // Add initial scale
-                      }}
-                      animate={{
-                        x: isOpen ? x : 0,
-                        y: isOpen ? y : 0,
-                        opacity: isOpen ? 1 : 0,
-                        scale: isOpen ? 1 : 0, // Adjust scale when menu opens
-                      }}
-                      exit={{
-                        x: 0,
-                        y: 0,
-                        opacity: 0,
-                        scale: 1, // Reset scale on exit
-                      }}
+                          x: 0,
+                          y: 0,
+                          opacity: 0,
+                          scale: 1, // Add initial scale
+                        }}
+                        animate={{
+                          x: isOpen ? x : 0,
+                          y: isOpen ? y : 0,
+                          opacity: isOpen ? 1 : 0,
+                          scale: isOpen ? 1 : 0, // Adjust scale when menu opens
+                        }}
+                        exit={{
+                          x: 0,
+                          zIndex: 39,
+                          y: 0,
+                          opacity: 0,
+                          scale: 1, // Reset scale on exit
+                        }}
                       whileHover={{
                         scale: 1.1, // Increase scale on hover
                         transition: {
