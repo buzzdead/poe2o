@@ -22,18 +22,18 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   const { addCharacter, clearSkillTree } = useCharacterContext();
   const radius = 200; // Radius of the circle
   const images: Image[] = [
-    { name: "Acolyte", src: "/ascendancy/acolyte1.webp" },
-    { name: "Bloodmage", src: "/ascendancy/bloodmage1.webp" },
-    { name: "Chronomancer", src: "/ascendancy/chronomancer1.webp" },
-    { name: "Deadeye", src: "/ascendancy/deadeye1.webp" },
-    { name: "Infernalist", src: "/ascendancy/infernalist1.webp" },
-    { name: "Invoker", src: "/ascendancy/invoker1.webp" },
-    { name: "Legionnaire", src: "/ascendancy/legionnaire1.webp" },
-    { name: "Pathfinder", src: "/ascendancy/pathfinder1.webp" },
-    { name: "Stormweaver", src: "/ascendancy/stormweaver1.webp" },
-    { name: "Titan", src: "/ascendancy/titan1.webp" },
-    { name: "Warbringer", src: "/ascendancy/warbringer1.webp" },
-    { name: "Witchhunter", src: "/ascendancy/witchhunter1.webp" },
+    { name: "Acolyte", src: "/ascendancy/acolyte.webp" },
+    { name: "Bloodmage", src: "/ascendancy/bloodmage.webp" },
+    { name: "Chronomancer", src: "/ascendancy/chronomancer.webp" },
+    { name: "Deadeye", src: "/ascendancy/deadeye.webp" },
+    { name: "Infernalist", src: "/ascendancy/infernalist.webp" },
+    { name: "Invoker", src: "/ascendancy/invoker.webp" },
+    { name: "Legionnaire", src: "/ascendancy/legionnaire.webp" },
+    { name: "Pathfinder", src: "/ascendancy/pathfinder.webp" },
+    { name: "Stormweaver", src: "/ascendancy/stormweaver.webp" },
+    { name: "Titan", src: "/ascendancy/titan.webp" },
+    { name: "Warbringer", src: "/ascendancy/warbringer.webp" },
+    { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
   ];
   const preloadImages = images.map((image) => {
     const img = new Image();
