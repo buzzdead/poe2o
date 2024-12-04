@@ -55,8 +55,8 @@ export const AscNodes = React.memo(
     
       // Left-right positioning: If it's on the right side, align the tooltip to the left, otherwise to the right
       const leftOffset = isRightSide
-        ? `${Math.min(cursorXPercent * 100 - 9 + scale)}%`
-        : `${Math.max(cursorXPercent * 100 + 9 - scale)}%`;
+      ? `${Math.min(cursorXPercent * 100 - 9 + scale - (scale < 1.2 ? 1 : 0))}%`
+      : `${Math.max(cursorXPercent * 100 + 9 - scale + (scale < 1.2 ? 1 : 0))}%`;
     
       // Top-bottom positioning: If it's on the top half, position it below the cursor, otherwise above
       const topOffset = isTopHalf
