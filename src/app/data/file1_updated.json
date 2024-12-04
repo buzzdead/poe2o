@@ -57,14 +57,180 @@
             "class": "bloodmage"
         },
         {
-            "id": "AS11",
-            "x": 0.5019545454545455,
-            "y": 0.4639614525139665,
-            "name": "AS11",
+            "id": "AN5",
+            "x": 0.5405545454545455,
+            "y": 0.4875614525139665,
+            "name": "Grasping Wounds",
             "stats": [
-                "Infernalist small"
+                "25% of Life Lose from Damaging Hits is lost over 4 seconds instead"
+            ],
+            "kind": "notable",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AN6",
+            "x": 0.4890545454545455,
+            "y": 0.4831614525139665,
+            "name": "Blood Barbs",
+            "stats": [
+                "Gain 10% of Damage as Extra Physical Damage",
+                "Elemental Damage can inflict Bleeding"
+            ],
+            "kind": "notable",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AN7",
+            "x": 0.5230545454545455,
+            "y": 0.4805614525139665,
+            "name": "Open Sores",
+            "stats": [
+                "Your Curses have inifinite Duration"
+            ],
+            "kind": "notable",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AN8",
+            "x": 0.4924545454545455,
+            "y": 0.5205614525139665,
+            "name": "Sunder the Flesh",
+            "stats": [
+                "Base Critical Hit Chance for Spells is 15%"
+            ],
+            "kind": "notable",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS10",
+            "x": 0.5194545454545455,
+            "y": 0.4812614525139665,
+            "name": "Mana",
+            "stats": [
+                "4% increased maximum Mana"
             ],
             "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS11",
+            "x": 0.4726551277163553,
+            "y": 0.46382502841784834,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS12",
+            "x": 0.4913168549471277,
+            "y": 0.4648979014141492,
+            "name": "Spell Damage",
+            "stats": [
+                "12% increased Spell Damage"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS13",
+            "x": 0.5019545454545455,
+            "y": 0.4639614525139665,
+            "name": "Mana",
+            "stats": [
+                "4% increased maximum Mana"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS14",
+            "x": 0.5128332804944118,
+            "y": 0.4645445105386868,
+            "name": "Minion Life",
+            "stats": [
+                "Minions have 12% increased maximum Life"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS15",
+            "x": 0.5153016533900515,
+            "y": 0.4561733638062577,
+            "name": "Critical Chance",
+            "stats": [
+                "12% increased Critical Hit Chance"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS16",
+            "x": 0.49682518209362525,
+            "y": 0.4730525253352343,
+            "name": "Mana",
+            "stats": [
+                "4% increased maximum Mana"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS17",
+            "x": 0.48160127014065857,
+            "y": 0.4795342762600185,
+            "name": "Spell Damage",
+            "stats": [
+                "12% increased Spell Damage"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS18",
+            "x": 0.4510818648795072,
+            "y": 0.5012223157174786,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS19",
+            "x": 0.46009851917250233,
+            "y": 0.5033884069628545,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AS20",
+            "x": 0.46965833617593356,
+            "y": 0.5031417978383169,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "kind": "small",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN10",
+            "x": 0.5219545454545454,
+            "y": 0.4910614525139665,
+            "name": "Seething Body",
+            "stats": [
+                "While on High Infernal Flame, you and Allies in your Presence Gain 20% of Damage as Fire Damage"
+            ],
+            "kind": "notable",
             "class": "infernalist"
         },
         {
@@ -112,6 +278,79 @@
             "name": "Bringer of Flame",
             "stats": [
                 "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN15",
+            "x": 0.5278719365130325,
+            "y": 0.46170554629700983,
+            "name": "Grinning Immolation",
+            "stats": [
+                "Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
+                "Damage per second",
+                "30% more Critical Damage Bonus"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN16",
+            "x": 0.47402457009852117,
+            "y": 0.4878723773697596,
+            "name": "Mastered Darkness",
+            "stats": [
+                "Maximum 10 Demonflame"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN17",
+            "x": 0.4659205208981279,
+            "y": 0.48283341312808264,
+            "name": "Altered Flesh",
+            "stats": [
+                "20% of Cold Damage taken as Fire Damage",
+                "20% of Lightning Damage taken as Fire Damage",
+                "20% of Physical Damage taken as Chaos Damage"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN18",
+            "x": 0.4536975869334029,
+            "y": 0.5211442639295623,
+            "name": "Beidat's Gaze",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Mana per 6 Maximum Life"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN19",
+            "x": 0.4656773581876919,
+            "y": 0.5243501825485511,
+            "name": "Beidat's Will",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Spirit per 25 Maximum Life"
+            ],
+            "kind": "notable",
+            "class": "infernalist"
+        },
+        {
+            "id": "AN20",
+            "x": 0.4774918735076349,
+            "y": 0.5096769396385635,
+            "name": "Beidat's Hand",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Energy Shield per 4 Maximum Life"
             ],
             "kind": "notable",
             "class": "infernalist"
@@ -523,6 +762,63 @@
             "class": "deadeye"
         },
         {
+            "id": "AN84",
+            "x": 0.52465,
+            "y": 0.51793,
+            "name": "Projectile Proximity Specialisation",
+            "stats": [
+                "(Choice node)",
+                "Far Shot: Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets.",
+                "Point Blank: Projectile Hits deal up tp 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther."
+            ],
+            "kind": "notable",
+            "class": "deadeye"
+        },
+        {
+            "id": "AN85",
+            "x": 0.49855,
+            "y": 0.54326,
+            "name": "Wind Ward",
+            "stats": [
+                "3% less damage taken per Tailwind."
+            ],
+            "kind": "notable",
+            "class": "deadeye"
+        },
+        {
+            "id": "AN86",
+            "x": 0.5055,
+            "y": 0.5264,
+            "name": "Called Shots",
+            "stats": [
+                "You can apply an additional Mark."
+            ],
+            "kind": "notable",
+            "class": "deadeye"
+        },
+        {
+            "id": "AN87",
+            "x": 0.5417,
+            "y": 0.502,
+            "name": "Avidity",
+            "stats": [
+                "30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges."
+            ],
+            "kind": "notable",
+            "class": "deadeye"
+        },
+        {
+            "id": "AN88",
+            "x": 0.5378,
+            "y": 0.48,
+            "name": "Thrilling Chase",
+            "stats": [
+                "Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled."
+            ],
+            "kind": "notable",
+            "class": "deadeye"
+        },
+        {
             "id": "AS91",
             "x": 0.5432545454545455,
             "y": 0.5099614525139665,
@@ -579,6 +875,55 @@
             "class": "pathfinder"
         },
         {
+            "id": "AN95",
+            "x": 0.481,
+            "y": 0.541,
+            "name": "Traveller's Wisdom",
+            "stats": [
+                "Grants 5 Passive Skill Points"
+            ],
+            "kind": "notable",
+            "class": "pathfinder"
+        },
+        {
+            "id": "AN96",
+            "x": 0.5265,
+            "y": 0.49,
+            "name": "Brew Concoction",
+            "stats": [
+                "Grants the following skills:",
+                "Bleeding Concoction",
+                "Explosive Concoction",
+                "Shattering Concoction",
+                "Fulminating Concoction",
+                "Poisonous Concoction"
+            ],
+            "kind": "notable",
+            "class": "pathfinder"
+        },
+        {
+            "id": "AN97",
+            "x": 0.555,
+            "y": 0.51056,
+            "name": "Connected Chemistry",
+            "stats": [
+                "Flask Charges gained are doubled."
+            ],
+            "kind": "notable",
+            "class": "pathfinder"
+        },
+        {
+            "id": "AN98",
+            "x": 0.5495,
+            "y": 0.48476,
+            "name": "Enduring Elixirs",
+            "stats": [
+                "Life Flask Effects are not removed when Unreserved Life is Filled. Life Flask Effects do not queue."
+            ],
+            "kind": "notable",
+            "class": "pathfinder"
+        },
+        {
             "id": "AS101",
             "x": 0.5009545454545455,
             "y": 0.5459614525139665,
@@ -591,50 +936,92 @@
         },
         {
             "id": "AN101",
-            "x": 0.5221545454545455,
-            "y": 0.5290614525139665,
-            "name": "Obssesive Rituals",
+            "x": 0.4585545454545455,
+            "y": 0.5137614525139665,
+            "name": "Weapon Master",
             "stats": [
-                "Grants Skill: Sorcery Ward",
-                "50% les Armour and Evasion Rating"
+                "Grants 20 Weapon Set Skill Points"
             ],
             "kind": "notable",
             "class": "witchhunter"
         },
         {
             "id": "AN102",
-            "x": 0.4809545454545455,
-            "y": 0.5085614525139664,
-            "name": "Witchbane",
+            "x": 0.4807045454545455,
+            "y": 0.5287614525139664,
+            "name": "Pitless Killer",
             "stats": [
-                "Enemies Maximum Concentration equal to 40% of their Maximum Life",
-                "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-                "Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
-                "past 5 seconds"
+                "Culling Strike"
             ],
             "kind": "notable",
             "class": "witchhunter"
         },
         {
             "id": "AN103",
-            "x": 0.5012545454545455,
-            "y": 0.5296614525139665,
-            "name": "Judge, Jury, and Executionner",
+            "x": 0.4807045454545455,
+            "y": 0.5085614525139664,
+            "name": "Decimating Strike",
             "stats": [
-                "Decimating Strike",
-                "(First hit chunks enemy)"
+                "Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
             ],
             "kind": "notable",
             "class": "witchhunter"
         },
         {
             "id": "AN104",
-            "x": 0.5443545454545455,
-            "y": 0.5140614525139665,
-            "name": "Zealous inquisition",
+            "x": 0.5012545454545455,
+            "y": 0.5290614525139665,
+            "name": "Witchbane",
             "stats": [
-                "10% chance for Enemies you Kill to Explode, dealing 100%",
-                "of their Maximum Life as Physical Damage",
+                "Enemies have Maximum Concentration equal to 40% of their Maximum Life",
+                "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+                "Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
+            ],
+            "kind": "notable",
+            "class": "witchhunter"
+        },
+        {
+            "id": "AN105",
+            "x": 0.5015545454545455,
+            "y": 0.5081614525139665,
+            "name": "No Mercy",
+            "stats": [
+                "Deal up to 30% more Damage to Enemies based on their missing Concentration"
+            ],
+            "kind": "notable",
+            "class": "witchhunter"
+        },
+        {
+            "id": "AN106",
+            "x": 0.5223545454545455,
+            "y": 0.5287614525139664,
+            "name": "Obsessive Rituals",
+            "stats": [
+                "Grants Skills: Sorcery Ward",
+                "50% less Armour and Evasion Rating"
+            ],
+            "kind": "notable",
+            "class": "witchhunter"
+        },
+        {
+            "id": "AN107",
+            "x": 0.5223545454545455,
+            "y": 0.5085614525139664,
+            "name": "Ceremonial Ablution",
+            "stats": [
+                "50% increased effect of Sorcery Ward",
+                "Sorcery Ward recovers 50% faster"
+            ],
+            "kind": "notable",
+            "class": "witchhunter"
+        },
+        {
+            "id": "AN108",
+            "x": 0.5439945454545455,
+            "y": 0.5137614525139665,
+            "name": "Zealous Inquisition",
+            "stats": [
+                "10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
                 "Chance is doubled against Undead and Demons"
             ],
             "kind": "notable",
@@ -655,9 +1042,9 @@
             "id": "AN111",
             "x": 0.4829545454545455,
             "y": 0.5240614525139665,
-            "name": "AN111",
+            "name": "Crystalline Potential",
             "stats": [
-                "Gemling notable"
+                "+12% to Quality of all Skill Gems"
             ],
             "kind": "notable",
             "class": "gemling legionnaire"
@@ -666,9 +1053,9 @@
             "id": "AN112",
             "x": 0.4539545454545455,
             "y": 0.4986614525139665,
-            "name": "Crystalline Potential",
+            "name": "Implanted Gems",
             "stats": [
-                "+12% to Quality of all Skill Gems"
+                "+1 to Level of all Skills"
             ],
             "kind": "notable",
             "class": "gemling legionnaire"
@@ -704,6 +1091,29 @@
             "name": "Adaptive Capability",
             "stats": [
                 "Attribute Requirements of Gems can be satisfied by your highest Attribute"
+            ],
+            "kind": "notable",
+            "class": "gemling legionnaire"
+        },
+        {
+            "id": "AN116",
+            "x": 0.544845454545455,
+            "y": 0.4920614525139665,
+            "name": "Enhanced Effectiveness",
+            "stats": [
+                "Inherent bonuses from Intelligence Strength ans Dexterity are doubled"
+            ],
+            "kind": "notable",
+            "class": "gemling legionnaire"
+        },
+        {
+            "id": "AN117",
+            "x": 0.461845454545455,
+            "y": 0.4890614525139665,
+            "name": "Advanced Thaumaturgy",
+            "stats": [
+                "30% less Cost of skills",
+                "Skill Gems have 30% more Attribute Requirements"
             ],
             "kind": "notable",
             "class": "gemling legionnaire"

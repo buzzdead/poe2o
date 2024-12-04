@@ -600,7 +600,7 @@
             "y": 0.2534916201117318,
             "name": "Gravedigger",
             "stats": [
-                "Minions reviver 25% faster",
+                "Minions revive 25% faster",
                 "You gain 3% Life when one of your Minions is revived"
             ],
             "category": "notable"
@@ -687,7 +687,7 @@
             "name": "Growing Swarm",
             "stats": [
                 "Minions have 25% increased Area of Effect",
-                "Minion have 25% reduced Enemy Stun Threshold"
+                "Minions have 25% reduced Enemy Stun Threshold"
             ],
             "category": "notable"
         },
@@ -743,7 +743,7 @@
             "y": 0.295391061452514,
             "name": "Exploit the Elements",
             "stats": [
-                "40% increased Damage with Hits agains Enemies affected by Elemental Ailments"
+                "40% increased Damage with Hits against Enemies affected by Elemental Ailments"
             ],
             "category": "notable"
         },
@@ -1020,7 +1020,7 @@
             "y": 0.378840782122905,
             "name": "Immortal Thirst",
             "stats": [
-                "25% increased ammount of Mana Leeched"
+                "25% increased amount of Mana Leeched"
             ],
             "category": "notable"
         },
@@ -1187,7 +1187,7 @@
             "y": 0.4032821229050279,
             "name": "Tenfold Attack",
             "stats": [
-                "10% increased Attack speed"
+                "10% increased Attack Speed"
             ],
             "category": "notable"
         },
@@ -1325,6 +1325,17 @@
             "stats": [
                 "20% increased Energy Shield Recovery Rate if you haven't been Hit Recently",
                 "5% increased Movement Speed while you have Energy Shield"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N241",
+            "x": 0.15163636363636362,
+            "y": 0.44587988826815644,
+            "name": "Guttural Roar",
+            "stats": [
+                "30% increased Warcry Speed",
+                "Warcry Skills have 30% increased Area of Effect"
             ],
             "category": "notable"
         },
@@ -1541,7 +1552,7 @@
             "y": 0.49441340782122906,
             "name": "One with the Storm",
             "stats": [
-                "Querterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
+                "Quarterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
             ],
             "category": "notable"
         },
@@ -1646,7 +1657,7 @@
             "y": 0.5408519553072626,
             "name": "Honed Instincts",
             "stats": [
-                "8% increased Projectile Seed",
+                "8% increased Projectile Speed",
                 "8% increased Attack Speed",
                 "+10 to Dexterity"
             ],
@@ -1659,7 +1670,7 @@
             "name": "Smash",
             "stats": [
                 "20% increased Melee Damage",
-                "40% increased Melee Damage against Heavy Stunned ennemies"
+                "40% increased Melee Damage against Heavy Stunned enemies"
             ],
             "category": "notable"
         },
@@ -1867,7 +1878,7 @@
             "id": "N336",
             "x": 0.6116363636363636,
             "y": 0.5750698324022346,
-            "name": "Outmanouver",
+            "name": "Outmaneuver",
             "stats": [
                 "20% increased Stun buildup",
                 "20% increased Freeze Buildup"
@@ -2044,7 +2055,7 @@
             "y": 0.6134776536312849,
             "name": "Mass Rejuvenation",
             "stats": [
-                "Regenarate 1% of Life per second",
+                "Regenerate 1% of Life per second",
                 "Allies in your Presence Regenerate 2% of your Maximum Life per second"
             ],
             "category": "notable"
@@ -2165,6 +2176,18 @@
             "stats": [
                 "25% increased Flask Effect Duration",
                 "25% increased Flask Charges gained"
+            ],
+            "category": "notable"
+        },
+        {
+            "id": "N383",
+            "x": 0.13563636363636364,
+            "y": 0.6330307262569832,
+            "name": "Titanic",
+            "stats": [
+                "30% increased Stun Buildup",
+                "30% increased Stun Threshold",
+                "5% increased Strength"
             ],
             "category": "notable"
         },
@@ -2409,6 +2432,16 @@
             "category": "notable"
         },
         {
+            "id": "N417",
+            "x": 0.2869090909090909,
+            "y": 0.6686452513966481,
+            "name": "Beef",
+            "stats": [
+                "+25 to Strength"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N418",
             "x": 0.3643636363636364,
             "y": 0.6693435754189944,
@@ -2488,7 +2521,7 @@
             "y": 0.6902932960893855,
             "name": "Internal Bleeding",
             "stats": [
-                "25% chance to Aggravate Bleedind on targets you Hit with Empowered Attacks",
+                "25% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks",
                 "Empowered Attacks deal 35% increased Damage"
             ],
             "category": "notable"
@@ -2810,6 +2843,17 @@
             "category": "notable"
         },
         {
+            "id": "N506",
+            "x": 0.29418181818181816,
+            "y": 0.7922486033519553,
+            "name": "Escalation",
+            "stats": [
+                "25% increased Warcry Speed",
+                "15% increased Damage for each time you've Warcried Recently"
+            ],
+            "category": "notable"
+        },
+        {
             "id": "N507",
             "x": 0.5701818181818182,
             "y": 0.7932960893854749,
@@ -3104,7 +3148,7 @@
             "name": "Full Salvo",
             "stats": [
                 "25% Increased Damage with Crossbows for each type of Ammunition fired in the past 10",
-                "secondes"
+                "seconds"
             ],
             "category": "notable"
         },
@@ -4736,7 +4780,7 @@
             "y": 0.3722067039106145,
             "name": "Life on Kill",
             "stats": [
-                "Recpver 1% Life on Kill"
+                "Recover 1% Life on Kill"
             ],
             "category": "smalls"
         },
@@ -5181,7 +5225,7 @@
             "y": 0.4155027932960894,
             "name": "Attack Speed",
             "stats": [
-                "3% increased Attack speed"
+                "3% increased Attack Speed"
             ],
             "category": "smalls"
         },
@@ -5228,6 +5272,16 @@
             "category": "smalls"
         },
         {
+            "id": "S714",
+            "x": 0.612,
+            "y": 0.4165502793296089,
+            "name": "Dagger Speed",
+            "stats": [
+                "3% increased Attack Speed with Daggers"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S715",
             "x": 0.7869090909090909,
             "y": 0.4165502793296089,
@@ -5268,6 +5322,16 @@
             "category": "smalls"
         },
         {
+            "id": "S728",
+            "x": 0.5905454545454546,
+            "y": 0.420391061452514,
+            "name": "Quarterstaff Damage",
+            "stats": [
+                "8% increased Damage with Staves"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S732",
             "x": 0.48254545454545456,
             "y": 0.42283519553072624,
@@ -5304,6 +5368,16 @@
             "name": "Ignite Effect on You",
             "stats": [
                 "10% reduced Effect of Ignite on you"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S737",
+            "x": 0.5974545454545455,
+            "y": 0.42493016759776536,
+            "name": "Dagger Speed",
+            "stats": [
+                "3% increased Attack Speed with Daggers"
             ],
             "category": "smalls"
         },
@@ -5420,6 +5494,16 @@
             "category": "smalls"
         },
         {
+            "id": "S783",
+            "x": 0.614909090909091,
+            "y": 0.44587988826815644,
+            "name": "Stun Threshold while on Full Life",
+            "stats": [
+                "15% increased Stun Threshold if you haven't been Stunned Recently"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S785",
             "x": 0.43527272727272726,
             "y": 0.4465782122905028,
@@ -5470,6 +5554,26 @@
             "category": "smalls"
         },
         {
+            "id": "S812",
+            "x": 0.6825454545454546,
+            "y": 0.45600558659217877,
+            "name": "Power Charge Duration",
+            "stats": [
+                "10% increased Power Charge Duration"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S814",
+            "x": 0.6207272727272727,
+            "y": 0.45670391061452514,
+            "name": "Energy Shield Delay",
+            "stats": [
+                "10% faster start of Energy Shield Recharge"
+            ],
+            "category": "smalls"
+        },
+        {
             "id": "S816",
             "x": 0.5738181818181818,
             "y": 0.45705307262569833,
@@ -5506,6 +5610,16 @@
             "name": "Melee Damage",
             "stats": [
                 "12% increased Melee Damage"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S826",
+            "x": 0.6923636363636364,
+            "y": 0.4612430167597765,
+            "name": "Power Charge Duration",
+            "stats": [
+                "10% increased Power Charge Duration"
             ],
             "category": "smalls"
         },
@@ -5576,6 +5690,16 @@
             "name": "Skill Speed",
             "stats": [
                 "3% increased Attack and Cast Speed"
+            ],
+            "category": "smalls"
+        },
+        {
+            "id": "S846",
+            "x": 0.6825454545454546,
+            "y": 0.4664804469273743,
+            "name": "Power Charge Duration",
+            "stats": [
+                "10% increased Power Charge Duration"
             ],
             "category": "smalls"
         },
@@ -8618,7 +8742,7 @@
             "id": "S1662",
             "x": 0.5298181818181819,
             "y": 0.7779329608938548,
-            "name": "Attack Daamge with nearby Ally",
+            "name": "Attack Damage with nearby Ally",
             "stats": [
                 "16% increased Attack Damage while you have an Ally in your Presence"
             ],
@@ -9753,12 +9877,163 @@
             "category": "ascendancies"
         },
         {
+            "id": "AN5",
+            "x": 0.5405545454545455,
+            "y": 0.4875614525139665,
+            "name": "Grasping Wounds",
+            "stats": [
+                "25% of Life Lose from Damaging Hits is lost over 4 seconds instead"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN6",
+            "x": 0.4890545454545455,
+            "y": 0.4831614525139665,
+            "name": "Blood Barbs",
+            "stats": [
+                "Gain 10% of Damage as Extra Physical Damage",
+                "Elemental Damage can inflict Bleeding"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN7",
+            "x": 0.5230545454545455,
+            "y": 0.4805614525139665,
+            "name": "Open Sores",
+            "stats": [
+                "Your Curses have inifinite Duration"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN8",
+            "x": 0.4924545454545455,
+            "y": 0.5205614525139665,
+            "name": "Sunder the Flesh",
+            "stats": [
+                "Base Critical Hit Chance for Spells is 15%"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS10",
+            "x": 0.5194545454545455,
+            "y": 0.4812614525139665,
+            "name": "Mana",
+            "stats": [
+                "4% increased maximum Mana"
+            ],
+            "category": "ascendancies"
+        },
+        {
             "id": "AS11",
+            "x": 0.4726551277163553,
+            "y": 0.46382502841784834,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS12",
+            "x": 0.4913168549471277,
+            "y": 0.4648979014141492,
+            "name": "Spell Damage",
+            "stats": [
+                "12% increased Spell Damage"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS13",
             "x": 0.5019545454545455,
             "y": 0.4639614525139665,
-            "name": "AS11",
+            "name": "Mana",
             "stats": [
-                "Infernalist small"
+                "4% increased maximum Mana"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS14",
+            "x": 0.5128332804944118,
+            "y": 0.4645445105386868,
+            "name": "Minion Life",
+            "stats": [
+                "Minions have 12% increased maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS15",
+            "x": 0.5153016533900515,
+            "y": 0.4561733638062577,
+            "name": "Critical Chance",
+            "stats": [
+                "12% increased Critical Hit Chance"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS16",
+            "x": 0.49682518209362525,
+            "y": 0.4730525253352343,
+            "name": "Mana",
+            "stats": [
+                "4% increased maximum Mana"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS17",
+            "x": 0.48160127014065857,
+            "y": 0.4795342762600185,
+            "name": "Spell Damage",
+            "stats": [
+                "12% increased Spell Damage"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS18",
+            "x": 0.4510818648795072,
+            "y": 0.5012223157174786,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS19",
+            "x": 0.46009851917250233,
+            "y": 0.5033884069628545,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AS20",
+            "x": 0.46965833617593356,
+            "y": 0.5031417978383169,
+            "name": "Life",
+            "stats": [
+                "3% increased maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN10",
+            "x": 0.5219545454545454,
+            "y": 0.4910614525139665,
+            "name": "Seething Body",
+            "stats": [
+                "While on High Infernal Flame, you and Allies in your Presence Gain 20% of Damage as Fire Damage"
             ],
             "category": "ascendancies"
         },
@@ -9804,6 +10079,73 @@
             "name": "Bringer of Flame",
             "stats": [
                 "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN15",
+            "x": 0.5278719365130325,
+            "y": 0.46170554629700983,
+            "name": "Grinning Immolation",
+            "stats": [
+                "Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
+                "Damage per second",
+                "30% more Critical Damage Bonus"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN16",
+            "x": 0.47402457009852117,
+            "y": 0.4878723773697596,
+            "name": "Mastered Darkness",
+            "stats": [
+                "Maximum 10 Demonflame"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN17",
+            "x": 0.4659205208981279,
+            "y": 0.48283341312808264,
+            "name": "Altered Flesh",
+            "stats": [
+                "20% of Cold Damage taken as Fire Damage",
+                "20% of Lightning Damage taken as Fire Damage",
+                "20% of Physical Damage taken as Chaos Damage"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN18",
+            "x": 0.4536975869334029,
+            "y": 0.5211442639295623,
+            "name": "Beidat's Gaze",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Mana per 6 Maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN19",
+            "x": 0.4656773581876919,
+            "y": 0.5243501825485511,
+            "name": "Beidat's Will",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Spirit per 25 Maximum Life"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN20",
+            "x": 0.4774918735076349,
+            "y": 0.5096769396385635,
+            "name": "Beidat's Hand",
+            "stats": [
+                "Reserves 25% of Life",
+                "+1 Maximum Energy Shield per 4 Maximum Life"
             ],
             "category": "ascendancies"
         },
@@ -10178,6 +10520,58 @@
             "category": "ascendancies"
         },
         {
+            "id": "AN84",
+            "x": 0.52465,
+            "y": 0.51793,
+            "name": "Projectile Proximity Specialisation",
+            "stats": [
+                "(Choice node)",
+                "Far Shot: Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets.",
+                "Point Blank: Projectile Hits deal up tp 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther."
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN85",
+            "x": 0.49855,
+            "y": 0.54326,
+            "name": "Wind Ward",
+            "stats": [
+                "3% less damage taken per Tailwind."
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN86",
+            "x": 0.5055,
+            "y": 0.5264,
+            "name": "Called Shots",
+            "stats": [
+                "You can apply an additional Mark."
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN87",
+            "x": 0.5417,
+            "y": 0.502,
+            "name": "Avidity",
+            "stats": [
+                "30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges."
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN88",
+            "x": 0.5378,
+            "y": 0.48,
+            "name": "Thrilling Chase",
+            "stats": [
+                "Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled."
+            ],
+            "category": "ascendancies"
+        },
+        {
             "id": "AS91",
             "x": 0.5432545454545455,
             "y": 0.5099614525139665,
@@ -10229,6 +10623,51 @@
             "category": "ascendancies"
         },
         {
+            "id": "AN95",
+            "x": 0.481,
+            "y": 0.541,
+            "name": "Traveller's Wisdom",
+            "stats": [
+                "Grants 5 Passive Skill Points"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN96",
+            "x": 0.5265,
+            "y": 0.49,
+            "name": "Brew Concoction",
+            "stats": [
+                "Grants the following skills:",
+                "Bleeding Concoction",
+                "Explosive Concoction",
+                "Shattering Concoction",
+                "Fulminating Concoction",
+                "Poisonous Concoction"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN97",
+            "x": 0.555,
+            "y": 0.51056,
+            "name": "Connected Chemistry",
+            "stats": [
+                "Flask Charges gained are doubled."
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN98",
+            "x": 0.5495,
+            "y": 0.48476,
+            "name": "Enduring Elixirs",
+            "stats": [
+                "Life Flask Effects are not removed when Unreserved Life is Filled. Life Flask Effects do not queue."
+            ],
+            "category": "ascendancies"
+        },
+        {
             "id": "AS101",
             "x": 0.5009545454545455,
             "y": 0.5459614525139665,
@@ -10240,47 +10679,85 @@
         },
         {
             "id": "AN101",
-            "x": 0.5221545454545455,
-            "y": 0.5290614525139665,
-            "name": "Obssesive Rituals",
+            "x": 0.4585545454545455,
+            "y": 0.5137614525139665,
+            "name": "Weapon Master",
             "stats": [
-                "Grants Skill: Sorcery Ward",
-                "50% les Armour and Evasion Rating"
+                "Grants 20 Weapon Set Skill Points"
             ],
             "category": "ascendancies"
         },
         {
             "id": "AN102",
-            "x": 0.4809545454545455,
-            "y": 0.5085614525139664,
-            "name": "Witchbane",
+            "x": 0.4807045454545455,
+            "y": 0.5287614525139664,
+            "name": "Pitless Killer",
             "stats": [
-                "Enemies Maximum Concentration equal to 40% of their Maximum Life",
-                "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-                "Enemies regain 10% of Concentration every second if they haven't lost concentration in the",
-                "past 5 seconds"
+                "Culling Strike"
             ],
             "category": "ascendancies"
         },
         {
             "id": "AN103",
-            "x": 0.5012545454545455,
-            "y": 0.5296614525139665,
-            "name": "Judge, Jury, and Executionner",
+            "x": 0.4807045454545455,
+            "y": 0.5085614525139664,
+            "name": "Decimating Strike",
             "stats": [
-                "Decimating Strike",
-                "(First hit chunks enemy)"
+                "Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
             ],
             "category": "ascendancies"
         },
         {
             "id": "AN104",
-            "x": 0.5443545454545455,
-            "y": 0.5140614525139665,
-            "name": "Zealous inquisition",
+            "x": 0.5012545454545455,
+            "y": 0.5290614525139665,
+            "name": "Witchbane",
             "stats": [
-                "10% chance for Enemies you Kill to Explode, dealing 100%",
-                "of their Maximum Life as Physical Damage",
+                "Enemies have Maximum Concentration equal to 40% of their Maximum Life",
+                "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
+                "Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN105",
+            "x": 0.5015545454545455,
+            "y": 0.5081614525139665,
+            "name": "No Mercy",
+            "stats": [
+                "Deal up to 30% more Damage to Enemies based on their missing Concentration"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN106",
+            "x": 0.5223545454545455,
+            "y": 0.5287614525139664,
+            "name": "Obsessive Rituals",
+            "stats": [
+                "Grants Skills: Sorcery Ward",
+                "50% less Armour and Evasion Rating"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN107",
+            "x": 0.5223545454545455,
+            "y": 0.5085614525139664,
+            "name": "Ceremonial Ablution",
+            "stats": [
+                "50% increased effect of Sorcery Ward",
+                "Sorcery Ward recovers 50% faster"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN108",
+            "x": 0.5439945454545455,
+            "y": 0.5137614525139665,
+            "name": "Zealous Inquisition",
+            "stats": [
+                "10% chance for Enemies you Kill to Explode, dealing 100% of their maximum Life as Physical Damage",
                 "Chance is doubled against Undead and Demons"
             ],
             "category": "ascendancies"
@@ -10299,9 +10776,9 @@
             "id": "AN111",
             "x": 0.4829545454545455,
             "y": 0.5240614525139665,
-            "name": "AN111",
+            "name": "Crystalline Potential",
             "stats": [
-                "Gemling notable"
+                "+12% to Quality of all Skill Gems"
             ],
             "category": "ascendancies"
         },
@@ -10309,9 +10786,9 @@
             "id": "AN112",
             "x": 0.4539545454545455,
             "y": 0.4986614525139665,
-            "name": "Crystalline Potential",
+            "name": "Implanted Gems",
             "stats": [
-                "+12% to Quality of all Skill Gems"
+                "+1 to Level of all Skills"
             ],
             "category": "ascendancies"
         },
@@ -10344,6 +10821,27 @@
             "name": "Adaptive Capability",
             "stats": [
                 "Attribute Requirements of Gems can be satisfied by your highest Attribute"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN116",
+            "x": 0.544845454545455,
+            "y": 0.4920614525139665,
+            "name": "Enhanced Effectiveness",
+            "stats": [
+                "Inherent bonuses from Intelligence Strength ans Dexterity are doubled"
+            ],
+            "category": "ascendancies"
+        },
+        {
+            "id": "AN117",
+            "x": 0.461845454545455,
+            "y": 0.4890614525139665,
+            "name": "Advanced Thaumaturgy",
+            "stats": [
+                "30% less Cost of skills",
+                "Skill Gems have 30% more Attribute Requirements"
             ],
             "category": "ascendancies"
         }
