@@ -2,9 +2,86 @@
     "asc": [
         {
             "id": "AS1",
-            "x": 0.5019545454545455,
-            "y": 0.4635614525139665,
+            "x": 0.5020849248769259,
+            "y": 0.46415075820098073,
             "name": "AS1",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS2",
+            "x": 0.4719049862617468,
+            "y": 0.46891612832153234,
+            "name": "AS2",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS3",
+            "x": 0.5319469278689059,
+            "y": 0.46891612832153234,
+            "name": "AS3",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS4",
+            "x": 0.4904110641543643,
+            "y": 0.47483927941612014,
+            "name": "AS4",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS5",
+            "x": 0.513214664579823,
+            "y": 0.4749774862749939,
+            "name": "AS5",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS6",
+            "x": 0.5150241477515457,
+            "y": 0.4830132279266513,
+            "name": "AS6",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS7",
+            "x": 0.4749090909090909,
+            "y": 0.5091777481909923,
+            "name": "AS7",
+            "stats": [
+                "Bloodmage small"
+            ],
+            "kind": "small",
+            "class": "bloodmage"
+        },
+        {
+            "id": "AS8",
+            "x": 0.5289571681738098,
+            "y": 0.5095746118184812,
+            "name": "AS8",
             "stats": [
                 "Bloodmage small"
             ],
@@ -62,7 +139,7 @@
             "y": 0.4875614525139665,
             "name": "Grasping Wounds",
             "stats": [
-                "25% of Life Lose from Damaging Hits is prevented, then that much Life is lost over 4 seconds instead"
+                "25% of Life Loss from Hits is prevented, then that much Life is lost over 4 seconds instead"
             ],
             "kind": "notable",
             "class": "bloodmage"
@@ -74,7 +151,7 @@
             "name": "Blood Barbs",
             "stats": [
                 "Gain 10% of Damage as Extra Physical Damage",
-                "Elemental Damage can inflict Bleeding"
+                "Elemental Damage also Contributes to Bleeding Magnitude"
             ],
             "kind": "notable",
             "class": "bloodmage"
@@ -103,8 +180,8 @@
         },
         {
             "id": "AS10",
-            "x": 0.5194545454545455,
-            "y": 0.4812614525139665,
+            "x": 0.5196403418306645,
+            "y": 0.47886322739524173,
             "name": "Mana",
             "stats": [
                 "4% increased maximum Mana"
@@ -224,8 +301,8 @@
         },
         {
             "id": "AN10",
-            "x": 0.5219545454545454,
-            "y": 0.4910614525139665,
+            "x": 0.5232346776432371,
+            "y": 0.488551374200091,
             "name": "Seething Body",
             "stats": [
                 "While on High Infernal Flame, you and Allies in your Presence Gain 20% of Damage as Fire Damage"
@@ -240,7 +317,7 @@
             "name": "Loyal Hellhound",
             "stats": [
                 "Grants Skill: Summon Infernal Hound",
-                "20% of Damage from Hits is taken from your Hellhound\u00c2\u00b4s Life before you"
+                "20% of Damage from Hits is taken from your Hellhound's Life before you"
             ],
             "kind": "notable",
             "class": "infernalist"
@@ -264,7 +341,7 @@
             "stats": [
                 "Maximum Mana is replaced by Maximum Infernal Flame",
                 "Gain Infernal Flame instead of spending Mana for Skill costs",
-                "Take maximum Life and Energy Shield as Fire Damage when Infernal flame reaches maximum",
+                "Take maximum Life and Energy Shield as Fire Damage when Infernal Flame reaches maximum",
                 "Lose all Infernal Flame on reaching maximum Infernal Flame",
                 "10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
             ],
@@ -277,7 +354,7 @@
             "y": 0.4827614525139665,
             "name": "Bringer of Flame",
             "stats": [
-                "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+                "While not on Low Infernal Flame, all Damage from you and Allies in your Presence contributes to Ignite Chance and Magnitude"
             ],
             "kind": "notable",
             "class": "infernalist"
@@ -288,8 +365,7 @@
             "y": 0.46170554629700983,
             "name": "Grinning Immolation",
             "stats": [
-                "Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
-                "Damage per second",
+                "Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire Damage per second",
                 "30% more Critical Damage Bonus"
             ],
             "kind": "notable",
@@ -523,7 +599,7 @@
                 "Acolyte small"
             ],
             "kind": "small",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN51",
@@ -535,7 +611,7 @@
                 "Chaos Resistance is doubled"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN52",
@@ -546,7 +622,7 @@
                 "Mana Leech is instant"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN53",
@@ -558,7 +634,7 @@
                 "Mana Leech effects also Recover Energy Shield"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN54",
@@ -569,7 +645,7 @@
                 "Grants Skill: Into the Breach"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN55",
@@ -580,15 +656,15 @@
                 "Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AS61",
             "x": 0.4730545454545455,
             "y": 0.5215614525139665,
-            "name": "AS61",
+            "name": "Strength",
             "stats": [
-                "Titan small"
+                "4% increased Strength"
             ],
             "kind": "small",
             "class": "titan"
@@ -1036,7 +1112,7 @@
                 "Gemling small"
             ],
             "kind": "small",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN111",
@@ -1047,7 +1123,7 @@
                 "+12% to Quality of all Skill Gems"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN112",
@@ -1058,7 +1134,7 @@
                 "+1 to Level of all Skills"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN113",
@@ -1069,7 +1145,7 @@
                 "Grants 3 additional Skill Slots"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN114",
@@ -1082,7 +1158,7 @@
                 "+1% to Maximum Lightning Resistance per 4 Green Support Gems Socketed"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN115",
@@ -1093,7 +1169,7 @@
                 "Attribute Requirements of Gems can be satisfied by your highest Attribute"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN116",
@@ -1101,10 +1177,10 @@
             "y": 0.4920614525139665,
             "name": "Enhanced Effectiveness",
             "stats": [
-                "Inherent bonuses from Intelligence Strength ans Dexterity are doubled"
+                "Inherent bonuses from Intelligence Strength and Dexterity are doubled"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN117",
@@ -1116,7 +1192,7 @@
                 "Skill Gems have 30% more Attribute Requirements"
             ],
             "kind": "notable",
-            "class": "gemling legionnaire"
+            "class": "gemling"
         },
         {
             "id": "AN145",
@@ -1125,7 +1201,7 @@
             "name": "AN145",
             "stats": [],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN119",
@@ -1136,7 +1212,7 @@
                 "Effect and Duration of Flames of Chayula on You is Double"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN120",
@@ -1151,7 +1227,7 @@
                 "+5 to Maximum Darkness per Level"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN121",
@@ -1164,7 +1240,7 @@
                 "7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
             ],
             "kind": "notable",
-            "class": "acolyte of chayula"
+            "class": "acolyte"
         },
         {
             "id": "AN122",
