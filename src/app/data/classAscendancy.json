@@ -6,7 +6,7 @@
             "ascendancies": [
                 {
                     "name": "Titan",
-                    "image": "/ascendancy/titan.webp",
+                    "image": "/ascendancy/titan1.webp",
                     "nodes": [
                         {
                             "name": "Earthbreaker",
@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "Warbringer",
-                    "image": "/ascendancy/warbringer.webp",
+                    "image": "/ascendancy/warbringer1.webp",
                     "nodes": [
                         {
                             "name": "Answered Call",
@@ -71,7 +71,7 @@
             "ascendancies": [
                 {
                     "name": "Stormweaver",
-                    "image": "/ascendancy/stormweaver.webp",
+                    "image": "/ascendancy/stormweaver1.webp",
                     "nodes": [
                         {
                             "name": "Tempest Caller",
@@ -90,7 +90,7 @@
                 },
                 {
                     "name": "Chronomancer",
-                    "image": "/ascendancy/chronomancer.webp",
+                    "image": "/ascendancy/chronomancer1.webp",
                     "nodes": [
                         {
                             "name": "Footprints in the Sand",
@@ -115,7 +115,7 @@
             "ascendancies": [
               {
                 "name": "Infernalist",
-                "image": "/ascendancy/infernalist.webp",
+                "image": "/ascendancy/infernalist1.webp",
                 "nodes": [
                   {
                     "name": "Pyromantic Pact",
@@ -145,7 +145,7 @@
               },
               {
                 "name": "Bloodmage",
-                "image": "/ascendancy/bloodmage.webp",
+                "image": "/ascendancy/bloodmage1.webp",
                 "nodes": [
                   {
                     "name": "Sanguimancy",
@@ -181,7 +181,7 @@
             "ascendancies": [
               {
                 "name": "Deadeye",
-                "image": "/ascendancy/deadeye.webp",
+                "image": "/ascendancy/deadeye1.webp",
                 "nodes": [
                   {
                     "name": "Endless Munitions",
@@ -205,7 +205,7 @@
               },
               {
                 "name": "Pathfinder",
-                "image": "/ascendancy/pathfinder.webp",
+                "image": "/ascendancy/pathfinder1.webp",
                 "nodes": [
                   {
                     "name": "Contagious Contamination",
@@ -253,7 +253,7 @@
             "ascendancies": [
               {
                 "name": "Witchhunter",
-                "image": "/ascendancy/witchhunter.webp",
+                "image": "/ascendancy/witchhunter1.webp",
                 "nodes": [
                   {
                     "name": "Witchbane",
@@ -295,7 +295,7 @@
               },
               {
                 "name": "Gemling Legionnaire",
-                "image": "/ascendancy/legionnaire.webp",
+                "image": "/ascendancy/legionnaire1.webp",
                 "nodes": [
                   {
                     "name": "Crystalline Potential",
@@ -331,7 +331,7 @@
             "ascendancies": [
               {
                 "name": "Invoker",
-                "image": "/ascendancy/invoker.webp",
+                "image": "/ascendancy/invoker1.webp",
                 "nodes": [
                   {
                     "name": "...and Scatter Them to the Winds",
@@ -367,7 +367,7 @@
               },
               {
                 "name": "Acolyte of Chayula",
-                "image": "/ascendancy/acolyte.webp",
+                "image": "/ascendancy/acolyte1.webp",
                 "nodes": [
                   {
                     "name": "Embrace the Darkness",

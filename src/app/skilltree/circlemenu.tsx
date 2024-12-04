@@ -22,18 +22,18 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   const { addCharacter, clearSkillTree } = useCharacterContext();
   const radius = 200; // Radius of the circle
   const images: Image[] = [
-    { name: "Acolyte", src: "/ascendancy/acolyte.webp" },
-    { name: "Bloodmage", src: "/ascendancy/bloodmage.webp" },
-    { name: "Chronomancer", src: "/ascendancy/chronomancer.webp" },
-    { name: "Deadeye", src: "/ascendancy/deadeye.webp" },
-    { name: "Infernalist", src: "/ascendancy/infernalist.webp" },
-    { name: "Invoker", src: "/ascendancy/invoker.webp" },
-    { name: "Legionnaire", src: "/ascendancy/legionnaire.webp" },
-    { name: "Pathfinder", src: "/ascendancy/pathfinder.webp" },
-    { name: "Stormweaver", src: "/ascendancy/stormweaver.webp" },
-    { name: "Titan", src: "/ascendancy/titan.webp" },
-    { name: "Warbringer", src: "/ascendancy/warbringer.webp" },
-    { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
+    { name: "Acolyte", src: "/ascendancy/acolyte1.webp" },
+    { name: "Bloodmage", src: "/ascendancy/bloodmage1.webp" },
+    { name: "Chronomancer", src: "/ascendancy/chronomancer1.webp" },
+    { name: "Deadeye", src: "/ascendancy/deadeye1.webp" },
+    { name: "Infernalist", src: "/ascendancy/infernalist1.webp" },
+    { name: "Invoker", src: "/ascendancy/invoker1.webp" },
+    { name: "Legionnaire", src: "/ascendancy/legionnaire1.webp" },
+    { name: "Pathfinder", src: "/ascendancy/pathfinder1.webp" },
+    { name: "Stormweaver", src: "/ascendancy/stormweaver1.webp" },
+    { name: "Titan", src: "/ascendancy/titan1.webp" },
+    { name: "Warbringer", src: "/ascendancy/warbringer1.webp" },
+    { name: "Witchhunter", src: "/ascendancy/witchhunter1.webp" },
   ];
   const preloadImages = images.map((image) => {
     const img = new Image();
@@ -64,7 +64,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   };
 
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={20}>
       <AnimatePresence>
         {isOpen && (
           <div
@@ -94,16 +94,27 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
                         x: 0,
                         y: 0,
                         opacity: 0,
+                        scale: 1, // Add initial scale
                       }}
                       animate={{
                         x: isOpen ? x : 0,
                         y: isOpen ? y : 0,
                         opacity: isOpen ? 1 : 0,
+                        scale: isOpen ? 1 : 0, // Adjust scale when menu opens
                       }}
                       exit={{
                         x: 0,
                         y: 0,
                         opacity: 0,
+                        scale: 1, // Reset scale on exit
+                      }}
+                      whileHover={{
+                        scale: 1.1, // Increase scale on hover
+                        transition: {
+                          type: "spring",
+                          stiffness: 300, // More responsive spring
+                          damping: 10, // Less damping for a bouncier effect
+                        },
                       }}
                       transition={{
                         type: "spring",
@@ -124,7 +135,11 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
                       onClick={() => handleOnClick(image.name)}
                     />
                   </TooltipTrigger>
-                  <TooltipContent>{image.name}</TooltipContent>
+                  <TooltipContent className="bg-transparent"><div className="bg-gradient-to-b from-red-800 to-background px-4 py-1 mt- rounded-3xl">
+            <h3 className="text-xl text-center bg-gradient-to-r from-yellow-300 via-red-100 pb-1 to-yellow-700 bg-clip-text text-transparent">
+              {image.name || "Unknown Node"}
+            </h3>
+          </div></TooltipContent>
                 </Tooltip>
               );
             })}
