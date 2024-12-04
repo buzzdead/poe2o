@@ -5,7 +5,6 @@ import { toast } from "sonner";
 import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 import nodes from "../data/file1_updated.json";
 import React from "react";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../../components/ui/tooltip";
 
 type ArcNode = SkillNode & {kind: string, class: string}
 const ascNodeSizes: Record<string, string> = {small: '10px', notable: '16px', keystone: '16px'}
