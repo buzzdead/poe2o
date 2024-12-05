@@ -16,7 +16,7 @@ type Setup = {
 };
 
 const SaveLoadSetups = () => {
-  const { characters, nodes, addCharacter, selectNode, clearSkillTree } =
+  const { characters, nodes, addCharacter, selectNodes, clearSkillTree } =
     useCharacterContext();
   const {
     page,
@@ -70,7 +70,7 @@ const SaveLoadSetups = () => {
     const setup = savedSetups.find((s) => s.name === name);
     if (setup) {
       addCharacter(setup.characters[0]); // Adjust if multiple characters are supported
-      selectNode(setup.nodes);
+      selectNodes(setup.nodes);
       setFilters(setup.filters);
       setPage(setup.page);
       setSelectedGems(setup.selectedGems);

@@ -35,6 +35,7 @@ type CharacterContextType = {
   clearCharacters: () => void;
   clearSkillTree: () => void;
   isNodeSelected: (nodeId: string) => boolean
+  selectNodes: (nodes: SkillNode[]) => void
 };
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
@@ -115,6 +116,10 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
     });
   };
 
+  const selectNodes = (nodes: SkillNode[]) => {
+    setNodes(nodes)
+  }
+
   const removeNode = (node: SkillNode) => {
     setNodes((prev) => {
       if (selectedNodeIds.current.has(node.id)) {
@@ -147,6 +152,7 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
         removeNode,
         toggleNodeSelection,
         isNodeSelected,
+        selectNodes
       }}
     >
       {children}
