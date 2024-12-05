@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import React, { createContext, useContext, useState, useEffect, ReactNode, useRef } from "react";
 import { Ascendancy, Char } from "../types";
 
 type CharacterWithAscendancy = Char & { ascendancies: Ascendancy };
@@ -34,75 +34,124 @@ type CharacterContextType = {
   addCharacter: (character: CharacterWithAscendancy) => void;
   clearCharacters: () => void;
   clearSkillTree: () => void;
+  isNodeSelected: (nodeId: string) => boolean
 };
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
 
 export const CharacterProvider = ({ children }: { children: ReactNode }) => {
   const [characters, setCharacters] = useState<CharacterWithAscendancy[]>([]);
-  const [isHydrated, setIsHydrated] = useState(false);
   const [nodes, setNodes] = useState<SkillNode[]>([]);
+  const selectedNodeIds = useRef<Set<string>>(new Set());
+  const [isHydrated, setIsHydrated] = useState(false); // For initial hydration check
+  const saveTimeout = useRef<NodeJS.Timeout | null>(null); // To debounce saves
 
-  const clearSkillTree = () => {
-    setNodes([]);
+  // Load from localStorage on mount
+  useEffect(() => {
+    const savedCharacters = localStorage.getItem("characters");
+    const savedNodes = localStorage.getItem("nodes");
+
+    if (savedCharacters) {
+      setCharacters(JSON.parse(savedCharacters));
+    }
+    if (savedNodes) {
+      const parsedNodes = JSON.parse(savedNodes);
+      setNodes(parsedNodes);
+      parsedNodes.forEach((node: SkillNode) => selectedNodeIds.current.add(node.id)); // Rebuild ref
+    }
+
+    setIsHydrated(true);
+  }, []);
+
+  // Save characters and nodes to localStorage whenever they change
+  const saveNodesToLocalStorage = (newNodes: SkillNode[]) => {
+    if (saveTimeout.current) {
+      clearTimeout(saveTimeout.current); // Clear the existing timeout
+    }
+
+    saveTimeout.current = setTimeout(() => {
+      localStorage.setItem("nodes", JSON.stringify(newNodes));
+    }, 150); // Delay of 300ms
   };
+
+  // Save characters to localStorage immediately
+  useEffect(() => {
+    if (isHydrated) {
+      localStorage.setItem("characters", JSON.stringify(characters));
+    }
+  }, [characters, isHydrated]);
+
+  // Save nodes to localStorage with debounce
+  useEffect(() => {
+    if (isHydrated) {
+      saveNodesToLocalStorage(nodes);
+    }
+  }, [nodes, isHydrated]);
 
   const addCharacter = (character: CharacterWithAscendancy) => {
-    setCharacters([character]); // Overwrite with a single character (adjust if needed)
-  };
-
-  // Add a single node
-  const addNode = (node: SkillNode) => {
-    setNodes((prevNodes) => {
-      if (!prevNodes.some((existingNode) => existingNode.id === node.id)) {
-        return [...prevNodes, node];
-      }
-      return prevNodes; // Avoid duplicate
-    });
-  };
-
-  // Remove a single node
-  const removeNode = (node: SkillNode) => {
-    setNodes((prevNodes) => prevNodes.filter((existingNode) => existingNode.id !== node.id));
-  };
-
-  // Toggle the selection of a node
-  const toggleNodeSelection = (node: SkillNode) => {
-    setNodes((prevNodes) => {
-      const nodeIndex = prevNodes.findIndex((existingNode) => existingNode.id === node.id);
-      if (nodeIndex !== -1) {
-        // Remove the node if it is already selected
-        return prevNodes.filter((existingNode) => existingNode.id !== node.id);
-      } else {
-        // Otherwise, add the node
-        return [...prevNodes, node];
-      }
-    });
+    setCharacters([character]); // Overwrite with a single character
   };
 
   const clearCharacters = () => {
     setCharacters([]);
     setNodes([]);
+    selectedNodeIds.current.clear();
     localStorage.removeItem("characters");
     localStorage.removeItem("nodes");
   };
 
-  return true ? (
+  const clearSkillTree = () => {
+    setNodes([]);
+    selectedNodeIds.current.clear();
+  };
+
+  const addNode = (node: SkillNode) => {
+    setNodes((prev) => {
+      if (!selectedNodeIds.current.has(node.id)) {
+        selectedNodeIds.current.add(node.id);
+        return [...prev, node];
+      }
+      return prev;
+    });
+  };
+
+  const removeNode = (node: SkillNode) => {
+    setNodes((prev) => {
+      if (selectedNodeIds.current.has(node.id)) {
+        selectedNodeIds.current.delete(node.id);
+        return prev.filter((n) => n.id !== node.id);
+      }
+      return prev;
+    });
+  };
+
+  const toggleNodeSelection = (node: SkillNode) => {
+    if (selectedNodeIds.current.has(node.id)) {
+      removeNode(node);
+    } else {
+      addNode(node);
+    }
+  };
+
+  const isNodeSelected = (nodeId: string) => selectedNodeIds.current.has(nodeId);
+
+  return isHydrated ? (
     <CharacterContext.Provider
       value={{
         characters,
-        clearSkillTree,
-        addCharacter,
         nodes,
+        addCharacter,
+        clearCharacters,
+        clearSkillTree,
         addNode,
         removeNode,
         toggleNodeSelection,
-        clearCharacters,
+        isNodeSelected,
       }}
     >
       {children}
     </CharacterContext.Provider>
-  ) : null;
+  ) : null; // Render null until hydration is complete
 };
 
 export const useCharacterContext = (): CharacterContextType => {

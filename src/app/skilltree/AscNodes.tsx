@@ -17,7 +17,7 @@ interface Props {
 
 export const AscNodes = React.memo(
   ({ filterNodes, searchQuery, zoomRef }: Props) => {
-    const { nodes: myNodes, characters } = useCharacterContext();
+    const { isNodeSelected, characters } = useCharacterContext();
     const { handleSelectNode } = useNodeSelector()
     const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef)
     const { isCtrlDown, isLeftShiftSelected } = useKeyPress()
@@ -56,7 +56,7 @@ export const AscNodes = React.memo(
       <div>
           {showToolTip()}
         {nodes?.asc?.filter(an => an.class === characters[0]?.ascendancies?.name?.toLowerCase())?.map((node) => {
-          const isSelected = myNodes.some((n) => n.id === node.id);
+          const isSelected = isNodeSelected(node.id)
           const nodeStyle = calculateNodeStyle(node, isSelected);
   
           return (

@@ -42,7 +42,7 @@ interface Props {
 
 export const SkillTreeNodes = React.memo(
   ({ nodes, filterNodes, searchQuery, size, zoomRef }: Props) => {
-    const { nodes: myNodes } = useCharacterContext();
+    const { isNodeSelected } = useCharacterContext();
     const { handleSelectNode } = useNodeSelector()
     const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef)
     const { isCtrlDown, isLeftShiftSelected } = useKeyPress()
@@ -52,7 +52,7 @@ export const SkillTreeNodes = React.memo(
       <div>
         {showToolTip()}
         {nodes.map((node) => {
-          const isSelected = myNodes.some((n) => n.id === node.id);
+          const isSelected = isNodeSelected(node.id);
           const nodeStyle = calculateNodeStyle(
             node, 
             isSelected, 

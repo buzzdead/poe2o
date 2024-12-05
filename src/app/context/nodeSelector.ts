@@ -3,10 +3,10 @@ import { calculateDistance, calculateDistanceToCenter, SkillNode } from "../skil
 import filterNodesData from "../data/combined_filtered_nodes.json";
 
 export const useNodeSelector = () => {
-  const { addNode, removeNode, toggleNodeSelection, nodes } = useCharacterContext();
+  const { addNode, removeNode, isNodeSelected, nodes } = useCharacterContext();
 
   const handleSelectNode = (node: SkillNode, isCtrlDown: boolean, isLeftShiftSelected: boolean) => {
-    const isSelected = nodes.some((n) => n.id === node.id);
+    const isSelected = isNodeSelected(node.id)
     const distanceThreshold = 10;
 
     if (isSelected) {
