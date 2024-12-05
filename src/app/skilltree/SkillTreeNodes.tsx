@@ -1,9 +1,10 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
-import { toast } from "sonner";
-import filterNodesData from "../data/combined_filtered_nodes.json"; // Load the filtered nodes
 import React from "react";
+import { calculateNodeStyle } from "./myUtils";
+import { useTooltip } from "./useToolTip";
+import { useKeyPress } from "./useKeyPress";
+import { useNodeSelector } from "../context/nodeSelector";
 
 export type NodeSize = 'small' | 'notable' | 'keystone';
 
@@ -14,14 +15,14 @@ interface ColorsFromSizeType {
 
 const ColorsFromSize: ColorsFromSizeType = {
   unSelected: {
-    keystone: 'rgba(22, 163, 74, 1)', // Dark Green
-    notable: 'rgba(34, 197, 94, 0.75)', // Medium Green
-    small: 'rgba(134, 239, 172, 0.5)', // Light Green
+    keystone: 'rgba(22, 163, 74, 1)',
+    notable: 'rgba(34, 197, 94, 0.75)',
+    small: 'rgba(134, 239, 172, 0.5)',
   },
   selected: {
-    keystone: 'rgba(220, 38, 38, 1)', // Dark Red
-    notable: 'rgba(244, 63, 63, 0.75)', // Medium Red
-    small: 'rgba(252, 129, 129, 0.5)', // Light Red
+    keystone: 'rgba(220, 38, 38, 1)',
+    notable: 'rgba(244, 63, 63, 0.75)',
+    small: 'rgba(252, 129, 129, 0.5)',
   },
 };
 
@@ -30,7 +31,6 @@ const sizes: Record<NodeSize, string> = {
   notable: '10.5px',
   keystone: '15.5px'
 }
-
 
 interface Props {
   nodes: SkillNode[]
@@ -42,217 +42,37 @@ interface Props {
 
 export const SkillTreeNodes = React.memo(
   ({ nodes, filterNodes, searchQuery, size, zoomRef }: Props) => {
-    const isCtrlDown = useRef(false);
-    const [tooltip, setTooltip] = useState<any>(null); // For showing node details
-    const isLeftShiftSelected = useRef(false);
-    const { nodes: myNodes, selectNode } = useCharacterContext();
-    useEffect(() => {
-      const handleKeyDown = (event: KeyboardEvent) => {
-        if (event.ctrlKey) {
-          isCtrlDown.current = true;
-        }
-      };
+    const { nodes: myNodes } = useCharacterContext();
+    const { handleSelectNode } = useNodeSelector()
+    const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef)
+    const { isCtrlDown, isLeftShiftSelected } = useKeyPress()
+   
 
-      const handleKeyUp = (event: KeyboardEvent) => {
-        if (!event.ctrlKey) {
-          isCtrlDown.current = false;
-        }
-      };
-
-      // Add event listeners
-      window.addEventListener("keydown", handleKeyDown);
-      window.addEventListener("keyup", handleKeyUp);
-
-      // Cleanup event listeners
-      return () => {
-        window.removeEventListener("keydown", handleKeyDown);
-        window.removeEventListener("keyup", handleKeyUp);
-      };
-    }, []);
-    const showToolTip = () => {
-      const scale = zoomRef?.current?.instance?.transformState?.scale || 1;
-      const node = tooltip.node;
-      const { cursorXPercent, cursorYPercent } = tooltip;
-      const isRightSide = cursorXPercent > 0.5;
-      const isTopHalf = cursorYPercent < 0.5;
-      const tooltipScale = Math.min(Math.max(1 / scale, 0.5), 1);
-    
-      // Left-right positioning: If it's on the right side, align the tooltip to the left, otherwise to the right
-      const leftOffset = isRightSide
-        ? `${Math.min(cursorXPercent * 100 - 9 + scale - (scale < 1.2 ? 1 : 0))}%`
-        : `${Math.max(cursorXPercent * 100 + 9 - scale + (scale < 1.2 ? 1 : 0))}%`;
-    
-      // Top-bottom positioning: If it's on the top half, position it below the cursor, otherwise above
-      const topOffset = isTopHalf
-        ? `${Math.max(cursorYPercent * 100)}%`
-        : `${Math.min(cursorYPercent * 100)}%`;
-    
-      return (
-        <div
-          className="absolute bg-gradient-to-tl from-gray-900 to-background text-white p-0 rounded-2xl w-72 flex flex-col pointer-events-none"
-          style={{
-            left: leftOffset,
-            top: topOffset,
-            zIndex: 99999,
-            transform: `translate(-50%, -50%) scale(${tooltipScale})`,
-            maxWidth: "18rem",
-            backfaceVisibility: "hidden"
-          }}
-        >
-          <div className="bg-gradient-to-b from-red-600 to-background px-4 py-1 mt- rounded-3xl">
-            <h3 className="text-xl text-center bg-gradient-to-r from-yellow-300 via-red-100 pb-1 to-yellow-700 bg-clip-text text-transparent">
-              {node?.name || "Unknown Node"}
-            </h3>
-          </div>
-          <div className="p-4 space-y-2 gap-2 flex flex-col">
-            {node.stats?.map((stat: string[], index: number) => (
-              <div key={index}>
-                <span className="text-white text-md font-semibold text-md">{stat}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      );
-    };
-    const calculateNodeStyle = (node: SkillNode, isSelected: boolean) => {
-      const nodeStyle =
-            node.stats.length > 0
-              ? {
-                  highLight:
-                    filterNodes.includes(node.name) ||
-                    (searchQuery.trim() !== "" &&
-                      node.stats.some((stat) =>
-                        stat.toLowerCase().includes(searchQuery.toLowerCase())
-                      )),
-                  border: isSelected
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
-                    : filterNodes.includes(node.name) ||
-                      (searchQuery.trim() !== "" &&
-                        node.stats.some((stat) =>
-                          stat.toLowerCase().includes(searchQuery.toLowerCase())
-                        ))
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
-                    :  `2px solid ${ColorsFromSize.unSelected[size]}`,
-                  background: isSelected ? ColorsFromSize.selected[size] :  ColorsFromSize.unSelected[size],
-                }
-              : {
-                  border: isSelected
-                    ? `2px solid ${ColorsFromSize.selected[size]}`
-                    : "2px solid rgba(37, 99, 235, 0.15)", // blue-600
-                  background: isSelected ? ColorsFromSize.selected[size] : "rgba(204, 204, 255, .41)",
-                };
-              return nodeStyle
-    };
-    const handleSelectNode = (node: SkillNode) => {
-      const isSelected = myNodes.find((sn) => sn.id === node.id);
-
-      // Define a distance threshold (adjust as needed)
-      const distanceThreshold = 10;
-
-      const calculateDistanceToCenter = (node: SkillNode) => {
-        const centerX = 0.5;
-        const centerY = 0.5;
-        return Math.sqrt(
-          Math.pow(node.x - centerX, 2) + Math.pow(node.y - centerY, 2)
-        );
-      };
-
-      if (isSelected) {
-        // Deselect logic
-        if (isLeftShiftSelected.current) {
-          selectNode(myNodes.filter((sn) => sn.name !== node.name));
-        } else {
-          selectNode(myNodes.filter((sn) => sn.id !== node.id));
-        }
-        toast(node.name + " Removed", {});
-      } else {
-        if (isLeftShiftSelected.current) {
-          // Check for nearby nodes with the same name within distanceThreshold
-          let nearbyNodes = filterNodesData.nodes.filter((sn) => {
-            return (
-              sn.name === node.name &&
-              calculateDistance(node, sn) <= distanceThreshold
-            );
-          });
-
-          // Further filter for "Attribute" nodes to prioritize those closer to the center
-          if (node.name === "Attribute") {
-            nearbyNodes = nearbyNodes.filter(
-              (sn) =>
-                calculateDistanceToCenter(sn) <= calculateDistanceToCenter(node)
-            );
-          }
-
-          // Deduplicate nodes by ID before adding to myNodes
-          const uniqueNodesToAdd = nearbyNodes.filter(
-            (sn) => !myNodes.some((existingNode) => existingNode.id === sn.id)
-          );
-
-          if (uniqueNodesToAdd.length > 0) {
-            selectNode([...myNodes, ...uniqueNodesToAdd]);
-            toast(node.name + " and nearby nodes Selected", {});
-          }
-        } else {
-          // Single node selection logic
-          selectNode([...myNodes, node]);
-          toast(node.name + " Selected", {});
-        }
-      }
-    };
-    useEffect(() => {
-      const handleKeyDown = (e: KeyboardEvent) => {
-        if (e.key === "Shift" && !e.repeat) {
-          isLeftShiftSelected.current = true;
-        }
-      };
-
-      const handleKeyUp = (e: KeyboardEvent) => {
-        if (e.key === "Shift") {
-          isLeftShiftSelected.current = false;
-        }
-      };
-
-      window.addEventListener("keydown", handleKeyDown);
-      window.addEventListener("keyup", handleKeyUp);
-
-      // Cleanup listeners on unmount
-      return () => {
-        window.removeEventListener("keydown", handleKeyDown);
-        window.removeEventListener("keyup", handleKeyUp);
-      };
-    }, []);
-    const calculateDistance = (
-      node1: { x: number; y: number },
-      node2: { x: number; y: number }
-    ): number => {
-      // Scale the x and y coordinates by 100
-      const x1 = node1.x * 100;
-      const y1 = node1.y * 100;
-      const x2 = node2.x * 100;
-      const y2 = node2.y * 100;
-
-      // Calculate the Euclidean distance between the two nodes
-      const distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-
-      return distance;
-    };
     return (
       <div>
-        {tooltip && showToolTip()}
+        {showToolTip()}
         {nodes.map((node) => {
           const isSelected = myNodes.some((n) => n.id === node.id);
-          const nodeStyle = calculateNodeStyle(node, isSelected);
+          const nodeStyle = calculateNodeStyle(
+            node, 
+            isSelected, 
+            filterNodes, 
+            searchQuery, 
+            size, 
+            ColorsFromSize
+          );
   
           return (
             <MemoizedNode
-              key={node.id}
-              node={node}
-              nodeStyle={nodeStyle}
-              size={sizes[size]}
-              handleSelectNode={handleSelectNode}
-              setTooltip={setTooltip}
-              isCtrlDown={isCtrlDown.current}
-            />
+            key={node.id}
+            node={node}
+            nodeStyle={nodeStyle}
+            size={sizes[size]}
+            handleSelectNode={() => handleSelectNode(node, isCtrlDown.current, isLeftShiftSelected.current)}
+            onTooltipShow={handleTooltipShow}
+            onTooltipHide={handleTooltipHide}
+            isCtrlDown={isCtrlDown.current}
+          />
           );
         })}
       </div>
@@ -261,59 +81,49 @@ export const SkillTreeNodes = React.memo(
 );
 
 const MemoizedNode = React.memo(
-  ({ node, nodeStyle, size, handleSelectNode, setTooltip, isCtrlDown }: any) => {
+  ({ node, nodeStyle, size, handleSelectNode, onTooltipShow, onTooltipHide, isCtrlDown }: any) => {
     return (
       <div
-          key={node.id}
-          onClick={() => handleSelectNode(node)}
-          className={`absolute cursor-pointer rounded-full will-change-auto transition-all duration-5000 ${
-            nodeStyle.highLight
-              ? "animate-pulseBorderShadow bg-yellow!important"
-              : ""
-          }`}
+        key={node.id}
+        onClick={() => handleSelectNode(node)}
+        className={`absolute cursor-pointer rounded-full will-change-auto transition-all duration-5000 ${
+          nodeStyle.highLight
+            ? "animate-pulseBorderShadow bg-yellow!important"
+            : ""
+        }`}
+        style={{
+          left: `${node.x * 100}%`,
+          zIndex: 55,
+          top: `${node.y * 100}%`,
+          transform: "translate(-50%, -50%)",
+          width: size,
+          height: size,
+          ...nodeStyle,
+        }}
+        onMouseEnter={(event) => {
+          if (isCtrlDown) {
+            handleSelectNode(node);
+          } else {
+            onTooltipShow(node, event);
+          }
+        }}
+        onMouseLeave={onTooltipHide}
+      >
+        <div
+          className="absolute inset-0"
           style={{
-            left: `${node.x * 100}%`,
-            zIndex: 55,
-            top: `${node.y * 100}%`,
-            transform: "translate(-50%, -50%)",
-            width: size,
-            height: size,
-            ...nodeStyle,
+            backgroundColor: "transparent",
+            pointerEvents: "auto",
+            borderRadius: "50%",
+            padding:
+              size === "10.5px" ? "8px" : size === "8px" ? "6px" : "",
           }}
-          onMouseEnter={(event) => {
-            const imageContainer =
-              document.getElementById("image-container"); // Adjust this to your image container's id
-            const rect = imageContainer?.getBoundingClientRect();
-            if (!rect) return;
-            const cursorXPercent = (event.clientX - rect.left) / rect.width;
-            const cursorYPercent = (event.clientY - rect.top) / rect.height;
-            if (isCtrlDown) {
-              handleSelectNode(node);
-            } else
-              setTooltip({
-                node: node,
-                nodeDesc: node.stats,
-                cursorXPercent,
-                cursorYPercent,
-              });
-
-            // Automatically select node if Ctrl is held down
-          }}
-          onMouseLeave={() => setTooltip(null)}
-        >
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundColor: "transparent",
-              pointerEvents: "auto", // Ensure it captures mouse events
-              borderRadius: "50%", // Keep it rounded
-              padding:
-                size === "10.5px" ? "8px" : size === "8px" ? "6px" : "", // Increase clickable area
-            }}
-          />
-        </div>
+        />
+      </div>
     );
   }
 );
 MemoizedNode.displayName = "MemoizedNode"
 SkillTreeNodes.displayName = "SkillTreeNodes";
+
+// Note: You'll need to implement the showToolTip function separately

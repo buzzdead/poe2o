@@ -28,10 +28,12 @@ export type SkillNode = {
 type CharacterContextType = {
   characters: CharacterWithAscendancy[];
   nodes: SkillNode[];
-  selectNode: (node: SkillNode[]) => void;
+  addNode: (node: SkillNode) => void;
+  removeNode: (node: SkillNode) => void;
+  toggleNodeSelection: (node: SkillNode) => void;
   addCharacter: (character: CharacterWithAscendancy) => void;
-  clearCharacters: () => void; // Optional to clear all characters
-  clearSkillTree: () => void
+  clearCharacters: () => void;
+  clearSkillTree: () => void;
 };
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
@@ -40,37 +42,42 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
   const [characters, setCharacters] = useState<CharacterWithAscendancy[]>([]);
   const [isHydrated, setIsHydrated] = useState(false);
   const [nodes, setNodes] = useState<SkillNode[]>([]);
+
   const clearSkillTree = () => {
-    setNodes([])
-  }
-  // Load data from localStorage on component mount
-  useEffect(() => {
-    const savedCharacters = localStorage.getItem("characters");
-    const savedNodes = localStorage.getItem("nodes");
-
-    if (savedCharacters) {
-      setCharacters(JSON.parse(savedCharacters));
-    }
-    if (savedNodes) {
-      setNodes(JSON.parse(savedNodes));
-    }
-    setIsHydrated(true)
-  }, []);
-
-  // Save characters and nodes to localStorage whenever they change
-  useEffect(() => {
-    if(characters.length !== 0)
-    localStorage.setItem("characters", JSON.stringify(characters));
-  if(nodes.length !== 0)
-    localStorage.setItem("nodes", JSON.stringify(nodes));
-  }, [characters, nodes]);
+    setNodes([]);
+  };
 
   const addCharacter = (character: CharacterWithAscendancy) => {
     setCharacters([character]); // Overwrite with a single character (adjust if needed)
   };
 
-  const selectNode = (nodes: SkillNode[]) => {
-    setNodes(nodes);
+  // Add a single node
+  const addNode = (node: SkillNode) => {
+    setNodes((prevNodes) => {
+      if (!prevNodes.some((existingNode) => existingNode.id === node.id)) {
+        return [...prevNodes, node];
+      }
+      return prevNodes; // Avoid duplicate
+    });
+  };
+
+  // Remove a single node
+  const removeNode = (node: SkillNode) => {
+    setNodes((prevNodes) => prevNodes.filter((existingNode) => existingNode.id !== node.id));
+  };
+
+  // Toggle the selection of a node
+  const toggleNodeSelection = (node: SkillNode) => {
+    setNodes((prevNodes) => {
+      const nodeIndex = prevNodes.findIndex((existingNode) => existingNode.id === node.id);
+      if (nodeIndex !== -1) {
+        // Remove the node if it is already selected
+        return prevNodes.filter((existingNode) => existingNode.id !== node.id);
+      } else {
+        // Otherwise, add the node
+        return [...prevNodes, node];
+      }
+    });
   };
 
   const clearCharacters = () => {
@@ -80,20 +87,22 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
     localStorage.removeItem("nodes");
   };
 
-  return isHydrated ? (
+  return true ? (
     <CharacterContext.Provider
       value={{
         characters,
         clearSkillTree,
         addCharacter,
         nodes,
-        selectNode,
+        addNode,
+        removeNode,
+        toggleNodeSelection,
         clearCharacters,
       }}
     >
       {children}
     </CharacterContext.Provider>
-  ) : null
+  ) : null;
 };
 
 export const useCharacterContext = (): CharacterContextType => {
