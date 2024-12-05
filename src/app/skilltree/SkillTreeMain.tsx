@@ -79,16 +79,13 @@ const SkillTreeMain = ({isMobileOrPad}: Props) => {
       >
         <TransformComponent contentStyle={{ willChange: "transform" }}>
           <SkillTreeImage setIsOpen={handleTargetClick} />
-          {Object.entries(nodeGroups).map(([type, nodes], index) => (
+         
             <SkillTreeNodes
-              key={index}
-              size={type as NodeSize}
               searchQuery={searchQuery}
               filterNodes={filterNodes}
-              nodes={nodes}
+              nodes={nodeGroups}
               zoomRef={zoomRef}
             />
-          ))}
           <AscNodes searchQuery={searchQuery} filterNodes={filterNodes} zoomRef={zoomRef} />
         </TransformComponent>
       </TransformWrapper>

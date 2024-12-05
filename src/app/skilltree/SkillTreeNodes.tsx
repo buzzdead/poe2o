@@ -33,48 +33,58 @@ const sizes: Record<NodeSize, string> = {
 }
 
 interface Props {
-  nodes: SkillNode[]
+  nodes: Record<NodeSize, SkillNode[]>
   filterNodes: string[];
   searchQuery: string;
-  size: NodeSize 
   zoomRef: any;
 }
 
 export const SkillTreeNodes = React.memo(
-  ({ nodes, filterNodes, searchQuery, size, zoomRef }: Props) => {
+  ({ nodes, filterNodes, searchQuery, zoomRef }: Props) => {
     const { isNodeSelected } = useCharacterContext();
-    const { handleSelectNode } = useNodeSelector()
-    const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef)
-    const { isCtrlDown, isLeftShiftSelected } = useKeyPress()
-   
+    const { handleSelectNode } = useNodeSelector();
+    const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef);
+    const { isCtrlDown, isLeftShiftSelected } = useKeyPress();
 
-    return (
-      <div>
-        {showToolTip()}
-        {nodes.map((node) => {
-          const isSelected = isNodeSelected(node.id);
-          const nodeStyle = calculateNodeStyle(
-            node, 
-            isSelected, 
-            filterNodes, 
-            searchQuery, 
-            size, 
-            ColorsFromSize
-          );
-  
-          return (
-            <MemoizedNode
+    // Loop over the node sizes
+    const renderNodesBySize = (nodeSize: NodeSize, nodesOfSize: SkillNode[]) => {
+      return nodesOfSize.map((node) => {
+        const isSelected = isNodeSelected(node.id);
+        const nodeStyle = calculateNodeStyle(
+          node,
+          isSelected,
+          filterNodes,
+          searchQuery,
+          nodeSize, // Pass nodeSize to determine the style
+          ColorsFromSize
+        );
+
+        return (
+          <MemoizedNode
             key={node.id}
             node={node}
             nodeStyle={nodeStyle}
-            size={sizes[size]}
-            handleSelectNode={() => handleSelectNode(node, isCtrlDown.current, isLeftShiftSelected.current)}
+            size={sizes[nodeSize]}
+            handleSelectNode={() =>
+              handleSelectNode(node, isCtrlDown.current, isLeftShiftSelected.current)
+            }
             onTooltipShow={handleTooltipShow}
             onTooltipHide={handleTooltipHide}
             isCtrlDown={isCtrlDown.current}
           />
-          );
-        })}
+        );
+      });
+    };
+
+    return (
+      <div>
+        {showToolTip()}
+        {/* Loop over all the node sizes and render the corresponding nodes */}
+        {['small', 'notable', 'keystone'].map((nodeSize) => (
+          <div key={nodeSize}>
+            {renderNodesBySize(nodeSize as NodeSize, nodes[nodeSize as NodeSize])}
+          </div>
+        ))}
       </div>
     );
   }
