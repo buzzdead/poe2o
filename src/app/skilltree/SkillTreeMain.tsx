@@ -10,8 +10,10 @@ import CircleMenu from "./circlemenu";
 import { useNodeSearch } from "./useNodeSearch";
 import { SkillNode } from "../context/CharContext";
 import { AscNodes } from "./AscNodes";
-
-const SkillTreeMain = () => {
+interface Props {
+  isMobileOrPad: boolean
+}
+const SkillTreeMain = ({isMobileOrPad}: Props) => {
   const zoomRef = useRef<ReactZoomPanPinchRef>(null);
   const { searchQuery, handleSearchChange, filterNodes } = useNodeSearch();
   const [isOpen, setIsOpen] = useState(false);
@@ -61,42 +63,33 @@ const SkillTreeMain = () => {
 
       <TransformWrapper
         ref={zoomRef}
-        customTransform={(scale, positionX, positionY) => 
+        customTransform={(scale, positionX, positionY) =>
           getMatrixTransformStyles(scale, positionX, positionY)
         }
-        initialScale={1}
-        limitToBounds={true}
-        doubleClick={{disabled: true}}
-        wheel={{
-          step: 0.5,
-          wheelDisabled: false,
-          activationKeys: ['Shift'],
-        }}
-        panning={{ disabled: false, wheelPanning: false}}
+        initialScale={isMobileOrPad ? 0.8 : 1} // Adjust the scale for mobile
+        minScale={isMobileOrPad ? 0.5 : 1} // Allow smaller zoom-out for mobile
+        maxScale={isMobileOrPad ? 2 : 5} // Limit zoom-in for mobile
+        limitToBounds={!isMobileOrPad}
+        doubleClick={{ disabled: isMobileOrPad }} // Disable double-click zoom on mobile
+        wheel={{ step: isMobileOrPad ? 0.3 : 0.5, wheelDisabled: isMobileOrPad, activationKeys: ['Shift'] }} // Adjust step or disable wheel zoom
+        panning={{ disabled: false, wheelPanning: !isMobileOrPad }} // Enable smooth panning
         velocityAnimation={{
-          disabled: false, // Smooth momentum
-          sensitivity: 0.5, // Adjust sensitivity
-          animationTime: .4 // Animation duration
+          disabled: isMobileOrPad, // Disable momentum for better touch control
         }}
-       
       >
-        <TransformComponent contentStyle={{willChange: "transform"}}>
+        <TransformComponent contentStyle={{ willChange: "transform" }}>
           <SkillTreeImage setIsOpen={handleTargetClick} />
           {Object.entries(nodeGroups).map(([type, nodes], index) => (
             <SkillTreeNodes
-              key={index} // Unique key for each group
-              size={type as NodeSize} // Pass the type as the size, ensuring it's typed correctly
+              key={index}
+              size={type as NodeSize}
               searchQuery={searchQuery}
               filterNodes={filterNodes}
               nodes={nodes}
               zoomRef={zoomRef}
             />
           ))}
-          <AscNodes
-            searchQuery={searchQuery}
-            filterNodes={filterNodes}
-            zoomRef={zoomRef}
-          />
+          <AscNodes searchQuery={searchQuery} filterNodes={filterNodes} zoomRef={zoomRef} />
         </TransformComponent>
       </TransformWrapper>
     </div>

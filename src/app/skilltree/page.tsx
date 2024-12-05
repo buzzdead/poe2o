@@ -8,7 +8,7 @@ const SkillTree = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobileOrPad(window.innerWidth < 1000); // Check if width is less than 1000px
+      setIsMobileOrPad(window.innerWidth < 1300); // Check if width is less than 1300px
     };
 
     // Initial check
@@ -25,7 +25,7 @@ const SkillTree = () => {
 
   return (
     <div className={isMobileOrPad ? "w-[110rem] h-[110rem]" : ""}>
-      <SkillTreeMain />
+      <SkillTreeMain isMobileOrPad={isMobileOrPad} />
     </div>
   );
 };
