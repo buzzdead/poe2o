@@ -117,6 +117,7 @@ export const CharacterProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const selectNodes = (nodes: SkillNode[]) => {
+    selectedNodeIds.current.clear();
     setNodes(nodes)
     nodes.forEach(n => {
       selectedNodeIds.current.add(n.id)
