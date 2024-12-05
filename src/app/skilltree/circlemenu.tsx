@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Tooltip,
@@ -17,9 +17,11 @@ interface Props {
 }
 
 type Image = { name: string; src: string };
+type ImageRecord = Image & {image: HTMLImageElement}
 
 const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
   const { addCharacter, clearSkillTree } = useCharacterContext();
+  const [preloadedImages, setPreloadedImages] = useState<Image[]>([]);
   const radius = 200; // Radius of the circle
   const images: Image[] = [
     { name: "Acolyte", src: "/ascendancy/acolyte.webp" },
@@ -36,6 +38,7 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
     { name: "Witchhunter", src: "/ascendancy/witchhunter.webp" },
   ];
 
+
   const handleOnClick = (name: string) => {
     for (const classData of classAscendancy.classes) {
       for (const ascendancy of classData.ascendancies) {
@@ -51,7 +54,26 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
       }
     }
   };
+  useEffect(() => {
+    // Preload images
+    const preloadImages = async () => {
+      const loadedImages = await Promise.all(
+        images.map(src => {
+          return new Promise<ImageRecord>((resolve, reject) => {
+            const img = new Image();
+            img.src = src.src;
+            const r = {src: src.src, name: src.name, image: img}
+            img.onload = () => resolve(r);
+            img.onerror = reject;
+            return r
+          });
+        })
+      );
+      setPreloadedImages(loadedImages);
+    };
 
+    preloadImages();
+  }, []);
   return (
     <TooltipProvider delayDuration={isOpen  ? 20 : 99999}>
       <div className="w-[100rem] h-[100rem] absolute" onClick={() => setIsOpen()}style={{zIndex: isOpen ? 40 : -1}}></div>
@@ -68,70 +90,88 @@ const CircleMenu = ({ isOpen, position, setIsOpen }: Props) => {
             }}
           >
             {/* Circle Images */}
-            {images.map((image, index) => {
+            {preloadedImages.map((image, index) => {
               const angle = (index / images.length) * 2 * Math.PI;
               const x = Math.cos(angle) * radius;
               const y = Math.sin(angle) * radius;
 
               return (
-                <Tooltip disableHoverableContent key={index}>
-                  <TooltipTrigger asChild>
-                    <motion.img
-                      draggable={false}
-                      src={image.src}
-                      alt={`Option ${index + 1}`}
-                      initial={{
-                          x: 0,
-                          y: 0,
-                          opacity: 0,
-                          scale: 1, // Add initial scale
-                        }}
-                        animate={{
-                          x: isOpen ? x : 0,
-                          y: isOpen ? y : 0,
-                          opacity: isOpen ? 1 : 0,
-                          scale: isOpen ? 1 : 0, // Adjust scale when menu opens
-                        }}
-                        exit={{
-                          x: 0,
-                          zIndex: 39,
-                          y: 0,
-                          opacity: 0,
-                          scale: 1, // Reset scale on exit
-                        }}
-                      whileHover={{
-                        scale: 1.1, // Increase scale on hover
-                        transition: {
-                          type: "spring",
-                          stiffness: 300, // More responsive spring
-                          damping: 10, // Less damping for a bouncier effect
-                        },
-                      }}
-                      transition={{
+                <Tooltip 
+                key={index}>
+                <TooltipTrigger asChild>
+                  <motion.img
+                    draggable={false}
+                    src={image.src}
+                    alt={`Option ${index + 1}`}
+                    initial={{
+                      x: 0,
+                      y: 0,
+                      opacity: 0,
+                      scale: 1, // Add initial scale
+                    }}
+                    animate={{
+                      x: isOpen ? x : 0,
+                      y: isOpen ? y : 0,
+                      opacity: isOpen ? 1 : 0,
+                      scale: isOpen ? 1 : 0, // Adjust scale when menu opens
+                    }}
+                    exit={{
+                      x: 0,
+                      y: 0,
+                      opacity: 0,
+                      scale: 1, // Reset scale on exit
+                    }}
+                    whileHover={{
+                      scale: 1.1, // Increase scale on hover
+                      transition: {
                         type: "spring",
-                        stiffness: 200,
-                        damping: 30,
-                        duration: 1.5,
+                        stiffness: 300, // More responsive spring
+                        damping: 10, // Less damping for a bouncier effect
+                      },
+                    }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 200,
+                      damping: 30,
+                      duration: 1.5,
+                    }}
+                    style={{
+                      position: "absolute",
+                      left: "50%",
+                      width: 100,
+                      zIndex: 45,
+                      height: 100,
+                      transform: "translate(-50%, -50%)",
+                      borderRadius: "50%",
+                      cursor: "pointer",
+                    }}
+                    onClick={() => handleOnClick(image.name)}
+                  />
+                </TooltipTrigger>
+                <AnimatePresence>
+                  {isOpen && (
+                    <motion.div
+                      key="tooltip-content"
+                      initial={{ opacity: 0, }}
+                      animate={{ opacity: 1, }}
+                      exit={{ opacity: 0, }}
+                      transition={{
+                        duration: 0.01,
+                        ease: "easeOut",
                       }}
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        width: 100,
-                        zIndex: 45,
-                        height: 100,
-                        transform: "translate(-50%, -50%)",
-                        borderRadius: "50%",
-                        cursor: "pointer",
-                      }}
-                      onClick={() => handleOnClick(image.name)}
-                    />
-                  </TooltipTrigger>
-                  <TooltipContent className="bg-transparent"><div className="bg-gradient-to-b from-red-800 to-background px-4 py-1 mt- rounded-3xl">
-            <h3 className="text-xl text-center bg-gradient-to-r from-yellow-300 via-red-100 pb-1 to-yellow-700 bg-clip-text text-transparent">
-              {image.name || "Unknown Node"}
-            </h3>
-          </div></TooltipContent>
-                </Tooltip>
+                    >
+                      <TooltipContent className={`bg-transparent`}>
+                        <div className="bg-gradient-to-b from-red-800 to-background px-4 py-1 mt- rounded-3xl">
+                          <h3 className="text-xl text-center bg-gradient-to-r from-yellow-300 via-red-100 pb-1 to-yellow-700 bg-clip-text text-transparent">
+                            {image.name || "Unknown Node"}
+                          </h3>
+                        </div>
+                      </TooltipContent>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </Tooltip>
+              
               );
             })}
           </div>

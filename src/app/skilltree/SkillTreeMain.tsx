@@ -66,6 +66,7 @@ const SkillTreeMain = () => {
         }
         initialScale={1}
         limitToBounds={true}
+        doubleClick={{disabled: true}}
         wheel={{
           step: 0.5,
           wheelDisabled: false,
