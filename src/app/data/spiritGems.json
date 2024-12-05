@@ -17,9 +17,9 @@
       "Gains a Stage every 1.42 seconds, up to a maximum of 3 Stages"
     ],
     "tags": [
+      "Cold",
       "Persistent",
-      "Spell",
-      "Cold"
+      "Spell"
     ]
   },
   {
@@ -38,8 +38,8 @@
       "Grim Remnants recover 24 Energy Shield"
     ],
     "tags": [
-      "Persistent",
-      "Minion"
+      "Minion",
+      "Persistent"
     ]
   },
   {
@@ -64,9 +64,9 @@
       "Buff causes Attacks to gain 15% of Damage as Extra Fire Damage"
     ],
     "tags": [
-      "AoE",
-      "Fire",
       "Duration",
+      "Fire",
+      "AoE",
       "Cast Time: Instant",
       "Herald"
     ]
@@ -74,23 +74,23 @@
   {
     "name": "Herald of Ice\n\n\nBuff",
     "properties": [
-      "AoE, Attack, Herald, Persistent, Melee, Bow",
+      "AoE, Attack, Herald, Persistent",
       "Tier: 4",
       "Level: 5",
       "Reservation: 30 Spirit",
       "Attack Damage: 100%"
     ],
     "requirements": [
-      "Requires:  Level 16, 17 Str, 17 Int"
+      "Requires:  Level 16, 17 Str, 17 Int",
+      "Requires:   Any Martial Weapon"
     ],
-    "description": "While active, Shattering an enemy will cause an icy explosion that deals Attack damage to surrounding enemies.",
+    "description": "While active, Shattering an enemy will cause an Attack Hit will cause an icy explosion that deals Attack damage to surrounding enemies.",
     "explicit_mods": [],
     "tags": [
-      "AoE",
-      "Melee",
-      "Bow",
-      "Persistent",
       "Attack",
+      "AoE",
+      "Persistent",
+      "Any Martial Weapon",
       "Herald"
     ]
   },
@@ -117,9 +117,9 @@
     "tags": [
       "AoE",
       "Melee",
-      "Bow",
+      "Persistent",
       "Lightning",
-      "Persistent"
+      "Bow"
     ]
   },
   {
@@ -138,8 +138,8 @@
       "Each Remnant grants 9 Mana"
     ],
     "tags": [
-      "Persistent",
-      "Lightning"
+      "Lightning",
+      "Persistent"
     ]
   },
   {
@@ -160,13 +160,13 @@
       "Cannot perform a magma-infused block for 0.75 seconds after magma dissipates"
     ],
     "tags": [
-      "AoE",
-      "Buff",
-      "Trigger",
-      "Fire",
-      "Shield",
       "Duration",
-      "Persistent"
+      "Shield",
+      "Fire",
+      "Buff",
+      "AoE",
+      "Persistent",
+      "Trigger"
     ]
   },
   {
@@ -186,10 +186,10 @@
       "Stores up to 240 Poison Damage"
     ],
     "tags": [
-      "AoE",
-      "Chaos",
       "Physical",
+      "AoE",
       "Persistent",
+      "Chaos",
       "Nova"
     ]
   },
@@ -214,9 +214,9 @@
       "Maximum 5 Spirits summoned per Spell cast"
     ],
     "tags": [
-      "Persistent",
+      "Fire Duration",
       "Minion",
-      "Fire Duration"
+      "Persistent"
     ]
   },
   {
@@ -238,9 +238,9 @@
       "4 to 6 Thorns per Scavenged Plating"
     ],
     "tags": [
+      "Duration",
       "Physical",
-      "Persistent",
-      "Duration"
+      "Persistent"
     ]
   },
   {
@@ -259,8 +259,8 @@
       "Withers enemies in your Presence every 2.55 seconds"
     ],
     "tags": [
-      "Chaos",
-      "Persistent"
+      "Persistent",
+      "Chaos"
     ]
   },
   {
@@ -279,11 +279,11 @@
       "Reserves 30 Spirit per socketed Curse"
     ],
     "tags": [
-      "AoE",
-      "Buff",
       "Cost Time: Instant",
-      "Aura",
-      "Persistent"
+      "Buff",
+      "AoE",
+      "Persistent",
+      "Aura"
     ]
   },
   {
@@ -302,9 +302,9 @@
       "Maximum Energy is 500"
     ],
     "tags": [
-      "Meta",
+      "Trigger",
       "Persistent",
-      "Trigger"
+      "Meta"
     ]
   },
   {
@@ -346,9 +346,9 @@
       "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
     ],
     "tags": [
-      "Meta",
+      "Trigger",
       "Persistent",
-      "Trigger"
+      "Meta"
     ]
   },
   {
@@ -370,9 +370,9 @@
       "Has 10 maximum Energy per 0.13 seconds of base cast time of Socketed Spells"
     ],
     "tags": [
-      "Meta",
+      "Trigger",
       "Persistent",
-      "Trigger"
+      "Meta"
     ]
   },
   {
@@ -393,12 +393,12 @@
       "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
     ],
     "tags": [
-      "Buff",
-      "Trigger",
-      "Meta",
       "Minion",
+      "Buff",
       "Persistent",
-      "Cast Time: Instant"
+      "Cast Time: Instant",
+      "Trigger",
+      "Meta"
     ]
   },
   {
@@ -443,8 +443,8 @@
     ],
     "tags": [
       "AoE",
-      "Persistent",
-      "Duration"
+      "Duration",
+      "Persistent"
     ]
   },
   {
@@ -468,12 +468,12 @@
       "Socketed Spells consume 10 Energy per 0.11 seconds of base cast time when Triggered"
     ],
     "tags": [
-      "Cold",
-      "Trigger",
-      "Meta",
-      "Lightning",
       "Fire",
-      "Persistent"
+      "Persistent",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Meta"
     ]
   },
   {
@@ -493,9 +493,9 @@
       "17% chance to Hinder enemies on spreading Poison to them"
     ],
     "tags": [
-      "Chaos",
+      "Herald",
       "Persistent",
-      "Herald"
+      "Chaos"
     ]
   },
   {
@@ -514,8 +514,8 @@
       "Illusions have 20% of your maximum Life"
     ],
     "tags": [
-      "Persistent",
-      "Duration"
+      "Duration",
+      "Persistent"
     ]
   },
   {
@@ -534,9 +534,9 @@
       "Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
     ],
     "tags": [
-      "Meta",
+      "Trigger",
       "Persistent",
-      "Trigger"
+      "Meta"
     ]
   }
 ]

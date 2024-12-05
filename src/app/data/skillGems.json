@@ -19,13 +19,13 @@
       "Totem uses its own weapon, dealing 59 to 89 Base Physical Damage"
     ],
     "tags": [
-      "AoE",
+      "Two Hand Mace",
       "Totem",
-      "Physical",
       "Duration",
-      "Meta",
+      "AoE",
+      "Physical",
       "One Hand Mace",
-      "Two Hand Mace"
+      "Meta"
     ]
   },
   {
@@ -70,8 +70,8 @@
       "Spells cost an additional 5.35% of your maximum Mana"
     ],
     "tags": [
-      "Lightning",
-      "Persistent"
+      "Persistent",
+      "Lightning"
     ]
   },
   {
@@ -95,11 +95,11 @@
       "Hits Break 1562 Armour"
     ],
     "tags": [
+      "Two Hand Mace",
       "Melee",
-      "Strike",
       "AoE",
-      "One Hand Mace",
-      "Two Hand Mace"
+      "Strike",
+      "One Hand Mace"
     ]
   },
   {
@@ -123,11 +123,11 @@
       "Can fire 14 Bolts before reloading"
     ],
     "tags": [
-      "Attack",
-      "Projectile",
       "AoE",
       "Crossbow",
-      "Physical"
+      "Attack",
+      "Physical",
+      "Projectile"
     ]
   },
   {
@@ -152,8 +152,8 @@
     ],
     "tags": [
       "Lightning",
-      "AoE",
-      "Projectile"
+      "Projectile",
+      "AoE"
     ]
   },
   {
@@ -177,8 +177,8 @@
       "Maximum buff duration is 5 seconds"
     ],
     "tags": [
-      "Bow",
-      "Duration"
+      "Duration",
+      "Bow"
     ]
   },
   {
@@ -220,9 +220,9 @@
       "Base secondary radius is 2.4 metres"
     ],
     "tags": [
-      "Spear",
+      "Fire",
       "Projectile",
-      "Fire"
+      "Spear"
     ]
   },
   {
@@ -248,10 +248,10 @@
       "Cage duration is 1.6 seconds"
     ],
     "tags": [
+      "Duration",
       "Nova",
-      "AoE",
       "Physical",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -272,11 +272,11 @@
       "Spike duration is 5 seconds"
     ],
     "tags": [
-      "Buff",
-      "AoE",
-      "Physical",
+      "Spell",
       "Duration",
-      "Spell"
+      "AoE",
+      "Buff",
+      "Physical"
     ]
   },
   {
@@ -299,11 +299,11 @@
       "Does not cause Stun buildup"
     ],
     "tags": [
+      "Two Hand Mace",
       "Melee",
-      "Strike",
       "AoE",
-      "One Hand Mace",
-      "Two Hand Mace"
+      "Strike",
+      "One Hand Mace"
     ]
   },
   {
@@ -317,7 +317,7 @@
       "Critical Strike Chance: 15.00%"
     ],
     "requirements": [
-      "Requires:  Level 14, Int 34"
+      "Requires:  Level 14, 34 Int"
     ],
     "description": "Channel to conjure a swarm of bone spikes in the air, then release to fire them at enemies. Shrapnel lodges in enemies hit, causing Attacks against them to  deal additional damage. Consumes your Power Charges to cause the spikes to cause much larger explosions.",
     "explicit_mods": [
@@ -326,10 +326,10 @@
       "Debuff duration is 10 seconds"
     ],
     "tags": [
-      "Channelling",
       "AoE",
-      "Projectile",
-      "Physical"
+      "Channelling",
+      "Physical",
+      "Projectile"
     ]
   },
   {
@@ -346,8 +346,8 @@
     "description": "Fire an arrow with your Bow.",
     "explicit_mods": [],
     "tags": [
-      "Projectile",
-      "Bow"
+      "Bow",
+      "Projectile"
     ]
   },
   {
@@ -370,8 +370,8 @@
       "Socketed Skills deal 50% more Damage"
     ],
     "tags": [
-      "Cast Time: Instant",
       "Spell",
+      "Cast Time: Instant",
       "Meta"
     ]
   },
@@ -393,8 +393,8 @@
       "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
     ],
     "tags": [
-      "Spell",
-      "Cast Time: Instant"
+      "Cast Time: Instant",
+      "Spell"
     ]
   },
   {
@@ -416,8 +416,8 @@
       "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
     ],
     "tags": [
-      "Cast Time: Instant",
       "Spell",
+      "Cast Time: Instant",
       "Meta"
     ]
   },
@@ -437,12 +437,12 @@
     "description": "Consume all Power Charges to infuse your Quarterstaff with electricity for a duration, adding Lightning damage and a Lightning shockwave to your Quarterstaff Attacks. Reusing the skill while the buff is active grants additional duration and damage up to a cap.",
     "explicit_mods": [],
     "tags": [
-      "Attack",
-      "Melee",
-      "Buff",
-      "AoE",
       "Quarterstaff",
-      "Duration"
+      "Melee",
+      "Duration",
+      "AoE",
+      "Attack",
+      "Buff"
     ]
   },
   {
@@ -467,11 +467,11 @@
       "Fuse duration is 2 seconds"
     ],
     "tags": [
-      "Projectile",
       "Fire",
+      "Duration",
       "AoE",
       "Crossbow",
-      "Duration"
+      "Projectile"
     ]
   },
   {
@@ -510,12 +510,10 @@
     "requirements": [
       "Requires:  Level 27, 64 Int"
     ],
-    "description": "Pull a massive icy chunk from the air, dealing high damage at the targeted location. Targeting close up will cause you to float back as you cast.",
+    "description": "Calls down a mass of ice from the sky, dealing high damage at the targeted location. Targeting close to you will cause you to jump back as you cast.",
     "explicit_mods": [
       "Deals 127 to 191 Cold Damage",
-      "+1 second to Total Cast Time",
-      "Hits are Freezing",
-      "Base Radius is 2.8 metres"
+      "+1 second to Total Cast Time"
     ],
     "tags": [
       "Cold",
@@ -543,9 +541,9 @@
       "The Infection radius is 1.7 metres"
     ],
     "tags": [
-      "AoE",
       "Duration",
-      "Chaos"
+      "Chaos",
+      "AoE"
     ]
   },
   {
@@ -562,11 +560,11 @@
     "description": "Raises a Totem that bombards enemies afflicated by Chaos damage over time Debuffs.",
     "explicit_mods": [],
     "tags": [
-      "Projectile",
+      "Totem",
+      "Duration",
       "AoE",
       "Chaos",
-      "Totem",
-      "Duration"
+      "Projectile"
     ]
   },
   {
@@ -588,10 +586,10 @@
       "Curse duration is 6.6 seconds"
     ],
     "tags": [
-      "AoE",
       "Curse",
       "Duration",
-      "Chaos"
+      "Chaos",
+      "AoE"
     ]
   },
   {
@@ -614,9 +612,9 @@
       "Explosion radius is 2.6 metres"
     ],
     "tags": [
-      "AoE",
       "Physical",
-      "Fire"
+      "Fire",
+      "AoE"
     ]
   },
   {
@@ -638,11 +636,11 @@
       "Maximum 4 Stages"
     ],
     "tags": [
-      "Projectile",
+      "Bow",
       "AoE",
-      "Channelling",
       "Detonator",
-      "Bow"
+      "Channelling",
+      "Projectile"
     ]
   },
   {
@@ -686,11 +684,11 @@
     ],
     "tags": [
       "Melee",
-      "AoE",
+      "Two Hand Mace",
       "Duration",
+      "AoE",
       "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -715,11 +713,11 @@
     ],
     "tags": [
       "Melee",
-      "AoE",
+      "Two Hand Mace",
       "Duration",
+      "AoE",
       "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -727,21 +725,26 @@
     "properties": [
       "Projectile, Lightning, Duration, Bow",
       "Tier: 5 (Ranger)",
-      "Level: 6",
-      "Cost: 19 Mana",
-      "Attack Speed: 50% of base",
-      "Attack Damage: 153%"
+      "Level: 11",
+      "Cost: 38 Mana",
+      "Attack Damage: 201%"
     ],
     "requirements": [
-      "Requires:  Level 21, Dex 38,  Bow"
+      "Requires:  Level 41, Dex 95",
+      "Requires:   Bow"
     ],
     "description": "Leap foward into the air and fire downard. Hitting an enemy will attach an Electrocuting Rod to them, causing all incoming Lightning damage to apply Electrocution. This rod is removed when the enemy is next Electrocuted.",
-    "explicit_mods": [],
+    "explicit_mods": [
+      "Converts 50% of Physical Damage to Lightning Damage",
+      "+1.2 seconds to Total Attack Time",
+      "Cannot Chain",
+      "Arrow duration is 12 seconds"
+    ],
     "tags": [
-      "Lightning",
+      "Duration",
       "Bow",
-      "Projectile",
-      "Duration"
+      "Lightning",
+      "Projectile"
     ]
   },
   {
@@ -765,10 +768,10 @@
       "Can accumulate up to 10 Embers"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Projectile",
       "Fire",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -791,9 +794,9 @@
       "Cursed Unique enemies deal 16% less damage"
     ],
     "tags": [
-      "AoE",
       "Curse",
-      "Duration"
+      "Duration",
+      "AoE"
     ]
   },
   {
@@ -816,10 +819,10 @@
       "700% more Freeze Buildup"
     ],
     "tags": [
+      "Bow",
       "Cold",
-      "AoE",
       "Projectile",
-      "Bow"
+      "AoE"
     ]
   },
   {
@@ -840,10 +843,10 @@
       "Causes 9 to 16 Chaos damage"
     ],
     "tags": [
-      "AoE",
-      "Projectile",
       "Duration",
-      "Chaos"
+      "Chaos",
+      "AoE",
+      "Projectile"
     ]
   },
   {
@@ -868,10 +871,10 @@
       "Explosion radius is 1.9 metres"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Crossbow",
       "Projectile",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -893,11 +896,11 @@
       "Knocks Back Enemies"
     ],
     "tags": [
-      "Attack",
       "Projectile",
       "Fire",
       "AoE",
       "Crossbow",
+      "Attack",
       "Detonator"
     ]
   },
@@ -954,10 +957,10 @@
       "Fires 3 Projectiles per Power Charge"
     ],
     "tags": [
-      "Lightning",
+      "Quarterstaff",
       "Projectile",
       "AoE",
-      "Quarterstaff",
+      "Lightning",
       "Slam"
     ]
   },
@@ -981,9 +984,9 @@
       "Attacks Exerted by Socketed Skills deal 64% increased Damage"
     ],
     "tags": [
-      "AoE",
+      "Shapeshift",
       "Bear",
-      "Shapeshift"
+      "AoE"
     ]
   },
   {
@@ -1005,8 +1008,8 @@
     ],
     "tags": [
       "AoE",
-      "Projectile",
-      "Fire"
+      "Fire",
+      "Projectile"
     ]
   },
   {
@@ -1033,9 +1036,9 @@
     ],
     "tags": [
       "Sustained",
-      "AoE",
+      "Duration",
       "Fire",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1058,9 +1061,9 @@
       "Projectiles which pass through the wall deal 3 to 5 Added Fire Damage"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Fire",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1085,9 +1088,9 @@
     ],
     "tags": [
       "Nova",
-      "AoE",
       "Channelling",
-      "Fire"
+      "Fire",
+      "AoE"
     ]
   },
   {
@@ -1109,10 +1112,10 @@
       "Curse duration is 6.4 seconds"
     ],
     "tags": [
-      "AoE",
       "Curse",
+      "Duration",
       "Fire",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1138,10 +1141,10 @@
       "Explosion radius is 2.6 metres"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Crossbow",
       "Projectile",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1164,11 +1167,11 @@
       "You cannot gain Power Charges while using this Skill"
     ],
     "tags": [
-      "Melee",
-      "Strike",
-      "AoE",
       "Quarterstaff",
-      "Movement"
+      "Melee",
+      "Movement",
+      "AoE",
+      "Strike"
     ]
   },
   {
@@ -1192,11 +1195,11 @@
       "Fires 10 Bolts per Burst"
     ],
     "tags": [
-      "Attack",
-      "Projectile",
       "AoE",
       "Crossbow",
-      "Physical"
+      "Attack",
+      "Physical",
+      "Projectile"
     ]
   },
   {
@@ -1218,12 +1221,40 @@
       "Hits against Marked enemy cause 28% more Freeze buildup"
     ],
     "tags": [
-      "Attack",
-      "Cold",
-      "Nova",
-      "AoE",
       "Duration",
+      "AoE",
+      "Cold",
+      "Attack",
+      "Nova",
       "Mark"
+    ]
+  },
+  {
+    "name": "Freezing Salvo\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Cold",
+      "Tier: 5 (Ranger)",
+      "Level: 11",
+      "Cost: 50 Mana",
+      "Attack Damage: 80%"
+    ],
+    "requirements": [
+      "Requires:  Level 41",
+      "Requires:   Bow"
+    ],
+    "description": "Passively coalesces icy missiles from the air over time. Using the skill fires a missile, firing an additional missle for each that has been accumulated.",
+    "explicit_mods": [
+      "Converts 80% of Physical Damage to Cold Damage",
+      "50% more Freeze Buildup",
+      "Impact radius is 1.2 metres",
+      "Accumulates up to 12 additional missiles",
+      "Accumulates a missile every 0.6 seconds"
+    ],
+    "tags": [
+      "Bow",
+      "Cold",
+      "Projectile",
+      "AoE"
     ]
   },
   {
@@ -1253,10 +1284,10 @@
       "Debuff applies 75% reduced Energy Shield Regeneration rate"
     ],
     "tags": [
-      "Cold",
-      "AoE",
       "Orb",
-      "Duration"
+      "Duration",
+      "Cold",
+      "AoE"
     ]
   },
   {
@@ -1280,9 +1311,9 @@
       "Ice Crystal have 334 maximum Life"
     ],
     "tags": [
+      "Duration",
       "Cold",
-      "AoE",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1301,10 +1332,10 @@
     "description": "Fires a slow moving Piercing Projectile that leaves a wake of Chilled Ground, deals Cold damage and explodes on colliding with terrain.",
     "explicit_mods": [],
     "tags": [
+      "Duration",
       "Cold",
       "AoE",
-      "Projectile",
-      "Duration"
+      "Projectile"
     ]
   },
   {
@@ -1328,11 +1359,11 @@
       "Chilled Ground radius is 3 metres"
     ],
     "tags": [
-      "Cold",
-      "Melee",
-      "AoE",
       "Quarterstaff",
-      "Duration"
+      "Melee",
+      "Duration",
+      "AoE",
+      "Cold"
     ]
   },
   {
@@ -1355,10 +1386,10 @@
       "Hits Stun Enemies as though dealing 300% more Damage"
     ],
     "tags": [
+      "Shapeshift",
       "Slam",
-      "AoE",
       "Bear",
-      "Shapeshift"
+      "AoE"
     ]
   },
   {
@@ -1377,12 +1408,12 @@
     "description": "Loads your Crossbow with a clip of charged bolts that fire in bursts, releasing Chaining Lightning beams when they Hit enemies. Using this skill again reloads the clips.",
     "explicit_mods": [],
     "tags": [
-      "Attack",
-      "Lightning",
-      "Projectile",
-      "Chaining",
       "AoE",
-      "Crossbow"
+      "Crossbow",
+      "Attack",
+      "Chaining",
+      "Lightning",
+      "Projectile"
     ]
   },
   {
@@ -1395,17 +1426,46 @@
       "Attack Damage: 134%"
     ],
     "requirements": [
-      "Requires:  Level 22, Dex 52,  Bow"
+      "Requires:  Level 22, Dex 52",
+      "Requires:   Bow"
     ],
     "description": "Fire a noxious arrow at the ground, creating a cloud of flammable poisonous gas at the end of its flight. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosive.",
     "explicit_mods": [
       "Impact radius is 1.8 metres"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
-      "Projectile",
-      "Duration"
+      "AoE",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Gas Grenade\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Chaos, Duration",
+      "Tier: 3 (Mercenary)",
+      "Level: 7",
+      "Cost: 26 Mana",
+      "Cooldown Time: 3.00 sec (3 uses)",
+      "Attack Speed: 75% of base",
+      "Attack Damage: 66%"
+    ],
+    "requirements": [
+      "Requires:  Level 22, 30 Str, 30 Dex",
+      "Requires:   Crossbow"
+    ],
+    "description": "Fire a bouncing grenade that causes a burst of Poison gas when its fuse expires, damaging enemies and leaving behind a growing Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast.",
+    "explicit_mods": [
+      "Impact radius is 1.6 metres",
+      "Fuse duration is 2 seconds"
+    ],
+    "tags": [
+      "Duration",
+      "AoE",
+      "Crossbow",
+      "Chaos",
+      "Projectile"
     ]
   },
   {
@@ -1427,11 +1487,11 @@
       "100% more Freeze Buildup"
     ],
     "tags": [
-      "Attack",
-      "Cold",
-      "Projectile",
       "AoE",
-      "Crossbow"
+      "Crossbow",
+      "Cold",
+      "Attack",
+      "Projectile"
     ]
   },
   {
@@ -1456,10 +1516,10 @@
       "Causes 8 Bursts"
     ],
     "tags": [
+      "Quarterstaff",
       "Cold",
-      "AoE",
       "Melee",
-      "Quarterstaff"
+      "AoE"
     ]
   },
   {
@@ -1485,11 +1545,11 @@
     ],
     "tags": [
       "Melee",
-      "AoE",
+      "Two Hand Mace",
       "Once Hand Mace",
       "Duration",
-      "Slam",
-      "Two Hand Mace"
+      "AoE",
+      "Slam"
     ]
   },
   {
@@ -1515,12 +1575,12 @@
       "24% increased Effect of Socketed Marks"
     ],
     "tags": [
+      "Quarterstaff",
       "Melee",
-      "Strike",
       "AoE",
+      "Strike",
       "Unarmed",
       "Chaos",
-      "Quarterstaff",
       "Meta"
     ]
   },
@@ -1545,8 +1605,8 @@
       "Base wave radius is 2.8 metres"
     ],
     "tags": [
-      "AoE",
-      "Chaos"
+      "Chaos",
+      "AoE"
     ]
   },
   {
@@ -1569,10 +1629,10 @@
       "Bolts Pierce 6 Targets"
     ],
     "tags": [
-      "Attack",
       "Crossbow",
-      "Projectile",
-      "Physical"
+      "Attack",
+      "Physical",
+      "Projectile"
     ]
   },
   {
@@ -1597,8 +1657,8 @@
     ],
     "tags": [
       "Cold",
-      "AoE",
-      "Nova"
+      "Nova",
+      "AoE"
     ]
   },
   {
@@ -1621,11 +1681,11 @@
       "Cannot Freeze"
     ],
     "tags": [
-      "Attack",
-      "Cold",
-      "Projectile",
       "AoE",
-      "Crossbow"
+      "Crossbow",
+      "Cold",
+      "Attack",
+      "Projectile"
     ]
   },
   {
@@ -1649,10 +1709,10 @@
       "Cannot inflict Freeze"
     ],
     "tags": [
+      "Bow",
       "Cold",
-      "AoE",
       "Projectile",
-      "Bow"
+      "AoE"
     ]
   },
   {
@@ -1680,8 +1740,8 @@
     "tags": [
       "Cold",
       "AoE",
-      "Spear",
-      "Projectile"
+      "Projectile",
+      "Spear"
     ]
   },
   {
@@ -1703,11 +1763,11 @@
       "Converts 80% of Physical Damage to Cold Damage"
     ],
     "tags": [
-      "Cold",
+      "Quarterstaff",
       "Melee",
-      "Strike",
       "AoE",
-      "Quarterstaff"
+      "Strike",
+      "Cold"
     ]
   },
   {
@@ -1731,11 +1791,11 @@
     ],
     "tags": [
       "Melee",
-      "Strike",
+      "Movement",
       "AoE",
+      "Strike",
       "Spear",
-      "Travel",
-      "Movement"
+      "Travel"
     ]
   },
   {
@@ -1761,11 +1821,11 @@
       "Fires 10 Bolts per burst"
     ],
     "tags": [
-      "Attack",
-      "Projectile",
       "Fire",
       "AoE",
-      "Crossbow"
+      "Crossbow",
+      "Attack",
+      "Projectile"
     ]
   },
   {
@@ -1789,10 +1849,10 @@
       "Empowered Attacks gain 25% of Damage as Fire Damage per 5 power of enemies in range, up to 100%"
     ],
     "tags": [
-      "AoE",
-      "Trigger",
       "Duration",
-      "Fire"
+      "Fire",
+      "AoE",
+      "Trigger"
     ]
   },
   {
@@ -1817,11 +1877,11 @@
       "+7% to Critical Strike Chance"
     ],
     "tags": [
-      "Melee",
-      "Strike",
-      "AoE",
-      "Unarmed",
       "Quarterstaff",
+      "Melee",
+      "AoE",
+      "Strike",
+      "Unarmed",
       "Physical"
     ]
   },
@@ -1850,12 +1910,12 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
+      "Movement",
+      "One Hand Mace",
       "AoE",
       "Travel",
-      "One Hand Mace",
-      "Slam",
-      "Movement",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -1878,10 +1938,10 @@
       "Hits up to 2 additional enemies near the target"
     ],
     "tags": [
-      "Lightning",
       "Aoe",
-      "Projectile",
-      "Bow"
+      "Bow",
+      "Lightning",
+      "Projectile"
     ]
   },
   {
@@ -1940,10 +2000,10 @@
       "Base burst radius is 2 metres"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
       "Projectile",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1970,9 +2030,9 @@
       "Maximum 1 Lightning Storm at a time"
     ],
     "tags": [
+      "Duration",
       "Lightning",
-      "AoE",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -1994,11 +2054,11 @@
       "Shocked Ground lasts 10.00 seconds"
     ],
     "tags": [
-      "Lightning",
-      "AoE",
-      "Travel",
+      "Movement",
       "Duration",
-      "Movement"
+      "AoE",
+      "Lightning",
+      "Travel"
     ]
   },
   {
@@ -2016,8 +2076,8 @@
       "Applies Critical Weakness to enemies every 0.66 seconds"
     ],
     "tags": [
-      "Duration",
       "Aura",
+      "Duration",
       "Persistent",
       "Critical"
     ]
@@ -2047,8 +2107,8 @@
     ],
     "tags": [
       "Lightning",
-      "AoE",
-      "Buff"
+      "Buff",
+      "AoE"
     ]
   },
   {
@@ -2095,9 +2155,9 @@
       "25% chance to cause Bleeding"
     ],
     "tags": [
+      "Shapeshift",
       "Melee",
       "Bear",
-      "Shapeshift",
       "Strike"
     ]
   },
@@ -2122,8 +2182,8 @@
       "Base radius is 2.4 metres"
     ],
     "tags": [
-      "AoE",
-      "Projectile"
+      "Projectile",
+      "AoE"
     ]
   },
   {
@@ -2150,10 +2210,10 @@
       "Limit 1 Orb of Storms"
     ],
     "tags": [
-      "Lightning",
-      "AoE",
       "Orb",
-      "Chaining"
+      "Lightning",
+      "Chaining",
+      "AoE"
     ]
   },
   {
@@ -2177,10 +2237,10 @@
       "Aura grants Minions 38% more Damage"
     ],
     "tags": [
+      "Aura",
       "Duration",
-      "Spell",
       "Buff",
-      "Aura"
+      "Spell"
     ]
   },
   {
@@ -2204,12 +2264,12 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
       "Fire",
-      "Channelling",
-      "Physical",
-      "Duration",
       "One Hand Mace",
-      "Two Hand Mace"
+      "Duration",
+      "Channelling",
+      "Physical"
     ]
   },
   {
@@ -2235,11 +2295,11 @@
       "Fires 10 Bolts per burst"
     ],
     "tags": [
-      "Attack",
-      "Cold",
-      "Projectile",
       "AoE",
-      "Crossbow"
+      "Crossbow",
+      "Cold",
+      "Attack",
+      "Projectile"
     ]
   },
   {
@@ -2260,11 +2320,11 @@
       "Poison inflicted by this Skill is affected by Modifiers to Skill Effect Duration"
     ],
     "tags": [
-      "Projectile",
+      "Bow",
+      "Duration",
       "AoE",
       "Chaos",
-      "Duration",
-      "Bow"
+      "Projectile"
     ]
   },
   {
@@ -2284,8 +2344,8 @@
     ],
     "tags": [
       "Duration",
-      "Spell",
-      "Buff"
+      "Buff",
+      "Spell"
     ]
   },
   {
@@ -2308,9 +2368,9 @@
       "Ritual duration is 2 seconds"
     ],
     "tags": [
-      "AoE",
       "Duration",
-      "Chaos"
+      "Chaos",
+      "AoE"
     ]
   },
   {
@@ -2335,12 +2395,12 @@
     ],
     "tags": [
       "Melee",
-      "Strike",
+      "Movement",
       "AoE",
+      "Strike",
       "Spear",
       "Physical",
-      "Travel",
-      "Movement"
+      "Travel"
     ]
   },
   {
@@ -2366,9 +2426,9 @@
       "Fires 50% more Arrows per Frenzy Charge consumed"
     ],
     "tags": [
-      "AoE",
+      "Bow",
       "Projectile",
-      "Bow"
+      "AoE"
     ]
   },
   {
@@ -2409,8 +2469,8 @@
       "Empowered Zombies have 25% more Movement Speed"
     ],
     "tags": [
-      "Spell",
-      "Duration"
+      "Duration",
+      "Spell"
     ]
   },
   {
@@ -2448,9 +2508,9 @@
       "+6 to Melee Strike Range"
     ],
     "tags": [
-      "AoE",
       "Spear",
       "Melee",
+      "AoE",
       "Strike"
     ]
   },
@@ -2480,10 +2540,10 @@
       "Grenades consume all Heat to deal 2 to 2 added Fire Damage per Heat"
     ],
     "tags": [
-      "Attack",
       "Crossbow",
-      "Projectile",
-      "Fire"
+      "Attack",
+      "Fire",
+      "Projectile"
     ]
   },
   {
@@ -2508,11 +2568,11 @@
       "Shockwave radius is 1.8 metres"
     ],
     "tags": [
-      "Sustained",
+      "Shield",
       "AoE",
+      "Sustained",
       "Channelling",
-      "Physical",
-      "Shield"
+      "Physical"
     ]
   },
   {
@@ -2530,10 +2590,10 @@
     "description": "Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times. The number of bounces is refreshed when passing through a Flame Wall.",
     "explicit_mods": [],
     "tags": [
-      "AoE",
+      "Chaining",
       "Projectile",
       "Fire",
-      "Chaining"
+      "AoE"
     ]
   },
   {
@@ -2560,10 +2620,10 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
       "AoE",
       "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -2581,9 +2641,9 @@
       "Base Duration is 3 seconds"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Melee",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -2612,8 +2672,8 @@
       "Exerts additional attack per Endurance Charge"
     ],
     "tags": [
-      "AoE",
-      "Duration"
+      "Duration",
+      "AoE"
     ]
   },
   {
@@ -2638,12 +2698,12 @@
       "Attaches Shards to enemies within a 3.8 metre radius"
     ],
     "tags": [
-      "Cold",
+      "Quarterstaff",
       "Melee",
-      "Strike",
       "AoE",
-      "Unarmed",
-      "Quarterstaff"
+      "Strike",
+      "Cold",
+      "Unarmed"
     ]
   },
   {
@@ -2670,12 +2730,12 @@
     ],
     "tags": [
       "Melee",
-      "AoE",
-      "Channelling",
-      "Travel",
-      "Physical",
+      "Movement",
       "Shield",
-      "Movement"
+      "AoE",
+      "Physical",
+      "Channelling",
+      "Travel"
     ]
   },
   {
@@ -2703,10 +2763,42 @@
     ],
     "tags": [
       "Melee",
-      "AoE",
-      "Physical",
+      "Shield",
       "Duration",
-      "Shield"
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Shockchain Arrow\n\n\nAttack",
+    "properties": [
+      "AoE, Projectile, Lightning, Chaining",
+      "Tier: 11 (Ranger)",
+      "Level: 11",
+      "Cost: 32 Mana",
+      "Attack Speed: 70% of Base",
+      "Attack Damage: 80%"
+    ],
+    "requirements": [
+      "Requires:  Level 41, Dex 95",
+      "Requires:   Bow"
+    ],
+    "description": "Fires  a Lightning-infused arrow that in on Shocked enemies. Hitting a Shocked enemy will Consume the Shock to charge the arrow, causing it to release a damaging, shockwave and split beams towards up to two nearby targets, prioritising ones which are shocked. If the beam hits a Shocked target it will release another damaging shockwave and can continue to Chain.",
+    "explicit_mods": [
+      "Converts 20% of Physical Damage to Lightning Damage",
+      "Cannot Chain",
+      "Arrows always Pierce while flying towards a Shcoked enemy.",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "Chains up to 10 times",
+      "Converts 100% of Physical Damage to Lightning Damage",
+      "Shockwave radius is 2.5 metres"
+    ],
+    "tags": [
+      "Bow",
+      "AoE",
+      "Lightning",
+      "Chaining",
+      "Projectile"
     ]
   },
   {
@@ -2731,10 +2823,10 @@
     ],
     "tags": [
       "Melee",
-      "Nova",
       "Totem",
-      "Physical",
       "Duration",
+      "Nova",
+      "Physical",
       "Slam"
     ]
   },
@@ -2759,8 +2851,8 @@
       "Sigil duration is 11.9 seconds"
     ],
     "tags": [
-      "AoE",
-      "Duration"
+      "Duration",
+      "AoE"
     ]
   },
   {
@@ -2779,11 +2871,11 @@
     "description": "Dash to a target and Strike them with your Quarterstaff. If the target is Shocked, comsumes the Shock to release a Lightning shockwave around the target and grant you a Power Charge.",
     "explicit_mods": [],
     "tags": [
-      "Lightning",
+      "Quarterstaff",
       "Melee",
-      "Strike",
       "AoE",
-      "Quarterstaff"
+      "Strike",
+      "Lightning"
     ]
   },
   {
@@ -2804,8 +2896,8 @@
       "Explosion radius is 2 metres"
     ],
     "tags": [
-      "Detonator",
-      "Persistent"
+      "Persistent",
+      "Detonator"
     ]
   },
   {
@@ -2966,10 +3058,10 @@
       "200% increased Critical Damage Bonus"
     ],
     "tags": [
+      "Bow",
       "Channelling",
-      "Projectile",
       "Physical",
-      "Bow"
+      "Projectile"
     ]
   },
   {
@@ -3017,10 +3109,10 @@
       "Base explosion radius is 2.5 metres"
     ],
     "tags": [
-      "AoE",
       "Orb",
+      "Duration",
       "Fire",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -3043,10 +3135,10 @@
       "This Skill Costs Nothing"
     ],
     "tags": [
+      "Cold",
       "Lightning",
       "Fire",
-      "Trigger",
-      "Cold"
+      "Trigger"
     ]
   },
   {
@@ -3069,9 +3161,9 @@
       "Projectile Duration is 2 seconds"
     ],
     "tags": [
+      "Duration",
       "Lightning",
-      "Projectile",
-      "Duration"
+      "Projectile"
     ]
   },
   {
@@ -3098,10 +3190,34 @@
       "Maximum of 70 Spears at a time"
     ],
     "tags": [
-      "Spear",
       "Aoe",
+      "Melee",
       "Physical",
-      "Melee"
+      "Spear"
+    ]
+  },
+  {
+    "name": "Spiral Volley\n\n\nAttack",
+    "properties": [
+      "Projectile",
+      "Tier: 13 (Ranger)",
+      "Level: 13",
+      "Cost: 36 Mana",
+      "Attack Damage: 288%"
+    ],
+    "requirements": [
+      "Requires:  Level 52, Dex 119",
+      "Requires:   Bow"
+    ],
+    "description": "Loads your Bow. with a volley of enchanted arrows and fires them in a circle as you spin forward, firing directly at enemies if possible. Consumes Frenzy Charges to cause the arrows to deal more damage and Chain to other enemies.",
+    "explicit_mods": [
+      "+0.4 seconds to total Attack Time",
+      "Fires 15 Arrows",
+      "Chains once per Frenzy Charge consumed"
+    ],
+    "tags": [
+      "Bow",
+      "Projectile"
     ]
   },
   {
@@ -3126,12 +3242,12 @@
       "Buff duration is 6 seconds"
     ],
     "tags": [
-      "Projectile",
+      "Quarterstaff",
       "Melee",
       "Strike",
       "Unarmed",
-      "Quarterstaff",
-      "Physical"
+      "Physical",
+      "Projectile"
     ]
   },
   {
@@ -3154,13 +3270,13 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
+      "One Hand Mace",
+      "Duration",
       "AoE",
       "Channeling",
       "Travel",
-      "Duration",
-      "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -3186,9 +3302,9 @@
     ],
     "tags": [
       "Lightning",
+      "Projectile",
       "AoE",
-      "Spear",
-      "Projectile"
+      "Spear"
     ]
   },
   {
@@ -3212,10 +3328,10 @@
       "Wave width is 1 metre"
     ],
     "tags": [
-      "Lightning",
-      "AoE",
+      "Quarterstaff",
       "Melee",
-      "Quarterstaff"
+      "AoE",
+      "Lightning"
     ]
   },
   {
@@ -3241,11 +3357,11 @@
       "Fires 3 Bolts"
     ],
     "tags": [
+      "AoE",
+      "Crossbow",
       "Attack",
       "Lightning",
-      "Projectile",
-      "AoE",
-      "Crossbow"
+      "Projectile"
     ]
   },
   {
@@ -3267,10 +3383,10 @@
       "Converts 20% of Physical Damage to Lightning Damage"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
-      "Projectile",
-      "Duration"
+      "AoE",
+      "Projectile"
     ]
   },
   {
@@ -3332,10 +3448,10 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
       "AoE",
       "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -3366,10 +3482,10 @@
     ],
     "tags": [
       "Melee",
+      "Two Hand Mace",
       "AoE",
       "Channelling",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -3396,11 +3512,11 @@
       "Bell is destroyed after 12 Hits"
     ],
     "tags": [
-      "Melee",
-      "Nova",
-      "AoE",
       "Quarterstaff",
-      "Duration"
+      "Melee",
+      "Duration",
+      "AoE",
+      "Nova"
     ]
   },
   {
@@ -3448,9 +3564,9 @@
       "Cursed enemies are Slowed by 34%"
     ],
     "tags": [
-      "AoE",
       "Curse",
-      "Duration"
+      "Duration",
+      "AoE"
     ]
   },
   {
@@ -3472,10 +3588,10 @@
       "Impact radius is 1 metre"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
       "Physical",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -3517,10 +3633,10 @@
       "Stored poison grants up to 100% more explosion Damage"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
-      "Projectile",
-      "Duration"
+      "AoE",
+      "Projectile"
     ]
   },
   {
@@ -3544,10 +3660,10 @@
       "Cone length is 6 metres"
     ],
     "tags": [
+      "Duration",
       "AoE",
-      "Minion",
       "Physical",
-      "Duration"
+      "Minion"
     ]
   },
   {
@@ -3571,10 +3687,10 @@
       "Impact radius is 2.4 metres"
     ],
     "tags": [
-      "Slam",
-      "AoE",
+      "Quarterstaff",
       "Melee",
-      "Quarterstaff"
+      "Slam",
+      "AoE"
     ]
   },
   {
@@ -3595,10 +3711,10 @@
       "Base impact radius is 0.8 metres"
     ],
     "tags": [
-      "AoE",
+      "Duration",
       "Bow",
       "Projectile",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -3619,11 +3735,11 @@
     "explicit_mods": [],
     "tags": [
       "Melee",
-      "AoE",
+      "Two Hand Mace",
       "Duration",
+      "AoE",
       "One Hand Mace",
-      "Slam",
-      "Two Hand Mace"
+      "Slam"
     ]
   },
   {
@@ -3651,6 +3767,18 @@
     "tags": []
   },
   {
+    "name": "Gas Grenade",
+    "properties": [],
+    "requirements": [
+      "Requires:   Crossbow"
+    ],
+    "description": "Fire a bouncing grenade that discharges an Electrocuting Lightning blast when its fuse expires.",
+    "explicit_mods": [],
+    "tags": [
+      "Crossbow"
+    ]
+  },
+  {
     "name": "Voltaic Mark\n\n\nSpell",
     "properties": [
       "Attack, AoE, Mark, Lightning, Duration, Nova",
@@ -3669,12 +3797,12 @@
       "Shock inflicted on Marked enemy has 30% increased effect"
     ],
     "tags": [
+      "Duration",
+      "AoE",
       "Attack",
       "Lightning",
-      "Nova",
-      "AoE",
-      "Duration",
-      "Mark"
+      "Mark",
+      "Nova"
     ]
   },
   {
@@ -3696,10 +3824,10 @@
       "Cursed Enemies lose 191 Armour"
     ],
     "tags": [
-      "AoE",
       "Curse",
+      "Duration",
       "Physical",
-      "Duration"
+      "AoE"
     ]
   },
   {
@@ -3724,10 +3852,10 @@
       "Base radius is 6 metres"
     ],
     "tags": [
+      "Quarterstaff",
       "Cold",
-      "AoE",
       "Melee",
-      "Quarterstaff"
+      "AoE"
     ]
   },
   {
@@ -3748,9 +3876,9 @@
       "+1.4 seconds to Total Attack Time"
     ],
     "tags": [
-      "AoE",
-      "Melee",
       "Quarterstaff",
+      "Melee",
+      "AoE",
       "Strike"
     ]
   },
@@ -3781,9 +3909,9 @@
       "Storm gains +3 to radius per Stage"
     ],
     "tags": [
-      "AoE",
       "Spear",
       "Melee",
+      "AoE",
       "Strike"
     ]
   },
@@ -3808,9 +3936,9 @@
       "150% more Stun buildup"
     ],
     "tags": [
-      "AoE",
-      "Melee",
       "Quarterstaff",
+      "Melee",
+      "AoE",
       "Strike"
     ]
   }

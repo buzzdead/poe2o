@@ -16,8 +16,8 @@
       "Supported Skills deal 50% less non-Chaos Damage"
     ],
     "tags": [
-      "Attack",
-      "Chaos"
+      "Chaos",
+      "Attack"
     ]
   },
   {
@@ -75,8 +75,8 @@
       "Supported Attacks deal 50% less Fire and Cold Damage"
     ],
     "tags": [
-      "Attack",
-      "Lightning"
+      "Lightning",
+      "Attack"
     ]
   },
   {
@@ -187,10 +187,10 @@
       "Supported Skills trigger an Explosion when they Fully Break an enemy's Armour"
     ],
     "tags": [
-      "Trigger",
-      "Attack",
+      "Fire",
       "AoE",
-      "Fire"
+      "Trigger",
+      "Attack"
     ]
   },
   {
@@ -226,9 +226,9 @@
       "Killing Blows from Supported Strike Skills against Rare monsters grant one of their Modifiers for 20 seconds"
     ],
     "tags": [
-      "Attack",
       "Melee",
-      "Strike"
+      "Strike",
+      "Attack"
     ]
   },
   {
@@ -265,8 +265,8 @@
       "Supported Skills Consume Enemy Freeze to Guarantee a Critical Hit"
     ],
     "tags": [
-      "Cold",
-      "Critical"
+      "Critical",
+      "Cold"
     ]
   },
   {
@@ -323,9 +323,9 @@
       "Supported Attacks cannot cause Bleeding"
     ],
     "tags": [
-      "Attack",
+      "Melee",
       "Physical",
-      "Melee"
+      "Attack"
     ]
   },
   {
@@ -399,12 +399,14 @@
     ],
     "description": "Supports skills that can Poison enemies, causing Poisoned enemies to gain Plague over time and explode in a Plague Burst on death. Cannot support the skills of Minions.",
     "explicit_mods": [
-      "Poison from Supported Skills also adds 200% of Damage per Second to Enemy as Plague, up to a maximum of 10% of Enemy's maximum Life"
+      "Deals Physical damage equal to 100% of Plague on Triggering enemy",
+      "Has up to 100% more Area of Effect at maximum Plague",
+      "This Skill is Triggered when an Enemy dies with Plague on it"
     ],
     "tags": [
-      "Trigger",
       "Chaos",
       "Physical",
+      "Trigger",
       "AoE"
     ]
   },
@@ -541,9 +543,9 @@
       "Supported Skills deal 25% less Damage"
     ],
     "tags": [
-      "Cold",
       "Duration",
-      "Critical"
+      "Critical",
+      "Cold"
     ]
   },
   {
@@ -600,8 +602,8 @@
       "Supported Skills requires 5 Combo to use"
     ],
     "tags": [
-      "Attack",
-      "Strike"
+      "Strike",
+      "Attack"
     ]
   },
   {
@@ -717,9 +719,9 @@
       "Supported Warcries iniflict Corrupted Blood"
     ],
     "tags": [
+      "Warcry",
       "Duration",
-      "Physical",
-      "Warcry"
+      "Physical"
     ]
   },
   {
@@ -814,12 +816,12 @@
       "Supported Attacks cause Daze buildup equal to 100% of Physical Damage dealt"
     ],
     "tags": [
-      "Attack",
-      "Physical"
+      "Physical",
+      "Attack"
     ]
   },
   {
-    "name": "Dealy Poison\n\n\nSupport",
+    "name": "Deadly Poison\n\n\nSupport",
     "properties": [
       "Chaos",
       "Tier: 3"
@@ -985,8 +987,8 @@
     ],
     "tags": [
       "Fire",
-      "Cold",
       "Lightning",
+      "Cold",
       "Spell"
     ]
   },
@@ -1113,8 +1115,8 @@
       "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
     ],
     "tags": [
-      "Attack",
-      "Melee"
+      "Melee",
+      "Attack"
     ]
   },
   {
@@ -1260,9 +1262,9 @@
       "Final Strike of Supported Skills can be performed twice in succession"
     ],
     "tags": [
-      "Attack",
       "Melee",
-      "Strike"
+      "Strike",
+      "Attack"
     ]
   },
   {
@@ -1279,8 +1281,8 @@
       "Supported Skills have 80% reduced penalty to Accuracy Rating at range"
     ],
     "tags": [
-      "Attack",
-      "Melee"
+      "Melee",
+      "Attack"
     ]
   },
   {
@@ -1450,9 +1452,9 @@
       "Attacks with Supported Skill are Ancestrally Boosted, no more than once every 6 seconds"
     ],
     "tags": [
-      "Attack",
+      "Melee",
       "Slam",
-      "Melee"
+      "Attack"
     ]
   },
   {
@@ -1591,8 +1593,8 @@
       "Vortex lasts 3.00 seconds"
     ],
     "tags": [
-      "Cold",
       "Duration",
+      "Cold",
       "AoE"
     ]
   },
@@ -1765,9 +1767,9 @@
       "Attacks gain 35% of Damage as Cold Damage for 3 seconds on Freezing an enemy with Supported Skills"
     ],
     "tags": [
-      "Attack",
+      "Duration",
       "Cold",
-      "Duration"
+      "Attack"
     ]
   },
   {
@@ -1843,9 +1845,9 @@
       "Supported Skills create an Aftershock when they Stun an Enemy, dealing the same damage to enemies within 1 metre"
     ],
     "tags": [
-      "Attack",
       "Melee",
-      "Strike"
+      "Strike",
+      "Attack"
     ]
   },
   {
@@ -1864,9 +1866,9 @@
       "Trigger Doom Blast when Curses from Supported Skills expire"
     ],
     "tags": [
-      "Trigger",
       "Chaos",
       "AoE",
+      "Trigger",
       "Spell"
     ]
   },
@@ -2032,10 +2034,10 @@
       "Jagged Ground lasts 6 seconds"
     ],
     "tags": [
+      "Slam",
+      "AoE",
       "Melee",
       "Duration",
-      "AoE",
-      "Slam",
       "Attack"
     ]
   },
@@ -2148,8 +2150,8 @@
       "Leech 3% of Physical Attack Damage from Supported Skills as Life"
     ],
     "tags": [
-      "Attack",
-      "Physical"
+      "Physical",
+      "Attack"
     ]
   },
   {
@@ -2299,8 +2301,8 @@
       "Leech 2% of Physical Attack Damage from Supported Skills as Mana"
     ],
     "tags": [
-      "Attack",
-      "Physical"
+      "Physical",
+      "Attack"
     ]
   },
   {
@@ -2356,9 +2358,9 @@
       "Supported Skill have 10% less Attack Speed"
     ],
     "tags": [
-      "Attack",
+      "Melee",
       "Physical",
-      "Melee"
+      "Attack"
     ]
   },
   {
@@ -2737,8 +2739,8 @@
       "Supported Skills deal 20% more Melee Area Damage"
     ],
     "tags": [
-      "Attack",
-      "Melee"
+      "Melee",
+      "Attack"
     ]
   },
   {
@@ -2756,8 +2758,8 @@
       "Gain 3 Rage on Melee Hit"
     ],
     "tags": [
-      "Attack",
-      "Melee"
+      "Melee",
+      "Attack"
     ]
   },
   {
@@ -3071,9 +3073,9 @@
       "Triggers a Shockwave when you take a step while using Supported Skills"
     ],
     "tags": [
-      "Attack",
+      "AoE",
       "Physical",
-      "AoE"
+      "Attack"
     ]
   },
   {
