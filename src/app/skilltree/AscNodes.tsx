@@ -78,7 +78,7 @@ export const AscNodes = React.memo(
 );
 
 const MemoizedAscNode = React.memo(
-  ({ node, nodeStyle, size, handleSelectNode, setTooltip, isCtrlDown, onTooltipShow, onTooltipHide }: any) => {
+  ({ node, nodeStyle, size, handleSelectNode, isCtrlDown, onTooltipShow, onTooltipHide }: any) => {
     return (
       <div
           key={node.id}
