@@ -1,7 +1,7 @@
 "use client";
 import { SkillNode, useCharacterContext } from "../context/CharContext";
-import React from "react";
-import { calculateNodeStyle } from "./myUtils";
+import React, { useMemo } from "react";
+import { calculateNodeStyle, precomputeHighlights } from "./myUtils";
 import { useTooltip } from "./useToolTip";
 import { useKeyPress } from "./useKeyPress";
 import { useNodeSelector } from "../context/nodeSelector";
@@ -45,19 +45,16 @@ export const SkillTreeNodes = React.memo(
     const { handleSelectNode } = useNodeSelector();
     const { showToolTip, handleTooltipHide, handleTooltipShow } = useTooltip(zoomRef);
     const { isCtrlDown, isLeftShiftSelected } = useKeyPress();
+    const highlightCache = useMemo(
+      () => precomputeHighlights([...nodes.keystone, ...nodes.notable, ...nodes.small], filterNodes, searchQuery),
+      [nodes, filterNodes, searchQuery]
+    );
 
     // Loop over the node sizes
     const renderNodesBySize = (nodeSize: NodeSize, nodesOfSize: SkillNode[]) => {
       return nodesOfSize.map((node) => {
         const isSelected = isNodeSelected(node.id);
-        const nodeStyle = calculateNodeStyle(
-          node,
-          isSelected,
-          filterNodes,
-          searchQuery,
-          nodeSize, // Pass nodeSize to determine the style
-          ColorsFromSize
-        );
+const nodeStyle = calculateNodeStyle(node, isSelected, filterNodes, searchQuery, nodeSize, ColorsFromSize, highlightCache);
 
         return (
           <MemoizedNode

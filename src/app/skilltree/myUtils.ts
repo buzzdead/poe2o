@@ -13,43 +13,63 @@ export interface NodeStyleOptions {
 }
 
 export const calculateNodeStyle = (
-  node: SkillNode, 
-  isSelected: boolean, 
-  filterNodes: string[], 
-  searchQuery: string, 
+  node: SkillNode,
+  isSelected: boolean,
+  filterNodes: string[],
+  searchQuery: string,
   size: string,
   ColorsFromSize: {
     selected: Record<string, string>;
     unSelected: Record<string, string>;
-  }
+  },
+  highlightCache: { [key: string]: boolean } // Add a cache for highlight status
 ): NodeStyleOptions => {
-  const nodeStyle =
-    node.stats.length > 0
-      ? {
-          highLight:
-            filterNodes.includes(node.name) ||
-            (searchQuery.trim() !== "" &&
-              node.stats.some((stat) =>
-                stat.toLowerCase().includes(searchQuery.toLowerCase())
-              )),
-          border: isSelected
-            ? `2px solid ${ColorsFromSize.selected[size]}`
-            : filterNodes.includes(node.name) ||
-              (searchQuery.trim() !== "" &&
-                node.stats.some((stat) =>
-                  stat.toLowerCase().includes(searchQuery.toLowerCase())
-                ))
-            ? `2px solid ${ColorsFromSize.selected[size]}`
-            :  `2px solid ${ColorsFromSize.unSelected[size]}`,
-          background: isSelected ? ColorsFromSize.selected[size] :  ColorsFromSize.unSelected[size],
-        }
-      : {
-          border: isSelected
-            ? `2px solid ${ColorsFromSize.selected[size]}`
-            : "2px solid rgba(37, 99, 235, 0.15)", // blue-600
-          background: isSelected ? ColorsFromSize.selected[size] : "rgba(204, 204, 255, .41)",
-        };
-  return nodeStyle;
+  // Use the cache to avoid redundant calculations
+  const highLight = highlightCache[node.id] ?? 
+    (filterNodes.includes(node.name) ||
+    (searchQuery.trim() !== "" &&
+      node.stats.some((stat) =>
+        stat.toLowerCase().includes(searchQuery.toLowerCase())
+      )));
+
+  // Store the highlight status in the cache for future use
+  highlightCache[node.id] = highLight;
+
+  // Compute the styles
+  const borderColor = isSelected
+    ? ColorsFromSize.selected[size]
+    : highLight
+    ? ColorsFromSize.selected[size]
+    : ColorsFromSize.unSelected[size];
+
+  const backgroundColor = isSelected
+    ? ColorsFromSize.selected[size]
+    : ColorsFromSize.unSelected[size];
+
+  return {
+    highLight,
+    border: `2px solid ${borderColor}`,
+    background: backgroundColor,
+  };
+};
+
+export const precomputeHighlights = (
+  nodes: SkillNode[],
+  filterNodes: string[],
+  searchQuery: string
+): { [key: string]: boolean } => {
+  const highlightCache: { [key: string]: boolean } = {};
+
+  for (const node of nodes) {
+    highlightCache[node.id] =
+      filterNodes.includes(node.name) ||
+      (searchQuery.trim() !== "" &&
+        node.stats.some((stat) =>
+          stat.toLowerCase().includes(searchQuery.toLowerCase())
+        ));
+  }
+
+  return highlightCache;
 };
 
 export const calculateDistance = (
